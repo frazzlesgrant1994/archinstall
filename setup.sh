@@ -50,18 +50,24 @@ echo "| :/\: || (\/) || :/\: || :/\: || :/\: || (\/) || (\/) |"
 echo "| :\/: || :\/: || (__) || :\/: || :\/: || :\/: || :\/: |"
 echo "| '--'W|| '--'E|| '--'L|| '--'C|| '--'O|| '--'M|| '--'E|"
 echo "'------''------''------''------''------''------''------'"
-
+sleep 0.1
 echo "Welcome to my setup tool."
+sleep 0.1
 echo "This tool will install Gnome, GDM plus options to install a couple of other programs. "
+sleep 0.1
 echo "This will also transfer my Gnome config files. "
+sleep 0.1
 echo "Please note this script will only work on Arch based systems. "
 echo ""
 echo ""
+sleep 0.1
 echo "Version 1.5"
+sleep 0.1
 echo "Author: Frazer Grant"
 echo ""
 echo ""
- read -r -p "Would you like to continue setup [Y/n] " response
+sleep 0.5
+read -r -p "Would you like to continue setup [Y/n] " response
  response=${response,,} # tolower
  if [[ $response =~ ^((yes|y| )) ]] || [[ -z $response ]]; then
 	clear 
@@ -70,7 +76,7 @@ echo ""
  fi
 
 ## Software
-	
+sleep 0.5
 	sudo pacman -S  rsync binutils fakeroot gcc make git patch conky  -y
 	
 
@@ -86,6 +92,7 @@ fi
 	
 ## Install Office 	
  clear
+ sleep 0.5
  read -r -p "Would you like to install LibreOffice? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
@@ -98,7 +105,7 @@ fi
 ## Update system 
 	#sudo pacman -Syu -y 
 	clear
-
+sleep 0.5
 ## install dot files 
 
  read -r -p "Would you like to restore original config? [Y/n]" response
@@ -106,7 +113,8 @@ fi
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
     bash dotfiles.sh
  fi
- 
+ clear
+ sleep 0.5
 ## fstab
  read -r -p "Would you like to configure network drives? [Y/n]" response
  response=${response,,} # tolower
@@ -115,6 +123,7 @@ fi
 fi		
 ## install yay  
  clear
+ sleep 0.5
  read -r -p "Would you like to install yay-aur helper? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
@@ -128,11 +137,25 @@ fi
 fi
 	clear
 ## Default Shell 
+if [ "if [ "$SHELL" = "/bin/bash" ]; then
+	echo "Bash is default" ;
+	
+else 
+
 	sudo usermod --shell /bin/bash $uname
+fi
+
+
 	
 ## Apps 
+ read -r -p "Would you like to install Archey terminal bling? [Y/n]" response
+ response=${response,,} # tolower
+ if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	yay -S archey4 -y
 
+fi	
+
+	
 ## Custom terminal
  read -r -p "Would you like to configure a custom terminal? [Y/n]" response
  response=${response,,} # tolower
@@ -143,7 +166,7 @@ fi
 
 
 
-
+sleep 0.5
 
 ## Restart
  read -r -p "Would you like to restart? [Y/n]" response
@@ -151,4 +174,3 @@ fi
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	reboot
 fi	
-	
