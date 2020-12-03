@@ -82,6 +82,7 @@ read -r -p "	Would you like to continue setup [Y/n] " response
  if [[ $response =~ ^((yes|y| )) ]] || [[ -z $response ]]; then
 	clear 
  else 
+ clear
    exit 1
  fi
 
