@@ -24,7 +24,9 @@ echo ''
 	read -r -p '	Username for authentication: ' username
 	
 	clear
-	echo -n 'Password for authentication: '
+	echo ''
+	echo '' 
+	echo -n '	Password for authentication: '
 	read -s password
 	
 	sudo echo "username=$username" >> /etc/.smbcred
