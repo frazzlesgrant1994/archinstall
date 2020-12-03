@@ -1,6 +1,7 @@
 #!/bin/bash		
-
- read -r -p "Would you like to backup current config? [Y/n]" response
+echo ''
+echo '' 
+ read -r -p "	Would you like to backup current config? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
     tar -zcvf ~/backup.tar.gz  ~/.[^.]*
