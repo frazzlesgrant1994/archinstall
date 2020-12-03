@@ -5,9 +5,16 @@ uname=$(whoami)
 ##Setup Config Script
 clear
 if [[ $(/usr/bin/id -u) -eq 0 ]]; then
-	echo "You can't run this script as sudo."
-  echo "It will ask you to login when required."
-	exit
+  echo ""
+  echo ""
+  echo "	You can't run this script as sudo."
+  echo "	It will ask you to login when required."
+   echo ""
+   echo "	Setup will now close	"
+	echo "	Press any key to continue"
+	read -n 1 -s -r -p ""
+	clear
+	exit 1
 fi
 
 ### Pointless function 
@@ -25,7 +32,8 @@ function ProgressBar {
 # 1.2 Build progressbar strings and print the ProgressBar line
 # 1.2.1 Output example:                           
 # 1.2.1.1 Progress : [########################################] 100%
-printf "\rLoading Setup : [${_fill// /#}${_empty// /-}] ${_progress}%%"
+
+printf "\r   Loading Setup : [${_fill// /#}${_empty// /-}] ${_progress}%%"
 
 }
 
@@ -44,30 +52,32 @@ done
 printf '\nFinished!\n'
 clear
 ## Welcome Screen 
-echo ".------..------..------..------..------..------..------."
-echo "|W.--. ||E.--. ||L.--. ||C.--. ||O.--. ||M.--. ||E.--. |"
-echo "| :/\: || (\/) || :/\: || :/\: || :/\: || (\/) || (\/) |"
-echo "| :\/: || :\/: || (__) || :\/: || :\/: || :\/: || :\/: |"
-echo "| '--'W|| '--'E|| '--'L|| '--'C|| '--'O|| '--'M|| '--'E|"
-echo "'------''------''------''------''------''------''------'"
+echo ""
+echo ""
+echo "	.------..------..------..------..------..------..------."
+echo "	|W.--. ||E.--. ||L.--. ||C.--. ||O.--. ||M.--. ||E.--. |"
+echo "	| :/\: || (\/) || :/\: || :/\: || :/\: || (\/) || (\/) |"
+echo "	| :\/: || :\/: || (__) || :\/: || :\/: || :\/: || :\/: |"
+echo "	| '--'W|| '--'E|| '--'L|| '--'C|| '--'O|| '--'M|| '--'E|"
+echo "	'------''------''------''------''------''------''------'"
 sleep 0.1
-echo "Welcome to my setup tool."
+echo "	Welcome to my setup tool."
 sleep 0.1
-echo "This tool will install Gnome, GDM plus options to install a couple of other programs. "
+echo "	This tool will install Gnome, GDM plus options to install a couple of other programs. "
 sleep 0.1
-echo "This will also transfer my Gnome config files. "
+echo "	This will also transfer my Gnome config files. "
 sleep 0.1
-echo "Please note this script will only work on Arch based systems. "
+echo "	Please note this script will only work on Arch based systems. "
 echo ""
 echo ""
 sleep 0.1
-echo "Version 1.5"
+echo "	Version 1.5"
 sleep 0.1
-echo "Author: Frazer Grant"
+echo "	Author: Frazer Grant"
 echo ""
 echo ""
 sleep 0.5
-read -r -p "Would you like to continue setup [Y/n] " response
+read -r -p "	Would you like to continue setup [Y/n] " response
  response=${response,,} # tolower
  if [[ $response =~ ^((yes|y| )) ]] || [[ -z $response ]]; then
 	clear 
@@ -93,7 +103,9 @@ fi
 ## Install Office 	
  clear
  sleep 0.5
- read -r -p "Would you like to install LibreOffice? [Y/n]" response
+ echo ""
+echo ""
+ read -r -p "	Would you like to install LibreOffice? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	sudo pacman -S libreoffice-fresh
@@ -107,8 +119,9 @@ fi
 	clear
 sleep 0.5
 ## install dot files 
-
- read -r -p "Would you like to restore original config? [Y/n]" response
+echo ""
+echo ""
+ read -r -p "	Would you like to restore original config? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
     bash dotfiles.sh
@@ -116,7 +129,9 @@ sleep 0.5
  clear
  sleep 0.5
 ## fstab
- read -r -p "Would you like to configure network drives? [Y/n]" response
+echo ""
+echo ""
+ read -r -p "	Would you like to configure network drives? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	sudo bash fstab.sh
@@ -124,7 +139,9 @@ fi
 ## install yay  
  clear
  sleep 0.5
- read -r -p "Would you like to install yay-aur helper? [Y/n]" response
+ echo ""
+echo ""
+ read -r -p "	Would you like to install yay-aur helper? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
         cd /opt
@@ -137,7 +154,7 @@ fi
 fi
 	clear
 ## Default Shell 
-if [ "if [ "$SHELL" = "/bin/bash" ]; then
+if [ "$SHELL" = "/bin/bash" ]; then
 	echo "Bash is default" ;
 	
 else 
@@ -148,7 +165,9 @@ fi
 
 	
 ## Apps 
- read -r -p "Would you like to install Archey terminal bling? [Y/n]" response
+echo ""
+echo ""
+ read -r -p "	Would you like to install Archey terminal bling? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	yay -S archey4 -y
@@ -157,7 +176,9 @@ fi
 
 	
 ## Custom terminal
- read -r -p "Would you like to configure a custom terminal? [Y/n]" response
+echo ""
+echo ""
+ read -r -p "	Would you like to configure a custom terminal? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	bash terminal.sh
@@ -169,8 +190,13 @@ fi
 sleep 0.5
 
 ## Restart
- read -r -p "Would you like to restart? [Y/n]" response
+echo ""
+echo ""
+ read -r -p "	Would you like to restart? [Y/n]" response
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	reboot
+else
+exit 1
 fi	
+	
