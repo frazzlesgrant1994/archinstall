@@ -17,4 +17,4 @@ alias mkdir="mkdir -pv"
 alias nat="ssh nat@10.36.70.112"
 alias install='sudo pacman -S "$@"'
 alias remove='sudo pacman -R "$@"'
-alias config='/usr/bin/git --git-dir=/home/frazer/.cfg/ --work-tree=/home/frazer'
+
