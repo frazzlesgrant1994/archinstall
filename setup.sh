@@ -3,8 +3,9 @@
 uname=$(whoami)
 
 ##Setup Config Script
+clear
 if [[ $(/usr/bin/id -u) -eq 0 ]]; then
-	echo "You should NOT run this script as SUDO."
+	echo "You can't run this script as sudo."
   echo "It will ask you to login when required."
 	exit
 fi
