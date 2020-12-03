@@ -67,8 +67,7 @@ fi
 	
 	clear
 	# /etc/fstab
-	sudo echo "//$server/$share	/media/share	cifs	credentials=/etc/.smbcred,domain=$domain,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777	0	0
-" >> /etc/fstab 
+
 
 	clear
 	echo 'Compleate'
