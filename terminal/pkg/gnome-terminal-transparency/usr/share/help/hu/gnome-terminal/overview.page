@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="hu">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Mi az, hogy terminál?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>A terminál bemutatása</title>
+
+  <p>A <app>Terminál</app> a <gui>GNOME</gui> terminálprogramja. A következő kifejezések és leírásaik segíteni fogják a <app>Terminál</app> és képességeinek megismerését.</p>
+
+  <terms>
+    <item>
+      <title>A terminál</title>
+      <p>A terminál a számítógép egy szövegbeviteli pontja, amelyet parancssori felületnek (CLI) is nevezünk.</p>
+    </item>
+    <item>
+      <title>Fizikai terminálok</title>
+      <p>Az IBM 3270, VT100 és sok más hardverterminálok voltak, amelyeket már nem gyártanak fizikai eszközként. Ezen terminálok helyettesítőjeként szolgálnak a terminálemulátorok.</p>
+    </item>
+    <item>
+      <title>Terminálemulátorok</title>
+      <p>Emulálásnak nevezzük egy program képességét egy másik program vagy eszköz viselkedésének utánzására.</p>
+
+      <p>A tty néven is ismert terminálemulátor egy olyan program, amely egy videoterminált emulál a grafikus felhasználói felületet használó modern számítógépeken, és interaktív hozzáférést biztosít a csak parancssori környezetben futó programokhoz. Ezek az alkalmazások futhatnak ugyanazon a számítógépen, vagy egy <app>telnet</app>, <app>ssh</app> vagy <app>betárcsázós kapcsolaton</app> elért távolin.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>A virtuális terminálkörnyezet (VTE) egy olyan terminálemulátor, amely grafikus környezetben emulál egy szöveges terminált. A <app>Terminál</app> nagyrészt a <app>VTE</app>-n alapul. A <app>VTE</app> olyan felületi elemeket tartalmaz, amelyek egy teljes funkcionalitású terminálemulátort valósítanak meg.</p>
+    </item>
+    <item>
+      <title>Parancsértelmező</title>
+      <p>A <em>parancsértelmező</em> egy olyan program, amely a terminálban parancsok vagy más programok meghívására vagy elindítására ad lehetőséget. Ezen kívül lehetővé teszi könyvtárak tartalmának megjelenítését és tallózását is. A népszerű parancsértelmezők közé tartozik a <app>Bash</app>, <app>zsh</app>, <app>fish</app>.</p>
+    </item>
+    <item>
+      <title>Escape sorozatok</title>
+      <p>Az Escape sorozat egy olyan karaktersorozat, amelyet adatok jelentésének megváltoztatására használnak a terminálban. Az Escape sorozatok akkor használatosak, amikor a számítógépnek csak egy csatornája van információk oda-vissza küldésére. Az Escape sorozatok használatával lehet megkülönböztetni a parancsként végrehajtandó vagy tárolandó és megjelenítendő információként küldött adatokat.</p>
+    </item>
+
+    <item>
+      <title>Prompt</title>
+      <p>A prompt vagy <em>parancsprompt</em> egy karaktersorozat, amellyel a parancssori környezetben a parancsértelmező jelzi, hogy készen áll a parancsok fogadására.</p>
+
+      <p>A prompt általában a <sys>$</sys>, <sys>%</sys>, <sys>#</sys> vagy a <sys>&gt;</sys> karakterekre végződik, és információkat tartalmaz az aktuális munkakönyvtár elérési útjáról. Unix alapú rendszereken általában <sys>$</sys> vagy <sys>#</sys> a felhasználó szerepétől függően: <sys>$</sys> normál felhasználó, <sys>#</sys> root esetén.</p>
+    </item>
+    <item>
+      <title>Parancs</title>
+      <p>A prompt mögé végrehajtási céllal beírt szöveget <em>parancsnak</em> nevezzük. Ez a program nevéből és a viselkedésének módosítása érdekében beírt további paraméterekből épül fel.</p>
+    </item>
+  </terms>
+
+</page>

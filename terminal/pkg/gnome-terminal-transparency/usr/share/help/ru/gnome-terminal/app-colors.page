@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="ru">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Изменить цвет и фон.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Цветовые схемы</title>
+
+  <p>Если не нравится исходная цветовая схема <app>Терминала</app>, есть возможность изменить цвета, используемые для текста и фона. Можно использовать цвета из собственной темы, выбрать из предустановленных цветов или использовать пользовательскую схему.</p>
+
+  <section id="system-theme">
+    <title>Цвета системной темы</title>
+
+    <p>Чтобы использовать цвета системной темы:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Отметьте пункт <gui style="checkbox">Использовать цвета из системной темы</gui>. Изменения будут автоматически применены.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Встроенные схемы</title>
+
+    <p>You can choose one of the built-in color schemes: <gui>Black on light
+    yellow</gui>, <gui>Black on white</gui>, <gui>Gray on black</gui>,
+    <gui>Green on black</gui>, <gui>White on black</gui>, <gui>Tango
+    light</gui>, <gui>Tango dark</gui>, <gui>Solarized light</gui>,
+    <gui>Solarized dark</gui>. To set any of the built-in schemes:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Убедитесь, что пункт <gui style="checkbox">Использовать цвета из системной темы</gui> не отмечен. Выберите желаемую <gui>Встроенную схему</gui>. Настройки цветовой схемы будут автоматически применены.</p>
+        <note>
+	  <p>Приложения могут предпочесть использовать цветовую схему из палитры, а не указанный цвет для полужирного текста.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Пользовательская цветовая схема</title>
+
+    <p>В <app>Терминале</app> можно использовать свои цвета для текста и фона:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Убедитесь, что пункт <gui style="checkbox">Использовать цвета из системной темы</gui> не отмечен. Из выпадающего списка <gui>Встроенные схемы</gui> выберите пункт <gui>другая</gui>.</p>
+      </item>
+      <item>
+        <p>Click on the color you would like to change.</p>
+      </item>
+      <item>
+        <p>Укажите желаемый цвет образца и нажмите <gui style="button">Выбрать</gui>.</p>
+        <p>You can choose the desired color in the following ways:</p>
+        <list>
+          <item>
+            <p>Ввести шестнадцатеричный код нужного цвета в поле ввода.</p>
+          </item>
+          <item>
+            <p>Перетащить бегунок слева, чтобы настроить цвета, и затем нажать на цвет в области выбора цвета.</p>
+          </item>
+        </list>
+	<p>Изменения будут сохранены автоматически.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>При выборе встроенной схемы изменить цвет также можно, нажав на прямоугольник с образцом цвета. Как только выбор сделан, пункт меню встроенной схемы изменится на <gui>другая</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Traditionally terminal emulators offered a 16 color palette, this is
+      what you can alter here. <app>Terminal</app> supports an extended set of
+      256 colors, but the additional 240 colors cannot be edited here.</p>
+
+      <p><app>Terminal</app> even offers direct access to over 16 million
+      colors, this is called “true color” mode.</p>
+
+      <p>If the changes you make to the palette do not seem to have an effect,
+      presumably the contents you see consist of such extended palette colors
+      or true colors, rather than the 16 base colors.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Bright colors for bold text</title>
+
+    <p>Traditionally terminals didn't clearly separate bold font weight from
+    intense colors, often both of them were enabled together. Recent
+    improvements, such as the introduction of true color support, and certain
+    color schemes (e.g. Solarized) made it desirable to separate the two
+    concepts, that is, make the brightness independent from the font weight.</p>
+
+    <p>In order to choose your preferred behavior:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Disable <gui>Show bold text in bright colors</gui> for the new
+        default behavior, the complete separation of color intensity and font
+        weight; or enable this option for improved backward compatibility.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

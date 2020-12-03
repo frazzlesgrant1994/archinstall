@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-exit" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+<!--    <link type="seealso" xref="prob-recover-default-profile"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A <app>Terminál</app> viselkedésének beállítása egyéni parancs vagy az alapértelmezett parancsértelmező kilépésekor.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Parancs kilépésekor tapasztalt viselkedés beállítása</title>
+
+  <p>Beállíthatja, hogy a terminál kilépjen, újrainduljon vagy nyitva maradjon a parancsértelmező vagy egy egyéni parancs kilépésekor:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Válassza a <gui style="tab">Parancs</gui> lapot.</p>
+    </item>
+    <item>
+      <p><gui>A parancs végén</gui> legördülő listából válassza ki a következők egyikét:</p>
+      <list>
+        <item>
+          <p><gui>Kilépés a terminálból</gui></p>
+        </item>
+        <item>
+          <p><gui>Parancs újbóli futtatása</gui></p>
+        </item>
+        <item>
+          <p><gui>A terminál nyitva hagyása</gui></p>
+        </item>
+      </list>
+      <p>A beállítás automatikusan mentésre kerül.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Ha <link xref="pref-custom-command">beállított egy egyéni parancsot</link>, amely nem interaktív, a kilépési viselkedésként a <gui>Kilépés a terminálból</gui> lehetőséget választotta, és a profilt alapértelmezettként jelölte ki, akkor a <app>Terminál</app> még azelőtt kiléphet, hogy a parancs kimenetét elolvashatná.</p>
+  </note>
+
+</page>

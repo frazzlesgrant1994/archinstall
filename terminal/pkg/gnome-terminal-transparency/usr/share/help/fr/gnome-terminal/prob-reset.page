@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="fr">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Comment retrouver l’écran normal de <app>Terminal</app> s’il lui arrive de geler ou d’afficher plein de symboles bizarres ?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Réinitialisation de l’état de <app>Terminal</app></title>
+
+  <p>Il peut arriver qu’après avoir ouvert par erreur un fichier autre que du texte, ou d’avoir lancé une commande hasardeuse, l’écran de <app>Terminal</app> se fige ou affiche des caractères bizarres lorsque vous appuyez sur des touches. Vous pouvez alors récupérer votre <app>Terminal</app> de plusieurs façons :</p>
+
+  <section id="reset">
+    <title>Réinitialisation</title>
+
+    <p>Réinitialiser l’écran de <app>Terminal</app>.</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre et sélectionnez <guiseq><gui style="menuitem">Avancé</gui><gui style="menuitem">Réinitialiser</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Pour obtenir la main, appuyez sur <key>Entrée</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Réinitialisation et suppression</title>
+
+    <p>En plus de réinitialiser votre <app>Terminal</app>, la fonction <gui style="menuitem">Réinitialiser et effacer</gui> supprime toutes les sorties de <app>Terminal</app>. Pour <gui style="menuitem">Réinitialiser et effacer</gui> <app>Terminal</app> :</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre et sélectionnez <guiseq><gui style="menuitem">Avancé</gui><gui style="menuitem">Réinitialiser et effacer</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Pour obtenir la main, appuyez sur <key>Entrée</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Réinitialiser et effacer</gui> déclenche la même action que l’exécution de la commande <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

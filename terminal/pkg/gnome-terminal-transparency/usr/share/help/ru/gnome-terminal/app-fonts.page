@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="ru">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Использовать системный шрифт или выбрать другой шрифт для терминала.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Изменение шрифта и стиля</title>
+
+  <p>Если вы много работаете с текстовым выводом <app>Терминала</app>, то вам может понадобиться изменить шрифт по умолчанию на другой. Существуют следующие возможности:</p>
+
+  <section id="system-font">
+  <title>Системный моноширинный шрифт</title>
+
+  <p>Чтобы использовать системный шрифт по умолчанию:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Unselect <gui style="checkbox">Custom font</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Выбор другого шрифта</title>
+
+  <p>Чтобы выбрать другой шрифт и его размер:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="checkbox">Custom font</gui>.</p>
+    </item>
+    <item>
+      <p>Click on the button next to <gui style="checkbox">Custom font</gui>.</p>
+    </item>
+    <item>
+      <p>Введите название нужного шрифта в строку поиска или просмотрите список шрифтов.</p>
+    </item>
+    <item>
+      <p>Передвигайте бегунок, расположенный под списком шрифтов, чтобы установить размер шрифта. Также можно ввести размер шрифта в поле рядом с бегунком или же нажать на <gui style="button">+</gui> или <gui style="button">-</gui> чтобы соответственно увеличить или уменьшить размер шрифта.</p>
+    </item>
+    <item>
+      <p>Для применения изменений нажмите <gui style="button">Выбрать</gui>. Чтобы сбросить изменения и вернуться в предыдущее диалоговое окно, нажмите <gui style="button">Отменить</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Line spacing and character spacing</title>
+
+  <p><app>Terminal</app> allows you to pull its characters apart for improved
+  readability. Line spacing and character spacing can be adjusted from 1.0
+  (the regular look) to 2.0 (“double spacing”), including fractional values
+  in between.</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Go to the <gui>Cell spacing</gui> setting.</p>
+    </item>
+    <item>
+      <p>To set the horizontal character spacing, adjust the multiplier number
+      in front of <gui>width</gui>.</p>
+    </item>
+    <item>
+      <p>To set the line spacing, adjust the multiplier number in front of
+      <gui>height</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="uk">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Створення, перейменовування та вилучення профілів.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Керування профілями</title>
+
+  <p>Профіль є збіркою параметрів <app>Термінала</app>. У <app>Терміналі</app> передбачено підтримку декількох профілів. Ви можете налаштувати профіль <app>Термінала</app> для <link xref="pref-custom-command">запуску нетипової команди або оболонки</link>, визначити профіль, який буде призначено виключно для з'єднання із віддаленими комп'ютерами за допомогою SSH, або визначити профіль, який запускатиме сеанс <app>GNU Screen</app>.</p>
+
+  <p>Серед доступних параметрів <app>Термінала</app> такі:</p>
+
+  <list>
+    <item>
+      <p>Назва профілю.</p>
+    </item>
+    <item>
+      <p>Кольори шрифту і тла.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Сумісність</gui> із клавішами <key>Backspace</key> і <key>Delete</key>.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Прокручування</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Вибір профілю</title>
+
+    <p>Якщо у вас визначено два або більше профілів, ви можете змінити профіль у вашій поточній вкладці або поточному вікні <app>Термінала</app>, вибравши його з зі списку <guiseq><gui style="menu">Термінал</gui> <gui style="menuitem">Змінити профіль</gui></guiseq>.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Створити профіль</title>
+
+    <p>Щоб створити профіль із типовими параметрами <app>Термінала</app>, виконайте такі дії:</p>
+
+    <steps>
+      <item>
+        <p>Виберіть пункт меню <guiseq><gui style="menu">Зміни</gui> <gui style="menuitem">Параметри</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>На бічній панелі натисніть кнопку <gui style="button">+</gui> поряд із міткою <gui>Профілі</gui>.</p>
+      </item>
+      <item>
+        <p>Введіть назву нового профілю. Згодом ви можете змінити цю назву.</p>
+      </item>
+      <item>
+        <p>Натисніть кнопку <gui style="button">Створити</gui>, щоб створити профіль.</p>
+      </item>
+      <item>
+        <p>Встановіть бажані <link xref="#edit-profile">параметри профілю</link>. Ці параметри буде збережено автоматично.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Створення профілю на основі наявного профілю</title>
+
+    <p>Ви можете створити профіль на основі параметрів наявного профілю. Ось так:</p>
+
+    <steps>
+      <item>
+        <p>Виберіть пункт меню <guiseq><gui style="menu">Зміни</gui> <gui style="menuitem">Параметри</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>На бічній панелі виберіть профіль, на якому буде засновано новий профіль.</p>
+      </item>
+      <item>
+        <p>Натисніть стрілочку, розташовану поруч із назвою профілю.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт <gui style="menuitem">Клонувати…</gui>.</p>
+      </item>
+      <item>
+        <p>Введіть назву нового профілю. Згодом ви можете змінити цю назву.</p>
+      </item>
+      <item>
+        <p>Натисніть кнопку <gui style="button">Клонувати</gui>, щоб створити новий профіль.</p>
+      </item>
+      <item>
+        <p>Встановіть бажані <link xref="#edit-profile">параметри профілю</link>. Ці параметри буде збережено автоматично.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Створення профілю з наявного профілю не змінить параметрів наявного профілю. Усі зміни у параметрах буде збережено у новому профілі.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Редагування профілю</title>
+
+    <note style="warning">
+      <p>Якщо зміни вносяться до типового профілю, його початкові параметри відновити не вдасться! Якщо вами ще не було створено жодного іншого профілю <app>Термінала</app>, і вами внесено зміни до типового профілю, <app>Термінал</app> <em>може</em> стати непридатним до використання, якщо якісь із параметрів профілю спричинятимуть проблеми у роботі програми. Тому рекомендуємо вам <link xref="#create-profile-from-existing">створити копію типового профілю</link>, а потім змінити її з метою створення вашого нетипового профілю.</p>
+    </note>
+
+    <p>Ви можете вносити зміни до наявних профілів. Щоб змінити якийсь із профілів, виконайте такі дії:</p>
+
+    <steps>
+      <item>
+        <p>Виберіть пункт меню <guiseq><gui style="menu">Зміни</gui> <gui style="menuitem">Параметри</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>На бічній панелі буде позначено ваш поточний профіль. Якщо ви хочете редагувати інший профіль, клацніть на пункті з його назвою.</p>
+      </item>
+    </steps>
+
+    <p>Щойно буде позначено бажаний профіль, ви можете:</p>
+
+    <steps>
+      <item>
+        <p>Вибрати <link xref="app-fonts">шрифт</link>, <link xref="app-cursor">форму курсора</link> та <link xref="app-terminal-sizes">розмір <app>Термінала</app></link>.</p>
+      </item>
+      <item>
+        <p>Ви також можете змінити поведінку <app>Термінала</app> у відповідь на <link xref="pref-custom-exit">завершення команди</link>, встановити <link xref="pref-login-shell">нетипову оболонку входу</link> або змінити <link xref="pref-scrolling">параметри смужки гортання</link>.</p>
+      </item>
+      <item>
+        <p>Щоб змінити тло <app>Термінала</app> і кольори тексту, ознайомтеся із документацією щодо <link xref="app-colors">схем кольорів <app>Термінала</app></link>.</p>
+      </item>
+      <item>
+        <p>Зміни у профілі будуть зберігатися негайно. Щоб повернутися до вікна <app>Термінала</app>, натисніть кнопку <gui style="button">Закрити</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Перейменовування наявного профілю</title>
+
+    <p>Ви можете перейменовувати наявні профілі, зокрема типовий профіль:</p>
+
+    <steps>
+      <item>
+        <p>Виберіть пункт меню <guiseq><gui style="menu">Зміни</gui> <gui style="menuitem">Параметри</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт профілю, який ви хочете перейменувати.</p>
+      </item>
+      <item>
+        <p>Натисніть стрілочку, розташовану поруч із назвою профілю.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт меню <gui style="menuitem">Перейменувати…</gui>.</p>
+      </item>
+      <item>
+        <p>Введіть нову назву профілю.</p>
+      </item>
+      <item>
+        <p>Натисніть кнопку <gui style="button">Перейменувати</gui>, щоб завершити перейменовування.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Вилучення профілю</title>
+  
+    <p>Щоб вилучити профіль, виконайте такі дії:</p>
+
+    <steps>
+      <item>
+        <p>Виберіть пункт меню <guiseq><gui style="menu">Зміни</gui> <gui style="menuitem">Параметри</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт профілю, який ви хочете вилучити.</p>
+      </item>
+      <item>
+        <p>Натисніть стрілочку, розташовану поруч із назвою профілю.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт меню <gui style="menuitem">Вилучити…</gui>.</p>
+      </item>
+      <item>
+        <p>Натисніть кнопку <gui style="button">Вилучити</gui>, щоб підтвердити вилучення.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Типовий профіль не можна вилучати. Якщо ви хочете вилучити поточний типовий профіль, вам слід спочатку зробити інший профіль <link xref="#set-default">типовим</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Встановлення типового профілю</title>
+
+    <p>Типовий профіль завантажується, коли відкривається новий термінал, якщо вами не було вказано іншого профілю для використання. Усі зміни, які буде внесено до параметрів профілю, буде збережено у поточному вибраному профілі.</p>
+
+    <p>Типовий профіль буде використано, якщо <app>Термінал</app> не зможе у інший спосіб визначити, яким профілем слід скористатися. Наприклад, якщо <app>Термінал</app> запущено вперше, і програма відкриває перше вікно термінала. Коли ви скористаєтеся пунктом меню або клавіатурним скороченням <app>Термінал</app>, щоб відкрити новий термінал, буде використано профіль наявного термінала.</p>
+
+    <steps>
+      <item>
+        <p>Виберіть пункт меню <guiseq><gui style="menu">Зміни</gui> <gui style="menuitem">Параметри</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт профілю, який ви хочете зробити типовим.</p>
+      </item>
+      <item>
+        <p>Натисніть стрілочку, розташовану поруч із назвою профілю.</p>
+      </item>
+      <item>
+        <p>Виберіть <gui style="menuitem">Зробити типовим</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Типовий профіль буде позначено у списку профілів.</p>
+    </note>
+
+  </section>
+
+</page>

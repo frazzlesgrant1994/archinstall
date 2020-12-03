@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-zoom" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-02-24" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#appearance"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Збільшення або зменшення розмірів тексту.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Збільшення і зменшення</title>
+
+  <p>Щоб збільшити розмір символів тексту у <app>Терміналі</app>, виконайте такі дії:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і натисніть кнопку <gui style="button">+</gui> або натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>+</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Щоб зменшити розмір символів тексту у <app>Терміналі</app>, виконайте такі дії:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і натисніть кнопку <gui style="button">-</gui> або натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Щоб відновити типовий розмір символів тексту у <app>Терміналі</app>, виконайте такі дії:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і натисніть кнопку <gui style="button">100%</gui> або натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>0</key></keyseq>.</p>
+    </item>
+  </steps>
+
+</page>

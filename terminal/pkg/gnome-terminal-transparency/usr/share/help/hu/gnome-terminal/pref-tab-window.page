@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014–2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Válassza ki, hogy alapesetben új ablak vagy új lap nyíljon meg.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ablakok és lapok</title>
+
+<note style="tip">
+  <p>This setting only applies when the <link xref="pref-menubar">menubar is
+  enabled</link>, or when <app>Terminal</app> is started from the command line and
+  neither the <cmd>--tab</cmd> nor the <cmd>--window</cmd> options are passed.</p>
+</note>
+
+  <p>Megadhatja, hogy az <gui style="menuitem">Új terminál</gui> menüpont használatkor alapesetben új lap vagy új <app>Terminál</app> ablak nyíljon meg.</p>
+
+  <steps>
+    <title>If the menubar is enabled,</title>
+    <item>
+      <p>Select
+      <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Preferences</gui>
+      <gui style="tab">General</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Az <gui>Új terminálok megnyitása:</gui> értékét állítsa be a <gui>Lap</gui> vagy az <gui>Ablak</gui> lehetőségre.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>If the menubar is not enabled,</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select <gui>General</gui>.</p>
+    </item>
+    <item>
+      <p>Az <gui>Új terminálok megnyitása:</gui> értékét állítsa be a <gui>Lap</gui> vagy az <gui>Ablak</gui> lehetőségre.</p>
+    </item>
+  </steps>
+
+  <p>Miután megadta ezt a beállítást, a <key>Ctrl</key> billentyű használatával a kiválasztott beállítás megfordítható. Ha azt választotta például, hogy az új terminál új lapon jelenjen meg, akkor az <gui style="menuitem">Új Terminál</gui> menüpont választásakor egy új lap nyílik meg. Másrészről, ha nyomva tartja a <key>Ctrl</key> billentyűt, és kiválasztja az <gui style="menuitem">Új Terminál</gui> menüpontot, az új terminál egy új ablakban fog megjelenni.</p>
+
+</page>

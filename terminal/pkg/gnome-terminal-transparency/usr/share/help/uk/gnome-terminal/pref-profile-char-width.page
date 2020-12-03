@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-profile-char-width" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#profile"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+
+    <credit type="author copyright">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Показ символів із неоднозначною шириною як широких, а не вузьких</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Символи виглядають надто вузькими</title>
+
+  <p>Деякі символи, зокрема грецькі літери або азійські логограми можу займати одну або декілька клітинок у вікні термінала. Ці символи часто називають <em>неоднозначними символами</em>. Типово, ці символи буде показано у <app>Терміналі</app> у вузькому варіанті, який виглядає краще у випадках, коли важливе ідеальне компонування, зокрема при використанні псевдографіки ASCII. Ви можете змінити параметри вашого профілю так, щоб неоднозначні символи було показано широкими. Це може бути зручнішим, якщо ви читаєте у терміналі тексти.</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Відкрийте вкладку <gui style="tab">Сумісність</gui>.</p>
+    </item>
+    <item>
+      <p>Встановіть для параметра <gui>Символи з нечіткою шириною</gui> значення <gui>Широкий</gui>.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-user-input" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.14" date="2014-10-23" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A terminálban futó alkalmazás ne kapjon felhasználói bemenetet.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Felhasználói bemenet letiltása</title>
+
+  <p>Megakadályozhatja, hogy a terminálba bevitt felhasználói bemenet eljusson az éppen futó alkalmazáshoz. Ez megakadályozza, hogy a billentyűleütések, egérkattintások és egérmozdulatok befolyásolják az alkalmazást. Magát a terminált továbbra is kezelheti a billentyűzettel görgethet és az egérrel kijelölhet szöveget. Lehetősége lesz a kijelölt szöveg kimásolására a terminálból, de a beillesztés nem fog működni.</p>
+
+  <p>A csak olvasható mód használatához:</p>
+
+  <steps>
+    <item>
+      <p>Right click in the <app>Terminal</app> window or press the menu button
+      in the top-right corner of the window.</p>
+    </item>
+    <item>
+      <p>Válassza a <gui style="menuitem">Csak olvasható</gui> menüpontot, így az ki lesz jelölve.</p>
+    </item>
+  </steps>
+
+  <p>A csak olvasható mód kikapcsolásához törölje a <gui style="menuitem">Csak olvasható</gui> menüpont kijelölését.</p>
+
+</page>

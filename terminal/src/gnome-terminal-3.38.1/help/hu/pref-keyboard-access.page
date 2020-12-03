@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Navigálás a <app>Terminál</app> menüiben billentyűkkel.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Billentyűzet akadálymentesítése</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Ezek a billentyűk csak olyan ablakokban hatásosak, amelyekben a menüsáv láthatóra van állítva.</p>
+    <p>Right click in the <app>Terminal</app> window and select
+    <gui style="checkbox">Show Menubar</gui> to display the menubar.</p>
+  </note>
+
+  <p>A <app>Terminál</app> menüt használhatja <em>hívóbetűknek</em> nevezett billentyűkombinációkkal, vagy egy speciális, <em>menüelérés billentyűjének</em> nevezett billentyűvel, amely a menüsáv első menüjét nyitja meg.</p>
+
+  <section id="mnemonics">
+    <title>Hívóbetűk</title>
+
+    <p>A <app>Terminál</app> menüje elérhető az <key>Alt</key> billentyű és a menüpont egy bizonyos betűjének együttes lenyomásával. A használandó betű aláhúzásra kerül az <key>Alt</key> lenyomva tartásakor.</p>
+
+    <p>A <gui style="menu">Szerkesztés</gui> menüt például az <keyseq><key>Alt</key><key>z</key></keyseq> lenyomásával jelenítheti meg. A <gui style="menu">Fájl</gui> menüt pedig hasonlóképpen, az <keyseq><key>Alt</key><key>F</key></keyseq> lenyomásával.</p>
+
+    <p>A hívóbetűk bekapcsolásához:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Jelölje be a <gui style="checkbox">Menühívóbetűk engedélyezése</gui> jelölőnégyzetet.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Menüelérés billentyűje</title>
+
+    <p>Ez a beállítás (alapesetben az <key>F10</key> billentyű) a <gui style="menu">Fájl</gui> menüt jeleníti meg.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Jelölje be a <gui style="checkbox">Menüelérés billentyűje</gui> négyzetet.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

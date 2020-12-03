@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ein Programm starten oder einen Befehl mit <app>Terminal</app> ausführen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Einen Befehl ausführen</title>
+
+  <p>Jegliche Eingabe, die ins <app>Terminal</app> zum Ausführen eingegeben wird, wird als ein <em>Befehl</em> angesehen. Sie können sowohl Befehlszeilenprogramme als auch Programme mit grafischer Benutzeroberfläche im Terminal ausführen.</p>
+
+  <p>So führen Sie Befehle aus:</p>
+
+  <steps>
+    <item>
+      <p>Geben Sie den Befehl in die Eingabeaufforderung von <app>Terminal</app> ein.</p>
+    </item>
+    <item>
+      <p>Drücken Sie zum Ausführen die <key>Eingabetaste</key>.</p>
+    </item>
+  </steps>
+
+  <p>Wenn es ein Programm gibt, dass abrupt ohne Warnung oder Fehler schließt, so wollen Sie es möglicherweise in <app>Terminal</app> ausführen. Dies ermöglicht, dass das Programm Fehler und Fehlerdiagnose-Nachrichten im <app>Terminal</app>-Fenster ausgibt. Diese Informationen sind oft hilfreich beim Erstellen eines neuen Fehlerberichts.</p>
+
+  <note style="tip">
+    <p>Lesen Sie mehr über die <link href="https://www.gnu.org/software/bash/manual/">Bash-Shell</link> für weitergehende Informationen, was man in einem Terminal tun kann.</p>
+  </note>
+  
+</page>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="txt-select-text" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-28" status="review"/>
+    <link type="guide" xref="index#textoutput"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013, 2015</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Selecione palavras ou linhas no terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Seleção de texto</title>
+
+  <p>Você pode selecionar uma palavra ou uma frase, ou fazer uma seleção retangular da saída do terminal:</p>
+
+  <terms>
+    <item>
+      <title>Selecionar uma palavra</title>
+      <p>Dê um clique duplo na palavra.</p>
+    </item>
+    <item>
+      <title>Selecionar uma linha</title>
+      <p>Dê um clique triplo na linha.</p>
+    </item>
+    <item>
+      <title>Fazer uma seleção retangular</title>
+      <p>Mantenha a tecla <key>Ctrl</key> pressionada enquanto usar o botão esquerdo do mouse para selecionar texto.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Se você estiver executando um aplicativo no <app>Terminal</app> que aceita entrada do mouse, você precisa utilizar a tecla <key>Shift</key> para que o <app>Terminal</app> perceba e capture a entrada do mouse.</p>
+  </note>
+
+</page>

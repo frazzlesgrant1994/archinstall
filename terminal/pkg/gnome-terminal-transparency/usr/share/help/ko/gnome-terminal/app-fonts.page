@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="ko">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>시스템 글꼴을 사용하거나 터미널에 쓸 개별 글꼴을 선택합니다.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>글꼴 및 모양새 바꾸기</title>
+
+  <p>수많은 <app>터미널</app> 글씨를 다룰 때, 기본 설정에서 기본 글꼴을 바꿀 수 있습니다. 다음 선택 항목을 따르십시오:</p>
+
+  <section id="system-font">
+  <title>시스템 고정 폭 글꼴</title>
+
+  <p>시스템 기본 글꼴을 사용하려면:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p><gui style="tab">텍스트</gui>를 선택하십시오.</p>
+    </item>
+    <item>
+      <p><gui style="checkbox">사용자 글꼴</gui>선택을 취소하십시오.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>개별 글꼴 설정</title>
+
+  <p>개별 글꼴 및 크기를 설정하려면:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p><gui style="tab">텍스트</gui>를 선택하십시오.</p>
+    </item>
+    <item>
+      <p><gui style="checkbox">사용자 글꼴</gui>을 선택하십시오.</p>
+    </item>
+    <item>
+      <p><gui style="checkbox">사용자 글꼴</gui> 옆 단추를 누르십시오.</p>
+    </item>
+    <item>
+      <p>원하는 글꼴 이름을 검색 입력란에 입력하고 글꼴 목록을 찾아보십시오.</p>
+    </item>
+    <item>
+      <p>글꼴 목록 하단의 슬라이더를 끌오 글꼴 크기를 설정하십시오. 대신 슬라이더 옆 입력란에 글꼴 크기를 입력하여 설정하거나 <gui style="button">+</gui>를 눌러 글꼴 크기를 늘이고 <gui style="button">-</gui>를 눌러 글꼴 크기를 줄일 수 있습니다.</p>
+    </item>
+    <item>
+      <p><gui style="button">선택</gui>을 눌러 바뀐 설정을 적용하십시오. 설정 바꾸기를 취소하려면 <gui style="button">취소</gui>를 눌러 이전 대화상자로 돌아가십시오.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>줄 간격과 문자 간격</title>
+
+  <p><app>터미널</app>에서는 글자 하나하나를 쉽게 알아볼 수 있도록 글자 간격을 줄 수 있습니다. 줄 간격과 문자 간격을 1.0부터 2.0(“두배 간격”)까지 소수점을 아래 자리 수를 바꿔 조절할 수 있습니다.</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p><gui style="tab">텍스트</gui>를 선택하십시오.</p>
+    </item>
+    <item>
+      <p>Go to the <gui>Cell spacing</gui> setting.</p>
+    </item>
+    <item>
+      <p>수평 문자 간격을 설정하려면 <gui>너비</gui> 앞 배수를 조절하십시오.</p>
+    </item>
+    <item>
+      <p>줄 간격을 설정하려면, <gui>높이</gui> 앞에 있는 배수를 조정하십시오.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

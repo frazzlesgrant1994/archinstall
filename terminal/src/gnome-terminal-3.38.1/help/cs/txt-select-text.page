@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="txt-select-text" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-28" status="review"/>
+    <link type="guide" xref="index#textoutput"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013, 2015</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak v terminálu vybrat jednotlivá slova nebo řádky.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Výběr textu</title>
+
+  <p>Ve výstupu svého terminálu můžete vybírat slova nebo věty a nebo můžete označit obdélníkovou oblast:</p>
+
+  <terms>
+    <item>
+      <title>Výběr slova</title>
+      <p>Dvojitě klikněte na požadovaném slově.</p>
+    </item>
+    <item>
+      <title>Výběr řádku</title>
+      <p>Trojitě klikněte na požadovaném řádku.</p>
+    </item>
+    <item>
+      <title>Výběr obdélníkové oblasti</title>
+      <p>Držte zmáčknutou klávesu <key>Ctrl</key>, zmáčkněte a držte levé tlačítko myši a táhněte myší.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>V případě, že máte v <app>Terminálu</app> spuštěnou aplikaci, která pracuje s myší, musíte navíc použít modifikátor <key>Shift</key>, aby vstup od myši zachytil <app>Terminál</app>.</p>
+  </note>
+
+</page>

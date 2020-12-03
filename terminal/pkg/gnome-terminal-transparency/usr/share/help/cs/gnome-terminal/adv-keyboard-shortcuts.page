@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak si zobrazit a změnit klávesové zkratky.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Klávesové zkratky</title>
+
+  <p>Klávesové zkratky jsou kombinace kláves, které umožňují rychle provádět různé činnosti, třeba otevření okna s nastavením nebo spuštění nějaké funkce v <app>Terminálu</app>. Můžete si je upravovat, aby lépe vyhovovaly vašim potřebám.</p>
+
+  <p>Když chcete klávesovou zkratku změnit:</p>
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu vyberte <gui>Klávesové zkratky</gui>.</p>
+    </item>
+    <item>
+      <p>Ujistěte se, že je zaškrtnuté <gui style="checkbox">Povolit klávesové zkratky</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknutím vyberte klávesovou zkratku, kterou budete upravovat.</p>
+    </item>
+    <item>
+      <p>Až je označená, pusťte se do úpravy kliknutím na vypsanou kombinaci kláves.</p>
+    </item>
+    <item>
+      <p>Zmáčkněte kombinaci kláves přesně tak, jak ji budete chtít používat. Můžete využít klávesy <key>Alt</key>, <key>AltGr</key>, <key>Ctrl</key>, <key>Shift</key>, <key>Super</key> a klávesy s písmeny a číslicemi.</p>
+      <note>
+        <p>Mnemotechnické kombinace kláves, jako <keyseq><key>Alt</key><key>F</key></keyseq>, nebudou fungovat.</p>
+      </note>
+    </item>
+    <item>
+      <p>Jakmile klávesovou zkratku zadáte, ihned se automaticky uloží a vy ji uvidíte v seznamu vedle příslušné činnosti.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Pokud chcete některou klávesovou zkratku zakázat, začněte ji upravovat a namísto nové kombinace kláves zmáčkněte <key>Backspace</key>.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title>Klávesové zkratky nabídky <gui style="menu">Soubor</gui></title>
+
+    <p>Výchozí klávesové zkratky pro činnosti v tomto oddíle:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Činnost</p></td>
+          <td><p>Klávesová zkratka</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Nová karta</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Nové okno</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zavřít kartu</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zavřít okno</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>Klávesové zkratky nabídky <gui style="menu">Upravit</gui></title>
+
+    <p>Výchozí klávesové zkratky pro činnosti v tomto oddíle:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Činnost</p></td>
+          <td><p>Klávesová zkratka</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Kopírovat</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Vložit</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>Klávesové zkratky nabídky <gui style="menu">Zobrazit</gui></title>
+
+    <p>Výchozí klávesové zkratky pro činnosti v tomto oddíle:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Činnost</p></td>
+          <td><p>Klávesová zkratka</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Celá obrazovka</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Zvětšit</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zmenšit</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Normální velikost</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title>Klávesové zkratky nabídky <gui style="menu">Hledat</gui></title>
+
+    <p>Výchozí klávesové zkratky pro činnosti v tomto oddíle:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Činnost</p></td>
+          <td><p>Klávesová zkratka</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Najít</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Najít následující</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Najít předchozí</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zrušit zvýrazňování</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Klávesové zkratky karet</title>
+
+    <p>Výchozí klávesové zkratky pro činnosti v tomto oddíle:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Činnost</p></td>
+          <td><p>Klávesová zkratka</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Přepnout na předchozí kartu</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na následující kartu</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Posunout kartu doleva</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Posunout kartu doprava</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Přepnout na kartu 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Ostatní</title>
+
+    <p>Existuje také několik klávesových zkratek, které nelze měnit:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Činnost</p></td>
+          <td><p>Klávesová zkratka</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Posun nahoru o jeden řádek</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Posun dolů o jeden řádek</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Posun nahoru o jednu stránku</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Posun dolů o jednu stránku</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Posun úplně nahoru</p></td>
+          <td><p><keyseq><key>Shift</key><key>Home</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Posun úplně dolů</p></td>
+          <td><p><keyseq><key>Shift</key><key>End</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Klávesové zkratky shellu Bash</title>
+
+    <p>Některé klávesové zkratky jsou určeny pro <app>Bash</app>. <app>Bash</app> je obvykle výchozí shell.</p>
+    <p>Klávesové zkratky specifické pro <app>Bash</app> jsou:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Činnost</p></td>
+          <td><p>Klávesová zkratka</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Smazat slovo</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Smazat řádek</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Přesunout se na začátek řádku</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Přesunout se na konec řádku</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Přesunout se o znak zpět</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Přesunout se o slovo zpět</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Přesunout se o znak vpřed</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Přesunout se o slovo vpřed</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Smazat od kurzoru po začátek řádku</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Smazat od kurzoru po konec řádku</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Smazat od kurzoru po začátek slova</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Smazat předchozí slovo</p></td>
+          <td><p><keyseq><key>Alt</key><key>Backspace</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Vložit text ze schránky</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Vymazat obrazovku a aktuální řádek umístit na vrch obrazovky</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Zpětné přírůstkové hledání v historii</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Zpětné nepřírůstkové hledání v historii</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

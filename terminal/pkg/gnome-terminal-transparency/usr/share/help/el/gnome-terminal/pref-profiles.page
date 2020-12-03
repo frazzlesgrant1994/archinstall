@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Create, rename and delete profiles.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Διαχείριση προφίλ</title>
+
+  <p>Ένα προφίλ είναι μια συλλογή ρυθμίσεων του <app>Τερματικού</app>. Το <app>Τερματικό</app> υποστηρίζει πολλαπλά προφίλ. Μπορείτε να ρυθμίσετε τα προφίλ του <app>Τερματικού</app> για την <link xref="pref-custom-command">εκτέλεση μιας προσαρμοσμένης εντολής ή κελύφους</link>, ορίστε μια κατατομή αποκλειστικά για σύνδεση με απομακρυσμένους υπολογιστές χρησιμοποιώντας SSH ή ορίστε ένα προφίλ που ξεκινά μια συνεδρία <app>οθόνης GNU</app>.</p>
+
+  <p>Οι διαθέσιμες ρυθμίσεις του <app>Τερματικού</app> περιλαμβάνουν:</p>
+
+  <list>
+    <item>
+      <p>Όνομα προφίλ.</p>
+    </item>
+    <item>
+      <p>Χρώματα γραμματοσειράς και παρασκηνίου.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Συμβατότητα</gui> με τα πλήκτρα <key>Backspace</key> και <key>Delete</key>.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Κύλιση</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Επιλογή προφίλ</title>
+
+    <p>If you have two or more profiles defined, you can change the profile in
+    your current <app>Terminal</app> tab or
+    window by selecting a profile from <guiseq><gui style="menu">Terminal</gui>
+    <gui style="menuitem">Change Profile</gui></guiseq>.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Δημιουργία νέου προφίλ</title>
+
+    <p>To create a new profile with the default settings of
+    <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, click on the <gui style="button">+</gui> button
+        next to the <gui>Profiles</gui> label.</p>
+      </item>
+      <item>
+        <p>Enter a name for the new profile. You can change this name later.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Create</gui> to create the new profile.</p>
+      </item>
+      <item>
+        <p>Set your desired <link xref="#edit-profile">profile
+        preferences</link>. These will be saved automatically.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Δημιουργία νέου προφίλ με βάση ένα υπάρχον προφίλ</title>
+
+    <p>Μπορείτε να δημιουργήσετε ένα νέο προφίλ με βάση τις ρυθμίσεις από ένα υπάρχον προφίλ:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>In the sidebar select the profile on which your new profile should
+        be based.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Clone…</gui>.</p>
+      </item>
+      <item>
+        <p>Enter a name for the new profile. You can change this name later.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Clone</gui> to create the new profile.</p>
+      </item>
+      <item>
+        <p>Set your desired <link xref="#edit-profile">profile
+        preferences</link>. These will be saved automatically.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Η δημιουργία ενός νέου προφίλ από ένα υπάρχον δεν θα επηρεάσει τις ρυθμίσεις σε ένα υπάρχον προφίλ. Οποιεσδήποτε αλλαγές στις ρυθμίσεις θα αποθηκευτούν στο νέο προφίλ.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Επεξεργασία προφίλ</title>
+
+    <note style="warning">
+      <p>Αν το προεπιλεγμένο προφίλ επεξεργασθεί, δεν θα μπορεί να ανακτησεί τις αρχικές ρυθμίσεις! Αν δεν έχετε ήδη δημιουργήσει οποιαδήποτε άλλα προφίλ για το <app>Τερματικό</app> και έχετε προσαρμόσει το προεπιλεγμένο προφίλ, το <app>Τερματικό</app> <em>μπορεί</em> να γίνει άχρηστο αν οποιαδήποτε ρύθμιση προκαλέσει προβλήματα. Συνιστάται η <link xref="#create-profile-from-existing">δημιουργία αντιγράφου του προεπιλεγμένου προφίλ</link>, και έπειτα η επεξεργασία του αντιγράφου για δημιουργία ενός προσαρμοσμένου προφίλ.</p>
+    </note>
+
+    <p>You can make changes to existing profiles. To edit a profile:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Your current profile is selected in the sidebar. If you wish to edit
+        a different profile, click on its name.</p>
+      </item>
+    </steps>
+
+    <p>Once the desired profile is selected, you can:</p>
+
+    <steps>
+      <item>
+        <p>Επιλέξτε <link xref="app-fonts">Γραμματοσειρά</link>, <link xref="app-cursor">Σχήματα δρομέα</link> και μέγεθος <link xref="app-terminal-sizes"><app>Τερματικού</app> </link>.</p>
+      </item>
+      <item>
+        <p>Μπορεί επίσης να αλλάξετε τη συμπεριφορά του <app>Τερματικού</app> στο <link xref="pref-custom-exit">εντολή εξόδου</link>, ορίστε ένα <link xref="pref-login-shell">προσαρμοσμένο κέλυφος σύνδεσης</link> ή αλλάξτε τις <link xref="pref-scrolling">προτιμήσεις γραμμής κύλισης</link>.</p>
+      </item>
+      <item>
+        <p>Για να αλλάξετε το παρασκήνιο και το χρώμα κειμένου του <app>Τερματικού</app>, δείτε <link xref="app-colors">Συνδυασμοί χρωμάτων του <app>Τερματικού</app></link>.</p>
+      </item>
+      <item>
+        <p>Οι αλλαγές στο προφίλ αποθηκεύονται αμέσως. Για επιστροφή στο <app>Τερματικό</app>, πατήστε <gui style="button">Κλείσιμο</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Μετονομασία υπάρχοντος προφίλ</title>
+
+    <p>Μπορείτε να μετονομάσετε υπάρχουσα προφίλ, συμπεριλαμβανομένων των προεπιλεγμένων προφίλ:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε το προφίλ που επιθυμείτε να μετονομάσετε.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Rename…</gui>.</p>
+      </item>
+      <item>
+        <p>Enter the new profile name.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Rename</gui> to rename.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Delete a profile</title>
+  
+    <p>Διαγραφή προφίλ:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε το προφίλ που επιθυμείτε να διαγράψετε.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Delete…</gui>.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Delete</gui> to confirm.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>The default profile cannot be deleted. If you wish to delete
+      that profile, first set another profile as <link xref="#set-default">default</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Ορισμός προεπιλεγμένου προφίλ</title>
+
+    <p>The default profile is loaded when a new terminal is opened unless you
+    have selected another profile. Any changes that you make to the settings will
+    be stored in the currently selected profile.</p>
+
+    <p>The default profile is used when <app>Terminal</app> could not
+    otherwise decide which profile to use. For example, <app>Terminal</app> is
+    started up freshly and opens its first terminal window. In contrast, when
+    you use a menu entry or keyboard shortcut of <app>Terminal</app> to open a
+    new terminal, the profile of the existing terminal is used.</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Select the profile you wish to set as the default.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Set as default</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>The default profile is marked with a check mark symbol.</p>
+    </note>
+
+  </section>
+
+</page>

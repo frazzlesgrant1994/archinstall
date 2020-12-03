@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Lancer des programmes ou exécuter des commandes en utilisant <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Exécuter une commande</title>
+
+  <p>Toute entrée saisie dans le <app>Terminal</app> pour être exécutée est considérée comme une <em>commande</em>. Vous pouvez exécuter aussi bien une ligne de commande que des programmes avec interface utilisateur graphique (GUI) à partir du terminal.</p>
+
+  <p>Pour exécuter des commandes :</p>
+
+  <steps>
+    <item>
+      <p>Saisissez la commande dans l’invite de <app>Terminal</app>.</p>
+    </item>
+    <item>
+      <p>Appuyez sur <key>Entrée</key> pour l’exécuter.</p>
+    </item>
+  </steps>
+
+  <p>Si vous avez un programme qui se termine abruptement sans aucun avertissement ou message d’erreur, vous pouvez l’exécuter dans <app>Terminal</app>. Cela permettra au programme d’émettre une erreur ou des messages de débogage dans la fenêtre de <app>Terminal</app>. Cette information peut être utile lors de l’ouverture d’un rapport d’anomalie.</p>
+
+  <note style="tip">
+    <p>Pour plus d’informations sur ce que vous pouvez faire avec un terminal, lisez le manuel de <link href="https://www.gnu.org/software/bash/manual/">l’invite de commande Bash</link>.</p>
+  </note>
+  
+</page>

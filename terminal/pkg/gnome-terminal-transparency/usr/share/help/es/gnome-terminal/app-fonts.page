@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="es">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Usar las tipografías del sistema o elegir una tipografía personalizada para su terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cambiar la tipografía y el estilo</title>
+
+  <p>Cuando trabaja con mucho texto en la <app>Terminal</app> puede querer cambiar la tipografía predeterminada a una que prefiera. Tiene las siguientes opciones:</p>
+
+  <section id="system-font">
+  <title>Tipografía de anchura fija del sistema</title>
+
+  <p>Para usar las tipografías predeterminadas del sistema:</p>
+
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+    </item>
+    <item>
+      <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Deseleccione <guilabel>Tipografía personalizada</guilabel>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Establecer una tipografía personalizada</title>
+
+  <p>Para establecer una tipografía personalizada y un tamaño:</p>
+
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+    </item>
+    <item>
+      <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <guilabel>Tipografía personalizada</guilabel>.</p>
+    </item>
+    <item>
+      <p>Pulse el botón que está junto a <gui>Tipografía personalizada</gui>.</p>
+    </item>
+    <item>
+      <p>Escriba el nombre de la tipografía que quiere en el campo de búsqueda o examine la lista de tipografías.</p>
+    </item>
+    <item>
+      <p>Arrastre el deslizador que está debajo de la lista de tipografías para ajustar el tamaño. Alternativamente, puede escribir el tamaño de la tipografía en en campo que está junto al deslizador, o pulsar en los botones <gui style="button">+</gui> o <gui style="button">-</gui> para aumentar o disminuir el tamaño, respectivamente.</p>
+    </item>
+    <item>
+      <p>Pulse <gui style="button">Seleccionar</gui> para aplicar sus cambios. Para descartar los cambios y volver al diálogo anterior, pulse <gui style="button">Cancelar</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Espaciado de línea y espaciado de carácter</title>
+
+  <p><app>Terminal</app> le permite separar sus caracteres para una mejor legibilidad. El espaciado entre líneas y el espaciado de caracteres se puede ajustar desde 1.0 (el aspecto normal) a 2.0 («espaciado doble»), incluidos los valores fraccionarios intermedios.</p>
+
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+    </item>
+    <item>
+      <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Vaya a la opción <gui>Espaciado entre celdas</gui>.</p>
+    </item>
+    <item>
+      <p>Para establecer el espaciado de caracteres horizontal, ajuste el número de multiplicador delante de <gui>ancho</gui>.</p>
+    </item>
+    <item>
+      <p>Para establecer el espaciado entre líneas, ajuste el número del multiplicador frente a <gui>altura</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

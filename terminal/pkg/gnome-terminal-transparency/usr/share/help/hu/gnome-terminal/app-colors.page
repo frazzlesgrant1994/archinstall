@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Színek és hátterek módosítása.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Színsémák</title>
+
+  <p>Ha az alapértelmezett <app>Terminál</app> séma nem nyerte el tetszését, módosíthatja a szöveghez és a háttérhez használt színeket. Használhatja az asztali környezet témájának színeit, választhat az előre beállítottak közül, vagy létrehozhat sajátot is.</p>
+
+  <section id="system-theme">
+    <title>Rendszertéma színeinek használata</title>
+
+    <p>A rendszertéma színeinek használata:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Színek</gui> lapot.</p>
+      </item>
+      <item>
+        <p>Jelölje be a <gui style="checkbox">Rendszertéma színeinek használata</gui> négyzetet. A változtatások azonnal életbe lépnek.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Beépített sémák</title>
+
+    <p>A következő beépített színsémák közül választhat: <gui>Fekete a világossárgán</gui>, <gui>Fekete a fehéren</gui>, <gui>Szürke a feketén</gui>, <gui>Zöld a feketén</gui>, <gui>Fehér a feketén</gui>, <gui>Tango világos</gui>, <gui>Tango sötét</gui>, <gui>Solarized light</gui>, <gui>Solarized dark</gui>. A beépített sémák bármelyikének használata:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Színek</gui> lapot.</p>
+      </item>
+      <item>
+        <p>Törölje a <gui style="checkbox">Rendszertéma színeinek használata</gui> négyzetet. Válassza ki a kívánt színsémát a <gui>Beépített sémák</gui> listából. A kiválasztott színséma azonnal alkalmazásra kerül.</p>
+        <note>
+	  <p>Az alkalmazások a megadott félkövér szín helyett használhatják a paletta egy színét is.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Egyéni színséma</title>
+
+    <p>Egyéni színeket is használhat a <app>Terminál</app> szövegéhez és hátteréhez:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Színek</gui> lapot.</p>
+      </item>
+      <item>
+        <p>Törölje a <gui style="checkbox">Rendszertéma színeinek használata</gui> négyzetet. Válassza a <gui>Beépített sémák</gui> lista <gui>Egyéni</gui> elemét.</p>
+      </item>
+      <item>
+        <p>Kattintson a módosítandó színre.</p>
+      </item>
+      <item>
+        <p>Válassza ki a kívánt színt a színválasztóból, és nyomja meg a <gui style="button">Kiválasztás</gui> gombot.</p>
+        <p>A színt a következő módokon választhatja ki:</p>
+        <list>
+          <item>
+            <p>Beírhatja a hexadecimális színkódot a beviteli mezőbe.</p>
+          </item>
+          <item>
+            <p>Húzza a bal oldali csúszkát a szín módosításához, és kattintson a jobb oldali színkijelölő területen a kívánt árnyalatra.</p>
+          </item>
+        </list>
+	<p>A változtatásai automatikusan mentésre kerülnek.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Egy színt akkor is megváltoztathat a színminta gomb megnyomásával, ha egy beépített sémát választott. A változtatás után a Beépített sémák listában a kijelölés az <gui>Egyéni</gui> értékre változik.</p>
+    </note>
+
+    <note style="tip">
+      <p>Hagyományosan a terminálemulátorok 16 színű palettát kínáltak, itt ezt módosítja. A <app>Terminál</app> bővített, 256 színű választékot támogat, de a többi 240 szín itt nem szerkeszthető.</p>
+
+      <p>A <app>Terminál</app> ráadásul közvetlen hozzáférést kínál több mint 16 millió színhez, ezt „true color” módnak hívják.</p>
+
+      <p>Ha a paletta módosításai látszólag hatástalanok, akkor valószínűleg a megjelenített tartalom a bővített paletta színeit vagy a true color mód színeit használja a 16 alapszín helyett.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Bright colors for bold text</title>
+
+    <p>Traditionally terminals didn't clearly separate bold font weight from
+    intense colors, often both of them were enabled together. Recent
+    improvements, such as the introduction of true color support, and certain
+    color schemes (e.g. Solarized) made it desirable to separate the two
+    concepts, that is, make the brightness independent from the font weight.</p>
+
+    <p>In order to choose your preferred behavior:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Színek</gui> lapot.</p>
+      </item>
+      <item>
+        <p>Disable <gui>Show bold text in bright colors</gui> for the new
+        default behavior, the complete separation of color intensity and font
+        weight; or enable this option for improved backward compatibility.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

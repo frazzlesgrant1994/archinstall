@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013 – 2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak nastavit <app>Terminál</app>, aby po spuštění provedl příkaz nebo spustil jiný shell.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Vlastní příkazy a shelly</title>
+
+  <p><em>Shell</em> je software, který poskytuje rozhraní pro uživatele operačního systému, aby mohli spouštět <em>příkazy</em>, jak je třeba <app>top</app> nebo i další shell. Výchozím shellem je obvykle <app>Bash</app>.</p>
+
+  <p>Aplikaci <app>Terminál</app> si můžete nastavit tak, aby po svém spuštění nečekala na váš vstup, ale rovnou spustila nějaký příkaz:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="tab">Příkaz</gui>.</p>
+    </item>
+    <item>
+      <p>Zaškrtněte <gui>Spustit vlastní příkaz místo mého shellu</gui>.</p>
+    </item>
+    <item>
+      <p>To textového pole vepište příkaz nebo požadovaný shell.</p>
+      <p>Příkaz bude do terminálu předán přesně tak, jak jste jej zapsali, včetně případných argumentů. Proměnné prostředí budou zděděny z terminálu, protože se bude jednat o proces potomka terminálu.</p>
+    </item>
+    <item>
+      <p>Otevřete novou kartu nebo okno <app>Terminálu</app> a podívejte se, jestli se vlastní shell nebo příkaz spustí.</p>
+    </item>
+  </steps>
+
+  <p>Můžete také <link xref="pref-custom-exit">nastavit chování</link> terminálu po ukončení provádění příkazu.</p>
+
+  <note style="important">
+    <p>Někdy budete muset zadat celou cestu k příkazu nebo shellu, protože ne každé umístění, ve kterém se může příkaz nebo shell nacházet, musí být u vašeho systému součástí proměnné prostředí <code>PATH</code>.</p>
+  </note>
+
+</page>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Sök i <app>Terminal</app>-utdata.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sök efter text</title>
+
+  <p>Du kan söka efter text i <app>Terminal</app>-utdata:</p>
+
+  <steps>
+    <item>
+      <p>Tryck på <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> i det övre högra hörnet, eller tryck <keyseq><key>Ctrl</key><key>Skift</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Mata in nyckelordet att söka efter och tryck på <key>Retur</key> för att söka bakåt. Alternativt, klicka på pilarna enligt den önskade sökriktningen.</p>
+    </item>
+  </steps>
+
+  <p>Du kan söka med följande alternativ för att begränsa dina resultat:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Gör skillnad på gemener/VERSALER</gui></title>
+      <p>Gör sökningen skiftlägeskänslig: detta begränsar resultaten till endast de som har samma skiftläge som ditt sökord.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Sök endast hela ord</gui></title>
+      <p><app>Terminal</app> kommer söka efter hela nyckelordet och kommer ignorera resultat som delvis matchar ditt sökord. Om du till exempel har sökt efter ”katt” kommer <app>Terminal</app> bara att visa resultat som matchar detta nyckelord exakt och utesluta resultat som ”vildkatt”.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Matcha som reguljärt uttryck</gui></title>
+      <p>Du kan använda reguljära uttrycksmönster, också kända som regex-mönster, i dina sökord. <app>Terminal</app> kommer att vissa resultaten som matchar dessa sökvillkor.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Börja om från början</gui></title>
+      <p><app>Terminal</app> söker från din aktuella position i rullningshistoriken till slutet på tillgängliga terminalutdata och börjar sedan om sökningen.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Om du tror att du kommer arbeta med mycket <app>Terminal</app>-utdata, öka <link xref="pref-scrolling#lines">rullningshistoriken</link> till en högre gräns för att låta <app>Terminal</app> söka längre bakåt.</p>
+  </note>
+
+</page>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="introduction" xml:lang="ko">
+
+  <info>
+    <revision version="0.1" date="2013-01-08" status="candidate"/>
+    <link type="guide" xref="index"/>
+    <link type="seealso" xref="overview"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>그놈 터미널 편집기 사용법을 배웁니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>도입부</title>
+
+  <p><app>터미널</app>은 시스템에 있는 프로그램을 실행할 수 있는 유닉스 셸 환경에 접근할 때 사용하는 터미널 에뮬레이터 프로그램입니다.</p>
+
+  <p><app>터미널</app> 에서는 커서 위지와 색을 다루는 이스케이프 시퀀스를 지원합니다.</p>
+
+  <figure>
+    <title>그놈 터미널</title>
+    <desc>그놈 <app>터미널</app> 스크린샷</desc>
+    <media type="image" src="figures/gnome-terminal.png" width="668">
+    </media>
+  </figure>
+
+</page>

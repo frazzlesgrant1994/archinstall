@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="cs">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Co je to terminál?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Seznámení s terminálem</title>
+
+  <p>Aplikace <app>Terminál</app> je terminálový program pro <gui>GNOME</gui>. Následující slovníček pojmů vám pomůže se zorientovat v možnostech a funkcích, které vám aplikace <app>Terminál</app> nabízí.</p>
+
+  <terms>
+    <item>
+      <title>Terminál</title>
+      <p>Terminál je u počítače místo pro vstup a výstup textu. Bývá také nazáván Command Line Interface (CLI), což znamená „rozhraní s příkazovým řádkem“.</p>
+    </item>
+    <item>
+      <title>Fyzické terminály</title>
+      <p>Mezi hardwarové terminály patřily IMB 3270, VT100 a další, které se dnes již jako fyzická zařízení nevyrábí. Pokud jsou tyto terminály zapotřebí, používá se jejich emulace.</p>
+    </item>
+    <item>
+      <title>Emulace terminálů</title>
+      <p>Emulace je schopnost počítačového programu imitovat jiný program nebo zařízení.</p>
+
+      <p>Terminálový emulátor, označovaný zkratkou tty, je software, který emuluje terminál na moderních počítačích, které používají grafické uživatelské rozhraní a poskytuje tak interaktivní přístup k aplikacím, které běží pouze v prostředí příkazového řádku. Tyto aplikace mohou běžet buď na stejném počítači nebo i na jiném vzdáleně přes <app>telnet</app>, <app>ssh</app> nebo <app>dial-up</app>.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>Virtual Terminal Environment (VTE), česky „prostředí virtuálního terminálu“, je terminálový emulátor, který emuluje textový terminál v prostředí grafického uživatelského rozhraní (GUI). Aplikace <app>Terminál</app> je z velké části založena na <app>VTE</app>. <app>VTE</app> má widgety, které implementují plně funkční terminálový emulátor.</p>
+    </item>
+    <item>
+      <title>Shell</title>
+      <p><app>Shell</app> je program, který poskytuje rozhraní pro vyvolání či spuštění příkazů a dalších programů v terminálu. Umožňuje také procházet a zobrazovat obsah složek. Mezi nejpoužívanější shelly patří <app>bash</app>, <app>zsh</app> a <app>fish</app>.</p>
+    </item>
+    <item>
+      <title>Únikové sekvence</title>
+      <p>Úniková sekvence (sekvence escape) je posloupnost znaků používaná ke změně významu dat v terminálu. Používá se, když má počítač k dispozici jen jeden kanál pro posílání informací tam a zpět. Únikovou sekvencí se rozliší, zda jsou posílaná data nějaký interní příkaz k provedení nebo informace, která se má zobrazit na displeji.</p>
+    </item>
+
+    <item>
+      <title>Prompt</title>
+      <p>Prompt, také <em>command prompt</em>, bývá v češtině označován jako <em>výzva</em> nebo <em>systémová výzva</em>. Jedná se o sekvenci znaků použitých v příkazovém řádku k indikaci připravenosti shellu přijímat příkazy.</p>
+
+      <p>Obvykle je zakončen znaky <sys>$</sys>, <sys>%</sys>, <sys>#</sys> nebo <sys>&gt;</sys>; a obsahuje informace o cestě k aktuální složce a přihlášeném uživateli. V systémech unixového typu je běžné, že posledním znakem je <sys>$</sys> nebo <sys>#</sys> v závislosti na tom, zda se jedná o běžného uživatele, pak to bývá <sys>$</sys>, nebo superuživatele (root), pak to bývá <sys>#</sys>.</p>
+    </item>
+    <item>
+      <title>Příkaz</title>
+      <p>Vstup zadaný za systémovou výzvu za účelem spuštění je nazýván <em>příkaz</em>. Jedná se o kombinaci názvu programu a jeho případných parametrů předaných za účelem ovlivnit provádění programu.</p>
+    </item>
+  </terms>
+
+</page>

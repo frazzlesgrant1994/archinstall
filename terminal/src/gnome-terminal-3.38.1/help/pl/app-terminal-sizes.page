@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="pl">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Zmiana rozmiaru okna <app>Terminala</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Wymiary <app>Terminala</app></title>
+
+  <p>Jeśli używane są pewne programy wiersza poleceń, które wymagają odpowiedniego rozmiaru terminala do poprawnego działania, albo jeśli długie wiersze mają zostać wyświetlone z minimalnym podziałem, to można ustawić konkretny rozmiar okien <app>Terminala</app>.</p>
+
+  <p>Można zmienić rozmiar okna <app>Terminala</app> na jeden z gotowych:</p>
+  
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Zaawansowane</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz jedną z tych opcji:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80×43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Jeśli włączono opcję <link xref="pref-keyboard-access"><gui>Klawisze dostępu menu</gui></link>, to można korzystać z tego menu naciskając klawisze <keyseq><key>Alt</key><key>T</key></keyseq>, a następnie naciskając klawisz <key>1</key>, aby przełączyć okno <app>Terminala</app> na rozmiar <gui>80×24</gui> i tak dalej.</p>
+  </note>
+
+  <p>Jeśli potrzebny jest niestandardowy rozmiar okien <app>Terminala</app>, to można także ręcznie ustawić domyślny rozmiar okna:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz kartę <gui style="tab">Tekst</gui>.</p>
+    </item>
+    <item>
+      <p>Ustaw <gui>Początkowy rozmiar terminala</gui> wpisując wybraną liczbę kolumn i wierszy w odpowiednich polach. Można także kliknąć przycisk <gui style="button">+</gui>, aby zwiększyć lub <gui style="button">-</gui>, aby zmniejszyć rozmiar.</p>
+    </item>
+  </steps>
+
+</page>

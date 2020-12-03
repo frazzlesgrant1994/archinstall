@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="fi">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Enable fullscreen mode.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Koko näytön tila</title>
+
+  <p>Koko näytön tilassa <app>Pääte</app> laajennetaan koko ruudun täyttäväksi.</p>
+
+  <p>Koko näytön tila on hyödyllinen, kun laitteessa on rajatusti ruututilaa ja <app>Päätettä</app> käytetään pitkiä aikoja, tai jos tulosteen rivit ovat pitkiä. Koko ruudun tilassa ikkunan reunukset piilotetaan, minkä ansiosta ruudulle mahtuu suurempi määrä <link xref="pref-scrolling">tulosteen rivejä</link>.</p>
+
+  <p>Koko näytön tilan voi ottaa käyttöön seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Full Screen</gui>, or press <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Valikkopalkki ei katoa koko näytön tilassa ellei sitä ole erikseen piilotettu.</p>
+  </note>
+
+  <note style="tip">
+    <p>Jos <app>Päätteessä</app> on useampi välilehti auki, myös välilehtipalkki näkyy koko näytön tilassa.</p>
+  </note>
+
+  <p>Koko näytön tilan voi poistaa käytöstä seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Right click and select <gui style="menuitem">Leave Full Screen</gui>.
+      Alternatively, press <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

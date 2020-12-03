@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="ko">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014–2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>기본으로 터미널 창을 열지 탭을 열지 선택합니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>창 및 탭</title>
+
+<note style="tip">
+  <p>This setting only applies when the <link xref="pref-menubar">menubar is
+  enabled</link>, or when <app>Terminal</app> is started from the command line and
+  neither the <cmd>--tab</cmd> nor the <cmd>--window</cmd> options are passed.</p>
+</note>
+
+  <p><gui style="menuitem">새 터미널</gui> 항목을 선택하여 새 탭 또는 새 <app>터미널</app> 창을 열 수 있습니다.</p>
+
+  <steps>
+    <title>If the menubar is enabled,</title>
+    <item>
+      <p>Select
+      <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Preferences</gui>
+      <gui style="tab">General</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p><gui>새 터미널 열기:</gui>를 <gui>탭</gui> 또는 <gui>창</gui>으로 선택하십시오.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>If the menubar is not enabled,</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select <gui>General</gui>.</p>
+    </item>
+    <item>
+      <p><gui>새 터미널 열기:</gui>를 <gui>탭</gui> 또는 <gui>창</gui>으로 선택하십시오.</p>
+    </item>
+  </steps>
+
+  <p>기본 설정 값을 설정하고 나면 설정 값의 반대 기능을 수행할 때 <key>Ctrl</key> 키를 사용할 수 있습니다. 예를 들면 새 탭에 터미널을 열기로 설정했을 경우 <gui style="menuitem">새 터미널</gui>을 눌렀을 때 새 탭에 터미널이 나타납니다. 반면에, <key>Ctrl</key>키를 누르면 <gui style="menuitem">새 터미널</gui>을 눌렀을 때 새 창에 대신 열립니다.</p>
+
+</page>

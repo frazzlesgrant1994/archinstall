@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A kimenet görgetésének és a görgetősáv viselkedésének módosítása.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Görgetősáv beállításai</title>
+
+  <p>Amikor nagyon sok kimenet kerül kiírásra a terminálképernyőre, hasznos lehet a terminál viselkedésének beállítása olyanra, amely könnyíti a munkát.</p>
+
+  <section id="visibility">
+    <title>Görgetősáv láthatósága</title>
+
+    <p>A görgetősáv kikapcsolható:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Görgetés</gui> fület.</p>
+      </item>
+      <item>
+        <p>Törölje a <gui>Görgetősáv megjelenítése</gui> négyzetet.</p>
+      </item>
+    </steps>
+
+    <p>A beállítás azonnal mentésre kerül.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>Görgetés új kimenet kiírásakor</title>
+
+    <p>Lehetősége van a görgetés zárolására, így a kimenetet adó parancsok végrehajtása során mindig a legújabb kimenet jelenik meg.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Görgetés</gui> fület.</p>
+      </item>
+      <item>
+        <p>Jelölje be a <gui style="checkbox">Görgetés új kimenet kiírásakor</gui> négyzetet.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>Görgetés új bemenet esetén</title>
+
+    <p>Beállítható, hogy a terminál automatikusan az ablak aljára görgessen, amikor szöveget ír be az adott parancsértelmezőbe.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Görgetés</gui> fület.</p>
+      </item>
+      <item>
+        <p>Jelölje be a <gui style="checkbox">Görgetés új kimenet kiírásakor</gui> négyzetet.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>Visszagörgethető sorok</title>
+
+    <p>Korlátozhatja a megjegyzett terminálkimenet sorok számát.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Görgetés</gui> fület.</p>
+      </item>
+      <item>
+        <p>Jelölje be a <gui>Visszagörgetés korlátozása</gui> négyzetet, és írja be a sorok számát, amelyre korlátozni szeretné a visszagörgetést.</p>
+      </item>
+      <item>
+        <p>A sorok számát a <gui style="button">+</gui> és <gui style="button">-</gui> gombokra kattintva is növelheti illetve csökkentheti.</p>
+      </item>
+    </steps>
+
+    <p>Választhatja a végtelen visszagörgethetőséget is.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="tab">Görgetés</gui> fület.</p>
+      </item>
+      <item>
+        <p>Törölje a <gui>Visszagörgetés korlátozása</gui> négyzetet.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>A visszagörgetési adatok tömörített és titkosított fájlokban vannak tárolva a lemezen, a rendszer alapértelmezett ideiglenesfájl-tároló helyén (ez általában a <file>/tmp</file>). Ezek a fájlok létrehozásuk és megnyitásuk után azonnal törlésre is kerülnek, így nem jelennek meg a könyvtár tartalmaként. A lefoglalt lemezhely a megfelelő terminál bezáródása után azonnal felszabadul.</p>
+    </note>
+
+    <note style="warning">
+      <p>Győződjön meg róla, hogy elegendő szabad lemezhellyel rendelkezik ezen ideiglenes fájlok számára. A lemezhely ellenőrzése lehetséges például a <cmd>du /tmp</cmd> parancs használatával.</p>
+    </note>
+
+    <note style="important">
+      <p>Az óriási visszagörgetési puffer lassúvá teszi a terminálablak átméretezését. Ökölszabályként az átméretezés körülbelül 1 millió sornál válik észrevehetően lassúvá.</p>
+    </note>
+
+  </section>
+
+</page>

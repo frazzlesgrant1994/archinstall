@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="pl">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wykonywanie polecenia lub innej powłoki podczas uruchamiania <app>Terminala</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Niestandardowe polecenia i powłoki</title>
+
+  <p><em>Powłoka</em> to program dostarczający użytkownikom systemu operacyjnego interfejs do wykonywania <em>poleceń</em>, które mogą być programami jak <app>top</app> lub powłoką wiersza poleceń. Domyślna powłoka to zwykle <app>Bash</app>.</p>
+
+  <p>Można ustawić, aby <app>Terminal</app> wykonywał polecenie po uruchomieniu, zamiast czekać na dane wprowadzone przez użytkownika:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz kartę <gui style="tab">Polecenie</gui>.</p>
+    </item>
+    <item>
+      <p>Zaznacz opcję <gui>Uruchomienie niestandardowego polecenia zamiast powłoki</gui>.</p>
+    </item>
+    <item>
+      <p>W polu tekstowym wpisz polecenie lub wybraną powłokę.</p>
+      <p>Polecenie zostanie przekazane do terminala tak, jak zostało wpisane, w tym wszelkie podane parametry. Zmienne środowiskowe zostaną odziedziczone z terminala, jako że to proces potomny terminala.</p>
+    </item>
+    <item>
+      <p>Otwórz nową kartę lub okno <app>Terminala</app>, aby zobaczyć, jak niestandardowa powłoka lub polecenie jest wykonywane.</p>
+    </item>
+  </steps>
+
+  <p>Można także <link xref="pref-custom-exit">ustawić zachowanie</link> terminala po ukończeniu wykonywania polecenia.</p>
+
+  <note style="important">
+    <p>Jeśli polecenie lub powłoka nie znajduje się w katalogu określonym w zmiennej <code>PATH</code> systemu, to należy wpisać pełną ścieżkę.</p>
+  </note>
+
+</page>

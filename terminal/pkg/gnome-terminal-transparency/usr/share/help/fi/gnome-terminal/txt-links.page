@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="fi">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Linkkien ja sähköpostiosoitteiden avaaminen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Linkit ja sähköpostiosoitteet</title>
+
+  <p><app>Pääte</app> tarkistaa tulosteen ja havaitsee automaattisesti ne tekstinpätkät, jotka ovat verkko- tai sähköpostiosoitteita. Muissa ohjelmissa avattavat linkit korostetaan automaattisesti, kun osoitin viedään tekstin ylle.</p>
+
+  <p>Komentojen tulosteet voivat esimerkiksi sisältää tekstinpätkän <output>http://www.gnome.org</output> tai <output>matti@meikalainen.fi</output>.</p>
+
+  <section id="hyperlinks">
+    <title>Verkko-osoitteiden avaaminen ja kopiointi</title>
+
+    <p>Verkko-osoitteita kutsutaan myös hyperlinkeiksi. Ne voidaan kopioida järjestelmän leikepöydälle tai avata verkkoselaimessa.</p>
+
+    <list>
+      <item>
+        <p>Linkin kopiointi:</p>
+        <steps>
+          <item>
+            <p>Napsauta linkkiä hiiren oikealla painikkeella.</p>
+          </item>
+          <item>
+          <p>Select <gui style="menuitem">Copy Link</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Linkin avaaminen selaimessa:</p>
+        <steps>
+          <item>
+            <p>Napsauta linkkiä hiiren oikealla painikkeella.</p>
+          </item>
+          <item>
+            <p>Valitse <gui style="menuitem">Avaa linkki</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Lähetä sähköpostia tai kopioi osoitteita</title>
+
+    <p>Sähköpostiosoitteita voi kopioida järjestelmän leikepöydälle tai avata sähköpostiohjelmalla.</p>
+
+    <list>
+      <item>
+        <p>Sähköpostiosoitteen kopiointi:</p>
+        <steps>
+          <item>
+            <p>Napsauta osoitetta hiiren oikealla painikkeella <app>Päätteessä</app>.</p>
+          </item>
+          <item>
+          <p>Select <gui style="menuitem">Copy Mail Address</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Viestin lähettäminen sähköpostiohjelmalla osoitteeseen:</p>
+        <steps>
+          <item>
+            <p>Napsauta osoitetta hiiren oikealla painikkeella.</p>
+          </item>
+          <item>
+            <p>Select <gui style="menuitem">Send Mail To…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

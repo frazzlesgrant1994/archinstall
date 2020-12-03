@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Відкриття посилань на сторінки інтернету та адрес електронної пошти.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Гіперпосилання та адреси електронної пошти</title>
+
+  <p><app>Термінал</app> обробляє виведені до термінала дані і автоматично виявляє фрагменти тексту, які є адресами сторінок інтернету або адресами електронної пошти. Програма автоматично підсвічує адреси сторінок інтернету та електронної пошти, коли ви наводите вказівник миші на текст, вказуючи на тек, що посилання може бути відкрито у відповідній програмі.</p>
+
+  <p>Наприклад, ви можете побачити <output>http://www.gnome.org</output> або <output>username@example.com</output> як частину виведення до термінала програм, зокрема <app>wget</app> або <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Відкриття або копіювання вебадрес</title>
+
+    <p>Вебадреси також називаються гіперпосиланнями. Їх можна скопіювати до буфера обміну системи або відкрити у типовому веббраузері.</p>
+
+    <list>
+      <item>
+        <p>Копіювання гіперпосилання:</p>
+        <steps>
+          <item>
+            <p>Клацніть правою кнопкою миші на посиланні у <app>Терміналі</app>.</p>
+          </item>
+          <item>
+          <p>Виберіть пункт <gui style="menuitem">Копіювати посилання</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Відкриття гіперпосилання у вашому браузері:</p>
+        <steps>
+          <item>
+            <p>Клацніть правою кнопкою миші на гіперпосиланні.</p>
+          </item>
+          <item>
+            <p>Виберіть <gui style="menuitem">Відкрити посилання</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Надсилання електронної пошти або копіювання поштових адрес</title>
+
+    <p>Адреси електронної пошти можна можна скопіювати до буфера обміну системи або відкрити у типовому клієнті електронної пошти.</p>
+
+    <list>
+      <item>
+        <p>Копіювання адреси електронної пошти:</p>
+        <steps>
+          <item>
+            <p>Клацніть правою кнопкою миші на адресі електронної пошти у <app>Терміналі</app>.</p>
+          </item>
+          <item>
+          <p>Виберіть пункт <gui style="menuitem">Копіювати поштову адресу</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Надсилання пошти на адресу за допомогою вашого клієнта електронної пошти:</p>
+        <steps>
+          <item>
+            <p>Клацніть правою кнопкою миші на адресі.</p>
+          </item>
+          <item>
+            <p>Виберіть пункт <gui style="menuitem">Надіслати листа…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

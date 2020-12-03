@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ορίστε το <app>Τερματικό</app> να εκτελέσει μια εντολή ή ένα διαφορετικό κέλυφος στη εκκίνηση.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Προσαρμοσμένες εντολές και κελύφη</title>
+
+  <p>Ένα <em>κέλυφος</em> είναι λογισμικό που παρέχει μια διεπαφή για τους χρήστες ενός λειτουργικού συστήματος να εκτελέσουν <em>εντολές</em>, που μπορεί να είναι προγράμματα όπως <app>top</app> ή ένα κέλυφος γραμμής εντολών. Το προεπιλεγμένο κέλυφος είναι συνήθως το <app>Bash</app>.</p>
+
+  <p>Μπορείτε να ορίσετε το <app>Τερματικό</app> να εκτελέσει μια εντολή όταν ξεκινά αντί να περιμένει μια εισαγωγή από εσάς:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Command</gui>.</p>
+    </item>
+    <item>
+      <p>Σημειώστε <gui>Εκτέλεση μιας προσαρμοσμένης εντολής αντί για το κέλυφος</gui>.</p>
+    </item>
+    <item>
+      <p>Στο πλαίσιο κειμένου, πληκτρολογήστε την εντολή ή το επιθυμητό κέλυφος.</p>
+      <p>Η εντολή θα περαστεί στο τερματικό ακριβώς όπως τη γράφετε, συμπεριλαμβάνοντας οποιαδήποτε ορίσματα που ορίζετε. Οι μεταβλητές περιβάλλοντος θα κληρονομηθούν από το τερματικό όπως είναι μια θυγατρική διαδικασία του τερματικού.</p>
+    </item>
+    <item>
+      <p>Ανοίξτε μια νέα καρτέλα <app>Τερματικού</app> ή παραθύρου για να δείτε πώς το προσαρμοσμένο κέλυφος ή η προσαρμοσμένη εντολή εκτελείται.</p>
+    </item>
+  </steps>
+
+  <p>Μπορείτε επίσης να <link xref="pref-custom-exit">ορίσετε τη συμπεριφορά</link> του τερματικού μόλις η εντολή τελειώσει την εκτέλεση.</p>
+
+  <note style="important">
+    <p>Ίσως πρέπει να εισάγετε την πλήρη διαδρομή στην εντολή ή το κέλυφος, εάν ο κατάλογος όπου βρίσκεται η εντολή ή το κέλυφος δεν είναι στη μεταβλητή <code>PATH</code> του συστήματός σας.</p>
+  </note>
+
+</page>

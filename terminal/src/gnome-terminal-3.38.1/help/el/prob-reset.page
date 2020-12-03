@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="el">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Πώς ανακτώ την οθόνη του <app>Τερματικού</app> μου όταν κολλάει ή έχει πολλά περίεργα σύμβολα σε αυτό;</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Reset your <app>Terminal</app> state</title>
+
+  <p>Μετά την προβολή ενός αρχείου μη κειμένου κατά λάθος, ή εκκίνηση κάποιας εντολής, μπορεί η οθόνη του <app>Τερματικού</app> να μην αποκρίνεται, να έχει περίεργα γράμματα όταν πατάτε τα πλήκτρα. Μπορείτε να ανακτήσετε το <app>Τερματικό</app> σας με τους εξής τρόπους:</p>
+
+  <section id="reset">
+    <title>Επαναφορά</title>
+
+    <p>Επαναφορά της οθόνη του <app>Τερματικού</app>.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Για να πάρετε την προτροπή πατήστε το πλήκτρο <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Επαναφορά και καθαρισμός</title>
+
+    <p>In addition to resetting your <app>Terminal</app>,
+    <gui style="menuitem">Reset and Clear</gui> clears the visible
+    <app>Terminal</app> screen space and the scrollback contents. To
+    <gui style="menuitem">Reset and Clear</gui> your <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset and Clear</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Για να πάρετε την προτροπή πατήστε το πλήκτρο <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Reset and Clear</gui> provides similar
+    functionality as the terminal command <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

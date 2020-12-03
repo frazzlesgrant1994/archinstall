@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="fi">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Create, rename and delete profiles.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Profiilien hallinta</title>
+
+  <p>Profiili on joukko <app>Päätteen</app> asetuksia. <app>Pääte</app> tukee useita profiileja. <app>Päätteen</app> profiilien avulla voi muun muassa <link xref="pref-custom-command">ajaa mukautettuja komentoja tai komentotulkkeja</link>, ottaa yhteyttä etätietokoneisiin SSH:n avulla tai käynnistää <app>GNU Screen</app> -istunnon.</p>
+
+  <p>Profiileihin liitettävät <app>Päätteen</app> asetuksiin sisältyy:</p>
+
+  <list>
+    <item>
+      <p>Profiilin nimi.</p>
+    </item>
+    <item>
+      <p>Fontin ja taustan värit.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Yhteensopivuus</gui> <key>Askelpalauttimen</key> ja <key>Delete</key>-näppäimen kanssa.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Vierityksen</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Profiilin valitseminen</title>
+
+    <p>If you have two or more profiles defined, you can change the profile in
+    your current <app>Terminal</app> tab or
+    window by selecting a profile from <guiseq><gui style="menu">Terminal</gui>
+    <gui style="menuitem">Change Profile</gui></guiseq>.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Uuden profiilin luominen</title>
+
+    <p>To create a new profile with the default settings of
+    <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, click on the <gui style="button">+</gui> button
+        next to the <gui>Profiles</gui> label.</p>
+      </item>
+      <item>
+        <p>Enter a name for the new profile. You can change this name later.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Create</gui> to create the new profile.</p>
+      </item>
+      <item>
+        <p>Set your desired <link xref="#edit-profile">profile
+        preferences</link>. These will be saved automatically.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Uuden profiilin luominen olemassa olevan profiilin pohjalta</title>
+
+    <p>Jo olemassa olevan profiilin asetusten pohjalta voi luoda uuden profiilin seuraavasti:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>In the sidebar select the profile on which your new profile should
+        be based.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Clone…</gui>.</p>
+      </item>
+      <item>
+        <p>Enter a name for the new profile. You can change this name later.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Clone</gui> to create the new profile.</p>
+      </item>
+      <item>
+        <p>Set your desired <link xref="#edit-profile">profile
+        preferences</link>. These will be saved automatically.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Luodessasi uutta profiilia jo olemassa olevasta profiilista asetusmuutokset eivät vaikuta millään tavalla vanhaan profiiliin. Kaikki muutokset tallennetaan uuteen profiiliin.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Profiilin muokkaaminen</title>
+
+    <note style="warning">
+      <p>Jos oletusprofiilia muokataan, oletusasetuksia ei voi palauttaa! Jos muita profiileja ei ole olemassa ja oletusprofiilia on muokattu, <app>Pääte</app> <em>saattaa</em> mennä rikki, jos jokin asetus aiheuttaa ongelmia. On suositeltavaa <link xref="#create-profile-from-existing">luoda kopio oletusprofiilista</link> ja muokata oletusprofiilin kopiota.</p>
+    </note>
+
+    <p>You can make changes to existing profiles. To edit a profile:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Your current profile is selected in the sidebar. If you wish to edit
+        a different profile, click on its name.</p>
+      </item>
+    </steps>
+
+    <p>Once the desired profile is selected, you can:</p>
+
+    <steps>
+      <item>
+        <p>Valitse <link xref="app-fonts">fontti</link>, <link xref="app-cursor">kohdistin</link> ja <link xref="app-terminal-sizes"><app>Päätteen</app> koko</link>.</p>
+      </item>
+      <item>
+        <p>Voit myös muuttaa <app>Päätteen</app> <link xref="pref-custom-exit">lopettamiskomentoa</link>, <link xref="pref-login-shell">komentotulkkia</link> tai <link xref="pref-scrolling">vieritysasetuksia</link>.</p>
+      </item>
+      <item>
+        <p>Lue <link xref="app-colors"><app>Päätteen</app> väriteemoista</link> muuttaaksesi <app>Päätteen</app> taustan ja tekstin värejä.</p>
+      </item>
+      <item>
+        <p>Tehdyt muutokset tallennetaan automaattisesti. Palaa <app>Päätteeseen</app> <gui style="button">Sulje</gui>-painikkeella.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Profiilin uudelleen nimeäminen</title>
+
+    <p>Olemassa olevien profiilien nimiä voi muuttaa oletusprofiili mukaanlukien:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Valitse uudelleen nimettävä profiili.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Rename…</gui>.</p>
+      </item>
+      <item>
+        <p>Enter the new profile name.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Rename</gui> to rename.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Delete a profile</title>
+  
+    <p>Profiilin voi poistaa seuraavasti:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Valitse poistettava profiili.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Delete…</gui>.</p>
+      </item>
+      <item>
+        <p>Click <gui style="button">Delete</gui> to confirm.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>The default profile cannot be deleted. If you wish to delete
+      that profile, first set another profile as <link xref="#set-default">default</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Oletusprofiilin asettaminen</title>
+
+    <p>The default profile is loaded when a new terminal is opened unless you
+    have selected another profile. Any changes that you make to the settings will
+    be stored in the currently selected profile.</p>
+
+    <p>The default profile is used when <app>Terminal</app> could not
+    otherwise decide which profile to use. For example, <app>Terminal</app> is
+    started up freshly and opens its first terminal window. In contrast, when
+    you use a menu entry or keyboard shortcut of <app>Terminal</app> to open a
+    new terminal, the profile of the existing terminal is used.</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Edit</gui>
+        <gui style="menuitem">Preferences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Select the profile you wish to set as the default.</p>
+      </item>
+      <item>
+        <p>Click on the arrow next to the profile name.</p>
+      </item>
+      <item>
+        <p>Select <gui style="menuitem">Set as default</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>The default profile is marked with a check mark symbol.</p>
+    </note>
+
+  </section>
+
+</page>

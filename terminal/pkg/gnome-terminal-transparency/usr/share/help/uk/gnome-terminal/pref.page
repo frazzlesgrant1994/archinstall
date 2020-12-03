@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="pref" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="draft"/>
+
+    <credit type="author">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Налаштування <app>Термінала</app></title>
+
+  <section id="global" style="2column">
+    <title>Загальні налаштування</title>
+  </section>
+
+  <section id="manage-profiles" style="2column">
+    <title>Керування профілями</title>
+  </section>
+
+  <section id="profile" style="2column">
+    <title>Налаштування профілю</title>
+  </section>
+
+</page>

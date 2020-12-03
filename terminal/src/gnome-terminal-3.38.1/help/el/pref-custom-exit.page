@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-exit" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+<!--    <link type="seealso" xref="prob-recover-default-profile"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ορίστε τη συμπεριφορά του <app>Τερματικού</app> όταν μια προσαρμοσμένη εντολή ή το προεπιλεγμένο κέλυφος εξέρχεται.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ορισμός συμπεριφοράς κατά την έξοδο εντολής</title>
+
+  <p>Μπορείτε να ορίσετε το τερματικό να εξέρχεται, να επανεκκινεί ή να παραμένει ανοικτό όταν το κέλυφος ή μια προσαρμοσμένη εντολή εξέρχεται:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Command</gui>.</p>
+    </item>
+    <item>
+      <p>Από την πτυσσόμενη λίστα <gui>Όταν εξέρχεται η εντολή</gui>, επιλέξτε μία από τις ακόλουθες επιλογές:</p>
+      <list>
+        <item>
+          <p><gui>Έξοδος από τον τερματικό</gui></p>
+        </item>
+        <item>
+          <p><gui>Επανεκτέλεση της εντολής</gui></p>
+        </item>
+        <item>
+          <p><gui>Διατήρηση του τερματικού ανοιχτό</gui></p>
+        </item>
+      </list>
+      <p>Η ρύθμιση θα αποθηκευτεί αυτόματα όταν την επιλέξετε.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Εάν έχετε <link xref="pref-custom-command">ορίσει μια προσαρμοσμένη εντολή</link> που δεν είναι διαδραστική και έχετε ορίσει τη συμπεριφορά εξόδου σε <gui>Έξοδος από το τερματικό</gui>, καθώς και την κατατομή να είναι η προεπιλεγμένο προφίλ, το <app>Τερματικό</app> μπορεί να εξέλθει πριν να μπορέσετε να δείτε την έξοδο της εντολής.</p>
+  </note>
+
+</page>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-tabs" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <revision pkgversion="3.8" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-07" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Activar, añadir, quitar o reordenar las pestañas de la <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Usar las pestañas</title>
+
+  <p>La barra de pestañas se muestra en la parte superior de la ventana de la <app>Terminal</app> que tiene varias pestañas abiertas (parece una fila de botones). Pulse en una pestaña para cambiarse a ella. Puede abrir varias pestañas para gestionar su trabajo en la <app>Terminal</app>. Esto le permitirá realizar varias actividades como ejecutar programas, explorar carpetas y editar archivos de texto en una sola ventana de la <app>Terminal</app>.</p>
+
+  <section id="add-tab">
+    <title>Abrir una pestaña nueva</title>
+
+    <p>Para abrir una pestaña nueva dentro de la ventana actual de la <app>Terminal</app>:</p>
+    <steps>
+      <item>
+        <p>Pulse <keyseq><key>Mayús</key><key>Ctrl</key><key>T</key></keyseq>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+<!-- TODO: doesn't work, see bug 720693
+  <section id="rename-tab">
+    <title>Rename a tab</title>
+
+    <p>Each tab has an automatically assigned title. You can rename the tabs
+    individually:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Terminal</gui>
+        <gui style="menuitem">Set Title…</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Enter the desired <gui>Title</gui> that you wish to use for the tab.
+        This will overwrite any titles that would be set by terminal commands.
+        </p>
+        <note>
+          <p>It is not possible to set back the automatically set title once it
+          has been set for a tab. To see the title, you need to allow terminal
+          command titles to be shown in the <gui style="menuitem">Profile 
+          Preferences</gui>.</p>
+        </note>
+      </item>
+      <item>
+        <p>Click <gui style="button">OK</gui>.</p>
+      </item>
+    </steps>
+  </section>-->
+
+  <section id="close-tab">
+    <title>Quitar una pestaña</title>
+
+    <p>Para cerrar una pestaña existente dentro de la ventana actual de la <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Pulse <keyseq><key>Mayús</key><key>Ctrl</key><key>W</key></keyseq>.</p>
+      </item>
+    </steps>
+
+    <p>Alternativamente, puede pulsar la <gui style="button">×</gui> en la esquina superior derecha de la pestaña o pulsar con el botón derecho sobre la pestaña y seleccionar <gui style="menuitem">Cerrar terminal</gui>.</p>
+
+  </section>
+
+  <section id="reorder-tab">
+    <title>Reordenar las pestañas</title>
+
+    <p>Para cambiar el orden de las pestañas en una ventana:</p>
+    <steps>
+      <item>
+        <p>Mantenga pulsado el botón izquierdo del ratón sobre la pestaña.</p>
+      </item>
+      <item>
+        <p>Arrastre la pestaña a la posición que quiere entre las otras pestañas.</p>
+      </item>
+      <item>
+        <p>Suelte el botón del ratón.</p>
+      </item>
+    </steps>
+
+    <p>La pestaña se ubicará en la posición más cercana a donde suelte la pestaña, inmediatamente junto a las otras pestañas abiertas.</p>
+
+    <p>Alternativamente, puede reordenar una pestaña pulsando sobre ella con el botón derecho y seleccionando<gui style="menuitem">Mover terminal a la izquierda</gui> para mover la pestaña a la izquierda o <gui style="menuitem">Mover terminal a la derecha</gui> para mover la pestaña a la derecha. Esto reordenará la pestaña moviéndola una posición cada vez.</p>
+
+  </section>
+
+  <!--
+  <section id="move-tab-another-window">
+    <title>Move a tab to another <app>Terminal</app> window</title>
+
+    <p>If you want to move a tab from one window to another:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab to the new window.</p>
+      </item>
+      <item>
+        <p>Place it beside other tabs in the new window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>You can move a tab from one window to another by dragging the tab to
+      the <gui>Activities</gui> hot-corner of the <gui>GNOME Shell</gui>. This
+      will reveal each of the open <app>Terminal</app> windows. You can release
+      the tab that you are holding over the desired <app>Terminal</app>
+      window.</p>
+    </note>
+  </section>
+
+  <section id="move-tab-create-window">
+    <title>Move a tab to create a new <app>Terminal</app> window</title>
+
+    <p>To create a new window from an existing tab:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab out of the current <app>Terminal</app> window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+  </section>
+  -->
+
+</page>

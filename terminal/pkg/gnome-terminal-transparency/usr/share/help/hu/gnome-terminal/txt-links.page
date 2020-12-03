@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Web- és e-mail címekre mutató hivatkozások megnyitása.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hiperhivatkozások és e-mail címek</title>
+
+  <p>A <app>Terminál</app> feldolgozza a terminálkimenetet, és automatikusan felismeri a web- vagy e-mail címeket. A web- és e-mail címek automatikusan kiemelésre kerülnek, amikor a mutatót a szövegre viszi, ezzel jelezve, hogy a hivatkozás megnyitható egy alkalmazásban.</p>
+
+  <p>Például megjelenhet a <output>http://www.gnome.org</output> vagy <output>felhasznalo@pelda.hu</output> olyan programok terminálkimenetében, mint a <app>wget</app> vagy a <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Webcímek megnyitása vagy másolása</title>
+
+    <p>A webes címeket hiperhivatkozásoknak is nevezzük. Ezek átmásolhatók a rendszer vágólapjára, vagy megnyithatók a webböngészőjében.</p>
+
+    <list>
+      <item>
+        <p>Hiperhivatkozás másolása:</p>
+        <steps>
+          <item>
+            <p>Kattintson a jobb egérgombbal a hivatkozásra a <app>Terminálban</app>.</p>
+          </item>
+          <item>
+          <p>Válassza a <gui style="menuitem">Hivatkozás másolása</gui> menüpontot.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Hiperhivatkozás megnyitása a webböngészőjében:</p>
+        <steps>
+          <item>
+            <p>Kattintson a jobb egérgombbal a hiperhivatkozásra.</p>
+          </item>
+          <item>
+            <p>Válassza a <gui style="menuitem">Megnyitás böngészőben</gui> menüpontot.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>E-mail címek küldése vagy másolása</title>
+
+    <p>Az e-mail címek átmásolhatók a rendszer vágólapjára, vagy megnyithatók az e-mail kliensében.</p>
+
+    <list>
+      <item>
+        <p>E-mail cím másolása:</p>
+        <steps>
+          <item>
+            <p>Kattintson a jobb egérgombbal az e-mail címre a <app>Terminálban</app>.</p>
+          </item>
+          <item>
+          <p>Válassza az <gui style="menuitem">E-mail cím másolása</gui> menüpontot.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Levél küldése az e-mail címre a levelezőprogram használatával:</p>
+        <steps>
+          <item>
+            <p>Kattintson a jobb egérgombbal a címre.</p>
+          </item>
+          <item>
+            <p>Válassza az <gui style="menuitem">E-mail küldése</gui> menüpontot.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

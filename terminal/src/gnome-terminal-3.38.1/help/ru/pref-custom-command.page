@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="ru">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Настроить <app>Терминал</app> на запуск команды или другого командного интерпретатора при старте.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Пользовательские команды и командные интерпретаторы</title>
+
+  <p><em>Командный интерпретатор</em> — это программа, предоставляющая пользователям операционной системы возможность запускать <em>команды</em>, такие, как <app>top</app> или скрипты для командной строки. Командным интерпретатором по умолчанию обычно является <app>Bash</app>.</p>
+
+  <p><app>Терминал</app> можно настроить на запуск команды при старте вместо ожидания ввода от пользователя:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Command</gui>.</p>
+    </item>
+    <item>
+      <p>Отметьте пункт <gui>Запускать другую команду вместо моей оболочки</gui>.</p>
+    </item>
+    <item>
+      <p>В поле ввода введите команду или укажите желаемый командный интерпретатор.</p>
+      <p>Команда будет передана терминалу буквально так, как будет введена вами, включая указанные аргументы, при их наличии. Переменные среды наследуются из терминала, поскольку это его дочерний процесс.</p>
+    </item>
+    <item>
+      <p>Откройте новое окно или вкладку <app>Терминала</app> чтобы увидеть, как выполняется пользовательская программа или запускается командный интерпретатор.</p>
+    </item>
+  </steps>
+
+  <p>Также можно <link xref="pref-custom-exit">настроить поведение</link> терминала сразу после того, как команда завершит работу.</p>
+
+  <note style="important">
+    <p>Возможно, понадобится указать полный путь до каталога, где находится команда или интерпретатор, если этот каталог не присутствует в переменной <code>PATH</code> вашей системы.</p>
+  </note>
+
+</page>

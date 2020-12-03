@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak si změnit velikost okna s <app>Terminálem</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Velikosti <app>Terminálu</app></title>
+
+  <p>Pokud pracujete s nějakými aplikacemi pro příkazový řádek, které mají určité minimální požadavky na velikost terminálu, aby se jejich výstupy zobrazovaly správně a nebo chcete vidět dlouhé výstupní řádky co nejméněkrát zalomené, může se vám hodit nastavení konkrétní velikosti okna <app>Terminálu</app>.</p>
+
+  <p>Velikost okna <app>Terminálu</app> můžete změnit na jednu z předdefinovaných hodnot:</p>
+  
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Pokročilé</gui>.</p>
+    </item>
+    <item>
+      <p>Zvolte jednu s následujících možností:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80 × 24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80 × 43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132 × 24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132 × 43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Pokud máte povolené <link xref="pref-keyboard-access"><gui>klávesové zkratky nabídky</gui></link>, můžete se k této nabídce rychle dostat zmáčknutím <keyseq><key>Alt</key><key>T</key></keyseq> a následně zmáčknutím <key>1</key> přepnete velikost okna <app>Terminálu</app> na <gui>80 × 24</gui> apod.</p>
+  </note>
+
+  <p>V případě, že požadujete vlastní velikost okna <app>Terminálu</app>, máte možnost si výchozí velikost upravit dle potřeb:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Nastavte <gui>Počáteční velikost terminálu</gui> zadáním požadovaného počtu sloupců a řádků do příslušných vstupních polí. Můžete také použít klikání na <gui style="button">+</gui> ke zvyšování a na <gui style="button">-</gui> ke snižován počtu.</p>
+    </item>
+  </steps>
+
+</page>

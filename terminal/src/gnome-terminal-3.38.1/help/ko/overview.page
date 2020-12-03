@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="ko">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>터미널은 무엇인가요?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>터미널 개요</title>
+
+  <p><app>터미널</app>은 <gui>그놈</gui>용 터미널 프로그램입니다. 다음 용어와 설명은 <app>터미널</app>과 기능에 익숙해지는데 도움을 줍니다.</p>
+
+  <terms>
+    <item>
+      <title>터미널</title>
+      <p>터미널은 명령행 인터페이스(CLI)라고 하는 컴퓨터의 텍스트 입력 공간입니다.</p>
+    </item>
+    <item>
+      <title>실제 터미널 장치</title>
+      <p>IBM 3270, VT100 등은 더 이상 생산하지 않는 실제 장치 하드웨어 터미널입니다. 이 터미널을 흉내내는 터미널 에뮬레이터가 있습니다.</p>
+    </item>
+    <item>
+      <title>터미널 에뮬레이터</title>
+      <p>에뮬레이션은 다른 프로그램 또는 장치의 동작을 흉내내는 컴퓨터 프로그램 기능입니다.</p>
+
+      <p>터미널 에뮬레이터는 tty라고도 하며 그래픽 사용자 인터페이스를 활용하는 최신 컴퓨터에서 비디오 터미널을 흉내내는 프로그램입니다. 명령행 환경에서만 실행하는 프로그램에 접근하는 대화식 환경을 제공합니다. 이 프로그램은 동일한 머신 또는 <app>telnet</app>, <app>ssh</app>, <app>dial-up</app>을 통한 다른 머신을 기반으로 동작합니다.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>가상 터미널 환경(VTE)은 그래픽 사용자 인터페이스(GUI)  환경에서 텍스트 터미널을 흉내내는 터미널 에뮬레이터입니다. <app>터미널</app> 은 <app>VTE</app>의 상당 부분을 기반으로 합니다. <app>VTE</app>는 터미널 에뮬레이터로 완전한 기능을 갖춘 위젯을 지니고 있습니다.</p>
+    </item>
+    <item>
+      <title>셸</title>
+      <p><em>셸</em>은 터미널에서 명령 또는 다른 프로그램을 “실행” 하는 인터페이스를 제공합니다. 디렉터리 내용을 보고 탐색할 수도 있습니다. <app>bash</app>, <app>zsh</app>, <app>csh</app>이 잘 알려져 있습니다.</p>
+    </item>
+    <item>
+      <title>이스케이프 시퀀스</title>
+      <p>이스케이프 시퀀스는 터미널의 데이터 의미를 바꿀 때 사용하는 문자 모음입니다. 컴퓨터에 정보를 주고 받을 단일 채널만 있을 때 사용합니다. 데이터를 보낸게 실행할 명령인지, 저장하거나 표시할 정보인지 구분할 때 활용합니다.</p>
+    </item>
+
+    <item>
+      <title>프롬프트</title>
+      <p>프롬프트는 <em>명령 프롬프트</em> 라고 합니다. 명령을 받아들이려 기다리는 셸을 나타내는 명령행 환경에서 사용하며, 문자열입니다.</p>
+
+      <p>프롬프트는 보통 <sys>$</sys>, <sys>%</sys>, <sys>#</sys> or <sys>&gt;</sys> 문자로 끝나며 현재 작업 디렉터리 경로 정보가 들어있습니다. 유닉스 기반 시스템에서는, 보통 프롬프트 마지막에 <sys>$</sys> 또는 <sys>%</sys>가 붙는데, 사용자에 따라, <sys>$</sys> 기호는 보통 사용자에게 <sys>#</sys> 기호는 관리자에게(<sys>root</sys>라고 함) 붙여주는게 일반적입니다.</p>
+    </item>
+    <item>
+      <title>명령</title>
+      <p>프롬프트에서 실행하려고 입력한 내용을 <em>명령</em>이라고 합니다. 프로그램 이름과 프로그램 실행 방식을 바꾸는 플래그식 전달 추가 매개 변수로 이루어져 있습니다.</p>
+    </item>
+  </terms>
+
+</page>

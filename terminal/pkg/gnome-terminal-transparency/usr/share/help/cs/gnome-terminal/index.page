@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="2column task" id="index" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <title type="link">Terminál</title>
+    <title type="text">Terminál</title>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Nastavení a používání vysoce přizpůsobitelného terminálového emulátoru GNOME.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" its:translate="no" src="figures/gnome-terminal-icon.png">
+    </media> Nápověda k Terminálu</title>
+
+  <section id="getting-started" style="2column">
+    <title>Začínáme</title>
+  </section>
+
+  <section id="textoutput" style="2column">
+    <title>Práce s textem</title>
+  </section>
+
+  <section id="appearance" style="2column">
+    <title>Přizpůsobení vzhledu</title>
+  </section>
+
+  <section id="preferences" style="2column">
+    <title>Přizpůsobení chování</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Pokročilá nastavení</title>
+  </section>
+
+  <section id="troubleshooting" style="2column">
+    <title>Řešení problémů</title>
+  </section>
+
+</page>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="ca">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Canvia la sortida del desplaçament i el comportament de la barra del desplaçament.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Preferències de la barra de desplaçament</title>
+
+  <p>Quan un lot de sortides s'imprimeix a una pantalla de terminal, pot ser útil tindre un terminal amb un comportament d'una forma especifica per ser més fàcil treballar.</p>
+
+  <section id="visibility">
+    <title>Visibilitat de la barra de desplaçament</title>
+
+    <p>Per inhabilitar la barra de desplaçament:</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Desplaçament</gui>.</p>
+      </item>
+      <item>
+        <p>Desmarca <gui>Mostra la barra de desplaçament</gui>.</p>
+      </item>
+    </steps>
+
+    <p>La vostra preferència s'ha desat de forma immediata.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>Desplaçament a la sortida</title>
+
+    <p>Podeu bloquejar el desplaçament de forma que sempre mostri la sortida més nova quan s'executa una ordre que produeix una sortida.</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Desplaçament</gui>.</p>
+      </item>
+      <item>
+        <p>Marca <gui style="checkbox">Desplaçament a la sortida</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>Desplaçament a l'entrada</title>
+
+    <p>Podeu configurar el terminal per desplaçar-se de forma automàtica a la part inferior de la finestra quan entreu text a l'indicador.</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Desplaçament</gui>.</p>
+      </item>
+      <item>
+        <p>Marca <gui style="checkbox">Desplaçament en prémer una tecla</gui>.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>Línies de desplaçament enrere</title>
+
+    <p>Podeu limitar el nombre de línies de sortida del terminal que es recorden.</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Desplaçament</gui>.</p>
+      </item>
+      <item>
+        <p>Marqueu <gui>Limita el desplaçament cap enrere a</gui> i introduïu un nombre de línies per limitar el desplaçament enrere.</p>
+      </item>
+      <item>
+        <p>De forma opcional, podeu prémer a <gui style="button">+</gui> per augmentar i a <gui style="button">-</gui> per disminuir les línies.</p>
+      </item>
+    </steps>
+
+    <p>Podeu triar tenir desplaçament cap a enrere il·limitat.</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Desplaçament</gui>.</p>
+      </item>
+      <item>
+        <p>Desmarca <gui>Limita el desplaçament cap enrere a</gui>.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Les dades de desplaçament s’emmagatzemen en fitxers comprimits i xifrats al disc, a la ubicació predeterminada del sistema per a fitxers temporals (generalment <file>/ tmp</file>). Aquests fitxers es desvinculen immediatament després de la creació i, per tant, no apareixen al llistat dels directoris. L’espai del disc ocupat s’allibera tan bon punt es tanca el terminal corresponent.</p>
+    </note>
+
+    <note style="warning">
+      <p>Assegureu-vos que disposeu d'espai de disc disponible per a aquests fitxers temporals. En cas de dubte, superviseu l'ús del disc per exemple amb l'ordre <cmd>du/ tmp</cmd>.</p>
+    </note>
+
+    <note style="important">
+      <p>Un gran bloc de memòria per desplaçar pot fer que el canvi de mida de la finestra del terminal sigui molt lent. Per regla general, el canvi de mida s'alenteix notablement al voltant d'un milió de línies.</p>
+    </note>
+
+  </section>
+
+</page>

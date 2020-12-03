@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak použít systémový font nebo si pro svůj terminál vybrat nějaký vlastní.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Změna fontu a stylu</title>
+
+  <p>Pokud v <app>Terminálu</app> pracujete s velkým množstvím textu, můžná si budete chtít přizpůsobit písmo svým potřebám. Možnosti máte následující:</p>
+
+  <section id="system-font">
+  <title>Systémové písmo s pevnou šířkou</title>
+
+  <p>Když chcete používat výchozí systémové písmo:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Zrušte zaškrtnutí <gui style="checkbox">Vlastní font</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Nastavení vlastního písma</title>
+
+  <p>Když si chcete nastavit vlastní písmo a jeho velikost:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="checkbox">Vlastní font</gui>.</p>
+    </item>
+    <item>
+      <p>Klikněte na tlačítko vedle popisku <gui>Vlastní font</gui>.</p>
+    </item>
+    <item>
+      <p>Do pole pro vyhledávání písma napište název požadovaného písma, případně se jej nalistujte v seznamu.</p>
+    </item>
+    <item>
+      <p>Táhlem pod seznamem písem si nastavte velikost písma nebo ji zadejte přímo číselně do pole vedle táhla. Můžete také použít klikání na <gui style="button">+</gui> ke zvětšení velikosti a na <gui style="button">-</gui> ke zmenšení velikosti.</p>
+    </item>
+    <item>
+      <p>Kliknutím na <gui style="button">Vybrat</gui> se vaše změny použijí. Pokud chcete změny zrušit a vrátit se do předchozího dialogového okna, klikněte místo toho na <gui style="button">Zrušit</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Rozestup řádků a znaků</title>
+
+  <p><app>Terminál</app> umožňuje pro zvýšení čitelnosti oddálit znaky od sebe. Rozestup řádků a znaků se dá měnit od 1,0 (běžný vzhled) pro 2,0 („dvojité rozestupy“), včetně necelých hodnot v uvedeném rozmezí.</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Přejděte do nastavení <gui>Rozestup buněk</gui>.</p>
+    </item>
+    <item>
+      <p>Když chcete nastavit vodorovný rozestup mezi znaky, upravte číslo před popiskem <gui>šířka</gui>, který představuje její násobek.</p>
+    </item>
+    <item>
+      <p>Když chcete nastavit rozestup mezi řádky, upravte číslo před popiskem <gui>výška</gui>, který představuje její násobek.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

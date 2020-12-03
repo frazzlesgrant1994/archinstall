@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Uruchamianie programów i wykonywanie poleceń za pomocą <app>Terminala</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Wykonywanie polecenia</title>
+
+  <p>Tekst wpisany w <app>Terminalu</app> w celu wykonania jest nazywany <em>poleceniem</em>. Z terminala można uruchamiać programy wiersza poleceń i programy z graficznym interfejsem użytkownika.</p>
+
+  <p>Aby wykonać polecenia:</p>
+
+  <steps>
+    <item>
+      <p>Wpisz polecenie po znaku zachęty <app>Terminala</app>.</p>
+    </item>
+    <item>
+      <p>Naciśnij klawisz <key>Enter</key>, aby je wykonać.</p>
+    </item>
+  </steps>
+
+  <p>Jeśli jakiś program nieoczekiwanie kończy działanie bez żadnego ostrzeżenia lub błędu, to można uruchomić go w <app>Terminalu</app>. Umożliwi to programowi wyświetlenie błędów lub komunikatów debugowania w oknie <app>Terminala</app>. Te informacje są przydatne podczas zgłaszania błędów.</p>
+
+  <note style="tip">
+    <p><link href="https://www.gnu.org/software/bash/manual/">Podręcznik powłoki Bash</link> zawiera więcej informacji o tym, co można robić w terminalu.</p>
+  </note>
+  
+</page>

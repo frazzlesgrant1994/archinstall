@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="ca">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Que és un terminal?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Descripció d'un terminal</title>
+
+  <p><app>Terminal</app> és un programa terminal per a <gui>GNOME</gui>. Els següents termes i les seves descripcions us ajudaran a familiaritzar-vos amb el <app>Terminal</app> i les seves capacitats.</p>
+
+  <terms>
+    <item>
+      <title>Un terminal</title>
+      <p>Un terminal és un punt d'entrada de text en un ordinador anomenat també Interfície de línia d'ordres (CLI en anglès).</p>
+    </item>
+    <item>
+      <title>Terminals físics</title>
+      <p>IBM 3270, VT100 i molts altres són terminals de maquinari que ja no es fabriquen com a dispositius físics. Per emular aquests terminals, hi ha emuladors de terminal.</p>
+    </item>
+    <item>
+      <title>Emuladors de terminal</title>
+      <p>L'emulació és l'habilitat d'un programa d'ordinador d'imitar un altre programa o dispositiu.</p>
+
+      <p>Un emulador de terminal també anomenat tty és un programa que emula un terminal de vídeo en un ordinador modern que utilitza interfície gràfica i proporciona accés interactiu a les aplicacions que executa sols als entorns de línia d'ordres. Aquestes aplicacions poden estar executant-se ja sigui en la mateixa màquina o en una diferent a través de <app>telnet</app>, <app>ssh</app> o <app>dial-up</app>.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>L'entorn terminal virtual (VTE) és un emulador de terminal que emula un terminal de text dins d'una interfície gràfica d'usuari (GUI). <app>Terminal</app> està basat en <app>VTE</app>. <app>VTE</app> té ginys que implementen un emulador de terminal completament funcional.</p>
+    </item>
+    <item>
+      <title>Intèrpret d'ordres</title>
+      <p>Un <em>intèrpret d'ordres</em> és un programa que proporciona una interfície per invocar o «llançar» ordres o altres programes dins del terminal. També us permet veure i navegar pel contingut de directoris. Alguns intèrprets d'ordres populars són <app>bash</app>, <app>zsh</app>, <app>csh</app>.</p>
+    </item>
+    <item>
+      <title>Seqüències d'escapament</title>
+      <p>Una seqüència d'escapament és una sèrie de caràcters usats per canviar el significat d'una dada en un terminal. Les seqüències d'escapament són utilitzades quan un ordinador té un sol canal per enviar informació d'anada i tornada. Les seqüències d'escapament s'usen per distingir si la dada que s'envia és una ordre per a executar o informació per emmagatzemar o mostrar.</p>
+    </item>
+
+    <item>
+      <title>Indicador</title>
+      <p>Un indicador també anomenat <em>indicador d'ordres</em>. És una seqüència de caràcters usats a l'entorn de la línia d'ordres per indicar que l'intèrpret d'ordres està a punt per rebre ordres.</p>
+
+      <p>Un indicador acaba normalment amb els caràcters <sys>$</sys>, <sys>%</sys>, <sys>#</sys> o <sys>&gt;</sys> i inclou informació sobre el camí del directori de treball. En sistemes basats en Unix, és comú que l'indicador acabi en <sys>$</sys> o <sys>%</sys> tot depenent del rol de l'usuari com <sys>$</sys> per l'usuari de l'escriptori i <sys>#</sys> per l'usuari administrador (també anomenat <sys>root</sys>).</p>
+    </item>
+    <item>
+      <title>Ordre</title>
+      <p>Una entrada escrita a l'indicador per a ser executada s'anomena <em>ordre</em>. És una combinació del nom del programa amb paràmetres addicionals passats com a senyals per alterar l'execució del programa.</p>
+    </item>
+  </terms>
+
+</page>

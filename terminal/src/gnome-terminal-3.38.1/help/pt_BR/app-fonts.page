@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="pt-BR">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Use fontes do sistema ou escolha uma fonte personalizado para seu terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Alterando fonte e estilo</title>
+
+  <p>Quando você trabalhar com muito texto no <app>Terminal</app>, você pode querer alterar a fonte padrão de acordo com suas preferências. Você tem as opções a seguir:</p>
+
+  <section id="system-font">
+  <title>Fonte de largura fixa do sistema</title>
+
+  <p>Para usar fontes padrão do sistema:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Selecione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Desmarque <gui style="checkbox">Fonte personalizada</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Definindo uma fonte personalizada</title>
+
+  <p>Para definir um tamanho e fonte personalizados:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Selecione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Selecione <gui style="checkbox">Fonte personalizada</gui>.</p>
+    </item>
+    <item>
+      <p>Clique no botão próximo ao lado de <gui style="checkbox">Fonte personalizada</gui>.</p>
+    </item>
+    <item>
+      <p>Digite o nome da sua fonte desejada na campo de pesquisa ou navegue na lista de fontes.</p>
+    </item>
+    <item>
+      <p>Arraste o controle deslizante que está embaixo da lista de fontes para definir o tamanho da fonte. Alternativamente, você pode digitar o tamanho da fonte no campo ao lado do controle deslizante ou clique no <gui style="button">+</gui> para aumentar o tamanho da fonte ou <gui style="button">-</gui> para diminuir o tamanho da fonte selecionada.</p>
+    </item>
+    <item>
+      <p>Clique <gui style="button">Selecione</gui> para aplicar suas alterações. Para descartar alterações e voltar à janela anterior, clique <gui style="button">Cancelar</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Espaçamento de linha e espaçamento de caracteres</title>
+
+  <p><app>Terminal</app> permite que você separe seus caracteres para melhorar a legibilidade. O espaçamento entre linhas e o espaçamento entre os caracteres podem ser ajustados de 1.0 (o aspecto regular) para 2.0 (“espaçamento duplo”), incluindo valores fracionários.</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Selecione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Go to the <gui>Cell spacing</gui> setting.</p>
+    </item>
+    <item>
+      <p>Para definir o espaçamento horizontal dos caracteres, ajuste o número do multiplicador na frente de <gui>largura</gui>.</p>
+    </item>
+    <item>
+      <p>Para definir o espaçamento entre linhas, ajuste o número do multiplicador na frente de <gui>altura</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

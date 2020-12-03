@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-profile-encoding" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#profile"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Sélectionner un codage différent pour chaque profil sauvegardé.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Changement du codage des caractères du profil</title>
+
+  <p>Vous devriez pouvoir utiliser le choix de codage par défaut, UTF-8, pour tous vos usages du terminal. Si vous avez besoin régulièrement d’utiliser un autre codage de caractères pour une tâche spécifique, vous pouvez <link xref="pref-profiles#new-profile">créer un nouveau profil</link> avec un codage différent.</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+    </item>
+    <item>
+      <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+    </item>
+    <item>
+      <p>Ouvrez l’onglet <gui style="tab">Compatibilité</gui>.</p>
+    </item>
+    <item>
+      <p>Définissez le codage des caractères.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Les systèmes d’exploitation les plus modernes savent maintenant gérer et utiliser le codage de caractères UTF-8 par défaut.</p>
+  </note>
+
+</page>

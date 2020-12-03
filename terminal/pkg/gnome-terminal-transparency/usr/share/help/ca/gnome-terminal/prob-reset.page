@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Com recuperar la meva pantalla del <app>Terminal</app> quan es penja o té un munt d'estranys símbols a dins?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Reiniciar l'estat del vostre <app>Terminal</app></title>
+
+  <p>Després de veure un fitxer binari amb errors, o llançar alguna ordre, pot succeir que la pantalla del <app>Terminal</app> no respongui, o tingui lletres estranyes quan premeu tecles. Podeu recuperar el <app>Terminal</app> d'aquestes formes:</p>
+
+  <section id="reset">
+    <title>Reiniciar</title>
+
+    <p>Reinicia la pantalla del <app>Terminal</app>.</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <guiseq><gui style="menuitem">Avançat</gui><gui style="menuitem">Reinicia</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Per obtenir l'indicador premeu <key>Retorn</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Reiniciar i netejar</title>
+
+    <p>A més a més de reiniciar el <app>Terminal</app>, <gui style="menuitem">Reinicia i neteja</gui> neteja la pantalla visible del <app>Terminal</app> a totes les sortides de tots els terminals. Per <gui style="menuitem">Reinicia i neteja</gui> el vostre <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <guiseq><gui style="menuitem">Avançat</gui><gui style="menuitem">Reinicia i neteja</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Per obtenir l'indicador premeu <key>Retorn</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Reinicia i neteja</gui> proporciona una funcionalitat semblant a l'ordre de terminal <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

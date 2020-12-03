@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014–2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Виберіть, слід типово відкривати нове вікно чи нову вкладку.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Вікна та вкладки</title>
+
+<note style="tip">
+  <p>Цей параметр стосується лише випадків, коли <link xref="pref-menubar">увімкнено показ смужки меню</link>, або якщо <app>Термінал</app> запущено з командного рядка і не передано параметра <cmd>--tab</cmd> або <cmd>--window</cmd>.</p>
+</note>
+
+  <p>Ви можете вибрати, відкривати нову вкладку або нове вікно <app>Термінала</app>, коли ви використовуєте пункт меню <gui style="menuitem">Новий термінал</gui>.</p>
+
+  <steps>
+    <title>Якщо показ смужки меню увімкнено,</title>
+    <item>
+      <p>Виберіть пункт меню <guiseq><gui style="menu">Зміни</gui> <gui style="menuitem">Параметри</gui><gui style="tab">Загальне</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Встановіть для параметра <gui>Відкрити новий термінал у:</gui> значення <gui>Вкладка</gui> або <gui>Вікно</gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>Якщо показ смужки меню вимкнено,</title>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть пункт <gui>Загальне</gui>.</p>
+    </item>
+    <item>
+      <p>Встановіть для параметра <gui>Відкрити новий термінал у:</gui> значення <gui>Вкладка</gui> або <gui>Вікно</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Після встановлення пріоритетного значення параметра ви можете скористатися клавішею <key>Ctrl</key> для інвертування цього значення. Наприклад, якщо типовим є відкриття термінала у новій вкладці, натискання пункту <gui style="menuitem">Новий термінал</gui> відкриє нову вкладку. Але якщо ви утримуватимете натиснутою клавішу <key>Ctrl</key> і натиснете пункт <gui style="menuitem">Новий термінал</gui>, буде відкрито нове вікно програми.</p>
+
+</page>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Gyorsbillentyűk megjelenítése és szerkesztése.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gyorsbillentyűk</title>
+
+  <p>A gyorsbillentyűkkel gyorsan hajthat végre olyan műveleteket, mint például a beállítások ablak megnyitása vagy a <app>Terminál</app> egy funkciójának elérése. Ezek a gyorsbillentyűk ízlés szerint módosíthatók.</p>
+
+  <p>Egy gyorsbillentyű megváltoztatása:</p>
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select <gui>Shortcuts</gui>.</p>
+    </item>
+    <item>
+      <p>Jelölje be a <gui style="checkbox">Gyorsbillentyűk engedélyezése</gui> jelölőnégyzetet.</p>
+    </item>
+    <item>
+      <p>Kattintással válassza ki a szerkeszteni kívánt gyorsbillentyűt.</p>
+    </item>
+    <item>
+      <p>A gyorsbillentyű kiválasztása után kattintson a gyorsbillentyűre annak szerkesztéséhez.</p>
+    </item>
+    <item>
+      <p>Nyomja le a kívánt billentyűkombinációt, abban a formában, ahogyan használni kívánja. A használható billentyűk közé tartozik az <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Shift</key>, <key>Super</key> illetve a számok és betűk.</p>
+      <note>
+        <p>A billentyűkombinációk, mint például az <keyseq><key>Alt</key><key>F</key></keyseq> nem fognak működni.</p>
+      </note>
+    </item>
+    <item>
+      <p>Az új gyorsbillentyű lenyomása után automatikusan mentésre kerül, és megjelenik a megfelelő művelet mellett a listában.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Gyorsbillentyű letiltásához szerkessze azt, és egy új billentyűkombináció helyett a <key>Backspace</key> billentyűt nyomja meg.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title><gui style="menu">Fájl</gui> menü gyorsbillentyűi</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Művelet</p></td>
+          <td><p>Gyorsbillentyű</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Új lap</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Új ablak</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Lap bezárása</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Ablak bezárása</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>A <gui style="menu">Szerkesztés</gui> gyorsbillentyűi</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Művelet</p></td>
+          <td><p>Gyorsbillentyű</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Másolás</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Beillesztés</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>A <gui style="menu">Nézet</gui> gyorsbillentyűi</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Művelet</p></td>
+          <td><p>Gyorsbillentyű</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Teljes képernyő</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Nagyítás</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Kicsinyítés</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Normál méret</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title><gui style="menu">Search</gui> shortcuts</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Művelet</p></td>
+          <td><p>Gyorsbillentyű</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Keresés</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Következő találat</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Előző találat</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Kiemelés törlése</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Lapok gyorsbillentyűi</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Művelet</p></td>
+          <td><p>Gyorsbillentyű</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Váltás az előző lapra</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a következő lapra</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Lap mozgatása balra</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Lap mozgatása jobbra</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás az 1. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 2. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 3. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 4. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás az 5. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 6. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 7. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 8. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 9. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Váltás a 10. lapra</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Egyéb</title>
+
+    <p>Néhány gyorsbillentyű nem módosítható:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Művelet</p></td>
+          <td><p>Gyorsbillentyű</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Görgetés egy sorral feljebb</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Fel</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Görgetés egy sorral lejjebb</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Le</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Görgetés egy oldallal feljebb</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Görgetés egy oldallal lejjebb</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Görgetés felülre</p></td>
+          <td><p><keyseq><key>Shift</key><key>Home</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Görgetés alulra</p></td>
+          <td><p><keyseq><key>Shift</key><key>End</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Bash gyorsbillentyűk</title>
+
+    <p>Ezek a <app>Bash</app> gyorsbillentyűi. A <app>Bash</app> általában az alapértelmezett parancsértelmező.</p>
+    <p>A <app>Bash</app> parancsértelmezőre jellemző gyorsbillentyűk:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Művelet</p></td>
+          <td><p>Gyorsbillentyű</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Szó törlése</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Sor törlése</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ugrás a sor elejére</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ugrás a sor végére</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Egy karakterrel vissza</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Egy szóval vissza</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Egy karakterrel előre</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Egy szóval előre</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Törlés a kurzortól a sor elejéig</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>u</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Törlés a kurzortól a sor végéig.</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Törlés a kurzortól a szó elejéig</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Előző szó törlése</p></td>
+          <td><p><keyseq><key>Alt</key><key>Backspace</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Szöveg beillesztése a vágólapról</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>A képernyő törlése, a jelenlegi sor képernyő tetejére vitelével</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Fordított növekményes keresés az előzményekben</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Fordított keresés az előzményekben</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ändra beteende för rullningsutdata och rullningslist.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Inställningar för rullningslist</title>
+
+  <p>Då mycket utdata skrivs ut på din terminalskärm kan det underlätta att din terminal beter sig på ett specifikt sätt så att den är lättare att arbeta med.</p>
+
+  <section id="visibility">
+    <title>Synlighet för rullningslist</title>
+
+    <p>Du kan inaktivera rullningslisten:</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Rullning</gui>.</p>
+      </item>
+      <item>
+        <p>Avmarkera <gui>Visa rullningslist</gui>.</p>
+      </item>
+    </steps>
+
+    <p>Din inställning sparas omedelbart.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>Rulla vid utdata</title>
+
+    <p>Du kan låsa rullning för att alltid visa nyaste utdata då ett kommando körs och producerar utdata.</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Rullning</gui>.</p>
+      </item>
+      <item>
+        <p>Kryssa i <gui style="checkbox">Rulla vid utdata</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>Rulla vid inmatning</title>
+
+    <p>Du kan ställa in terminalen att automatiskt rulla längst ner i fönstret när du matar in text i prompten.</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Rullning</gui>.</p>
+      </item>
+      <item>
+        <p>Kryssa i <gui style="checkbox">Rulla vid tangentnedtryckning</gui>.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>Rader i rullningshistorik</title>
+
+    <p>Du kan begränsa antalet rader av terminalutmatning som sparas.</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Rullning</gui>.</p>
+      </item>
+      <item>
+        <p>Kryssa i <gui>Begränsa rullningshistorik till</gui> och ange ett antal rader för att begränsa rullningshistoriken.</p>
+      </item>
+      <item>
+        <p>Valfritt kan du klicka på <gui style="button">+</gui> för att öka och <gui style="button">-</gui> för att minska antalet rader.</p>
+      </item>
+    </steps>
+
+    <p>Du kan välja att ha obegränsad rullningshistorik.</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Rullning</gui>.</p>
+      </item>
+      <item>
+        <p>Avmarkera <gui>Begränsa rullningshistorik till</gui>.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Data för rullningshistorik sparas i komprimerade och krypterade filer på disk på systemets standardplats för temporära filer (vanligtvis <file>/tmp</file>). Dessa filer avlänkas omedelbart efter att de skapas och syns därför inte vid kataloglistning. Det använda diskutrymmet frigörs så snart som motsvarande terminal stängs.</p>
+    </note>
+
+    <note style="warning">
+      <p>Säkerställ att du har tillräckligt med utrymme tillgängligt för dessa temporära filer. Om du är tveksam, övervaka diskanvändning till exempel med kommandot <cmd> du /tmp</cmd>.</p>
+    </note>
+
+    <note style="important">
+      <p>En gigantisk buffert för rullningshistorik kan göra ändring av fönsterstorleken långsammare. Som tumregel kommer storleksändringar att bli märkbart långsammare kring en miljon rader.</p>
+    </note>
+
+  </section>
+
+</page>

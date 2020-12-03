@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-exit" xml:lang="ca">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+<!--    <link type="seealso" xref="prob-recover-default-profile"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Configura el comportament del <app>Terminal</app> quan una ordre personalitzada o l'intèrpret d'ordres per defecte surt.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Configurar el comportament de l'ordre de sortida</title>
+
+  <p>Podeu configurar el terminal per tancar-se, reiniciar-se o romandre oberta quan un intèrpret d'ordres o una ordre personalitzada surt:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menu">Ordre</gui>.</p>
+    </item>
+    <item>
+      <p>Des de la llista desplegable <gui>Quan l'ordre surti</gui>, selecciona una de les opcions següents:</p>
+      <list>
+        <item>
+          <p><gui>Surt del terminal</gui></p>
+        </item>
+        <item>
+          <p><gui>Reinicia l'ordre</gui></p>
+        </item>
+        <item>
+          <p><gui>Mantén el terminal obert</gui></p>
+        </item>
+      </list>
+      <p>La configuració es desarà de forma automàtica quan ho seleccioneu.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Si heu <link xref="pref-custom-command">configurat una ordre personalitzada</link> que és no interactiva, heu configurat el comportament de sortida a <gui>Surt del terminal</gui>, i heu configurat el perfil per a ser el perfil per defecte, <app>Terminal</app> pot sortir abans de mostrar la sortida de l'ordre.</p>
+  </note>
+
+</page>

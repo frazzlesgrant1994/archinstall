@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Visa och redigera tangentbordsgenvägar.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tangentbordsgenvägar</title>
+
+  <p>Tangentbordsgenvägar är kombinationer av tangenter som låter dig utföra åtgärder, som att öppna inställningsdialogen eller komma åt en funktion i <app>Terminal</app> snabbt. Dessa snabbtangenter kan modifieras för att passa dina behov.</p>
+
+  <p>För att ändra en tangentbordsgenväg:</p>
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>Välj <gui>Snabbtangenter</gui> i sidopanelen.</p>
+    </item>
+    <item>
+      <p>Säkerställ att <gui style="checkbox">Aktivera snabbtangenter</gui> är markerat.</p>
+    </item>
+    <item>
+      <p>Välj snabbtangenten som du vill redigera genom att klicka på den.</p>
+    </item>
+    <item>
+      <p>Då snabbtangenten är vald, klicka på snabbtangentskombinationen för att redigera den.</p>
+    </item>
+    <item>
+      <p>Tryck ner din önskade snabbtangentskombination så som du skulle använda den. Tangenterna som du kan använda inkluderar <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Skift</key>, <key>Super</key> samt nummer- och bokstavstangenter.</p>
+      <note>
+        <p>Menyåtkomstkombinationer som <keyseq><key>Alt</key> <key>F</key></keyseq> kommer inte fungera.</p>
+      </note>
+    </item>
+    <item>
+      <p>Då du har matat in din nya snabbtangent kommer den automatiskt att sparas och du bör se den i listan intill den motsvarande åtgärden.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>För att inaktivera en genväg, redigera den och klicka på <key>Backsteg</key> istället för den nya genvägen.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title><gui style="menu">Arkiv</gui>-snabbtangenter</title>
+
+    <p>Standardsnabbtangenterna för alternativ i detta avsnitt är:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Åtgärd</p></td>
+          <td><p>Tangentbordsgenväg</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Ny flik</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Nytt fönster</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Stäng flik</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Stäng fönster</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title><gui style="menu">Redigera</gui>-snabbtangenter</title>
+
+    <p>Standardsnabbtangenterna för alternativ i detta avsnitt är:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Åtgärd</p></td>
+          <td><p>Tangentbordsgenväg</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Kopiera</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Klistra in</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title><gui style="menu">Visa</gui>-snabbtangenter</title>
+
+    <p>Standardsnabbtangenterna för alternativ i detta avsnitt är:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Åtgärd</p></td>
+          <td><p>Tangentbordsgenväg</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Helskärm</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Zooma in</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zooma ut</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Normal storlek</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title><gui style="menu">Sök</gui>-snabbtangenter</title>
+
+    <p>Standardsnabbtangenterna för alternativ i detta avsnitt är:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Åtgärd</p></td>
+          <td><p>Tangentbordsgenväg</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Sök</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Sök nästa</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Sök föregående</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Töm markering</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Snabbtangenter för flikar</title>
+
+    <p>Standardsnabbtangenterna för alternativ i detta avsnitt är:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Åtgärd</p></td>
+          <td><p>Tangentbordsgenväg</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Växla till föregående flik</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till nästa flik</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Flytta flik till vänster</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Flytta flik till höger</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Växla till flik 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Annat</title>
+
+    <p>Det finns också några snabbtangenter som inte kan redigeras:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Åtgärd</p></td>
+          <td><p>Tangentbordsgenväg</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Rulla en rad uppåt</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>Upp</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rulla en rad nedåt</p></td>
+          <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>Ner</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rulla en sida uppåt</p></td>
+          <td><p><keyseq><key>Skift</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rulla en sida nedåt</p></td>
+          <td><p><keyseq><key>Skift</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rulla till toppen</p></td>
+          <td><p><keyseq><key>Skift</key><key>Home</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rulla till botten</p></td>
+          <td><p><keyseq><key>Skift</key><key>End</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Bash-snabbtangenter</title>
+
+    <p>Detta är snabbtangenter för <app>Bash</app>. <app>Bash</app> är vanligtvis standardskalet.</p>
+    <p>Skalspecifika snabbtangenter för <app>Bash</app> är:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Åtgärd</p></td>
+          <td><p>Tangentbordsgenväg</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Radera ett ord</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Radera en rad</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Gå till början på raden</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Gå till slutet på raden</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Gå bakåt ett tecken</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Gå bakåt ett ord</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Gå framåt ett tecken</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Gå framåt ett ord</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ta bort mellan markören och början på raden</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>u</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ta bort från och med markören till slutet på raden</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ta bort mellan markören och början på ordet</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ta bort föregående ord</p></td>
+          <td><p><keyseq><key>Alt</key><key>Backsteg</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Klistra in text från urklipp</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Töm skärmen och förflytta aktuell rad högst upp på skärmen</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Omvänd inkrementell sökning av historik</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Omvänd icke-inkrementell sökning av historik</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

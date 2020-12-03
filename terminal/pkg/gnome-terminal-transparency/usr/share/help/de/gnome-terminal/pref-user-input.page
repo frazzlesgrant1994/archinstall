@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-user-input" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.14" date="2014-10-23" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Benutzereingaben nicht an die im Terminal laufende Anwendung übergeben.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Benutzereingabe deaktivieren</title>
+
+  <p>Benutzereingaben, die im Terminal eingegeben werden und nicht an das aktuell im Terminal laufende Programm weitergegeben werden sollen, können verhindert werden. Dadurch kann das Programm ungehindert von Maus- oder Tastatureingaben ablaufen. Sie können dann trotzdem mit dem Terminal arbeiten, d.h. mit der Tastatur den Bildlauf aktivieren oder mit der Maus Text auswählen. Ebenso können Sie Text aus dem Terminal heraus kopieren. Lediglich Text einfügen können Sie dann nicht mehr.</p>
+
+  <p>So verwenden Sie den schreibgeschützten Modus:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie mit der rechten Maustaste in das <app>Terminal</app>-Fenster oder klicken Sie auf den Menüknopf in der rechten oberen Ecke des Fensters.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <gui style="menuitem">Nur lesen</gui> aus, indem Sie es ankreuzen.</p>
+    </item>
+  </steps>
+
+  <p>Sie können den schreibgeschützten Modus deaktivieren, indem sie das Kreuz aus <gui style="menuitem">Nut Lesen</gui> entfernen.</p>
+
+</page>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Запуск програм та виконання команд за допомогою <app>Термінала</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Виконати команду</title>
+
+  <p>Усі вхідні дані у <app>Терміналі</app>, які має бути виконано, називають <em>командою</em>. З термінала ви можете користуватися командним рядком або запускати програми із графічним інтерфейсом.</p>
+
+  <p>Щоб віддати команди, виконайте такі дії:</p>
+
+  <steps>
+    <item>
+      <p>Введіть команду до рядка запиту <app>Термінала</app>.</p>
+    </item>
+    <item>
+      <p>Натисніть клавішу <key>Enter</key>, щоб система її виконала.</p>
+    </item>
+  </steps>
+
+  <p>Якщо у вас є програма, яка раптово завершує роботу, ні про що не попереджаючи і не повідомляючи про помилку, у вас може виникнути потреба у запуску її у <app>Терміналі</app>. Це надасть змогу програмі вивести повідомлення про помилку або діагностичні повідомлення до вікна <app>Термінала</app>. Отримані таким чином дані можуть бути корисним для створення звіту щодо вади.</p>
+
+  <note style="tip">
+    <p>Ознайомтеся із матеріалами щодо <link href="https://www.gnu.org/software/bash/manual/">оболонки Bash</link>, щоб дізнатися більше про те, які операції ви можете виконувати за допомогою термінала.</p>
+  </note>
+  
+</page>

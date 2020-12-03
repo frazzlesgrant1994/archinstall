@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Navigera runt <app>Terminal</app>-menyer med skrivbordstangenter.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tangentbordshjälpmedel</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Dessa tangenter kommer endast ha någon effekt i fönster där menyraden är inställd till att vara synlig.</p>
+    <p>Högerklicka i <app>Terminal</app>-fönstret och välj <gui style="checkbox">Visa menyrad</gui> för att visa menyraden.</p>
+  </note>
+
+  <p>Du kan navigera <app>Terminal</app>-menyn med en kombination av tangenter som kallas <em>menyåtkomsttangenter</em> eller en specialtangent som tar dig direkt till den första menyn i menyraden som kallas <em>snabbtangenten för menyåtkomst</em>.</p>
+
+  <section id="mnemonics">
+    <title>Menyåtkomsttangenter</title>
+
+    <p><app>Terminal</app>-menyn kan kommas åt genom att kombinera <key>Alt</key>-tangenten och en bokstav från menyposten. Bokstaven som du behöver använda för att komma åt menyn kommer vara understruken då du håller ner <key>Alt</key>-knappen.</p>
+
+    <p>Till exempel, visa <gui style="menu">Redigera</gui>-menyn med <keyseq><key>Alt</key><key>E</key></keyseq>. På samma sätt kan du komma åt <gui style="menu">Arkiv</gui>-menyn med <keyseq><key>Alt</key><key>F</key></keyseq>.</p>
+
+    <p>För att aktivera menyåtkomsttangenter:</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj <gui>Allmänt</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Kryssa i <gui style="checkbox">Aktivera menyåtkomsttangenter</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Snabbtangent för menyåtkomst</title>
+
+    <p>Denna inställning tar fram <gui style="menu">Arkiv</gui>-menyn då snabbtangenten för menyåtkomst trycks ned. Denna tangent är vanligtvis <key>F10</key> som standard.</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj <gui>Allmänt</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Kryssa i <gui style="checkbox">Aktivera snabbtangent för menyåtkomst</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Cambiar el comportamiento del desplazamiento de la salida y de la barra de desplazamiento.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Preferencias de la barra de desplazamiento</title>
+
+  <p>Cuando se muestra mucha salida en la pantalla de la terminal, puede ser útil hacer que la terminal se comporte de una manera específica, para que sea más fácil trabajar con ella.</p>
+
+  <section id="visibility">
+    <title>Visibilidad de la barra de desplazamiento</title>
+
+    <p>Puede desactivar la barra lateral:</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Desplazamiento</gui>.</p>
+      </item>
+      <item>
+        <p>Desmarque <gui>Mostrar barra de desplazamiento</gui>.</p>
+      </item>
+    </steps>
+
+    <p>Sus preferencias se guardarán automáticamente.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>Desplazar en salida</title>
+
+    <p>Puede bloquear el desplazamiento para que siempre se muestre la salida más reciente cuando se ejecute un comando y este produzca una salida.</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Desplazamiento</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="checkbox">Desplazar en salida</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>Desplazar en entrada</title>
+
+    <p>Puede configurar la terminal para que se desplace automáticamente a la parte inferior de la ventana cuando introduce texto en el símbolo del sistema.</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Desplazamiento</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="checkbox">Desplazar al pulsar tecla</gui>.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>Líneas de desplazamiento hacia atrás</title>
+
+    <p>Puede limitar el número de lineas de salida de la terminal que se recuerdan.</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Desplazamiento</gui>.</p>
+      </item>
+      <item>
+        <p>Marque la opción <gui>Limitar desplazamiento hacia atrás a</gui> e introduzca el número de líneas para limitar el desplazamiento hacia atrás.</p>
+      </item>
+      <item>
+        <p>Opcionalmente, puede pulsar el botón <gui style="button">+</gui> para aumentar y <gui style="button">-</gui> para reducir el número de líneas.</p>
+      </item>
+    </steps>
+
+    <p>Puede elegir tener desplazamiento hacia atrás ilimitado.</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Desplazamiento</gui>.</p>
+      </item>
+      <item>
+        <p>Desmarque <gui>Limitar desplazamiento hacia atrás a</gui>.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Los datos del desplazamiento hacia atrás se almacenan en archivos comprimidos y cifrados en el disco, en la ubicación predeterminada del sistema para los archivos temporales (generalmente <file>/tmp</file>). Estos archivos se desvinculan inmediatamente después de su creación y como tales, no aparecen en la lista del directorio. El espacio en disco ocupado se libera tan pronto como se cierra la terminal correspondiente.</p>
+    </note>
+
+    <note style="warning">
+      <p>Asegúrese de tener suficiente espacio en disco disponible para estos archivos temporales. En caso de duda, monitorice el uso del disco por ejemplo con el comando <cmd>du /tmp</cmd>.</p>
+    </note>
+
+    <note style="important">
+      <p>Un búfer de desplazamiento hacia atrás enorme hace que el cambio de tamaño de la ventana de la terminal sea más lento. Como regla general, el redimensionamiento se vuelve notablemente lento en alrededor de 1 millón de líneas.</p>
+    </note>
+
+  </section>
+
+</page>

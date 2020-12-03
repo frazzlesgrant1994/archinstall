@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-profile-encoding" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#profile"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+
+    <credit type="author copyright">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Встановлення іншого кодування для кожного збереженого профілю.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Зміна кодування символів профілю</title>
+
+  <p>Зазвичай, у вас має бути можливість скористатися типовим кодуванням UTF-8 для усіх ваших потреб у терміналі. Якщо у вас виникне потреба скористатися іншим кодуванням для певного завдання, ви можете <link xref="pref-profiles#new-profile">створити профіль</link> із іншим кодуванням.</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Відкрийте вкладку <gui style="tab">Сумісність</gui>.</p>
+    </item>
+    <item>
+      <p>Встановіть кодування символів.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>У більшості сучасних операційних системи передбачено підтримку і використання типового кодування символів UTF-8.</p>
+  </note>
+
+</page>

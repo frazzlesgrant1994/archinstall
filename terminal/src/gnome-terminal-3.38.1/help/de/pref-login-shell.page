@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-login-shell" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Eine Login-Shell in <app>Terminal</app> starten.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Login-Shells</title>
+
+  <p>Shells in UNIX-basierten Systemen können im Anmelde- und Nicht-Anmeldemodus gestartet werden:</p>
+
+  <terms>
+    <item>
+      <title>Login-Shell</title>
+      <p>Eine Login-Shell ist eine Shell, die einem Benutzer nach dessen Anmeldung an seinem Benutzerkonto zur Verfügung gestellt wird. Dies wird mit den Optionen <cmd>-l</cmd> oder <cmd>--login</cmd> erreicht, oder durch Voranstellen eines Bindestrichs vor den Befehlsnamen. Zum Beispiel können Sie die Bash mit <cmd>-bash</cmd> aufrufen.</p>
+    </item>
+    <item>
+      <title>Subshell</title>
+      <p>Eine Subshell, auch Nicht-Login-Shell genannt, wird nach dem Anmeldevorgang ohne die Optionen <cmd>-l</cmd> oder <cmd>--login</cmd> gestartet, und auch ohne einen zusätzlichen Bindestrich vor dem Befehlsnamen.</p>
+    </item>
+  </terms>
+
+  <p>Einige grundlegende Anwendungsfälle für eine Login-Shell sind:</p>
+  <list>
+    <item>
+      <p>Fernzugriff auf Ihren Rechner mittels <app>ssh</app>.</p>
+    </item>
+    <item>
+      <p>Simulation einer initialen Login-Shell mit <cmd>bash -l</cmd> oder <cmd>sh -l</cmd>.</p>
+    </item>
+    <item>
+      <p>Simulation einer initialen Root-Login-Shell mit <cmd>sudo -i</cmd>.</p>
+    </item>
+  </list>
+
+  <section id="login-shell-howto">
+    <title>Eine Login-Shell starten</title>
+
+    <p>Sie können dem <app>Terminal</app> erlauben eine Login-Shell zu starten. Ihre voreingestellte Shell wird mit einem dem Namen vorangestellten Bindestrich gestartet.</p>
+
+    <steps>
+      <item>
+        <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie im Abschnitt <gui>Profile</gui> Ihr aktuelles Profil aus.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="menu">Befehl</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie im Bereich <gui>Befehl</gui> die Option <gui style="checkbox">Befehl als Login-Shell starten</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

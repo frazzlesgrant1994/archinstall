@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Canvia colors i fons.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Esquemes de color</title>
+
+  <p>Si no us agrada el tema per defecte del <app>Terminal</app>, podeu canviar els colors que utilitzeu al text i als fons. Podeu utilitzar colors del vostre tema, seleccioneu-ne un dels preseleccionats o utilitzeu un esquema personalitzat.</p>
+
+  <section id="system-theme">
+    <title>Usar colors del tema del sistema</title>
+
+    <p>Per a utilitzar colors del tema del sistema:</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Habilita <gui style="checkbox">Usa colors del tema del sistema</gui>. Els canvis s'aplicaran de forma automatitzada.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Esquemes integrats</title>
+
+    <p>Podeu escollir un dels esquemes integrats de color: <gui>Negre sobre groc clar</gui>, <gui>Negre sobre blanc</gui>, <gui>Gris sobre negre</gui>, <gui>Verd sobre negre</gui>, <gui>Blanc sobre negre</gui>, <gui>Assolellat clar</gui>, <gui>Assolellat fosc</gui>. Per establir qualsevol d'aquests esquemes integrats:</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Comproveu que <gui style="checkbox">Usa colors del tema del sistema</gui> està inhabilitat. Tria l'esquema de color desitjat d'<gui>Esquemes integrats</gui>. L'esquema de color triat s'aplicarà de forma automàtica.</p>
+        <note>
+	  <p>Les aplicacions poden triar utilitzar un color de la paleta en lloc del color de la negreta especificat.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Esquema de color personalitzat</title>
+
+    <p>Podeu usar colors personalitzats per al text i els fons al <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Comproveu que <gui style="checkbox">Usa colors del tema del sistema</gui> està inhabilitat. Seleccioneu <gui>Personalitzat</gui> a la llista desplegable d'<gui>Esquemes integrats</gui>.</p>
+      </item>
+      <item>
+        <p>Feu clic sobre el color que vulgueu canviar.</p>
+      </item>
+      <item>
+        <p>Tria el color desitjat de la mostra de color i prem <gui style="button">Selecciona</gui>.</p>
+        <p>Podeu seleccionar el color desitjat de les següents maneres:</p>
+        <list>
+          <item>
+            <p>Entra el codi de color hexadecimal al quadre d'entrada.</p>
+          </item>
+          <item>
+            <p>Arrossegueu el control lliscant a l'esquerra per ajustar els colors i premeu al color desitjat a l'àrea de selecció de color.</p>
+          </item>
+        </list>
+	<p>Els canvis es desaran de forma automàtica.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>També podeu alterar un color quan trieu un esquema integrat prement a la mostra de color. Una vegada canviat, la vostra selecció al menú de l'esquema integrat canviarà a <gui>Personalitza</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Tradicionalment els emuladors del terminal ofereixen una paleta de 16 colors, això ho podeu canviar aquí. <app>Terminal</app> admet un conjunt estès de 256 colors, però els 240 colors addicionals no es poden editar aquí.</p>
+
+      <p><app>Terminal</app> fins i tot ofereix accés directe a més de 16 milions de colors, això és el que s'anomena mode "color real".</p>
+
+      <p>Si els canvis que es fan a la paleta no semblen tenir cap efecte, segurament el contingut que veieu consisteix en els colors de paleta estesa o colors reals, en lloc dels 16 colors base.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Colors brillants per al text en negreta</title>
+
+    <p>Tradicionalment, els terminals no distingien clarament el pes de la lletra en negreta dels colors intensos i, sovint, tots dos estaven habilitats alhora. Les millores recents, com ara la introducció d'un veritable suport de color, i certs esquemes de color (per exemple, el Solarized) han fet que es vulguin separar els dos conceptes, és a dir, fer que la brillantor sigui independent del pes de la font.</p>
+
+    <p>Per a triar el vostre comportament preferit:</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Inhabiliteu <gui>Mostra el text en negreta en colors brillants</gui> per a activar el nou comportament per defecte, la separació completa de la intensitat del color i el pes del tipus de lletra, o habiliteu aquesta opció per a millorar la retrocompatibilitat.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="de">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Was ist ein Terminal?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Überblick über ein Terminal</title>
+
+  <p><app>Terminal</app> ist ein Terminal-Programm für <gui>GNOME</gui>. Die folgenden Begriffe und ihre Erklärungen helfen Ihnen dabei, sich mit <app>Terminal</app> und seinen Möglichkeiten vertraut zu machen.</p>
+
+  <terms>
+    <item>
+      <title>Ein Terminal</title>
+      <p>Ein Terminal ist eine Umgebung zur Texteingabe in einem Rechner, auch bekannt als Befehlszeileneingabe (CLI).</p>
+    </item>
+    <item>
+      <title>Physische Terminals</title>
+      <p>IBM 3270, VT100 und viele andere sind Hardware-Terminals, die nicht mehr produziert werden. Zur Emulation dieser Terminals gibt es Terminal-Emulatoren.</p>
+    </item>
+    <item>
+      <title>Terminal-Emulatoren</title>
+      <p>Emulation ist die Fähigkeit eines Computerprogramms, ein anderes Programm oder Gerät nachzuahmen.</p>
+
+      <p>Ein Terminal-Emulator (auch tty genannt) ist ein Programm, das ein Video-Terminal in modernen Rechnern nachahmt. Sie verwenden grafische Benutzeroberflächen und bieten interaktiven Zugang zu Anwendungen, die nur in Befehlszeilen funktionieren. Solche Anwendungen können entweder auf der selben oder einer anderen Maschine mittels <app>telnet</app>, <app>ssh</app> oder <app>Wählverbindung</app> laufen.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>Virtual Terminal Environment (VTE) ist ein Terminal-Emulator, der ein Text-Terminal in einer grafischen Benutzeroberfläche (GUI) emuliert. <app>Terminal</app> basiert größtenteils auf <app>VTE</app>. <app>VTE</app> hat Widgets, die einen voll funktionsfähigen Terminal-Emulator implementieren.</p>
+    </item>
+    <item>
+      <title>Shell</title>
+      <p>Eine <app>Shell</app> ist ein Programm, dass eine Oberfläche zum Aufrufen oder »Starten« von Befehlen oder anderen Programmen in einem Terminal bietet. Sie ermöglicht es außerdem den Inhalt von Ordnern anzusehen und zu durchsuchen. Beliebte Shells sind unter anderen <app>bash</app>, <app>zsh</app> und <app>fish</app>.</p>
+    </item>
+    <item>
+      <title>Escape-Sequenzen</title>
+      <p>Eine Escape-Sequenz ist eine Reihe von Zeichen, die zum Ändern der Bedeutung von Daten in einem Terminal dient. Escape-Sequenzen werden eingesetzt, wenn ein Rechner nur einen einzigen Kanal zum Hin- und Zurücksenden von Informationen besitzt. Escape-Sequenzen werden genutzt, um zu unterscheiden, ob gesendete Daten einen Befehl zur Ausführung darstellen oder Informationen sind, die dargestellt werden sollen.</p>
+    </item>
+
+    <item>
+      <title>Eingabeaufforderung</title>
+      <p>Eine Eingabeaufforderung wird auch <em>Eingabeprompt</em> genannt. Es ist eine Abfolge aus Zeichen, die in einer Befehlszeilenumgebung verwendet werden, um die Bereitschaft der Shell zum Annehmen von Befehlen anzuzeigen.</p>
+
+      <p>Eine Eingabeaufforderung endet üblicherweise mit den Zeichen <sys>$</sys>, <sys>%</sys>, <sys>#</sys> oder <sys>&gt;</sys> und enthält Informationen zum Pfad des aktuellen Arbeitsordners. Auf Unix-basierten Systemen endet die Eingabeaufforderung meist mit einem <sys>$</sys> oder <sys>#</sys>, abhängig von der Benutzerfunktion. Ein <sys>$</sys> steht für den gewöhnlichen Benutzer und <sys>#</sys> für den Systemverwalter (auch <sys>root</sys>-Benutzer genannt).</p>
+    </item>
+    <item>
+      <title>Befehl</title>
+      <p>Eine Eingabe, die in die Eingabeaufforderung eingetippt wird, nennt sich <em>Befehl</em>. Es ist eine Kombination des Programmnamens zusammen mit weiteren zusätzlichen Parametern, die als sogenannte Flags übergeben werden, um die Ausführung des Programms zu beeinflussen.</p>
+    </item>
+  </terms>
+
+</page>

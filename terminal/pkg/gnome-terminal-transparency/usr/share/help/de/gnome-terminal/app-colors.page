@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="de">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Farben und Hintergründe wechseln.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Farbschemata</title>
+
+  <p>Wenn Ihnen das voreingestellte <app>Terminal</app>-Thema nicht gefällt, so können Sie die Farben von Text und Hintergrund anpassen. Sie können Farben Ihres Themas, eine der Vorgaben oder ein eigenes Schema verwenden.</p>
+
+  <section id="system-theme">
+    <title>Farben des System-Themas verwenden</title>
+
+    <p>So verwenden Sie Farben des System-Themas:</p>
+
+    <steps>
+      <item>
+        <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie im Abschnitt <gui>Profile</gui> Ihr aktuelles Profil aus.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="tab">Farben</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="checkbox">Farben vom System-Thema verwenden</gui>. Die Änderungen werden automatisch umgesetzt.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Integrierte Schemata</title>
+
+    <p>Sie können eines der integrierten Farbschemata wählen: <gui>Schwarz auf hellgelb</gui>, <gui>Schwarz auf weiß</gui>, <gui>Grau auf schwarz</gui>, <gui>Grün auf schwarz</gui>, <gui>Weiß auf schwarz</gui>, <gui>Tango hell</gui>, <gui>Tango dunkel</gui>, <gui>Hell solarisiert</gui> und <gui>Dunkel solarisiert</gui>. So legen Sie eines der integrierten Schemata fest:</p>
+
+    <steps>
+      <item>
+        <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie im Abschnitt <gui>Profile</gui> Ihr aktuelles Profil aus.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="tab">Farben</gui>.</p>
+      </item>
+      <item>
+        <p>Stellen Sie sicher, dass <gui style="checkbox">Farben vom System-Thema verwenden</gui> nicht ausgewählt ist. Wählen Sie das gewünschte Farbschema aus den <gui>integrierten Schemata</gui>. Farbschemata werden automatisch angewendet.</p>
+        <note>
+	  <p>Anwendungen können aussuchen, ob sie eine Farbe von einer Farbpalette anstelle der angegebenen Farbe für fetten Text verwenden.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Eigenes Farbschema</title>
+
+    <p>Sie können eigene Farben für Text und Hintergrund im <app>Terminal</app> verwenden:</p>
+
+    <steps>
+      <item>
+        <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie im Abschnitt <gui>Profile</gui> Ihr aktuelles Profil aus.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="tab">Farben</gui>.</p>
+      </item>
+      <item>
+        <p>Stellen Sie sicher, dass <gui style="checkbox">Farben vom System-Thema verwenden</gui> nicht ausgewählt ist. Wählen Sie <gui>Benutzerdefiniert</gui> in der Auswahlliste <gui>Integrierte Schemata</gui>.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf die Farbe, die Sie ändern möchten.</p>
+      </item>
+      <item>
+        <p>Wählen Sie die gewünschte Farbe aus den Farbmustern und klicken Sie auf <gui style="button">Auswählen</gui>.</p>
+        <p>Sie haben folgende Möglichkeiten, die gewünschte Farbe zu wählen:</p>
+        <list>
+          <item>
+            <p>Geben Sie den Farbcode hexadezimal in das Eingabefeld ein.</p>
+          </item>
+          <item>
+            <p>Verschieben Sie den Regler links, um die Farben anzupassen und klicken Sie auf die gewünschte Farbe im Farbwähler.</p>
+          </item>
+        </list>
+	<p>Ihre Änderungen werden automatisch gespeichert.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Sie können auch eine Farbe ändern, wenn Sie ein vorgegebenes Schema gewählt haben. Klicken Sie dazu auf den Farbmusterblock. Sobald Sie eine Änderung durchgeführt haben, wird die Auswahl im vorgegebenen Schema-Menü zu <gui>Benutzerdefiniert</gui> umspringen.</p>
+    </note>
+
+    <note style="tip">
+      <p>Traditionell bieten Terminal-Emulatoren eine Farbpalette mit 16 Farben. Dies können Sie hier ändern. <app>Terminal</app> unterstützt eine erweiterte Menge von 256 Farben. Die zusätzlichen 240 Farben können an dieser Stelle nicht bearbeitet werden.</p>
+
+      <p><app>Terminal</app> ermöglicht sogar direkten Zugriff auf über 16 Millionen Farben. Dies wird »true color« (Echtfarben)-Modus genannt.</p>
+
+      <p>Wenn Ihre Änderungen an der Palette keine Auswirkungen zu scheinen haben, so besteht vermutlich der Inhalt, den Sie sehen, aus Farben einer erweiterten Palette oder »true colors« (Echtfarben) und nicht aus 16 Grundfarben.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Darstellung von fettem Text in hellen Farben</title>
+
+    <p>Traditionell entkoppeln Terminals fette Schriftdarstellung nicht strikt von kräftigen Farben; oft werden beide zusammen aktiviert. Die letzten Verbesserungen, wie die Einführung der Unterstützung für True Colors (16,7 Millionen Farben) und bestimmte Farbschemata (zum Beispiel »Solarisiert«) machten es erforderlich, die zwei Konzepte voneinander zu trennen. Das bedeutet, dass die Helligkeit unabhängig von der Schriftstärke eingestellt werden kann.</p>
+
+    <p>So können Sie Ihr gewünschtes Verhalten wählen:</p>
+
+    <steps>
+      <item>
+        <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie im Abschnitt <gui>Profile</gui> Ihr aktuelles Profil aus.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="tab">Farben</gui>.</p>
+      </item>
+      <item>
+        <p>Deaktivieren Sie <gui>Fetten Text auch in helleren Farben darstellen</gui>, um das neue Verhalten, welches Farbintensität und Schriftstärke vollständig voneinander trennt, einstellen zu können. Alternativ können Sie diese Option aktivieren, um eine verbesserte Abwärtskompatibilität zu gewährleisten.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

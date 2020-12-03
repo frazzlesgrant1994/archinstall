@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Навігація меню <app>Термінала</app> за допомогою клавіатури.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Доступність з клавіатури</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Цими комбінаціями клавіш можна буде скористатися лише у вікнах, де смужка меню є видимою.</p>
+    <p>Клацніть правою кнопкою миші у вікні <app>Термінала</app> і виберіть пункт <gui style="checkbox">Показати панель меню</gui>, щоб програма показала смужку меню.</p>
+  </note>
+
+  <p>Ви можете здійснювати навігацію у меню <app>Термінала</app> за допомогою комбінацій клавіш, які називаються <em>мнемонічними</em> або спеціальними комбінаціями клавіш, які надають вам безпосередній доступ до першого пункту меню на смужці меню і які називають <em>клавішами-прискорювачами меню</em>.</p>
+
+  <section id="mnemonics">
+    <title>Мнемоніка</title>
+
+    <p>Доступ до пунктів меню <app>Термінала</app> можна здійснювати поєднанням клавіші <key>Alt</key> і літери у записів пункту меню. Літеру, якою вам слід скористатися для доступу до пункту меню, буде підкреслено, коли ви натиснете і утримуватимете клавішу <key>Alt</key>.</p>
+
+    <p>Наприклад, розгорнути меню <gui style="menu">Зміни</gui> можна за допомогою комбінації <keyseq><key>Alt</key><key>М</key></keyseq>. Так само, ви можете розгорнути меню <gui style="menu">Файл</gui> за допомогою комбінації <keyseq><key>Alt</key><key>Ф</key></keyseq>.</p>
+
+    <p>Щоб увімкнути мнемонічні скорочення, виконайте такі дії:</p>
+
+    <steps>
+      <item>
+        <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+      </item>
+      <item>
+        <p>На бічній панелі виберіть пункт <gui>Загальне</gui>.</p>
+      </item>
+      <item>
+        <p>Позначте пункт <gui style="checkbox">Увімкнути мнемоніку</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Клавіша виклику панелі меню</title>
+
+    <p>За допомогою цього пункту можна наказати програмі відкривати меню <gui style="menu">Файл</gui>, якщо натиснуто клавішу вмикання прискорювачів меню. Цією клавішею, зазвичай, є клавіша <key>F10</key>.</p>
+
+    <steps>
+      <item>
+        <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+      </item>
+      <item>
+        <p>На бічній панелі виберіть пункт <gui>Загальне</gui>.</p>
+      </item>
+      <item>
+        <p>Позначте пункт <gui style="checkbox">Увімкнути акселератор меню</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

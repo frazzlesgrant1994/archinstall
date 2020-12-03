@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014–2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Escolha entre abrir uma nova janela ou uma nova aba por padrão.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Janelas e abas</title>
+
+<note style="tip">
+  <p>This setting only applies when the <link xref="pref-menubar">menubar is
+  enabled</link>, or when <app>Terminal</app> is started from the command line and
+  neither the <cmd>--tab</cmd> nor the <cmd>--window</cmd> options are passed.</p>
+</note>
+
+  <p>Você pode escolher se deseja abrir uma nova aba ou uma nova janela do <app>Terminal</app> quando você usa <gui style="menuitem">Novo terminal</gui>.</p>
+
+  <steps>
+    <title>If the menubar is enabled,</title>
+    <item>
+      <p>Select
+      <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Preferences</gui>
+      <gui style="tab">General</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Escolha <gui>Janela</gui> ou <gui>Aba</gui> na opção <gui>Abrir novos terminais em</gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>If the menubar is not enabled,</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select <gui>General</gui>.</p>
+    </item>
+    <item>
+      <p>Escolha <gui>Janela</gui> ou <gui>Aba</gui> na opção <gui>Abrir novos terminais em</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Depois de ter definido a preferência, você pode usar <key>Ctrl</key> para inverter a preferência ao abrir. Por exemplo, se você tem em suas preferências configurado para abrir um novo terminal em uma aba, pressionando <gui style="menuitem">Abrir terminal</gui> irá abrir uma nova aba. Por outro lado, se você segurar a tecla <key>Ctrl</key> e, então, pressionar <gui style="menuitem">Novo terminal</gui> enquanto clica, uma nova janela será aberta ao invés da nova aba.</p>
+
+</page>

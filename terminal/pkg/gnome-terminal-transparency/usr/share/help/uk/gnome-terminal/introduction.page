@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="introduction" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-01-08" status="candidate"/>
+    <link type="guide" xref="index"/>
+    <link type="seealso" xref="overview"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Дізнайтеся більше про емулятор термінала GNOME.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Вступ</title>
+
+  <p><app>Термінал GNOME</app> — програма-емулятор термінала, яку призначено для доступу до середовища командної оболонки UNIX. Нею можна скористатися для запускання програм, що доступні на вашій системі.</p>
+
+  <p>У <app>Терміналі</app> передбачено командні послідовності для керування позицією курсора та кольорами.</p>
+
+  <figure>
+    <title>Термінал GNOME</title>
+    <desc>Знімок вікна <app>Термінала</app> GNOME</desc>
+    <media type="image" src="figures/gnome-terminal.png" width="668">
+    </media>
+  </figure>
+
+</page>

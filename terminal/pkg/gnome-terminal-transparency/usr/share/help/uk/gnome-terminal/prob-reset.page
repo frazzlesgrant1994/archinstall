@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Як відновити роботу вікна <app>Термінала</app>, якщо виведення зависає або у виведених даних міститься багато дивних символів?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Скидання стану <app>Термінала</app></title>
+
+  <p>Після помилкового читання нетекстового файла або запуску якоїсь команди може так статися, що вікно <app>Термінала</app> перестане відповідати на команди або показуватиме дивні літери у відповідь на натискання клавіш. Відновити роботу вашого <app>Термінала</app> можна в один з таких способів:</p>
+
+  <section id="reset">
+    <title>Скинути</title>
+
+    <p>Відновити початковий стан вікна <app>Термінала</app>.</p>
+
+    <steps>
+      <item>
+        <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть пункт <guiseq><gui style="menuitem">Додаткове</gui><gui style="menuitem">Скинути</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Щоб отримати запит, натисніть клавішу <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Скинути та очистити</title>
+
+    <p>Окрім відновлення початкового стану вашого <app>Термінала</app>, пункт <gui style="menuitem">Скинути та очистити</gui> спорожняє видиму частину вікна <app>Термінала</app> і вилучає вміст буфера гортання. Щоб <gui style="menuitem">Скинути та очистити</gui> ваш <app>Термінал</app>, виконайте такі дії:</p>
+
+    <steps>
+      <item>
+        <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть пункт <guiseq><gui style="menuitem">Додаткове</gui><gui style="menuitem">Скинути та очистити</gui></guiseq></p>
+      </item>
+      <item>
+        <p>Щоб отримати запит, натисніть клавішу <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Скинути та очистити</gui> виконує ту саму дію, що і команда термінала <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

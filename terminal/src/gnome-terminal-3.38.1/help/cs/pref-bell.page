@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-bell" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak zapnout zvuková upozornění v <app>Terminálu</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Nastavení hlasitého zvonku</title>
+
+  <p><app>Terminál</app> umí vydávat zvuková upozornění, která oznamují události v oknech a kartách <app>Terminálu</app>.</p>
+
+  <p>Abyste byli na tyto události upozorňováni:</p>
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="checkbox">Zvonek terminálu</gui></p>
+    </item>
+  </steps>
+  <note style="tip">
+    <p>Jestli si chcete poslechnout, jaký konkrétní zvuk váš systém vydává, zmáčkněte <keyseq><key>Ctrl</key><key>G</key></keyseq>.</p>
+  </note>
+
+</page>

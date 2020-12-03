@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="sv">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vad är en terminal?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Översikt över en terminal</title>
+
+  <p><app>Terminal</app> är ett terminalprogram för <gui>GNOME</gui>. Följande villkor och deras beskrivningar kommer hjälpa dig att bekanta dig med <app>Terminal</app> och dess funktioner.</p>
+
+  <terms>
+    <item>
+      <title>En terminal</title>
+      <p>En terminal är en punkt för textinmatning i en dator som också kallas för kommandoradsgränssnitt (Command Line Interface, CLI).</p>
+    </item>
+    <item>
+      <title>Fysiska terminaler</title>
+      <p>IBM 3270, VT100 och många andra är hårdvaruterminaler som inte längre tillverkas som fysiska enheter. För att emulera dessa terminaler finns det terminalemulatorer.</p>
+    </item>
+    <item>
+      <title>Terminalemulatorer</title>
+      <p>Emulering är förmågan hos ett datorprogram att imitera ett annat program eller en annan enhet.</p>
+
+      <p>En terminalemulator, också kallad tty, är programvara som emulerar en videoterminal i moderna datorer som använder grafiska användargränssnitt och tillhandahåller interaktiv åtkomst till program som endast kan köras i kommandoradsmiljöer. Dessa program kan köras antingen på samma maskin eller på en annan maskin via <app>telnet</app>, <app>ssh</app> eller <app>uppringning</app>.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>Virtual Terminal Environment (VTE) är en terminalemulator som emulerar en textterminal inuti ett grafiskt användargränssnitt (GUI). <app>Terminal</app> är i stort baserad på <app>VTE</app>. <app>VTE</app> har komponenter som implementerar en terminalemulator med full funktionalitet.</p>
+    </item>
+    <item>
+      <title>Skal</title>
+      <p>Ett <em>skal</em> är ett program som tillhandahåller ett gränssnitt för att anropa eller ”köra” kommandon eller ett annat program inuti en terminal. Det låter dig också visa och bläddra bland innehållet i kataloger. Några populär skal är <app>bash</app>, <app>zsh</app> och <app>csh</app>.</p>
+    </item>
+    <item>
+      <title>Kontrollsekvenser</title>
+      <p>En kontrollsekvens är en rad med tecken som används för att ändra betydelsen av data i en terminal. Kontrollsekvenser används när en dator endast har en kanal för att skicka information fram och tillbaka. Kontrollsekvenser används för att avgöra om data som sänds är ett kommando som ska köras eller information som ska lagras och visas.</p>
+    </item>
+
+    <item>
+      <title>Prompt</title>
+      <p>En prompt kallas också en <em>kommandoprompt</em>. Det är en rad med tecken som används i kommandoradsmiljön för att visa att skalet är redo att ta emot kommandon.</p>
+
+      <p>En prompt slutar vanligtvis med tecknen <sys>$</sys>, <sys>%</sys>, <sys>#</sys> eller <sys>&gt;</sys> och inkluderar information om sökväg för aktuell arbetskatalog. På Unix-baserade system är det vanligt för prompten att sluta med ett <sys>$</sys>- eller <sys>#</sys>-tecken beroende på användarrollen, så som <sys>$</sys> för användare och <sys>#</sys> för superanvändare (också kallad <sys>root</sys>).</p>
+    </item>
+    <item>
+      <title>Kommando</title>
+      <p>Inmatning som anges i prompten för att köras kallas ett <em>kommando</em>. Det är en kombination av programnamnet tillsammans med ytterligare parametrar som skickas med som flaggor för att ändra körningen av programmet.</p>
+    </item>
+  </terms>
+
+</page>

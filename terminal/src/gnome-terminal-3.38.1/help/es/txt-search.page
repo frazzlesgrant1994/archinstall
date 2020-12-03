@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="es">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Buscar en la salida de la <app>Terminal</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Buscar texto</title>
+
+  <p>Puede buscar texto en la salida de la <app>Terminal</app>:</p>
+
+  <steps>
+    <item>
+      <p>Pulse <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> en la esquina superior derecha o pulse <keyseq><key>Ctrl</key><key>Mayús</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Escriba la palabra clave de búsqueda y pulse <key>Intro</key> para buscar hacia atrás. Alternativamente, pulse en las flechas según la dirección de búsqueda que quiera.</p>
+    </item>
+  </steps>
+
+  <p>Puede buscar usando las siguientes opciones para reducir los resultados:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Coincidir con capitalización</gui></title>
+      <p>Hacer la búsqueda sensible a la capitalización: esto restringe los resultados de la búsqueda a aquellos que coinciden con la capitalización de la palabra buscada.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Coincidir sólo con la palabra entera</gui></title>
+      <p>La <app>Terminal</app> buscará la palabra completa e ignorará los resultados que coincidan con ella parcialmente. Por ejemplo, si busca la palabra «cat», la <app>Terminal</app> sólo mostrará los resultados que coincidan con esta palabra exactamente y omitirá resultados como «bobcat».</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Coincidir con expresión regular</gui></title>
+      <p>Puede usar patrones de expresiones regulares en sus palabras de búsqueda. La <app>Terminal</app> mostrará los resultados que coincidan con esos patrones de búsqueda.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Volver al principio</gui></title>
+      <p>La <app>Terminal</app> busca desde su ubicación actual, en el desplazamiento hacia atrás, hasta el final de la salida disponible de la terminal y luego reinicia la búsqueda.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Si cree que va a trabajar con mucha salida en la <app>Terminal</app>, aumente las <link xref="pref-scrolling#lines">líneas de desplazamiento hacia atrás</link> para permitir que la <app>Terminal</app> pueda buscar hacia atrás.</p>
+  </note>
+
+</page>

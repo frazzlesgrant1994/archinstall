@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="ca">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Configura <app>Terminal</app> per executar una ordre o un intèrpret d'ordres diferent a l'iniciar-se.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ordres personalitzades i intèrprets d'ordres</title>
+
+  <p>Un <em>intèrpret d'ordres</em> és un programari que proporciona una interfície per als usuaris del sistema operatiu per executar <em>ordres</em>, amb les quals es poden fer programes com <app>top</app> o el terminal de la línia d'ordres. L'intèrpret d'ordres per defecte és normalment <app>Bash</app>.</p>
+
+  <p>Podeu configurar <app>Terminal</app> per executar una ordre quan comenci o mentre espera una entrada seva:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menu">Ordre</gui>.</p>
+    </item>
+    <item>
+      <p>Habilita <gui>Executa una ordre personalitzada a l'intèrpret d'ordres</gui>.</p>
+    </item>
+    <item>
+      <p>Al quadre de text, escriviu l'ordre desitjada per a l'intèrpret d'ordres.</p>
+      <p>L'ordre es passarà exactament com l'escriviu, incloent-hi els arguments que especifiqueu. Les variables d'entorn seran heretades del terminal ja que es consideren processos fills del terminal.</p>
+    </item>
+    <item>
+      <p>Obriu una pestanya nova al <app>Terminal</app> o finestra per veure com l'intèrpret d'ordres personalitzat o l'ordre s'executa.</p>
+    </item>
+  </steps>
+
+  <p>També podeu <link xref="pref-custom-exit">configurar el comportament</link> del terminal una vegada acabi l'execució de l'ordre.</p>
+
+  <note style="important">
+    <p>Podeu necessitar introduir el camí sencer a l'ordre o a l'intèrpret d'ordres si el directori on l'intèrpret es troba no és al <code>CAMÍ</code> de la variable del vostre sistema.</p>
+  </note>
+
+</page>

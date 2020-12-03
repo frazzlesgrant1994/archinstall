@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="txt-select-text" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-28" status="review"/>
+    <link type="guide" xref="index#textoutput"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013, 2015</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Seleccione palabras individuales o líneas en la terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Selección de texto</title>
+
+  <p>Puede seleccionar una palabra o una frase, o hacer una selección rectangular en la salida de la terminal:</p>
+
+  <terms>
+    <item>
+      <title>Seleccionar una palabra</title>
+      <p>Pulse dos veces sobre la palabra.</p>
+    </item>
+    <item>
+      <title>Seleccionar una línea</title>
+      <p>Pulse tres veces sobre la línea.</p>
+    </item>
+    <item>
+      <title>Hacer una selección rectangular</title>
+      <p>Mantenga pulsada la tecla <key>Ctrl</key> y pulse el botón izquierdo del ratón y arrastre.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Si está ejecutando una aplicación en la <app>Terminal</app> que soporta la entrada del ratón, necesita usa el modificador <key>Mayús</key> para que la <app>Terminal</app> capture la entrada del ratón.</p>
+  </note>
+
+</page>

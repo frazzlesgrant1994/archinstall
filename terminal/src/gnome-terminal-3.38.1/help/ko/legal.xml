@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license xmlns="http://projectmallard.org/1.0/">
+
+  <p>이 문서는 <link href="http://creativecommons.org/licenses/by-sa/3.0/">크리에이티브 커먼즈 저작자표시-동일조건변경허락 3.0 Unported 라이선스</link> 및 <link href="http://www.gnu.org/licenses/">GNU 일반 공중 사용 허가서 3판</link>에 따른 활용을 허가합니다. 각 라이선스에 조항에 따라 재배포 또는 수정할 수 있습니다.</p>
+
+  <p>GPL 3 조항:</p>
+  <p>This work is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.</p>
+
+  <p>This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
+
+  <p>You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.</p>
+</license>

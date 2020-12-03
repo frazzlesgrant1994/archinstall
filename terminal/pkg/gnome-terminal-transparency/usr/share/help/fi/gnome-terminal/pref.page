@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="2column task" id="pref" xml:lang="fi">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="draft"/>
+
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><app>Päätteen</app> asetukset</title>
+
+  <section id="global" style="2column">
+    <title>Global Preferences</title>
+  </section>
+
+  <section id="manage-profiles" style="2column">
+    <title>Manage Profiles</title>
+  </section>
+
+  <section id="profile" style="2column">
+    <title>Profile Preferences</title>
+  </section>
+
+</page>

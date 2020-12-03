@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak přes odkazy otevírat weby a e-mailové adresy.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hypertextové odkazy a e-mailové adresy</title>
+
+  <p>Aplikace <app>Terminál</app> analyzuje terminálový výstup a automaticky určuje, které části textu jsou webovými nebo e-mailovými adresami. Tyto adresy jsou potom automaticky zvýrazňovány, když na ně najedete ukazatelem. Tím se vám dá najevo, že jde o odkaz, který můžete otevřít v jiné aplikaci.</p>
+
+  <p>Například byste mohli vidět odkazy <output>http://www.gnome.org</output> nebo <output>uzivatel@pokus.cz</output>, které vzniknou jako výstup programů typu <app>wget</app> nebo <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Otevření nebo zkopírování webové adresy</title>
+
+    <p>Webovým adresám se také říká hypertextové odkazy. Můžete je kopírovat do systémové schránky nebo otevřít ve svém upřednostňovaném webovém prohlížeči.</p>
+
+    <list>
+      <item>
+        <p>Abyste zkopírovali hypertextový odkaz:</p>
+        <steps>
+          <item>
+            <p>Klikněte pravým tlačítkem na odkaz v <app>Terminálu</app>.</p>
+          </item>
+          <item>
+          <p>Vyberte <gui style="menuitem">Kopírovat odkaz</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Abyste otevřeli hypertextový odkaz ve svém webovém prohlížeči:</p>
+        <steps>
+          <item>
+            <p>Klikněte pravým tlačítkem na hypertextový odkaz.</p>
+          </item>
+          <item>
+            <p>Vyberte <gui style="menuitem">Otevřít odkaz</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Odeslání zprávy nebo zkopírování e-mailové adresy</title>
+
+    <p>E-mailové adresy můžete kopírovat do systémové schránky nebo otevřít ve svém upřednostňovaném e-mailovém klientovi.</p>
+
+    <list>
+      <item>
+        <p>Abyste zkopírovali e-mailovou adresu:</p>
+        <steps>
+          <item>
+            <p>Klikněte pravým tlačítkem na e-mailovou adresu v <app>Terminálu</app>.</p>
+          </item>
+          <item>
+          <p>Vyberte <gui style="menuitem">Kopírovat e-mailovou adresu</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Abyste na e-mailovou adresu odeslali zprávu ze svého poštovního klienta:</p>
+        <steps>
+          <item>
+            <p>Klikněte pravým tlačítkem na adresu.</p>
+          </item>
+          <item>
+            <p>Vyberte <gui style="menuitem">Odeslat e-mail…</gui></p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

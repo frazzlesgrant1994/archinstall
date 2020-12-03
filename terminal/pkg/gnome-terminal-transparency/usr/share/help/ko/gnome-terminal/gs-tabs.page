@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-tabs" xml:lang="ko">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <revision pkgversion="3.8" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-07" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>터미널</app> 탭을 활성화, 추가, 제거하고 순서를 바꿉니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>탭 사용</title>
+
+  <p>열어 둔 여러 탭(단추를 일렬로 배치한 것 같은 모양새)을 보여주는 탭 표시줄은 터미널 창의 상단에 있습니다. 전환하려는 대상 탭을 눌러보십시오. <app>터미널</app>에서 다루려는 탭을 여러 개 열어둘 수 있습니다. 프로그램 실행, 디렉터리 탐색, 텍스트 파일 편집 활동을 단일 <app>터미널</app> 창에서 다중 작업으로 처리할 수 있게 합니다.</p>
+
+  <section id="add-tab">
+    <title>탭 열기</title>
+
+    <p><app>터미널</app> 창에 새 탭을 열려면:</p>
+    <steps>
+      <item>
+        <p><keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq> 키를 누르십시오.</p>
+      </item>
+    </steps>
+
+  </section>
+
+<!-- TODO: doesn't work, see bug 720693
+  <section id="rename-tab">
+    <title>Rename a tab</title>
+
+    <p>Each tab has an automatically assigned title. You can rename the tabs
+    individually:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Terminal</gui>
+        <gui style="menuitem">Set Title…</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Enter the desired <gui>Title</gui> that you wish to use for the tab.
+        This will overwrite any titles that would be set by terminal commands.
+        </p>
+        <note>
+          <p>It is not possible to set back the automatically set title once it
+          has been set for a tab. To see the title, you need to allow terminal
+          command titles to be shown in the <gui style="menuitem">Profile 
+          Preferences</gui>.</p>
+        </note>
+      </item>
+      <item>
+        <p>Click <gui style="button">OK</gui>.</p>
+      </item>
+    </steps>
+  </section>-->
+
+  <section id="close-tab">
+    <title>탭 제거</title>
+
+    <p><app>터미널</app> 창의 기존 탭을 닫으려면:</p>
+
+    <steps>
+      <item>
+        <p>Press <keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq>.</p>
+      </item>
+    </steps>
+
+    <p>대신 탭 우측 상단에 있는 <gui style="button">×</gui> 를 누르거나 탭에 마우스 커서를 올려두고 오른쪽 단추를 누른 후 <gui style="menuitem">터미널 닫기</gui>를 선택하여 탭을 닫을 수 있습니다.</p>
+
+  </section>
+
+  <section id="reorder-tab">
+    <title>탭 순서 바꾸기</title>
+
+    <p>창에 있는 탭의 순서를 바꾸려면:</p>
+    <steps>
+      <item>
+        <p>탭에 마우스 커서를 두고 왼쪽 단추를 누르고 대기하십시오.</p>
+      </item>
+      <item>
+        <p>다른 탭 사이의 원하는 위치로 탭을 끌어다 놓으십시오.</p>
+      </item>
+      <item>
+        <p>마우스 단추를 떼십시오.</p>
+      </item>
+    </steps>
+
+    <p>탭을 놓아둔 위치와 가까운 다른 탭의 바로 옆자리로 탭을 놓아둡니다.</p>
+
+    <p>대신, 탭에 마우스 커서를 올려두고 오른쪽 단추를 누른 후 <gui style="menuitem">터미널을 왼쪽으로 옮기기</gui>를 선택하여 탭을 왼쪽으로 옮기거나 <gui style="menuitem">터미널을 오른쪽으로 옮기기</gui>를 선택하여 탭을 오런쪽으로 옮겨 탭 순서를 바꿀 수 있습니다. 이 방법으로 한번에 하나씩 탭을 움직여 위치를 바꿀 수 있습니다.</p>
+
+  </section>
+
+  <!--
+  <section id="move-tab-another-window">
+    <title>Move a tab to another <app>Terminal</app> window</title>
+
+    <p>If you want to move a tab from one window to another:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab to the new window.</p>
+      </item>
+      <item>
+        <p>Place it beside other tabs in the new window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>You can move a tab from one window to another by dragging the tab to
+      the <gui>Activities</gui> hot-corner of the <gui>GNOME Shell</gui>. This
+      will reveal each of the open <app>Terminal</app> windows. You can release
+      the tab that you are holding over the desired <app>Terminal</app>
+      window.</p>
+    </note>
+  </section>
+
+  <section id="move-tab-create-window">
+    <title>Move a tab to create a new <app>Terminal</app> window</title>
+
+    <p>To create a new window from an existing tab:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab out of the current <app>Terminal</app> window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+  </section>
+  -->
+
+</page>

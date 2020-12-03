@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="ru">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Enable fullscreen mode.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Полноэкранный сеанс</title>
+
+  <p>Полноэкранный режим позволяет использовать всё пространство экрана для <app>Терминала</app>.</p>
+
+  <p>Этот режим очень удобен при работе на устройствах с ограниченным размером экрана и предназначен для долговременной работы в <app>Терминале</app> или для работы с длинными строками вывода. В этом режиме временно убирается рамка окна, что позволяет видеть больше <link xref="pref-scrolling">строк прокрутки</link> на экране.</p>
+
+  <p>Чтобы включить полноэкранный режим:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Full Screen</gui>, or press <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>При включённой панели меню она будет показываться также и в полноэкранном режиме.</p>
+  </note>
+
+  <note style="tip">
+    <p>При наличии более одной открытой вкладки <app>Терминала</app>, панель вкладок будет показываться и в полноэкранном режиме.</p>
+  </note>
+
+  <p>Чтобы выйти из полноэкранного режима:</p>
+
+  <steps>
+    <item>
+      <p>Right click and select <gui style="menuitem">Leave Full Screen</gui>.
+      Alternatively, press <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

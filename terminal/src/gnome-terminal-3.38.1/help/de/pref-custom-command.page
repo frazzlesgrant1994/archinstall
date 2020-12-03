@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Festlegen, dass <app>Terminal</app> einen Befehl oder eine andere Shell beim Start ausführt.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eigene Befehle und Shells</title>
+
+  <p>Eine <em>Shell</em> ist eine Software, die eine Schnittstelle für Benutzer eines Betriebssystems bereitstellt, um <em>Befehle</em> auszuführen, zum Beispiel Programme wie <app>top</app> oder Befehlszeilen-Shell. Die Standardshell ist üblicherweise <app>Bash</app>.</p>
+
+  <p>Sie können festlegen, dass <app>Terminal</app> beim Programmstart einen Befehl ausführt, anstatt auf eine Eingabe von Ihnen zu warten:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie im Abschnitt <gui>Profile</gui> Ihr aktuelles Profil aus.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <gui style="menu">Befehl</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <gui>Einen benutzerdefinierten Befehl statt meiner Befehlszeile starten</gui>.</p>
+    </item>
+    <item>
+      <p>Geben Sie den Befehl oder die gewünschte Shell in das Textfeld ein.</p>
+      <p>Der Befehl wird genau so an das Terminal übergeben, wie Sie ihn eingeben, einschließlich der angegebenen Argumente. Umgebungsvariablen werden von dem Terminal vererbt, da es ein Unterprozess des Terminals ist.</p>
+    </item>
+    <item>
+      <p>Öffnen Sie einen neuen Reiter in <app>Terminal</app> oder ein neues Fenster, um zu sehen, wie eine benutzerdefinierte Shell oder ein Befehl ausgeführt wird.</p>
+    </item>
+  </steps>
+
+  <p>Sie können auch <link xref="pref-custom-exit">das Verhalten von Terminal festlegen</link>, sobald der Befehl endet.</p>
+
+  <note style="important">
+    <p>Sie müssen eventuell den vollen Pfad zum Befehl oder der Shell angeben, falls der Ordner, in dem der Befehl oder die Shell liegt, nicht in der Variable <code>PATH</code> Ihres Systems enthalten ist.</p>
+  </note>
+
+</page>

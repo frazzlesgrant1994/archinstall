@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="pl">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak przywrócić ekran <app>Terminala</app>, jeśli utknął lub ma dziwne znaki?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Przywracanie stanu <app>Terminala</app></title>
+
+  <p>Jeśli przez przypadek wyświetlono plik binarny lub wykonano jakieś polecenie, to ekran <app>Terminala</app> może przestać odpowiadać albo wyświetlać dziwne litery po naciśnięciu klawisza. Można przywrócić <app>Terminal</app> na jeden z tych sposobów:</p>
+
+  <section id="reset">
+    <title>Przywracanie</title>
+
+    <p>Przywracanie ekranu <app>Terminala</app>.</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <guiseq><gui style="menuitem">Zaawansowane</gui><gui style="menuitem">Zresetuj</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Aby wyświetlić znak zachęty, naciśnij klawisz <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Przywracanie i czyszczenie</title>
+
+    <p>Oprócz przywracania <app>Terminala</app>, opcja <gui style="menuitem">Zresetuj i wyczyść</gui> czyści widoczną część <app>Terminala</app> i zawartość przewijania. Aby przywrócić i wyczyścić <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <guiseq><gui style="menuitem">Zaawansowane</gui><gui style="menuitem">Zresetuj i wyczyść</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Aby wyświetlić znak zachęty, naciśnij klawisz <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p>Opcja <gui>Zresetuj i wyczyść</gui> dostarcza podobną funkcjonalność do polecenia terminala <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

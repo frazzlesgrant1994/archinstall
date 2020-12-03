@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Usa tipus de lletra del sistema o personalitzades per al vostre terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Canviar el tipus de lletra i l'estil</title>
+
+  <p>Quan treballeu amb molt de text al <app>Terminal</app>, podeu preferir canviar la mida de la lletra a preferències. Teniu les següents opcions:</p>
+
+  <section id="system-font">
+  <title>Tipus de lletra d'amplada fixa del sistema</title>
+
+  <p>Per a usar tipus de lletra per defecte al sistema:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menu">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Desseleccioneu <gui style="checkbox">Tipus de lletra personalitzada</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Configurar un tipus de lletra personalitzat</title>
+
+  <p>Per a configurar un tipus de lletra personalitzat i la mida:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menu">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="checkbox">Tipus de lletra personalitzada</gui>.</p>
+    </item>
+    <item>
+      <p>Feu clic al botó al costat de <gui style="checkbox">Tipus de lletra personalitzada</gui>.</p>
+    </item>
+    <item>
+      <p>Escriu el nom del tipus de lletra al camp de cerca o navega per la llista de tipus de lletres.</p>
+    </item>
+    <item>
+      <p>Arrossegueu el control lliscant que és a sota de la llista del tipus de lletra per a configurar la mida del tipus de lletra. De forma alternativa, podeu escriure la mida del tipus de lletra dins del camp al costat del control lliscant, o prémer<gui style="button">+</gui> per augmentar la mida del tipus de lletra o <gui style="button">-</gui> per disminuir la mida del tipus de lletra seleccionat.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui style="button">Selecciona</gui> per aplicar els canvis. Per revertir els canvis i tornar enrere al diàleg previ, premeu <gui style="button">Cancel·la</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Interlineat i espai entre caràcters</title>
+
+  <p><app>Terminal</app> permet separar els caràcters per millorar-ne la llegibilitat. L'interlineat i espai entre caràcters es poden ajustar des d'1,0 (aspecte normal) fins al 2,0 «doble espaiat», incloent-hi valors fraccionats.</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menu">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Aneu al paràmetre <gui>Espaiat de la cel·la</gui>.</p>
+    </item>
+    <item>
+      <p>Per a establir l'espaiat horitzontal, ajusteu el número multiplicador davant d'<gui>amplada</gui>.</p>
+    </item>
+    <item>
+      <p>Per a configurar l'interlineat, ajusteu el nombre del multiplicador per davant d'<gui>altura</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Verweise auf Web- und E-Mail-Adressen öffnen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Verweise und E-Mail-Adressen</title>
+
+  <p><app>Terminal</app> analysiert die Ausgabe und erkennt automatisch Textstellen, die Web-Adressen oder E-Mail-Adressen sind. Diese werden automatisch hervorgehoben, wenn Sie mit dem Mauszeiger über den Text fahren, um anzuzeigen, dass Sie den Verweis in einer Anwendung öffnen können.</p>
+
+  <p>Zum Beispiel könnten Sie <output>http://www.gnome.org</output> oder <output>username@example.com</output> als Teil der Terminal-Ausgaben eines Programms wie <app>wget</app> oder <app>curl</app> sehen.</p>
+
+  <section id="hyperlinks">
+    <title>Web-Adressen öffnen oder kopieren</title>
+
+    <p>Web-Adressen werden auch als Verweise bezeichnet. Sie können in die Zwischenablage kopiert oder mit Ihrem bevorzugten Web-Browser geöffnet werden.</p>
+
+    <list>
+      <item>
+        <p>So kopieren Sie einen Verweis:</p>
+        <steps>
+          <item>
+            <p>Klicken Sie mit der rechten Maustaste auf den Verweis im <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Wählen Sie <gui style="menuitem">Verweis kopieren</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>So öffnen Sie einen Verweis in Ihrem Web-Browser:</p>
+        <steps>
+          <item>
+            <p>Klicken Sie mit der rechten Maustaste auf den Verweis.</p>
+          </item>
+          <item>
+            <p>Wählen Sie <gui style="menuitem">Verweis öffnen</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>E-Mail-Adressen kopieren oder als Empfänger einer E-Mail verwenden</title>
+
+    <p>E-Mail-Adressen können in die Zwischenablage kopiert oder mit Ihrem bevorzugten E-Mail-Programm geöffnet werden.</p>
+
+    <list>
+      <item>
+        <p>So kopieren Sie eine E-Mail-Adresse:</p>
+        <steps>
+          <item>
+            <p>Klicken Sie mit der rechten Maustaste auf die E-Mail-Adresse im <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Wählen Sie <gui style="menuitem">E-Mail-Adresse kopieren</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>So versenden Sie eine E-Mail an die E-Mail-Adresse mit Ihrem E-Mail-Programm:</p>
+        <steps>
+          <item>
+            <p>Klicken Sie mit der rechten Maustaste auf die Adresse.</p>
+          </item>
+          <item>
+            <p>Wählen Sie <gui style="menuitem">E-Mail senden an …</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

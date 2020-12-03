@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-login-shell" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Starta ett inloggningsskal i <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Inloggningsskal</title>
+
+  <p>Skal i UNIX-baserade system kan startas upp i inloggnings- och icke-inloggningslägen:</p>
+
+  <terms>
+    <item>
+      <title>Inloggningsskal</title>
+      <p>Ett inloggningsskal är ett skal som ges till en användare vid inloggning till deras konto. Detta initieras genom att använda flaggan <cmd>-l</cmd> eller <cmd>--login</cmd>, eller att placera ett bindestreck som det inledande tecknet i kommandonamnet, genom att till exempel köra <cmd>bash</cmd> som <cmd>-bash</cmd>.</p>
+    </item>
+    <item>
+      <title>Underskal</title>
+      <p>Underskal, också kallade icke-inloggningsskal, är skal som startats efter inloggningsprocessen utan flaggorna <cmd>-l</cmd> eller <cmd>--login</cmd> och utan ett extra inledande bindestreck innan kommandonamnet.</p>
+    </item>
+  </terms>
+
+  <p>De allmänna fallen för att få ett inloggningsskal inkluderar:</p>
+  <list>
+    <item>
+      <p>Fjärranvändning av din datorn via <app>ssh</app>.</p>
+    </item>
+    <item>
+      <p>Simulering av ett initialt inloggningsskal med <cmd>bash -l</cmd> eller <cmd>sh -l</cmd>.</p>
+    </item>
+    <item>
+      <p>Simulering av ett inloggningsskal för root via <cmd>sudo -i</cmd>.</p>
+    </item>
+  </list>
+
+  <section id="login-shell-howto">
+    <title>Starta ett inloggningsskal</title>
+
+    <p>Du kan låta <app>Terminal</app> starta ett inloggningsskal. Ditt standardskal kommer att startas med ett bindestreck innan dess namn.</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Kommando</gui>.</p>
+      </item>
+      <item>
+        <p>Under etiketten <gui>Kommando</gui>, välj <gui style="checkbox">Kör kommando som ett inloggningsskal</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

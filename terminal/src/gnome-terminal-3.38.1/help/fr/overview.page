@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="fr">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Qu’est-ce qu’un terminal ?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Présentation d’un terminal</title>
+
+  <p><app>Terminal</app> est un programme de terminal, de console, pour <gui>GNOME</gui>. Les termes suivants et leurs descriptions vous aideront à vous familiariser avec <app>Terminal</app> et ses capacités.</p>
+
+  <terms>
+    <item>
+      <title>Un terminal</title>
+      <p>Un terminal est un point d’entrée de texte dans un ordinateur appelé aussi interface de ligne de commande (CLI).</p>
+    </item>
+    <item>
+      <title>Terminaux physiques</title>
+      <p>IBM 3270, VT100 et bien d’autres sont des bornes de matériels qui ne sont plus produites en tant que dispositifs physiques. Pour émuler ces terminaux, il existe des émulateurs de terminaux.</p>
+    </item>
+    <item>
+      <title>Émulateurs de terminal</title>
+      <p>L’émulation est la capacité d’un programme d’ordinateur à imiter un autre programme ou dispositif.</p>
+
+      <p>Un émulateur de terminal, également appelé tty, est un logiciel qui émule un terminal vidéo dans les ordinateurs modernes qui utilisent des interfaces graphiques et fournit un accès interactif à des applications qui s’exécutent uniquement dans les environnements de ligne de commande. Ces applications peuvent être exécutées sur la même machine ou sur une autre via <app>telnet</app>, <app>ssh</app>, ou <app>dial-up</app>.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>L’environnement de terminal virtuel (VTE) est un émulateur de terminal qui émule un terminal de texte au sein d’un environnement d’interface utilisateur graphique (GUI). <app>Terminal</app> est en grande partie basé sur <app>VTE</app>. <app>VTE</app> dispose d’éléments graphiques qui concourent à un émulateur de terminal entièrement fonctionnel.</p>
+    </item>
+    <item>
+      <title>Shell</title>
+      <p>Un <em>shell</em> est un programme qui fournit une interface pour appeler ou « lancer » des commandes ou d’autres programmes dans un terminal. Il vous permet également de visualiser et de parcourir le contenu des répertoires. Les plus connus sont <app>bash</app>, <app>zsh</app>, <app>fish</app>.</p>
+    </item>
+    <item>
+      <title>Séquences d’échappement</title>
+      <p>Une séquence d’échappement est une série de caractères utilisée pour changer la signification des données dans un terminal. Les séquences d’échappement sont utilisées lorsque l’ordinateur ne dispose que d’un seul canal pour envoyer des informations dans les deux sens. Les séquences d’échappement sont utilisées pour distinguer si les données envoyées sont une commande à exécuter ou des informations à enregistrer ou à afficher.</p>
+    </item>
+
+    <item>
+      <title>Invite</title>
+      <p>Une invite, également appelée <em>invite de commande</em>, est une séquence de caractères utilisée dans l’environnement de la ligne de commande pour indiquer l’état de préparation du shell à accepter des commandes.</p>
+
+      <p>Une invite se termine généralement par des caractères <sys>$</sys>, <sys>%</sys>, <sys>#</sys> ou <sys>&gt;</sys> et inclut des informations sur le chemin du répertoire de travail actuel. Sur les systèmes Unix, il est fréquent que l’invite se termine par un caractère <sys>$</sys> ou <sys>#</sys> en fonction du rôle de l’utilisateur, comme <sys>$</sys> pour indiquer l’utilisateur et <sys>#</sys> pour le super-utilisateur (également appelé <sys>root</sys>).</p>
+    </item>
+    <item>
+      <title>Commande</title>
+      <p>Une saisie dans l’invite destinée à être exécutée est appelée <em>commande</em>. Il s’agit d’une combinaison du nom du programme associée à d’autres paramètres passés comme des drapeaux pour modifier l’exécution du programme.</p>
+    </item>
+  </terms>
+
+</page>

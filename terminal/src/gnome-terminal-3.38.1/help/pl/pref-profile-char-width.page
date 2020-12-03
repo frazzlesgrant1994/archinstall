@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-profile-char-width" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#profile"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wyświetlanie znaków o niejednoznacznej szerokości jako szerokie zamiast wąskich.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Znaki są zbyt wąskie</title>
+
+  <p>Niektóre znaki, takie jak niektóre litery greckie i logogramy azjatyckie, mogą zajmować jedną lub dwie komórki w oknie terminala. Te znaki są często nazywane <em>znakami o niejednoznacznej szerokości</em>. Domyślnie w <app>Terminalu</app> są one wyświetlane jako wąskie znaki, co wygląda lepiej w przypadkach, gdy ważny jest idealny układ znaków, np. grafiki ASCII. Można zmienić preferencje profilu, aby wyświetlać znaki o niejednoznacznej szerokości jako szerokie znaki, co sprawdza się lepiej w przypadku dłuższych tekstów.</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+    </item>
+    <item>
+      <p>Otwórz kartę <gui style="tab">Zgodność</gui>.</p>
+    </item>
+    <item>
+      <p>Ustaw <gui>Znaki o niejednoznacznej szerokości</gui> na <gui>Szerokie</gui>.</p>
+    </item>
+  </steps>
+
+</page>

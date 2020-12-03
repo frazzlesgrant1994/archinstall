@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="txt-select-text" xml:lang="uk">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-28" status="review"/>
+    <link type="guide" xref="index#textoutput"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013, 2015</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Позначення окремих слів або рядків у терміналі.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Вибір тексту</title>
+
+  <p>Ви можете позначити слово чи речення або прямокутний блок тексту у даних, які виведено до термінала:</p>
+
+  <terms>
+    <item>
+      <title>Вибір слова</title>
+      <p>Двічі клацніть на слові.</p>
+    </item>
+    <item>
+      <title>Вибір рядка</title>
+      <p>Тричі клацніть на рядку.</p>
+    </item>
+    <item>
+      <title>Позначення прямокутного блоку</title>
+      <p>Натисніть і утримуйте клавішу <key>Ctrl</key>, натисніть і утримуйте ліву кнопку миші, далі, перетягніть вказівник миші.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Якщо у <app>Терміналі</app> запущено програму, яка реагує на клацання кнопками миші, вам слід скористатися натисканням додаткової клавіші-модифікатора <key>Shift</key>, щоб передати події натискання кнопок миші до самої програми <app>Термінал</app>.</p>
+  </note>
+
+</page>

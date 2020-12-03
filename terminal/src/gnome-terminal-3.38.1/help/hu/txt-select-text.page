@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="txt-select-text" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-28" status="review"/>
+    <link type="guide" xref="index#textoutput"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013, 2015</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Egyes szavak vagy sorok kijelölése a terminálban.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Szövegkijelölés</title>
+
+  <p>A terminálkimenetből kijelölhet egy szót vagy mondatot, vagy egy négyzet alakú területet:</p>
+
+  <terms>
+    <item>
+      <title>Szó kiválasztása</title>
+      <p>Kattintson duplán a szóra.</p>
+    </item>
+    <item>
+      <title>Sor kiválasztása</title>
+      <p>Kattintson háromszor a sorra.</p>
+    </item>
+    <item>
+      <title>Téglalap alakú kijelölés</title>
+      <p>Tartsa lenyomva a <key>Ctrl</key> billentyűt, kattintson és tartsa lenyomva a bal egérgombot, és húzza az egeret.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Ha a <app>Terminálban</app> egérbevitelt elfogadó alkalmazást futtat, akkor nyomva kell tartani a <key>Shift</key> billentyűt, hogy a <app>Terminál</app> elfogja az egérbevitelt.</p>
+  </note>
+
+</page>

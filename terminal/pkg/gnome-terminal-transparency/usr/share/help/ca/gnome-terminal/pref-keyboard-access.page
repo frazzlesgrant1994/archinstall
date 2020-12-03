@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Navega pels menús del <app>Terminal</app> usant el teclat.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Accessibilitat del teclat</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Aquestes tecles sols tindran efecte a la finestra on la barra de menú estigui configurada com visible.</p>
+    <p>Feu clic dret a la finestra del <app>Terminal</app> i seleccioneu <gui style="checkbox">Mostra la barra del menú</gui> per a mostrar la barra del menú.</p>
+  </note>
+
+  <p>Podeu navegar pel menú del <app>Terminal</app> usant una combinació de tecles que s'anomenen <em>mnemònics</em> o una tecla especial que prem directament el primer menú de la barra, la qual s'anomena <em>tecla acceleradora de menú</em>.</p>
+
+  <section id="mnemonics">
+    <title>Mnemònics</title>
+
+    <p>El menú <app>Terminal</app> pot ser accessible amb la combinació de la tecla <key>Alt</key> i una lletra de l'element del menú. La lletra que necessiteu per a accedir al menú està subratllada quan es manté premuda la tecla <key>Alt</key>.</p>
+
+    <p>Per exemple, mireu el menú <gui style="menu">Edita</gui> usant <keyseq><key>Alt</key><key>E</key></keyseq>. De forma semblant, podeu accedir al menú <gui style="menu">Fitxer</gui> usant <keyseq><key>Alt</key><key>F</key></keyseq>.</p>
+
+    <p>Per a habilitar mnemònics:</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Marca <gui style="checkbox">Habilita els mnemònics</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Tecla acceleradora del menú</title>
+
+    <p>Aquest paràmetre fa aparèixer el menú <gui style="menu">Fitxer</gui> quan la tecla acceleradora del menú està premuda. La tecla és normalment <key>F10</key> per defecte.</p>
+
+    <steps>
+      <item>
+        <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Marca <gui style="checkbox">Habilita la tecla del menú acceleradora</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

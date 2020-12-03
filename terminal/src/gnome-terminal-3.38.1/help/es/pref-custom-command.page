@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Configurar la <app>Terminal</app> para que ejecute un comando o una shell diferente al inicio.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Comandos personalizados y shells</title>
+
+  <p>Una <em>shell</em> es un programa que proporciona una interfaz para que los usuarios de un sistema operativo ejecuten <em>comandos</em>, que pueden ser comandos como <app>top</app> o un comando de la línea de comandos. Generalmente, la shell predeterminada es <app>Bash</app>.</p>
+
+  <p>Puede configurar la <app>Terminal</app> para que ejecute un comando cuando se inicia en lugar de esperar que introduzca algo:</p>
+
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+    </item>
+    <item>
+      <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui style="tab">Comando</gui>.</p>
+    </item>
+    <item>
+      <p>Marque <guilabel>Ejecutar comando personalizado en vez de mi shell</guilabel>.</p>
+    </item>
+    <item>
+      <p>En la caja de texto, escriba el comando o la shell que quiere.</p>
+      <p>El comando se pasará a la terminal tal y como lo escriba, incluyendo cualquier argumento que especifique. Las variables de entorno se heredarán de la terminal ya que es un proceso hijo de la terminal.</p>
+    </item>
+    <item>
+      <p>Abra una pestaña o una ventana nueva de la <app>Terminal</app> para ver cómo se ejecutan la shell o el comando personalizados.</p>
+    </item>
+  </steps>
+
+  <p>También puede <link xref="pref-custom-exit">configurar el comportamiento</link> de la terminal cuando el comando termina su ejecución.</p>
+
+  <note style="important">
+    <p>Es posible que necesite escribir la ruta completa del comando o de la shell si la carpeta en la que están el comando o la shell no están en la variable <code>PATH</code> de su sistema.</p>
+  </note>
+
+</page>

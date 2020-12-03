@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="fi">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Määrittele, mikä komento tai komentotulkki ajetaan <app>Päätteen</app> käynnistyessä.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mukautetut komennot ja komentotulkit</title>
+
+  <p><em>Komentotulkki</em> on ohjelma, joka tarjoaa käyttöjärjestelmän käyttäjille ympäristön <em>komentojen</em>, kuten ohjelmien (esimerkiksi <app>top</app>) ja toisten komentotulkkien, ajamiseen. <app>Bash</app> on usein järjestelmän oletuskomentotulkki.</p>
+
+  <p><app>Pääte</app> kykenee ajamaan komennon käynnistymisen yhteydessä automaattisesti ennen komentosyötteen antamista seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Command</gui>.</p>
+    </item>
+    <item>
+      <p>Valitse <gui>Suorita muu komento komentotulkin sijaan</gui> -valintaruutu.</p>
+    </item>
+    <item>
+      <p>Kirjoita komento tai haluttu komentotulkki tekstikenttään.</p>
+      <p>Komento annetaan päätteelle juuri siinä muodossa ja niillä valinnoilla, jotka edellä mainittuun tekstikenttään kirjoitetaan. Ympäristömuuttujat periytyvät päätteeltä, sillä ajettava komento on päätteen lapsiprosessi.</p>
+    </item>
+    <item>
+      <p>Avaa uusi <app>Päätteen</app> ikkuna tai välilehti tarkastaaksesi mukautetun komentotulkin tai komennon toimivuuden.</p>
+    </item>
+  </steps>
+
+  <p>On myös mahdollista päättää, <link xref="pref-custom-exit">miten toimitaan</link>, kun komennon suoritus päättyy.</p>
+
+  <note style="important">
+    <p>Komentoon tai komentotulkkiin täytyy antaa täydellinen polku, jos hakemisto, jossa komento tai komentotulkki sijaitsee, ei ole järjestelmän <code>PATH</code>-muuttujassa.f</p>
+  </note>
+
+</page>

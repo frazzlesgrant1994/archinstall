@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Skapa, byt namn på och ta bort profiler.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hantera profiler</title>
+
+  <p>En profil är en samling av <app>Terminal</app>-inställningar. <app>Terminal</app> stöder flera profiler. Du kan konfigurera <app>Terminal</app>-profiler för att <link xref="pref-custom-command">köra ett anpassat kommando eller skal</link>, ställa in en profil särskilt för att ansluta till fjärrdatorer med SSH eller ställa in en profil som kör en <app>GNU Screen</app>-session.</p>
+
+  <p>De tillgängliga <app>Terminal</app>-inställningarna inkluderar:</p>
+
+  <list>
+    <item>
+      <p>Profilnamn.</p>
+    </item>
+    <item>
+      <p>Typsnitts- och bakgrundsfärger.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Kompatibilitet</gui> med <key>Backsteg</key>- och <key>Delete</key>-tangenter.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Rullning</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Välja en profil</title>
+
+    <p>Om du har två eller fler profiler definierade kan du ändra profilen i nuvarande <app>Terminal</app>-flik eller fönster genom att välja en profil från <guiseq><gui style="menu">Terminal</gui> <gui style="menuitem">Ändra profil</gui></guiseq>.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Skapa en ny profil</title>
+
+    <p>För att skapa en ny profil med standardinställningarna för <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Välj <guiseq><gui style="menu">Redigera</gui> <gui style="menuitem">Inställningar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>I sidopanelen, klicka på <gui style="button">+</gui>-knappen intill etiketten <gui>Profiler</gui>.</p>
+      </item>
+      <item>
+        <p>Ange ett namn för den nya profilen. Du kan ändra detta namn senare.</p>
+      </item>
+      <item>
+        <p>Klicka <gui style="button">Skapa</gui> för att skapa den nya profilen.</p>
+      </item>
+      <item>
+        <p>Ställ in dina önskade <link xref="#edit-profile">profilinställningar</link>. Dessa kommer sparas automatiskt.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Skapa en ny profil baserad på en befintlig profil</title>
+
+    <p>Du kan skapa en ny profil baserad på inställningar från en befintligt profil:</p>
+
+    <steps>
+      <item>
+        <p>Välj <guiseq><gui style="menu">Redigera</gui> <gui style="menuitem">Inställningar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Välj profilen i sidopanelen som du vill att din nya profil ska baseras på.</p>
+      </item>
+      <item>
+        <p>Klicka på pilknappen intill profilnamnet.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Klona…</gui>.</p>
+      </item>
+      <item>
+        <p>Ange ett namn för den nya profilen. Du kan ändra detta namn senare.</p>
+      </item>
+      <item>
+        <p>Klicka <gui style="button">Klona</gui> för att skapa den nya profilen.</p>
+      </item>
+      <item>
+        <p>Ställ in dina önskade <link xref="#edit-profile">profilinställningar</link>. Dessa kommer sparas automatiskt.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Att skapa en ny profil från en befintlig profil kommer inte påverka inställningar i en befintlig profil. Alla ändringar till inställningar kommer lagras i den nya profilen.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Redigera en profil</title>
+
+    <note style="warning">
+      <p>Om standardprofilen har redigerats kan den inte återställas till sina ursprungliga inställningar! Om du inte redan har skapat några andra <app>Terminal</app>-profiler och har anpassat standardprofilen <em>kan</em> <app>Terminal</app> bli oanvändbart om någon inställning orsakar problem. Det rekommenderas att du <link xref="#create-profile-from-existing">skapar en kopia av standardprofilen</link> och sedan redigerar kopian för att skapa en anpassad profil.</p>
+    </note>
+
+    <p>Du kan göra ändringar i befintliga profiler. För att redigera en profil:</p>
+
+    <steps>
+      <item>
+        <p>Välj <guiseq><gui style="menu">Redigera</gui> <gui style="menuitem">Inställningar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Din aktuella profil väljs i sidopanelen. Om du önskar redigera en annan profil, klicka på dess namn.</p>
+      </item>
+    </steps>
+
+    <p>När den önskade profilen är vald kan du:</p>
+
+    <steps>
+      <item>
+        <p>Välj <link xref="app-fonts">typsnitt</link>, <link xref="app-cursor">markörtyp</link> och <link xref="app-terminal-sizes"><app>Terminal</app>-storlek</link>.</p>
+      </item>
+      <item>
+        <p>Du kan också ändra beteende för <app>Terminal</app> då <link xref="pref-custom-exit">kommando avslutar</link>, ställa in ett <link xref="pref-login-shell">anpassat inloggningsskal</link> eller ändra <link xref="pref-scrolling">inställningar för rullningslist</link>.</p>
+      </item>
+      <item>
+        <p>För att ändra bakgrunden och textfärgerna för <app>Terminal</app>, se <link xref="app-colors"><app>Terminal</app> färgscheman</link>.</p>
+      </item>
+      <item>
+        <p>Ändringar till profilen sparas omedelbart. För att återvända till <app>Terminal</app>, klicka på <gui style="button">Stäng</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Byt namn på en befintlig profil</title>
+
+    <p>Du kan byta namn på befintliga profiler, inklusive standardprofilen:</p>
+
+    <steps>
+      <item>
+        <p>Välj <guiseq><gui style="menu">Redigera</gui> <gui style="menuitem">Inställningar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Välj profilen som du vill byta namn på.</p>
+      </item>
+      <item>
+        <p>Klicka på pilknappen intill profilnamnet.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Byt namn…</gui>.</p>
+      </item>
+      <item>
+        <p>Ange det nya profilnamnet.</p>
+      </item>
+      <item>
+        <p>Klicka <gui style="button">Byt namn</gui> för att byta namn.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Ta bort en profil</title>
+  
+    <p>För att ta bort en profil:</p>
+
+    <steps>
+      <item>
+        <p>Välj <guiseq><gui style="menu">Redigera</gui> <gui style="menuitem">Inställningar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Välj profilen som du vill ta bort.</p>
+      </item>
+      <item>
+        <p>Klicka på pilknappen intill profilnamnet.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Ta bort…</gui>.</p>
+      </item>
+      <item>
+        <p>Klicka på <gui style="button">Ta bort</gui> för att bekräfta.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Standardprofilen kan inte tas bort. Om du vill ta bort den profilen måste du först sätta en annan profil som <link xref="#set-default">standard</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Ställa in en standardprofil</title>
+
+    <p>Standardprofilen läses in då en ny terminal öppnas om du inte har valt en annan profil. Alla ändringar som du gör till inställningarna kommer lagras i den profil som för tillfället är vald.</p>
+
+    <p>Standardprofilen används när <app>Terminal</app> på annat sätt inte kan bestämma vilken profil som ska användas. Till exempel när <app>Terminal</app> startas upp från början och öppnar sitt första terminalfönster. Detta i kontrast till när ett menyobjekt eller en tangentbordsgenväg används i <app>Terminal</app> för att öppna en ny terminal, då används profilen för den befintliga terminalen.</p>
+
+    <steps>
+      <item>
+        <p>Välj <guiseq><gui style="menu">Redigera</gui> <gui style="menuitem">Inställningar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Välj profilen som du vill sätta som standardval.</p>
+      </item>
+      <item>
+        <p>Klicka på pilknappen intill profilnamnet.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Ange som standard</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Standardprofilen markeras med en bock.</p>
+    </note>
+
+  </section>
+
+</page>

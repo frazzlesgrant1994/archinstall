@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="es">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>¿Cómo recupero la pantalla de la <app>Terminal</app> cuando se cuelga o cuando muestra símbolos extraños?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Reiniciar el estado de su <app>Terminal</app></title>
+
+  <p>Es posible que, después de ver por error un archivo que no es de texto, o de lanzar algún comando, la pantalla de la <app>Terminal</app> no responda, o muestre caracteres extraños al pulsar alguna tecla. Puede recuperar su <app>Terminal</app> de las siguientes maneras:</p>
+
+  <section id="reset">
+    <title>Reiniciar</title>
+
+    <p>Reiniciar la pantalla de la <app>Terminal</app>.</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <guiseq><gui style="menuitem">Avanzado</gui> <gui style="menuitem">Restablecer</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Para obtener el símbolo del sistema pulse <key>Intro</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Reiniciar y limpiar</title>
+
+    <p>Además de reiniciar su <app>Terminal</app>, <gui style="menuitem">Reiniciar y limpiar</gui> limpia la parte visible del espacio de la pantalla de la <app>Terminal</app> y el contenido del desplazamiento hacia atrás. Para <gui style="menuitem">Reiniciar y limpiar</gui> su <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <guiseq><gui style="menuitem">Avanzado</gui><gui style="menuitem">Reiniciar y limpiar</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Para obtener el símbolo del sistema pulse <key>Intro</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Reiniciar y limpiar</gui> proporciona una funcionalidad similar a la del comando de la terminal <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

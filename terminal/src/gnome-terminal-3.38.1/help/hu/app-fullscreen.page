@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Teljes képernyős mód bekapcsolása.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Teljes képernyős munkamenet</title>
+
+  <p>A teljes képernyős módban a <app>Terminál</app> a teljes képernyőterületet használhatja.</p>
+
+  <p>Ez a mód akkor hasznos, ha kevés a rendelkezésre álló képernyőterület, és hosszabb ideig tervez a <app>Terminállal</app> dolgozni, vagy hosszú kimeneti sorokra számít. Ez ideiglenesen elrejti az ablakdekorációkat, lehetővé téve több <link xref="pref-scrolling">visszagörgetési sor</link> megjelenítését a képernyőn.</p>
+
+  <p>Teljes képernyős mód bekapcsolása:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Full Screen</gui>, or press <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>A menüsáv továbbra is látható lesz teljes képernyős módban, hacsak nem rejtette el.</p>
+  </note>
+
+  <note style="tip">
+    <p>Ha több <app>Terminállap</app> is nyitva van, akkor a lapsáv is látható lesz a teljes képernyős módban.</p>
+  </note>
+
+  <p>Teljes képernyős mód kikapcsolása:</p>
+
+  <steps>
+    <item>
+      <p>Right click and select <gui style="menuitem">Leave Full Screen</gui>.
+      Alternatively, press <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

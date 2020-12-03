@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="ko">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>터미널</app>에서 프로그램 또는 명령을 실행합니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>명령 실행</title>
+
+  <p><app>터미널</app>에서 실행할 입력 내용은 <em>명령</em>으로 간주합니다. 명령행 프로그램 또는 그래픽 사용자 인터페이스(GUI) 프로그램을 터미널에서 실행할 수 있습니다.</p>
+
+  <p>명령을 실행하려면:</p>
+
+  <steps>
+    <item>
+      <p><app>Terminal</app> 프롬프트에서 명령을 입력하십시오.</p>
+    </item>
+    <item>
+      <p><key>Enter</key>키를 눌러 실행하십시오.</p>
+    </item>
+  </steps>
+
+  <p>어떤 경고 또는 오류 없이 갑자기 프로그램이 끝난다면 <app>터미널</app>에서 실행해보고자 할지도 모릅니다. 이렇게 하면 <app>터미널</app> 창에 실행 프로그램의 오류 메시지 또는 디버깅 메시지를 출력할 수 있습니다. 여기서 나오는 정보는 버그 보고서를 제출할 때 도움을 줍니다.</p>
+
+  <note style="tip">
+    <p>터미널에서 무얼 할 수 있는지 더 많은 내용을 살펴보려면 <link href="https://www.gnu.org/software/bash/manual/">배시 셀</link> 링크를 읽어보십시오.</p>
+  </note>
+  
+</page>

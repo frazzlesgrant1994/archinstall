@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013 – 2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak vytvářet, přejmenovávat a mazat profily.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Správa profilů</title>
+
+  <p>Profil je sada nastavení aplikace <app>Terminál</app>. Podporována je práce s více profily. Můžete si nadefinovat profily <app>Terminálu</app> pro <link xref="pref-custom-command">spuštění vlastního příkazu nebo shellu</link>, nastavit profil výhradně pro připojení ke vzdálenému počítači pomocí SSH nebo si nastavit profil, který spouští sezení <app>GNU Screen</app>.</p>
+
+  <p>Dostupná nastavení <app>Terminálu</app> zahrnují:</p>
+
+  <list>
+    <item>
+      <p>Název profilu</p>
+    </item>
+    <item>
+      <p>Barvu písma a pozadí</p>
+    </item>
+    <item>
+      <p><gui style="tab">Kompatibilitu</gui> s klávesami <key>Backspace</key> a <key>Delete</key></p>
+    </item>
+    <item>
+      <p><gui style="tab">Posouvání</gui></p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Výběr profilu</title>
+
+    <p>Pokud máte dva nebo více profilů, můžete profil ve svém aktuálním okně nebo kartě <app>Terminálu</app> změnit výběrem v <guiseq><gui style="menu">Terminál</gui> <gui style="menuitem">Změnit profil</gui></guiseq>.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Vytvoření nového profilu</title>
+
+    <p>Když chcete vytvořit nový profil s výchozími nastaveními <app>Terminálu</app>:</p>
+
+    <steps>
+      <item>
+        <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Předvolby</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu klikněte na tlačítko <gui style="button">+</gui> vedle popisku <gui>Profil</gui>.</p>
+      </item>
+      <item>
+        <p>Zadejte pro nový profil název. Pozdějit jej můžete klidně změnit.</p>
+      </item>
+      <item>
+        <p>Kliknutím na <gui style="button">Vytvořit</gui> vytvoříte nový profil.</p>
+      </item>
+      <item>
+        <p>Ponastavujte si podle svého <link xref="#edit-profile">předvolby profilu</link>. Průběžně se budou automaticky ukládat.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Vytvoření nového profilu z existujícího</title>
+
+    <p>Při vytváření nového profilu můžete vyjít z nastavení některého ze stávajících profilů:</p>
+
+    <steps>
+      <item>
+        <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Předvolby</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu vyberte profil, na kterém bude nový profil založený.</p>
+      </item>
+      <item>
+        <p>Klikněte na šipku vedle názvu profilu.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="menuitem">Klonovat</gui>.</p>
+      </item>
+      <item>
+        <p>Zadejte pro nový profil název. Pozdějit jej můžete klidně změnit.</p>
+      </item>
+      <item>
+        <p>Kliknutím na <gui style="button">Klonovat</gui> vytvoříte nový profil.</p>
+      </item>
+      <item>
+        <p>Ponastavujte si podle svého <link xref="#edit-profile">předvolby profilu</link>. Průběžně se budou automaticky ukládat.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Vytvoření nového profilu z některého stávajícího nijak neovlivní ten stávající. Veškeré změny budou ukládány jen do nového profilu.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Úprava profilu</title>
+
+    <note style="warning">
+      <p>Když upravíte výchozí profil, nelze jej již obnovit do původního nastavení! Pokud již nemáte vytvořen nějaký další profil <app>Terminálu</app> a máte upravený výchozí profil, <em>může</em> se stát, že některé nastavení způsobí problémy a <app>Terminál</app> se stane nepoužitelným. Proto se doporučuje <link xref="#create-profile-from-existing">vytvořit kopii výchozího profilu</link> a k vytvoření profilu uzpůsobeného vlastním potřebám použít tuto kopii.</p>
+    </note>
+
+    <p>Stávající profily můžete upravovat. Když chcete profil upravit:</p>
+
+    <steps>
+      <item>
+        <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Předvolby</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Váš současný profil je vybraný v postranním panelu. Pokud si přejete upravovat jiný profil, klikněte na jeho název.</p>
+      </item>
+    </steps>
+
+    <p>Jakmile je požadovaný profil vybrán, můžete: </p>
+
+    <steps>
+      <item>
+        <p>Vyberte si <link xref="app-fonts">písmo</link>, <link xref="app-cursor">tvar kurzoru</link> a <link xref="app-terminal-sizes">velikost <app>Terminálu</app></link>.</p>
+      </item>
+      <item>
+        <p>Můžete také změnit chování <app>Terminálu</app> při <link xref="pref-custom-exit">ukončení příkazu</link>, nastavit si <link xref="pref-login-shell">vlastní shell</link> nebo změnit <link xref="pref-scrolling">předvolby posouvání</link>.</p>
+      </item>
+      <item>
+        <p>Informace o změně barvy pozadí a textu <app>Terminálu</app> najdete v tématu <link xref="app-colors">barevná schémata <app>Terminálu</app></link>.</p>
+      </item>
+      <item>
+        <p>Změny prováděné v profilu se ihned ukládají. Pro návrat do <app>Terminálu</app> klikněte na <gui style="button">Zavřít</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Přejmenování existujícího profilu</title>
+
+    <p>Stávající profily můžete přejmenovat, včetně výchozího profilu:</p>
+
+    <steps>
+      <item>
+        <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Předvolby</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Vyberte profil, který chcete přejmenovat.</p>
+      </item>
+      <item>
+        <p>Klikněte na šipku vedle názvu profilu.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="menuitem">Přejmenovat…</gui></p>
+      </item>
+      <item>
+        <p>Zadejte název nového profilu.</p>
+      </item>
+      <item>
+        <p>Kliknutím na <gui style="button">Přejmenovat</gui> profil přejmenujete.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Smazání profilu</title>
+  
+    <p>Když chcete odstranit profil:</p>
+
+    <steps>
+      <item>
+        <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Předvolby</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Vyberte profil, který si přejete odstranit.</p>
+      </item>
+      <item>
+        <p>Klikněte na šipku vedle názvu profilu.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="menuitem">Smazat</gui>.</p>
+      </item>
+      <item>
+        <p>Kliknutím na <gui style="button">Smazat</gui> smazání potvrďte.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Nelze smazat výchozí profil. Pokud potřebujete takový profil smazat, nejprve nastavte nějaký jiný jako <link xref="#set-default">výchozí</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Nastavení výchozího profilu</title>
+
+    <p>Po otevření nového terminálu se načte výchozí profil, pokud nevyberete jiný. Jakékoliv změny, které provedete, se uloží do aktuálně vybraného profilu.</p>
+
+    <p>Výchozí profil se použije, když se nemůže <app>Terminál</app> rozhodnout pro jiný profil. Například, <app>Terminál</app> je čistě spuštěný a otevře své první terminálové okno. Oproti tomu, když použijete k otevření nového terminálu položku nabídky nebo klávesovou zkratku <app>Terminálu</app>, použije se profil stávajícího terminálu.</p>
+
+    <steps>
+      <item>
+        <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Předvolby</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Vyberte profil, který si přejete nastavit jako výchozí.</p>
+      </item>
+      <item>
+        <p>Klikněte na šipku vedle názvu profilu.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="menuitem">Nastavit jako výchozí</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Výchozí profil je označený symbolem zaškrtnutí.</p>
+    </note>
+
+  </section>
+
+</page>

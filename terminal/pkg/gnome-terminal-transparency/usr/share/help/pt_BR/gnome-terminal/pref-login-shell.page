@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-login-shell" xml:lang="pt-BR">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Inicie um shell de sessão no <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Shells de sessão</title>
+
+  <p>Os shells em sistemas baseados em UNIX podem ser iniciados nos modos de sessão e não-sessão:</p>
+
+  <terms>
+    <item>
+      <title>Shell de sessão</title>
+      <p>Um shell de sessão é um shell dado a um usuário após iniciar a sessão em sua conta de usuário. Isso é iniciado usando a opção <cmd>-l</cmd> ou <cmd>--login</cmd>, ou colocando uma traço como o caractere inicial do nome do comando, por exemplo invocando <cmd>bash</cmd> como <cmd>-bash</cmd>.</p>
+    </item>
+    <item>
+      <title>subshell</title>
+      <p>Subshell, também chamado de shell sem sessão, é um shell iniciado após a sessão ser iniciada sem a opção <cmd>-l</cmd> ou <cmd>--login</cmd> e sem um traço extra antes do nome do comando.</p>
+    </item>
+  </terms>
+
+  <p>Os casos gerais por ter um shell de sessão incluem:</p>
+  <list>
+    <item>
+      <p>Acessar seu computador remotamente usando o <app>ssh</app>.</p>
+    </item>
+    <item>
+      <p>Simular um shell de sessão inicial com <cmd>bash -l</cmd> ou <cmd>sh -l</cmd>.</p>
+    </item>
+    <item>
+      <p>Simular com shell de sessão inicial como root com <cmd>sudo -i</cmd>.</p>
+    </item>
+  </list>
+
+  <section id="login-shell-howto">
+    <title>Iniciando uma shell de sessão</title>
+
+    <p>Você pode permitir que o <app>Terminal</app> inicie um shell de sessão. Seu shell padrão será iniciado com um caractere de traço adicionado antes de seu nome.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="aba">Comando</gui>.</p>
+      </item>
+      <item>
+        <p>Sob o rótulo <gui>Comando</gui>, selecione <gui style="checkbox">Executar comando como shell de sessão</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

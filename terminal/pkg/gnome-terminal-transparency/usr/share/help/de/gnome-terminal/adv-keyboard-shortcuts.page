@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="de">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Tastenkombinationen betrachten und bearbeiten.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tastenkombinationen</title>
+
+  <p>Tastenkombinationen sind Kombinationen von Tasten, die es Ihnen ermöglichen, bestimmte Aktionen schnell auszuführen, wie z.B. das Öffnen des Einstellungen-Dialogs oder Zugriff auf Funktionen des <app>Terminals</app>. Die Tastenkombinationen können nach Ihren Wünschen angepasst werden.</p>
+
+  <p>So ändern Sie eine Tastenkombination:</p>
+  <steps>
+    <item>
+      <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <gui>Tastenkürzel</gui> in der Seitenleiste.</p>
+    </item>
+    <item>
+      <p>Stellen Sie sicher, dass <gui style="checkbox">Tastenkombinationen aktivieren</gui> angewählt ist.</p>
+    </item>
+    <item>
+      <p>Wählen Sie per Mausklick die Tastenkombination, welche sie bearbeiten möchten.</p>
+    </item>
+    <item>
+      <p>Sobald die Tastenkombination gewählt ist, klicken Sie zum Bearbeiten auf die Tastenkombination.</p>
+    </item>
+    <item>
+      <p>Tippen Sie die gewünschte Tastenkombination ein, so als ob Sie diese ausführen möchten. Sie dürfen folgende Tasten verwenden: <key>Alt</key>, <key>Alt Gr</key>, <key>Strg</key>, <key>Umschalt</key>, Zahlen und Buchstaben.</p>
+      <note>
+        <p>Mnemonic-Tastenkombinationen wie z.B. <keyseq><key>Alt</key><key>F</key></keyseq> funktionieren nicht.</p>
+      </note>
+    </item>
+    <item>
+      <p>Sobald Sie eine neue Tastenkombination eingegeben haben, wird diese automatisch gespeichert und sie erscheint in der Liste neben der zugehörigen Aktion.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Um eine Tastenkombination zu deaktivieren, bearbeiten Sie diese und drücken Sie die <key>Rücktaste</key> anstatt einer neuen Kombination.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title><gui style="menu">Datei</gui>-Tastenkombinationen</title>
+
+    <p>Die voreingestellten Tastenkombinationen für die Optionen in diesem Abschnitt sind:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Aktion</p></td>
+          <td><p>Tastenkombination</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Neuer Reiter</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Neues Fenster</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Reiter schließen</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Fenster schließen</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>Tastenkombinationen <gui style="menu">bearbeiten</gui></title>
+
+    <p>Die voreingestellten Tastenkombinationen für die Optionen in diesem Abschnitt sind:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Aktion</p></td>
+          <td><p>Tastenkombination</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Kopieren</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Strg</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Einfügen</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Strg</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>Tastenkombinationen <gui style="menu">ansehen</gui></title>
+
+    <p>Die voreingestellten Tastenkombinationen für die Optionen in diesem Abschnitt sind:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Aktion</p></td>
+          <td><p>Tastenkombination</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Vollbild</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Vergrößern</p></td>
+          <td><p><keyseq><key>Strg</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Verkleinern</p></td>
+          <td><p><keyseq><key>Strg</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Normale Größe</p></td>
+          <td><p><keyseq><key>Strg</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title><gui style="menu">Suche</gui>-Tastenkombinationen</title>
+
+    <p>Die voreingestellten Tastenkombinationen für die Optionen in diesem Abschnitt sind:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Aktion</p></td>
+          <td><p>Tastenkombination</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Suchen</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Strg</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Weitersuchen</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Strg</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rückwärts suchen</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Strg</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Hervorhebung löschen</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Strg</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Tastenkombinationen für Reiter</title>
+
+    <p>Die voreingestellten Tastenkombinationen für die Optionen in diesem Abschnitt sind:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Aktion</p></td>
+          <td><p>Tastenkombination</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Zum vorherigen Reiter wechseln</p></td>
+          <td><p><keyseq><key>Strg</key><key>Bild↑-Taste</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum nächsten Reiter wechseln</p></td>
+          <td><p><keyseq><key>Strg</key><key>Bild↓-Taste</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Reiter nach links verschieben</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>Bild↑-Taste</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Reiter nach rechts verschieben</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>Bild↓-Taste</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 1. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zu 2. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 3. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 4. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 5. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 6. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 7. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 8. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 9. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zum 10. Reiter wechseln</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Weitere</title>
+
+    <p>Es gibt einige Tastenkombinationen, die nicht verändert werden können:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Aktion</p></td>
+          <td><p>Tastenkombination</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Eine Zeile nach oben rollen</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>Auf</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Eine Zeile nach unten rollen</p></td>
+          <td><p><keyseq><key>Strg</key><key>Umschalt</key><key>Ab</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Eine Seite nach oben blättern</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Bild↑</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Eine Seite nach unten blättern</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Bild↓</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Ganz nach oben springen</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Pos1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Ganz nach unten springen</p></td>
+          <td><p><keyseq><key>Umschalt</key><key>Ende</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Tastenkombinationen der Bash</title>
+
+    <p>Diese sind Tastenkombinationen der <app>Bash</app>. <app>Bash</app> ist üblicherweise die voreingestellte Shell.</p>
+    <p>Tastenkombinationen für die <app>Bash</app>-Shell sind:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Aktion</p></td>
+          <td><p>Tastenkombination</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Ein Wort löschen</p></td>
+          <td><p><keyseq><key>Strg</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Eine Zeile löschen</p></td>
+          <td><p><keyseq><key>Strg</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>An den Anfang der Zeile springen</p></td>
+          <td><p><keyseq><key>Strg</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>An das Ende der Zeile springen</p></td>
+          <td><p><keyseq><key>Strg</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ein Zeichen zurück gehen</p></td>
+          <td><p><keyseq><key>Strg</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ein Wort vorgehen</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ein Zeichen vorwärts gehen</p></td>
+          <td><p><keyseq><key>Strg</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Ein Wort vorwärts gehen</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Von der Eingabemarke bis zum Anfang der Zeile löschen</p></td>
+          <td><p><keyseq><key>Strg</key><key>u</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Von der Eingabemarke bis zum Ende der Zeile löschen</p></td>
+          <td><p><keyseq><key>Strg</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Von der Eingabemarke bis zum Anfang des Wortes löschen</p></td>
+          <td><p><keyseq><key>Strg</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Vorhergehendes Wort löschen</p></td>
+          <td><p><keyseq><key>Alt</key><key>Löschtaste</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Text aus der Zwischenablage einfügen</p></td>
+          <td><p><keyseq><key>Strg</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Den Bildschirm löschen, wobei die aktuelle Zeile oben auf den Bildschirm rutscht</p></td>
+          <td><p><keyseq><key>Strg</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Umgekehrte inkrementelle Suche in der Chronik</p></td>
+          <td><p><keyseq><key>Strg</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Nicht-inkrementelle Rückwärtssuche in der Chronik</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

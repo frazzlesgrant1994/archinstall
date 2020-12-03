@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak zapnout použití celé obrazovky.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Režim celé obrazovky</title>
+
+  <p>Režim celé obrazovky vám umožní používat <app>Terminál</app> přes celou obrazovku.</p>
+
+  <p>Jde o užitečnou věc, když máte zařízení s málo místem na obrazovce a hodláte v <app>Terminálu</app> pracovat delší dobu nebo s delšímy řádky na výstupu. V režimu celé obrazovky se dočasně skryjí prvky okna, takže na obrazovce můžete vidět více <link xref="pref-scrolling">zapamatovaných řádků</link>.</p>
+
+  <p>Pokud chcete zapnout režim celé obrazovky:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Celá obrazovka</gui> nebo zmáčkněte klávesu <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>I v režimu celé obrazovky bude viditelná nabídková lišta, ledaže jste ji nechali skrýt.</p>
+  </note>
+
+  <note style="tip">
+    <p>V případě, že máte v <app>Terminálu</app> otevřenu více než jednu kartu, budou viditelná také ouška karet.</p>
+  </note>
+
+  <p>Když chcete režim celé obrazovky vypnout:</p>
+
+  <steps>
+    <item>
+      <p>Klikněte pravým tlačítkem a vyberte <gui style="menuitem">Opustit celou obrazovku</gui> nebo zmáčkněte <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

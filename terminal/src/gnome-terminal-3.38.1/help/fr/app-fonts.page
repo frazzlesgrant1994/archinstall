@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="fr">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Utiliser les polices du système ou choisir une police personnalisée pour votre terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Changer la police et le style</title>
+
+  <p>Lorsque vous travaillez sur beaucoup de texte <app>Terminal</app>, vous pouvez modifier la police par défaut selon vos préférences. Vous disposez des options suivantes :</p>
+
+  <section id="system-font">
+  <title>Police système à chasse fixe</title>
+
+  <p>Pour utiliser les polices par défaut du système :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+    </item>
+    <item>
+      <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui style="tab">Texte</gui>.</p>
+    </item>
+    <item>
+      <p>Désélectionnez <gui style="checkbox">Police personnalisée</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Définition d’une police personnalisée</title>
+
+  <p>Pour définir une taille et une police personnalisées :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+    </item>
+    <item>
+      <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui style="tab">Texte</gui>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui style="checkbox">Police personnalisée</gui>.</p>
+    </item>
+    <item>
+      <p>Cliquez sur le bouton à coté de <gui style="checkbox">Police personnalisée</gui>.</p>
+    </item>
+    <item>
+      <p>Saisissez le nom de la police désirée dans le champ de recherche ou parcourez la liste des polices.</p>
+    </item>
+    <item>
+      <p>Faites glisser le curseur qui est en dessous de la liste des polices pour définir la taille de la police. Sinon, vous pouvez saisir la taille de la police dans le champ à côté du curseur, ou cliquer sur <gui style="button">+</gui> pour augmenter la taille de la police ou <gui style="button">-</gui> pour diminuer la taille de police sélectionnée.</p>
+    </item>
+    <item>
+      <p>Cliquez sur <gui style="button">Sélectionner</gui> pour appliquer vos changements. Pour annuler les changements et revenir dans la fenêtre de dialogue précédente, cliquez sur <gui style="button">Annuler</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Espacement des lignes et des caractères</title>
+
+  <p><app>Terminal</app> vous permet de modifier l’espacement des caractères pour une meilleure lisibilité. L’interligne et l’espacement des caractères peuvent être ajustés de 1,0 (aspect normal) à 2,0 (« double espacement »), y compris avec les valeurs fractionnaires intermédiaires.</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+    </item>
+    <item>
+      <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui style="tab">Texte</gui>.</p>
+    </item>
+    <item>
+      <p>Accédez au paramètre <gui>Espacement des cellules</gui>.</p>
+    </item>
+    <item>
+      <p>Pour définir l’espacement des caractères, ajustez le nombre multiplicateur devant l’élément <gui>largeur</gui>.</p>
+    </item>
+    <item>
+      <p>Pour définir l’importance de l’interligne, ajustez le nombre multiplicateur devant l’élément <gui>hauteur</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

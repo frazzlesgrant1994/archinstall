@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="pl">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Używanie czcionek systemowych lub wybór niestandardowej czcionki dla terminala.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zmiana czcionki i stylu</title>
+
+  <p>Można dostosować domyślną czcionkę do własnych upodobań, jeśli <app>Terminal</app> jest często używany do pracy na tekście. Dostępne są te opcje:</p>
+
+  <section id="system-font">
+  <title>Systemowa czcionka o stałej szerokości znaków</title>
+
+  <p>Aby używać domyślnych czcionek systemu:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz kartę <gui style="tab">Tekst</gui>.</p>
+    </item>
+    <item>
+      <p>Odznacz opcję <gui style="checkbox">Niestandardowa czcionka</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Ustawianie niestandardowej czcionki</title>
+
+  <p>Aby ustawić niestandardową czcionkę i jej rozmiar:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz kartę <gui style="tab">Tekst</gui>.</p>
+    </item>
+    <item>
+      <p>Zaznacz opcję <gui style="checkbox">Niestandardowa czcionka</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknij przycisk obok opcji <gui style="checkbox">Niestandardowa czcionka</gui>.</p>
+    </item>
+    <item>
+      <p>Wpisz nazwę wybranej czcionki w polu wyszukiwania lub przejrzyj listę czcionek.</p>
+    </item>
+    <item>
+      <p>Przeciągnij suwak znajdujący się pod listą czcionek, aby ustawić jej rozmiar. Można także wpisać rozmiar w polu obok suwaka albo kliknąć przycisk <gui style="button">+</gui>, aby go zwiększyć, lub przycisk <gui style="button">-</gui>, aby go zmniejszyć.</p>
+    </item>
+    <item>
+      <p>Kliknij przycisk <gui style="button">Wybierz</gui>, aby zastosować zmiany. Aby odrzucić zmiany i wrócić do poprzedniego okna, kliknij przycisk <gui style="button">Anuluj</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Odstępy między wierszami i znakami</title>
+
+  <p><app>Terminal</app> umożliwia rozciągnięcie znaków, aby ułatwić czytanie. Odstępy wierszy i znaków można dostosować od 1,0 (zwykły wygląd) do 2,0 (podwójne odstępy), w tym wszystkie wartości ułamkowe pomiędzy.</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz kartę <gui style="tab">Tekst</gui>.</p>
+    </item>
+    <item>
+      <p>Przejdź do ustawienia <gui>Odstępy komórek</gui>.</p>
+    </item>
+    <item>
+      <p>Aby ustawić poziome odstępy znaków, dostosuj mnożnik przed napisem <gui>szerokość</gui>.</p>
+    </item>
+    <item>
+      <p>Aby ustawić odstępy wierszy, dostosuj mnożnik przed napisem <gui>wysokość</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

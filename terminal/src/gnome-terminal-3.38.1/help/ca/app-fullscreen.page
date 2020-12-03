@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Habilita el mode pantalla completa.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sessió amb pantalla completa</title>
+
+  <p>El mode amb pantalla completa permet al <app>Terminal</app> usar la pantalla sencera.</p>
+
+  <p>Aquest mode és útil si teniu un dispositiu amb un espai limitat a la pantalla i intenteu treballar en un <app>Terminal</app> durant molt de temps, o esteu treballant amb línies llargues en la sortida del terminal. Temporalment amaga la decoració de la finestra, permetent-vos veure més <link xref="pref-scrolling">línies de desplaçament</link> a la pantalla.</p>
+
+  <p>Per a habilitar el mode a pantalla completa:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Pantalla completa</gui>, o premeu <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>La barra del menú romandrà visible al mode pantalla completa llevat que l'amagueu.</p>
+  </note>
+
+  <note style="tip">
+    <p>Si teniu més d'una pestanya oberta al <app>Terminal</app>, la barra de pestanyes romandrà visible al mode pantalla completa.</p>
+  </note>
+
+  <p>Per a inhabilitar el mode pantalla completa:</p>
+
+  <steps>
+    <item>
+      <p>Feu clic dret i seleccioneu <gui style="menuitem">Surt de la pantalla completa</gui>, o premeu <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

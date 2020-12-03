@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="uk">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Налаштовування <app>Термінала</app> на запуск команди або іншої командної оболонки під час запуску.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Нетипові команди і оболонки</title>
+
+  <p>Командна <em>оболонка</em> — програмне забезпечення, яке надає інтерфейс для користувачів операційної системи для виконання <em>команд</em>, якими можуть бути програми, зокрема <app>top</app>, або оболонка командного рядка. Типовою оболонкою, зазвичай є <app>Bash</app>.</p>
+
+  <p>Ви можете налаштувати <app>Термінал</app> на виконання певної команди при запуску програми, замість очікування введення команди від вас:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui style="tab">Команда</gui>.</p>
+    </item>
+    <item>
+      <p>Позначте пункт <gui>Запускати іншу команду замість оболонки</gui>.</p>
+    </item>
+    <item>
+      <p>У поле для введення тексту введіть команду або бажану оболонку.</p>
+      <p>Команду буде передано до термінала саме так, як ви її запишете, включно із усіма аргументами, які ви вкажете. Змінні середовища буде успадковано з термінала саме так, як вони успадковуються дочірніми процесами термінала.</p>
+    </item>
+    <item>
+      <p>Відкрийте нову вкладку або вікно <app>Термінала</app>, щоб побачити, як виконується нетипова оболонка або команда.</p>
+    </item>
+  </steps>
+
+  <p>Ви також можете <link xref="pref-custom-exit">встановити поведінку</link> термінала у відповідь на завершення виконання команди.</p>
+
+  <note style="important">
+    <p>Ймовірно, вам доведеться вказати повний шлях до команди або оболонки, якщо каталог, у якому зберігається виконуваний файл команди або оболонки, не записано до змінної <code>PATH</code> вашої операційної системи.</p>
+  </note>
+
+</page>

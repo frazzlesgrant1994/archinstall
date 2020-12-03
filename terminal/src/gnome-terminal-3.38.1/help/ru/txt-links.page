@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Открытие ссылок сайтов и почтовых адресов.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Гипер-ссылки и почтовые адреса</title>
+
+  <p><app>Терминал</app> обрабатывает консольный вывод и автоматически определяет фрагменты текста, являющиеся веб-адресами или почтовыми электронными адресами. Эти ссылки автоматически выделяются при наведении курсора на текст, что говорит о том, что ссылку можно открыть в приложении.</p>
+
+  <p>Например, в тексте, выводимом такими программами, как <app>wget</app> или <app>curl</app>, можно увидеть <output>http://www.gnome.org</output> или <output>username@example.com</output>.</p>
+
+  <section id="hyperlinks">
+    <title>Открытие или копирование веб-адреса</title>
+
+    <p>Веб-адреса также называются гипер-ссылками. Их можно скопировать в системный буфер обмена или открыть в выбранном веб-браузере.</p>
+
+    <list>
+      <item>
+        <p>Чтобы скопировать гипер-ссылку:</p>
+        <steps>
+          <item>
+            <p>Нажмите правой клавишей мыши в <app>Терминале</app>.</p>
+          </item>
+          <item>
+          <p>Select <gui style="menuitem">Copy Link</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Чтобы открыть гипер-ссылку в веб-браузере:</p>
+        <steps>
+          <item>
+            <p>Нажмите правой клавишей мыши на ссылке.</p>
+          </item>
+          <item>
+            <p>Выберите <gui style="menuitem">Открыть ссылку</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Использовать или скопировать почтовый адрес</title>
+
+    <p>Электронные почтовые адреса можно копировать в системный буфер обмена или открыть в предпочитаемом почтовом клиенте.</p>
+
+    <list>
+      <item>
+        <p>Чтобы копировать почтовый адрес:</p>
+        <steps>
+          <item>
+            <p>Нажмите правой клавишей мышки на почтовый адрес в <app>Терминале</app>.</p>
+          </item>
+          <item>
+          <p>Select <gui style="menuitem">Copy Mail Address</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Чтобы отправить письмо на почтовый адрес с помощью почтового клиента:</p>
+        <steps>
+          <item>
+            <p>Нажмите правой клавишей мыши на адрес.</p>
+          </item>
+          <item>
+            <p>Select <gui style="menuitem">Send Mail To…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

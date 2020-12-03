@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-login-shell" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Inicie una shell con inicio de sesión en la <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Shells con inicio de sesión</title>
+
+  <p>Las shells en sistemas basados en UNIX se pueden iniciar en modos con inicio de sesión y sin inicio de sesión:</p>
+
+  <terms>
+    <item>
+      <title>Shell con inicio de sesión</title>
+      <p>Una shell con inicio de sesión es una shell que se le da al usuario al iniciar sesión en su cuenta. Esto se inicia usando las opciones <cmd>-l</cmd> o <cmd>--login</cmd>, o colocando un guión como el carácter inicial en el nombre del comando, por ejemplo invocando <cmd>bash</cmd> como <cmd>-bash</cmd>.</p>
+    </item>
+    <item>
+      <title>Sub shell</title>
+      <p>Una sub shell, también llamada una shell sin inicio de sesión es una shell que se inicia después del proceso de inicio de sesión sin las opciones <cmd>-l</cmd> o <cmd>--login</cmd> y sin un guión adicional antes del nombre de comando.</p>
+    </item>
+  </terms>
+
+  <p>Los casos generales en los que se tiene una shell con inicio de sesión son:</p>
+  <list>
+    <item>
+      <p>Acceder a su equipo de forma remota usando <app>ssh</app>.</p>
+    </item>
+    <item>
+      <p>Simular una shell con inicio de sesión inicial con <cmd>bash -l</cmd> o <cmd>sh -l</cmd>.</p>
+    </item>
+    <item>
+      <p>Simular una shell con inicio de sesión como superusuario inicial con <cmd>sudo -i</cmd>.</p>
+    </item>
+  </list>
+
+  <section id="login-shell-howto">
+    <title>Iniciar una shell con inicio de sesión</title>
+
+    <p>Puede permitir que la <app>Terminal</app> inicie una shell con inicio de sesión. Su shell predeterminada comenzará con un carácter de guión antepuesto a su nombre.</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Comando</gui>.</p>
+      </item>
+      <item>
+        <p>Bajo la etiqueta <gui>Comando</gui>, seleccione <gui style="checkbox">Ejecutar comando como una shell con inicio de sesión</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

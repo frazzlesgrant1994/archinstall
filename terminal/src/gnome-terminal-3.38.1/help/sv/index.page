@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="2column task" id="index" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <title type="link">Terminal</title>
+    <title type="text">Terminal</title>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ställ in och använd GNOME:s högst anpassningsbara terminalemulator.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" its:translate="no" src="figures/gnome-terminal-icon.png">
+    </media> Hjälp för Terminal</title>
+
+  <section id="getting-started" style="2column">
+    <title>Komma igång</title>
+  </section>
+
+  <section id="textoutput" style="2column">
+    <title>Arbeta med text</title>
+  </section>
+
+  <section id="appearance" style="2column">
+    <title>Anpassa utseende</title>
+  </section>
+
+  <section id="preferences" style="2column">
+    <title>Anpassa beteende</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Avancerade inställningar</title>
+  </section>
+
+  <section id="troubleshooting" style="2column">
+    <title>Problemlösning</title>
+  </section>
+
+</page>

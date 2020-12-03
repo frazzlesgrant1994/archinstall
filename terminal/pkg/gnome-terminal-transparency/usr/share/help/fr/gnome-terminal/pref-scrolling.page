@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Modifier le défilement de l’affichage et le comportement de la barre de défilement.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Préférences de la barre de défilement</title>
+
+  <p>Quand un grand nombre de sorties s’affichent sur votre terminal, il peut être utile de le configurer spécialement pour qu’il soit plus facile à utiliser.</p>
+
+  <section id="visibility">
+    <title>Affichage de la barre de défilement</title>
+
+    <p>Vous pouvez désactiver la barre de défilement :</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Défilement</gui>.</p>
+      </item>
+      <item>
+        <p>Décochez <gui>Afficher la barre de défilement</gui>.</p>
+      </item>
+    </steps>
+
+    <p>Vos préférences sont automatiquement enregistrées.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>Défilement sur la sortie</title>
+
+    <p>Vous pouvez bloquer le défilement afin d’afficher en permanence les dernières sorties tandis qu’une commande s’exécute et génère une sortie.</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Défilement</gui>.</p>
+      </item>
+      <item>
+        <p>Cochez <gui style="checkbox">Défilement sur la sortie</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>Défilement lors de la saisie</title>
+
+    <p>Vous pouvez régler le terminal pour qu’il défile automatiquement au bas de la fenêtre quand vous tapez un texte dans l’invite de commande.</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Défilement</gui>.</p>
+      </item>
+      <item>
+        <p>Cochez <gui style="checkbox">Défilement sur pression d’une touche</gui>.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>Lignes de défilement</title>
+
+    <p>Vous pouvez limiter le nombre de lignes de terminal conservées dans l’historique.</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Défilement</gui>.</p>
+      </item>
+      <item>
+        <p>Cochez <gui>Limiter les lignes d’historique à</gui> et saisissez un nombre de lignes supérieur à zéro pour limiter le défilement.</p>
+      </item>
+      <item>
+        <p>Cliquez sur le <gui style="button">+</gui> pour augmenter ou le <gui style="button">-</gui> pour diminuer le nombre de lignes.</p>
+      </item>
+    </steps>
+
+    <p>Vous pouvez choisir d’avoir une barre de défilement illimitée.</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Défilement</gui>.</p>
+      </item>
+      <item>
+        <p>Décochez <gui>Limiter les lignes d’historique à</gui>.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Les données de l’historique sont stockées dans des fichiers compressés et chiffrés sur le disque, sous l’emplacement par défaut du système pour les fichiers temporaires (généralement <file>/tmp</file>). Ces fichiers sont dissociés immédiatement après leur création et ne s’affichent donc pas dans la liste du répertoire. L’espace disque occupé est libéré dès la fermeture du terminal correspondant.</p>
+    </note>
+
+    <note style="warning">
+      <p>Assurez-vous de disposer de suffisamment d’espace disque pour ces fichiers temporaires. Dans le doute, vous pouvez surveiller l’utilisation des disques, avec par exemple la commande <cmd>du /tmp</cmd>.</p>
+    </note>
+
+    <note style="important">
+      <p>Un historique surdimensionné ralentit le redimensionnement de la fenêtre. En règle générale, le redimensionnement devient sensiblement lent à environ 1 million de lignes.</p>
+    </note>
+
+  </section>
+
+</page>

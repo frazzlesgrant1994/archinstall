@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="2column task" id="index" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <title type="link">Terminal</title>
+    <title type="text">Terminal</title>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Configura i utilitza l'altament personalitzable emulador de terminal GNOME.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" its:translate="no" src="figures/gnome-terminal-icon.png">
+    </media> Ajuda del terminal</title>
+
+  <section id="getting-started" style="2column">
+    <title>Primers passos</title>
+  </section>
+
+  <section id="textoutput" style="2column">
+    <title>Treballar amb text</title>
+  </section>
+
+  <section id="appearance" style="2column">
+    <title>Personalitzar l'aparença</title>
+  </section>
+
+  <section id="preferences" style="2column">
+    <title>Personalitzar el comportament</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Paràmetres avançats</title>
+  </section>
+
+  <section id="troubleshooting" style="2column">
+    <title>Solució de problemes</title>
+  </section>
+
+</page>

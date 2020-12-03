@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="pl">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Zmiana kolorów i teł.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Schematy kolorów</title>
+
+  <p>Jeśli domyślny motyw <app>Terminala</app> nie spełnia oczekiwań, to można zmienić kolory używane dla tekstu i tła. Można użyć kolorów z obecnego motywu, wybrać jeden z gotowych zestawów lub ustawić niestandardowy schemat.</p>
+
+  <section id="system-theme">
+    <title>Użycie kolorów z motywu systemowego</title>
+
+    <p>Aby użyć kolorów z motywu systemowego:</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Kolory</gui>.</p>
+      </item>
+      <item>
+        <p>Zaznacz opcję <gui style="checkbox">Kolory z motywu systemowego</gui>. Zmiany zostaną zastosowane automatycznie.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Wbudowane schematy</title>
+
+    <p>Można wybrać jeden z wbudowanych schematów kolorów: <gui>Czarne na jasnożółtym</gui>, <gui>Czarne na białym</gui>, <gui>Szare na czarnym</gui>, <gui>Zielone na czarnym</gui>, <gui>Białe na czarnym</gui>, <gui>Jasny Tango</gui>, <gui>Ciemny Tango</gui>, <gui>Jasny Solarized</gui>, <gui>Ciemny Solarized</gui>. Aby to zrobić:</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Kolory</gui>.</p>
+      </item>
+      <item>
+        <p>Upewnij się, że opcja <gui style="checkbox">Kolory z motywu systemowego</gui> jest odznaczona. Wybierz schemat kolorów z menu <gui>Wbudowane schematy</gui>. Nowy schemat kolorów zostanie zastosowany automatycznie.</p>
+        <note>
+	  <p>Programy mogą używać koloru z palety zamiast podanego koloru pogrubienia.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Niestandardowy schemat kolorów</title>
+
+    <p>Można używać niestandardowych kolorów dla tekstu i tła w <app>Terminalu</app>:</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Kolory</gui>.</p>
+      </item>
+      <item>
+        <p>Upewnij się, że opcja <gui style="checkbox">Kolory z motywu systemowego</gui> jest odznaczona. Wybierz <gui>Niestandardowy</gui> z rozwijanego menu <gui>Wbudowane schematy</gui>.</p>
+      </item>
+      <item>
+        <p>Kliknij kolor do zmiany.</p>
+      </item>
+      <item>
+        <p>Wybierz kolor z próbki koloru i kliknij przycisk <gui style="button">Wybierz</gui>.</p>
+        <p>Można wybrać kolor na te sposoby:</p>
+        <list>
+          <item>
+            <p>Wpisz szesnastkowy kod koloru w polu.</p>
+          </item>
+          <item>
+            <p>Przeciągnij suwak po lewej, aby dostosować kolory i kliknij kolor w obszarze wyboru koloru.</p>
+          </item>
+        </list>
+	<p>Zmiany zostaną zastosowane automatycznie.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Można także zmienić kolor, jeśli wybrano wbudowany schemat, klikając próbkę koloru. Po zmianie wybór w menu wbudowanych schematów zmieni się na <gui>Niestandardowy</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Tradycyjnie emulatory terminala oferowały paletę 16 kolorów, które można zmienić tutaj. <app>Terminal</app> obsługuje rozszerzony zestaw 256 kolorów, ale nie można tutaj modyfikować dodatkowych 240 kolorów.</p>
+
+      <p><app>Terminal</app> oferuje także bezpośredni dostęp do ponad 16 milionów kolorów, co nazywa się trybem „True Color”.</p>
+
+      <p>Jeśli zmiany wprowadzone w palecie nie wydają się być uwzględniane, to prawdopodobnie wyświetlana treść składa się z rozszerzonej palety kolorów lub palety „True Color”, a nie 16 podstawowych kolorów.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Jasne kolory za pogrubiony tekst</title>
+
+    <p>Tradycyjnie terminale nie rozróżniały pogrubionej czcionki od jaskrawych kolorów, często włączając je jednocześnie. Najnowsze ulepszenia, takie jak wprowadzenie trybu „True Color”, a także pewne schematy kolorów (np. Solarized) umożliwiły rozdzielenie tych dwóch pojęć, czyli uniezależnienie jasności od pogrubienia.</p>
+
+    <p>Aby wybrać preferowane zachowanie:</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Kolory</gui>.</p>
+      </item>
+      <item>
+        <p>Wyłącz opcję <gui>Pogrubiony tekst w jasnych kolorach</gui>, aby używać nowego domyślnego zachowania, pełnego rozdzielenia jasności kolorów i pogrubienia czcionki, lub włącz tę opcję, aby zwiększyć zgodność wsteczną.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

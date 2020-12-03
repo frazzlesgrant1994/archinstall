@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Зміна розміру вікна <app>Термінала</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Розміри <app>Термінала</app></title>
+
+  <p>Якщо ви працюєте із певними програмами, які керуються за допомогою командного рядка і у яких передбачено певні вимоги щодо мінімального розміру термінала для коректного показу даних, або якщо ви хочете бачити довгі рядки у терміналі із мінімальним розбиттям на рядки на дисплеї, вам можуть знадобитися можливості зі встановлення певних розмірів для вікна <app>Термінала</app>.</p>
+
+  <p>Ви можете змінити розміри вікна <app>Термінала</app> до певного попередньо визначеного розміру, ось так:</p>
+  
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Додаткове</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть один з таких варіантів:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80×43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Якщо вами увімкнено <link xref="pref-keyboard-access"><gui>клавіші доступу до меню</gui></link>, ви зможете отримувати доступ до меню натисканням <keyseq><key>Alt</key><key>T</key></keyseq> із наступним натисканням <key>1</key> для перемикання вікна <app>Термінала</app> на розмір <gui>80×24</gui> тощо.</p>
+  </note>
+
+  <p>Якщо вам потрібен якийсь нетиповий розмір вікна <app>Термінала</app>, ви можете також встановити типовий розмір вікна відповідно до ваших вимог:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui style="tab">Текст</gui>.</p>
+    </item>
+    <item>
+      <p>Встановіть <gui>Початковий розмір термінала</gui>, ввівши бажану кількість стовпчиків і рядків у відповідні поля для введення. Ви також можете скористатися натисканням кнопок <gui style="button">+</gui> для збільшення або <gui style="button">-</gui> для зменшення відповідних значень розмірів.</p>
+    </item>
+  </steps>
+
+</page>

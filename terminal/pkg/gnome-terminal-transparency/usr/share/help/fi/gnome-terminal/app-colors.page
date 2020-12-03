@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="fi">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Värien ja taustan muuttaminen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Värimallit</title>
+
+  <p>Jos <app>Päätteen</app> oletusvärimalli ei miellytä, tekstin ja taustan värejä voi muuttaa. Voit käyttää teemasi oletusvärejä, valita yhden oletusvaihtoehdoista tai luoda oman värimallin.</p>
+
+  <section id="system-theme">
+    <title>Järjestelmäteeman värien käyttäminen</title>
+
+    <p>Järjestelmäteeman värien käyttäminen onnistuu seuraavasti:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Valitse <gui style="checkbox">Käytä järjestelmäteeman värejä</gui> -valintaruutu. Muutokset otetaan käyttöön välittömästi.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Sisäänrakennetut värimallit</title>
+
+    <p>You can choose one of the built-in color schemes: <gui>Black on light
+    yellow</gui>, <gui>Black on white</gui>, <gui>Gray on black</gui>,
+    <gui>Green on black</gui>, <gui>White on black</gui>, <gui>Tango
+    light</gui>, <gui>Tango dark</gui>, <gui>Solarized light</gui>,
+    <gui>Solarized dark</gui>. To set any of the built-in schemes:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Varmista, ettei <gui style="checkbox">Käytä järjestelmäteeman värejä</gui> -valintaruudussa ole valintaa ja valitse haluttu värimalli <gui>Sisäänrakennetut mallit</gui> -luettelosta. Värimuutokset tulevat käyttöön välittömästi.</p>
+        <note>
+	  <p>Ohjelmat voivat valita, käyttävätkö ne paletin värejä valitun lihavoidun värin sijasta.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Mukautettu värimalli</title>
+
+    <p><app>Päätteen</app> tekstin ja tausta värin voi valita vapaasti seuraavasti:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Varmista, ettei <gui style="checkbox">Käytä järjestelmäteeman värejä</gui> -valintaruudussa ole valintaa ja valitse <gui>Mukautettu</gui> luettelosta <gui>Sisäänrakennetut mallit</gui>.</p>
+      </item>
+      <item>
+        <p>Click on the color you would like to change.</p>
+      </item>
+      <item>
+        <p>Valitse haluttu väri värikokoelmasta ja napsauta <gui style="button">Valitse</gui>.</p>
+        <p>You can choose the desired color in the following ways:</p>
+        <list>
+          <item>
+            <p>Anna värin heksadesimaalikoodi syötekenttään.</p>
+          </item>
+          <item>
+            <p>Raahaa vasemmassa reunassa olevaa vierityspalkkia ja napsauta haluttua väriä värinvalinta-alueelta.</p>
+          </item>
+        </list>
+	<p>Muutokset tallennetaan automaattisesti.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Kun käytössä on sisäänrakennettu värimalli, eri osien värejä voi muuttaa edellä mainitulla tavalla. Kun uusi väri valitaan, värimalli muuttuu automaattisesti <gui>Mukautetuksi</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Traditionally terminal emulators offered a 16 color palette, this is
+      what you can alter here. <app>Terminal</app> supports an extended set of
+      256 colors, but the additional 240 colors cannot be edited here.</p>
+
+      <p><app>Terminal</app> even offers direct access to over 16 million
+      colors, this is called “true color” mode.</p>
+
+      <p>If the changes you make to the palette do not seem to have an effect,
+      presumably the contents you see consist of such extended palette colors
+      or true colors, rather than the 16 base colors.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Bright colors for bold text</title>
+
+    <p>Traditionally terminals didn't clearly separate bold font weight from
+    intense colors, often both of them were enabled together. Recent
+    improvements, such as the introduction of true color support, and certain
+    color schemes (e.g. Solarized) made it desirable to separate the two
+    concepts, that is, make the brightness independent from the font weight.</p>
+
+    <p>In order to choose your preferred behavior:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Disable <gui>Show bold text in bright colors</gui> for the new
+        default behavior, the complete separation of color intensity and font
+        weight; or enable this option for improved backward compatibility.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak se pohybovat po nabídkách <app>Terminálu</app> pomocí klávesnice.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Přístupnost z klávesnice</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Tyto klávesy mají efekt jen v oknech, která mají zobrazenu nabídkovou lištu.</p>
+    <p>Klikněte pravým tlačítkem do okna <app>Terminálu</app> a vyberte <gui style="checkbox">Zobrazovat nabídkovou lištu</gui>.</p>
+  </note>
+
+  <p>Po nabídkách <app>Terminálu</app> se můžete pohybovat pomocí klávesových zkratek, které se nazývají <em>mnemotechnické</em> nebo <em>horké</em> klávesy a pomocí speciální klávesy, tzv. <app>klávesové zkratky nabídky</app>, kterou se dostanete přímo na první položku v nabídce.</p>
+
+  <section id="mnemonics">
+    <title>Horké klávesy</title>
+
+    <p>Do nabídky aplikace <app>Terminál</app> se můžete dostat kombinací klávesy <key>Alt</key> a písmene z položky nabídky. Abyste věděli, které písmeno použít, stačí klávesu <key>Alt</key> podržet a písmeno se podtrhne.</p>
+
+    <p>Například pro zobrazení nabídky <gui style="menu">Upravit</gui> použijte <keyseq><key>Alt</key><key>U</key></keyseq>. Obdobně se do nabídky <gui style="menu">Soubor</gui> můžete dostat pomocí <keyseq><key>Alt</key><key>S</key></keyseq>.</p>
+
+    <p>Když chcete povolit horké klávesy</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu vyberte <gui>Obecné</gui>.</p>
+      </item>
+      <item>
+        <p>Zaškrtněte <gui style="checkbox">Povolit horké klávesy</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Klávesová zkratka nabídky</title>
+
+    <p>Toto nastavení zajistí, že se po zmáčknutí klávesové zkratky dostanete do nabídky <gui style="menu">Soubor</gui>. Výchozí klávesou je obvykle <key>F10</key>.</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu vyberte <gui>Obecné</gui>.</p>
+      </item>
+      <item>
+        <p>Zaškrtněte <gui style="checkbox">Povolit klávesovou zkratku nabídky</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

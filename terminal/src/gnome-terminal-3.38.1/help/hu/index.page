@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="2column task" id="index" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <title type="link">Terminál</title>
+    <title type="text">Terminál</title>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A részletesen személyre szabható GNOME terminálemulátor beállítása és használata.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" its:translate="no" src="figures/gnome-terminal-icon.png">
+    </media> Terminál súgója</title>
+
+  <section id="getting-started" style="2column">
+    <title>Első lépések</title>
+  </section>
+
+  <section id="textoutput" style="2column">
+    <title>Szöveg kezelése</title>
+  </section>
+
+  <section id="appearance" style="2column">
+    <title>Megjelenés testreszabása</title>
+  </section>
+
+  <section id="preferences" style="2column">
+    <title>Viselkedés testreszabása</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Speciális beállítások</title>
+  </section>
+
+  <section id="troubleshooting" style="2column">
+    <title>Hibaelhárítás</title>
+  </section>
+
+</page>

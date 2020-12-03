@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Abra links para endereços da web e e-mail.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hiperlinks e endereços de e-mail</title>
+
+  <p>O <app>Terminal</app> analisa a saída do terminal e automaticamente detecta trechos de texto que são hiperlinks ou endereços de e-mail. Os endereços da web e de e-mail são automaticamente realçados quando você passa o cursor pelo o texto, indicando que o link pode ser aberto em outro aplicativo.</p>
+
+  <p>Por exemplo, você pode ver o texto <output>http://www.gnome.org</output> ou <output>username@example.com</output> gerado como parte da saída do terminal por programas como o <app>wget</app> ou o <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Abrindo ou copiando endereços da web</title>
+
+    <p>Os endereços da web também são chamados de hiperlinks. Eles podem ser copiados para a área de transferência do sistema serem abertos em seu navegador.</p>
+
+    <list>
+      <item>
+        <p>Copiar um hiperlink:</p>
+        <steps>
+          <item>
+            <p>Clique com o botão direito no link no <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Selecione <gui style="menuitem">Copiar link</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Abrir um hiperlink no seu navegador:</p>
+        <steps>
+          <item>
+            <p>Clique com o botão direito sobre o link.</p>
+          </item>
+          <item>
+            <p>Selecione <gui style="menuitem">Abrir link</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Enviando e-mail ou copiando endereços de e-mail</title>
+
+    <p>Endereços de e-mail podem ser copiados para a área de transferência ou abertos no seu cliente de e-mail preferido.</p>
+
+    <list>
+      <item>
+        <p>Copiar um endereço de e-mail:</p>
+        <steps>
+          <item>
+            <p>Clique com o botão direito no endereço de e-mail no <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Selecione <gui style="menuitem">Copiar endereço de e-mail</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Envie um e-mail para o endereço usando o seu cliente de e-mail:</p>
+        <steps>
+          <item>
+            <p>Clique com o botão direito sobre o endereço.</p>
+          </item>
+          <item>
+            <p>Selecione <gui style="menuitem">Enviar e-mail para…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

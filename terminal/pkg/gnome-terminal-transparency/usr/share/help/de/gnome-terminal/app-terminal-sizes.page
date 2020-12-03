@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="de">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ändern Sie die Fenstergröße des <app>Terminals</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><app>Terminal</app>-Größen</title>
+
+  <p>Wenn Sie mit bestimmten Anwendungen auf der Befehlszeile arbeiten, die eine bestimmte Mindestgröße des Terminals für ordnungsgemäße Darstellung erfordern, oder wenn Sie sehr lange Zeilen in der Ausgabe mit nur wenigen Zeilenumbrüchen wünschen, so sind <app>Terminal</app>-Fenster einer bestimmten Größe erforderlich.</p>
+
+  <p>Sie können die Fenstergröße von <app>Terminal</app> auf einige vorgegebene Werte einstellen:</p>
+  
+  <steps>
+    <item>
+      <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Erweitert</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie eine der folgenden Optionen aus:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80×43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Wenn Sie <link xref="pref-keyboard-access"><gui>Menü-Tastenkombinationen</gui></link> aktiviert haben, können Sie dieses Menü durch Drücken von <keyseq><key>Alt</key><key>T</key></keyseq> gefolgt von <key>1</key> aktivieren, um die Fenstergröße des <app>Terminal</app>s auf <gui>80×24</gui> umzustellen, usw.</p>
+  </note>
+
+  <p>Wenn Sie eine individuelle Größe des <app>Terminal</app>-Fensters bevorzugen, so können Sie die voreingestellte Fenstergröße entsprechend Ihrer Wünsche einstellen:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie im Abschnitt <gui>Profile</gui> Ihr aktuelles Profil aus.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Legen Sie die <gui>Anfängliche Größe des Terminals</gui> durch Eingeben der gewünschten Anzahl Zeilen und Spalten in den entsprechenden Eingabefeldern fest. Klicken Sie auf <gui style="button">+</gui> zum Erhöhen beziehungsweise <gui style="button">-</gui> zum Verringern der Größe.</p>
+    </item>
+  </steps>
+
+</page>

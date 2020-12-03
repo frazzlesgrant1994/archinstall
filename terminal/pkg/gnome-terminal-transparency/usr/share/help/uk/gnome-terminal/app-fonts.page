@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Використання загальносистемних шрифтів або вибір нетипового шрифту для термінала.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Зміна шрифту і стилю</title>
+
+  <p>При значному обсягу роботи з текстом у <app>Терміналі</app> у вас може виникнути потреба у зміні типового шрифту на той, який вам подобається. Ви можете вибрати один з таких варіантів:</p>
+
+  <section id="system-font">
+  <title>Системний моноширинний шрифт</title>
+
+  <p>Щоб скористатися типовими шрифтами системи, виконайте такі дії:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui style="tab">Текст</gui>.</p>
+    </item>
+    <item>
+      <p>Зніміть позначення з пункту <gui style="checkbox">Користувацький шрифт</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Встановлення нетипового шрифту</title>
+
+  <p>Щоб встановити нетиповий шрифт і розмір шрифту, виконайте такі дії:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui style="tab">Текст</gui>.</p>
+    </item>
+    <item>
+      <p>Позначте пункт <gui style="checkbox">Користувацький шрифт</gui>.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку, розташовану поруч із міткою <gui style="checkbox">Користувацький шрифт</gui>.</p>
+    </item>
+    <item>
+      <p>Введіть назву бажаного шрифту до поля пошуку або виберіть пункт шрифту зі списку шрифтів.</p>
+    </item>
+    <item>
+      <p>Перетягніть повзунок під списком шрифтів для встановлення розміру шрифтів. Крім того, ви можете ввести розмір шрифту до поля, розташованого поряд із повзунком, або натисніть кнопку <gui style="button">+</gui> для збільшення розміру шрифту чи кнопку <gui style="button">-</gui> для зменшення розміру шрифту.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui style="button">Вибрати</gui>, щоб застосувати внесені зміни. Щоб відкинути зміни і повернутися до попереднього вікна, натисніть кнопку <gui style="button">Скасувати</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Інтервал між рядками та символами</title>
+
+  <p><app>Термінал</app> надає вам змогу розставити символи так, щоб їх було найпростіше читати. Інтервал між рядками і символами можна скоригувати від значення 1.0 (звичайний вигляд) до 2.0 (подвійний інтервал), включено із усіма дробовими проміжними значеннями.</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui style="tab">Текст</gui>.</p>
+    </item>
+    <item>
+      <p>Перейдіть до параметра <gui>Відстань між клітинками</gui>.</p>
+    </item>
+    <item>
+      <p>Щоб визначити горизонтальний інтервал між символами, скоригуйте числовий коефіцієнт перед міткою <gui>ширина</gui>.</p>
+    </item>
+    <item>
+      <p>Щоб визначити інтервал між рядками, скоригуйте числовий коефіцієнт перед міткою <gui>висота</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

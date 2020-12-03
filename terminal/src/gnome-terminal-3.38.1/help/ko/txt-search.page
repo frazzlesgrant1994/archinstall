@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="ko">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>터미널</app> 출력 내용을 검색하십시오.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>텍스트 검색</title>
+
+  <p><app>터미널</app> 출력 내용에서 글 내용을 검색할 수 있습니다:</p>
+
+  <steps>
+    <item>
+      <p>Press <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> in the top-right corner, or press
+      <keyseq><key>Ctrl</key><key>Shift</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>검색 단어를 입력한 후 <key>Enter</key>를 눌러 후행 검색을 진행하십시오. 다른 방법을 원하신다면, 원하는 검색 방향을 가리키는 화살표를 누르십시오.</p>
+    </item>
+  </steps>
+
+  <p>다음 선택 항목을 활용하여 검색 결과를 좁혀 내려갈 수 있습니다:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">대소문자 일치</gui></title>
+      <p>검색 결과의 대소문자를 일치합니다. 이 제한 설정은 검색 단어의 대소문자가 일치하는 결과만 나타냅니다.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">전체가 맞는 단어만</gui></title>
+      <p><app>터미널</app> 에서 전체 검색 단어와 일치하는 대상을 찾고 검색 단어와 부분적으로 일치하는 결과는 무시합니다. “cat”을 검색하면, <app>터미널</app> 에서는 이 검색 단어와 완전히 일치하는 결과만 보여주고 “bobcat”같은 결과는 생략합니다.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">정규식</gui></title>
+      <p>정규 표현식이라고 하는 정규식을 검색 단어로 사용할 수 있습니다. <app>터미널</app> 은 정규식에 일치하는 단어 결과를 표시합니다.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">끝까지 가면 처음부터</gui></title>
+      <p><app>터미널</app> 에서는 스크롤 가능 처음 영역 부터 터미널 출력 끝까지 검색을 진행하며 검색 결과 마지막에 도달하면 검색을 다시 시작합니다.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>더 많은 <app>터미널</app> 출력 내용을 다루려면 <link xref="pref-scrolling#lines">스크롤 제한 범위</link> 값을 더 높은 값으로 설정하여 <app>터미널</app>이 더 이전의 출력 범위에서 검색할 수 있게 하십시오.</p>
+  </note>
+
+</page>

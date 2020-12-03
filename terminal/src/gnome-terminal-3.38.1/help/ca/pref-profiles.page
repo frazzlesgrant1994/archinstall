@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="ca">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Crea, edita i suprimeix perfils.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gestionar els perfils</title>
+
+  <p>Un perfil és una col·lecció de paràmetres del <app>Terminal</app>. El <app>Terminal</app> suporta múltiples perfils. Podeu configurar els perfils del <app>Terminal</app> per <link xref="pref-custom-command">executar una ordre personalitzada o un intèrpret d'ordres</link>, configurar un perfil de forma exclusiva per connectar-se a ordinadors remots usant SSH o configurar un perfil que llanci una sessió <app>GNU Screen</app>.</p>
+
+  <p>Les configuracions disponibles per al <app>Terminal</app> inclouen:</p>
+
+  <list>
+    <item>
+      <p>Nom de perfil.</p>
+    </item>
+    <item>
+      <p>Tipus de lletra i colors de fons.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Compatibilitat</gui> amb les tecles <key>Retrocés</key> i <key>Supr</key>.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Desplaçament</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Selecciona un perfil</title>
+
+    <p>Podeu canviar el perfil de la pestanya o finestra actual al <app>Terminal</app> seleccionant un perfil de <guiseq><gui style="menu">Terminal</gui> <gui style="menuitem">Canvia perfil</gui></guiseq>.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Crea un nou perfil</title>
+
+    <p>Per crear un perfil nou amb la configuració predeterminada del <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Seleccioneu <guiseq><gui style="menu">Edita</gui> <gui style="menuitem">Preferències</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, feu clic al botó <gui style="button">+</gui> al costat de l'etiqueta <gui>Perfils</gui>.</p>
+      </item>
+      <item>
+        <p>Introduïu un nom per al nou perfil. Podreu canviar-lo més endavant.</p>
+      </item>
+      <item>
+        <p>Feu clic a <gui style="button">Crea</gui> per crear un nou perfil.</p>
+      </item>
+      <item>
+        <p>Configureu les vostres <link xref="#edit-profile">preferències de perfil</link>. Aquestes es desaran de forma automàtica.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Crear un nou perfil basat en el perfil existent</title>
+
+    <p>Podeu crear un perfil nou basat en els paràmetres del perfil existent:</p>
+
+    <steps>
+      <item>
+        <p>Seleccioneu <guiseq><gui style="menu">Edita</gui> <gui style="menuitem">Preferències</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>A la barra lateral, seleccioneu el perfil en què s'ha de basar el perfil nou.</p>
+      </item>
+      <item>
+        <p>Feu clic a la fletxa del costat del nom del perfil.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="menuitem">Clona…</gui>.</p>
+      </item>
+      <item>
+        <p>Introduïu un nom per al nou perfil. Podreu canviar-lo més endavant.</p>
+      </item>
+      <item>
+        <p>Feu clic a <gui style="button">Clona</gui> per crear el nou perfil.</p>
+      </item>
+      <item>
+        <p>Configureu les vostres <link xref="#edit-profile">preferències de perfil</link>. Aquestes es desaran de forma automàtica.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>La creació d'un nou perfil a partir d'un perfil existent no afecta les configuracions del perfil existent. Qualsevol canvi als paràmetres serà desat al nou perfil.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Editar un perfil</title>
+
+    <note style="warning">
+      <p>Si el perfil per defecte s'edita, no es podrà restaurar als paràmetres originals! Si no heu creat un altre perfil <app>Terminal</app> i heu personalitzat el perfil per defecte, <app>Terminal</app> <em>pot</em> tornar-se inusable si qualsevol paràmetre provoca problemes. És recomanable per a vostè <link xref="#create-profile-from-existing">crear una còpia del perfil per defecte</link> i després editar la copia per crear un perfil personalitzat.</p>
+    </note>
+
+    <p>Podeu fer canvis als perfils que ja existeixen. Per editar-los:</p>
+
+    <steps>
+      <item>
+        <p>Seleccioneu <guiseq><gui style="menu">Edita</gui> <gui style="menuitem">Preferències</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>El vostre perfil actual està seleccionat a la barra lateral. Si voleu editar un altre perfil, feu clic al seu nom.</p>
+      </item>
+    </steps>
+
+    <p>Un cop seleccionat el perfil desitjat, podeu:</p>
+
+    <steps>
+      <item>
+        <p>Seleccioneu <link xref="app-fonts">tipus de lletra</link>, <link xref="app-cursor">forma del cursor</link> i <link xref="app-terminal-sizes"><app>Mida del Terminal</app> </link>.</p>
+      </item>
+      <item>
+        <p>També podeu canviar el comportament del <app>Terminal</app> a <link xref="pref-custom-exit">l'ordre surt</link>, configura una <link xref="pref-login-shell">entrada a un intèrpret d'ordres personalitzada</link> o canvia les <link xref="pref-scrolling"> preferències de la barra de desplaçament</link>.</p>
+      </item>
+      <item>
+        <p>Per canviar el fons i els colors del text del <app>Terminal</app>, mireu <link xref="app-colors">els esquemes de color del <app>Terminal</app></link>.</p>
+      </item>
+      <item>
+        <p>Els canvis del perfil es desen de forma immediata. Per retornar al <app>Terminal</app>, premeu <gui style="button">Tanca</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Canviar el nom a un perfil existent</title>
+
+    <p>Podeu canviar el nom a perfils que ja existeixen, incloent-hi el perfil per defecte:</p>
+
+    <steps>
+      <item>
+        <p>Seleccioneu <guiseq><gui style="menu">Edita</gui> <gui style="menuitem">Preferències</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Selecciona el perfil al qual voleu canviar el nom.</p>
+      </item>
+      <item>
+        <p>Feu clic a la fletxa del costat del nom del perfil.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="menuitem">Canvia el nom…</gui>.</p>
+      </item>
+      <item>
+        <p>Introduïu el nom del perfil nou.</p>
+      </item>
+      <item>
+        <p>Feu clic a <gui style="button">Canvia el nom</gui> per canviar el nom.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Suprimeix un perfil</title>
+  
+    <p>Per suprimir un perfil:</p>
+
+    <steps>
+      <item>
+        <p>Seleccioneu <guiseq><gui style="menu">Edita</gui> <gui style="menuitem">Preferències</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Selecciona el perfil que voleu suprimir.</p>
+      </item>
+      <item>
+        <p>Feu clic a la fletxa del costat del nom del perfil.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="menuitem">Suprimeix…</gui>.</p>
+      </item>
+      <item>
+        <p>Feu clic a <gui style="button">Suprimeix</gui> per a confirmar.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>El perfil per defecte no es pot suprimir. Si voleu suprimir aquest perfil, primer fixeu-ne un altre com a perfil <link xref="# set-default">predeterminat</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Configura el perfil per defecte</title>
+
+    <p>El perfil per defecte es carrega quan el nou terminal s'obre llevat que hàgiu seleccionat un altre perfil. Qualsevol canvi que feu a la configuració es desarà al perfil actual.</p>
+
+    <p>El perfil predeterminat s’utilitza quan <app>Terminal</app> no pot decidir d’altra manera quin perfil utilitzar. Per exemple, <app>Terminal</app> s’inicia i s'obre la primera finestra del terminal. En canvi, quan s'utilitza una entrada de menú o una drecera del teclat de <app>Terminal</app> per obrir-ne un de nou, s'utilitza el perfil existent.</p>
+
+    <steps>
+      <item>
+        <p>Seleccioneu <guiseq><gui style="menu">Edita</gui> <gui style="menuitem">Preferències</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Seleccioneu el perfil que voleu definir com a per defecte.</p>
+      </item>
+      <item>
+        <p>Feu clic a la fletxa del costat del nom del perfil.</p>
+      </item>
+      <item>
+        <p>Seleccioneu <gui style="menuitem">Estableix com a predeterminat</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>El perfil predeterminat està marcat en una casella de verificació.</p>
+    </note>
+
+  </section>
+
+</page>

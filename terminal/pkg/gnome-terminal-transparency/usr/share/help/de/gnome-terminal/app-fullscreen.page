@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="de">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vollbild-Modus aktivieren.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sitzung im Vollbild-Modus</title>
+
+  <p>Der Vollbild-Modus ermöglicht es <app>Terminal</app>, den ganzen Bildschirm zu verwenden.</p>
+
+  <p>Dieser Modus ist sinnvoll, wenn Sie ein Gerät mit kleiner Bildschirmgröße besitzen und über einen längeren Zeitraum mit <app>Terminal</app> arbeiten möchten oder mit langen Zeilen in der Textausgabe kämpfen. Er verbirgt zeitweise die Fensterdekoration, so dass Sie mehr vom <link xref="pref-scrolling">Zeilenspeicher</link> sehen können.</p>
+
+  <p>So aktivieren Sie den Vollbild-Modus:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Vollbildmodus</gui> oder drücken Sie <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Die Menüleiste ist im Vollbild-Modus noch immer sichtbar, es sei denn Sie haben diese verborgen.</p>
+  </note>
+
+  <note style="tip">
+    <p>Wenn mehr als ein Reiter im <app>Terminal</app> geöffnet ist, so erscheint die Reiterleiste im Vollbild-Modus.</p>
+  </note>
+
+  <p>So deaktivieren Sie den Vollbild-Modus:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie mit der rechten Maustaste und wählen Sie <gui style="menuitem">Vollbild verlassen</gui> oder drücken Sie <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

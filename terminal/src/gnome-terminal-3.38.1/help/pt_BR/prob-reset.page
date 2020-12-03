@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="pt-BR">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Como faço para recuperar a tela do meu <app>Terminal</app> quando ela trava ou tem muitos símbolos estranhos?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Redefinindo o estado do seu <app>Terminal</app></title>
+
+  <p>Depois de ver um arquivo não-texto por engano, ou do lançamento de algum comando, pode acontecer da tela do <app>Terminal</app> não responder ou ter letras estranhas impressas quando você pressiona as teclas. Você pode recuperar o <app>Terminal</app> das seguintes maneiras:</p>
+
+  <section id="reset">
+    <title>Redefinindo</title>
+
+    <p>Redefinir a tela do <app>Terminal</app>.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Para ter o prompt pressione a tecla <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Redefinindo e limpando</title>
+
+    <p>Além de redefinir seu <app>Terminal</app>, <gui style="menuitem">Redefinir e limpar</gui> limpa todo o conteúdo de rolagem para trás e o espaço de tela visível do <app>Terminal</app>. Para <gui style="menuitem">Redefinir e limpar</gui> seu <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset and Clear</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Para ter o prompt pressione a tecla <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Redefinir e limpar</gui> fornece a funcionalidade semelhante à do comando <cmd>reset</cmd> no terminal.</p></note>
+
+  </section>
+</page>

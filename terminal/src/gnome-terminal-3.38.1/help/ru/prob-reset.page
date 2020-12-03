@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="ru">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Как восстановить экран <app>Терминала</app>, если он завис, или он выводит странные символы?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Reset your <app>Terminal</app> state</title>
+
+  <p>После просмотра нетекстовых файлов или запуск некоторых команд экран <app>Терминала</app> может перестать отвечать на действия пользователя, выводить странные символы при нажатии клавиш. Вы можете восстановить <app>Терминал</app> следующими способами:</p>
+
+  <section id="reset">
+    <title>Сброс</title>
+
+    <p>Сброс экрана <app>Терминала</app>.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Чтобы получить приглашение командной строки, нажмите <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Сброс и очистка</title>
+
+    <p>In addition to resetting your <app>Terminal</app>,
+    <gui style="menuitem">Reset and Clear</gui> clears the visible
+    <app>Terminal</app> screen space and the scrollback contents. To
+    <gui style="menuitem">Reset and Clear</gui> your <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset and Clear</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Чтобы получить приглашение командной строки, нажмите <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Reset and Clear</gui> provides similar
+    functionality as the terminal command <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="fr">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Effectuer une recherche dans la sortie de <app>Terminal</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Recherche du texte</title>
+
+  <p>Pour rechercher du texte dans la sortie de <app>Terminal</app> :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> situé dans le coin supérieur droit, ou appuyez sur <keyseq><key>Ctrl</key><key>Maj</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Tapez le mot-clé recherché et appuyez sur <key>Entrée</key> pour effectuer une recherche en arrière. Vous pouvez également cliquer sur les flèches en fonction de la direction de recherche souhaitée.</p>
+    </item>
+  </steps>
+
+  <p>Vous pouvez effectuer une recherche en utilisant les options suivantes pour affiner vos résultats :</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Respecter la casse</gui></title>
+      <p>Rend la recherche sensible à la casse : cela limite les résultats à ceux qui correspondent à la typographie de votre mot-clé.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Mots entiers seulement</gui></title>
+      <p><app>Terminal</app> va rechercher le mot-clé dans son intégralité et va ignorer les résultats qui correspondent partiellement à ce mot. Par exemple, si vous avez recherché « chat », <app>Terminal</app> n’affichera que les résultats qui correspondent à ce mot-clé exactement et omettra des résultats tels que « chaton ».</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Utiliser comme expression régulière</gui></title>
+      <p>Vous pouvez utiliser des motifs d’expressions régulières, également connu comme les modèles regex, dans vos mots-clés de recherche. <app>Terminal</app> affichera les résultats qui correspondent à ces critères de recherche.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Recherche circulaire</gui></title>
+      <p><app>Terminal</app> recherche depuis votre position actuelle dans le défilement jusqu’à la fin des sorties de terminal disponibles, puis redémarre la recherche.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Si vous prévoyez de travailler avec un grand nombre de sorties de <app>Terminal</app>, augmentez les <link xref="pref-scrolling#lines">lignes de défilement</link> pour permettre à <app>Terminal</app> de rechercher plus loin en arrière.</p>
+  </note>
+
+</page>

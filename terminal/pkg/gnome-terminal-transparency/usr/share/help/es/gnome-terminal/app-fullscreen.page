@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="es">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Activar el modo pantalla completa.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sesión en modo a pantalla completa</title>
+
+  <p>El modo a pantalla completa permite a la <app>Terminal</app> usar toda la pantalla.</p>
+
+  <p>Este modo es útil si tiene un dispositivo con espacio de pantalla limitado y quiere trabajar con la <app>Terminal</app> durante mucho tiempo, o si está trabajando con líneas de salida de la terminal muy largas. Oculta temporalmente la decoración de la ventana, permitiéndole ver más <link xref="pref-scrolling">líneas de desplazamiento hacia atrás</link> en la pantalla.</p>
+
+  <p>Para activar el modo a pantalla completa:</p>
+
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Pantalla completa</gui>, o pulse <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>La barra de menú seguirá siendo visible en el modo a pantalla completa a menos que la haya ocultado.</p>
+  </note>
+
+  <note style="tip">
+    <p>Si tiene abierta más de una pestaña de la <app>Terminal</app>, la barra de pestañas estará visible en el modo a pantalla completa.</p>
+  </note>
+
+  <p>Para desactivar el modo a pantalla completa:</p>
+
+  <steps>
+    <item>
+      <p>Pulse con el botón derecho y elija <gui style="menuitem">Salir de pantalla completa</gui>, o pulse <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

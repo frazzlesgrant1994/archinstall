@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Använd systemtypsnitt eller välj ett anpassat typsnitt för din terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ändra typsnitt och stil</title>
+
+  <p>Då du arbetar med mycket text i <app>Terminal</app> kan du vilja ändra standardtypsnittet till något du föredrar. Du har följande alternativ:</p>
+
+  <section id="system-font">
+  <title>Systemets typsnitt med fast bredd</title>
+
+  <p>För att använda systemets standardtypsnitt:</p>
+
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+    </item>
+    <item>
+      <p>Välj <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Avmarkera <gui style="checkbox">Anpassat typsnitt</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Ställ in ett anpassat typsnitt</title>
+
+  <p>För att ställa in ett anpassat typsnitt och storlek:</p>
+
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+    </item>
+    <item>
+      <p>Välj <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Markera <gui style="checkbox">Anpassat typsnitt</gui>.</p>
+    </item>
+    <item>
+      <p>Klicka på knappen intill <gui style="checkbox">Anpassat typsnitt</gui>.</p>
+    </item>
+    <item>
+      <p>Skriv in namnet på ditt önskade typsnitt i sökfältet eller bläddra i listan över typsnitt.</p>
+    </item>
+    <item>
+      <p>Dra skjutreglaget som är under typsnittslistan för att ställa in typsnittsstorleken. Alternativt kan du skriva in typsnittsstorleken i fältet intill skjutreglaget, eller klicka på <gui style="button">+</gui> för att öka typsnittsstorleken eller <gui style="button">-</gui> för att minska vald typsnittsstorlek.</p>
+    </item>
+    <item>
+      <p>Klicka på <gui style="button">Välj</gui> för att verkställa dina ändringar. För att förkasta ändringar och gå tillbaka till föregående dialogruta, klicka på <gui style="button">Avbryt</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Radavstånd och teckenavstånd</title>
+
+  <p><app>Terminal</app> låter dig dra isär tecken för förbättrad läsbarhet. Radavstånd och teckenavstånd kan justeras från 1,0 (det vanliga utseendet) till 2,0 (”dubbelt avstånd”), inklusive decimaltalen där emellan.</p>
+
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+    </item>
+    <item>
+      <p>Välj <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Gå till inställningen <gui>Cellavstånd</gui>.</p>
+    </item>
+    <item>
+      <p>För att ställa in det horisontella teckenavståndet, justera multiplikatorsiffran framför <gui>bredd</gui>.</p>
+    </item>
+    <item>
+      <p>För att ställa in radavståndet, justera multiplikatorsiffran framför <gui>höjd</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

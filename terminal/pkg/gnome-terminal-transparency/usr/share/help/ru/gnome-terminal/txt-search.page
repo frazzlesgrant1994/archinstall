@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="ru">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Поиск в выводе <app>Терминала</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Search for text</title>
+
+  <p>Можно совершать поиск по тексту в выводе <app>Терминала</app>:</p>
+
+  <steps>
+    <item>
+      <p>Press <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> in the top-right corner, or press
+      <keyseq><key>Ctrl</key><key>Shift</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Type in the search keyword and press <key>Enter</key> to search
+      backwards. Alternatively, click on the arrows according to the desired
+      search direction.</p>
+    </item>
+  </steps>
+
+  <p>Чтобы сделать результаты поиска более точными, можно использовать следующие возможности:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Учитывать регистр</gui></title>
+      <p>Сделайте поиск чувствительным к регистру: это выдаст только те результаты, которые совпадают с регистром букв в ключевом слове.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Только полные слова</gui></title>
+      <p><app>Terminal</app> will look for the entire keyword and will ignore
+      results that partially match your search keyword. For example, if
+      you have searched for “cat”, <app>Terminal</app> will show only
+      results that match this keyword exactly and omit results such as
+      “bobcat”.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">По регулярному выражению</gui></title>
+      <p>В ключевых словах можно использовать шаблоны регулярных выражений, также известные как шаблоны regex. <app>Терминал</app> покажет результаты, совпадающие с этими условиями поиска.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Автоматически переходить к началу документа</gui></title>
+      <p><app>Terminal</app> searches from your current location in the
+      scrollback to the end of available terminal output and then restarts the
+      search.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>If you expect to work with a lot of <app>Terminal</app> output, increase
+    the <link xref="pref-scrolling#lines">scrollback lines</link> to
+    a higher limit to allow <app>Terminal</app> to search further back.</p>
+  </note>
+
+</page>

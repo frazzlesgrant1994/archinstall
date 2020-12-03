@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-bell" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Вмикання звукового сповіщення у <app>Терміналі</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Встановлення звукового сигналу</title>
+
+  <p><app>Термінал</app> може видавати звук дзвіночка для позначення подій у вікнах і вкладках <app>Термінала</app>.</p>
+
+  <p>Щоб програма сповіщала вас про ці події, виконайте такі дії:</p>
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui style="tab">Текст</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть <gui style="checkbox">Звуковий сигнал термінала</gui></p>
+    </item>
+  </steps>
+  <note style="tip">
+    <p>Щоб прослухати звук дзвіночка, який видає ваша система, натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>G</key></keyseq>.</p>
+  </note>
+
+</page>

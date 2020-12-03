@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>A <app>Terminál</app> beállítása parancs vagy eltérő parancsértelmező futtatására induláskor.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Egyéni parancsok és parancsértelmezők</title>
+
+  <p>A <em>parancsértelmező</em> egy olyan szoftver, amely egy operációs rendszer felhasználói számára felületet biztosít <em>parancsok</em> (mint például a <app>top</app>) vagy egy parancsértelmező futtatására. Az alapértelmezett parancsértelmező általában a <app>Bash</app>. </p>
+
+  <p>A <app>Terminál</app> beállítható, hogy az elindításakor egy parancsot futtasson, ahelyett hogy parancs bevitelére várna:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Válassza a <gui style="tab">Parancs</gui> lapot.</p>
+    </item>
+    <item>
+      <p>Jelölje be az <gui>Egyéni parancs futtatása a saját parancsértelmező helyett</gui> négyzetet.</p>
+    </item>
+    <item>
+      <p>A szövegbeviteli mezőbe írja be a kívánt parancsot vagy parancsértelmezőt.</p>
+      <p>A parancs pontosan úgy kerül átadásra a terminálnak, ahogyan beírja, beleértve a megadott argumentumokat is. A környezeti változók a termináltól öröklődnek, mivel ez a terminál gyermekfolyamata.</p>
+    </item>
+    <item>
+      <p>Nyisson egy új <app>Terminál</app> lapot vagy ablakot az egyéni parancsértelmező vagy parancs végrehajtásának teszteléséhez.</p>
+    </item>
+  </steps>
+
+  <p>A parancs futásának befejeződése után <link xref="pref-custom-exit">beállíthatja a terminál viselkedését</link> is.</p>
+
+  <note style="important">
+    <p>Szükség lehet a parancs vagy a parancsértelmező teljes elérési útjának megadására, ha a parancsot vagy parancsértelmezőt tartalmazó könyvtár nincs felsorolva a rendszer <code>PATH</code> környezeti változójában.</p>
+  </note>
+
+</page>

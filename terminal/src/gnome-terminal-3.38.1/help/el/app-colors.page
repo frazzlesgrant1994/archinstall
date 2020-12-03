@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="el">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Αλλαγή χρωμάτων και παρασκηνίων.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Συνδυασμοί χρωμάτων</title>
+
+  <p>Εάν δεν σας αρέσει το προεπιλεγμένο θέμα του <app>Τερματικού</app>, ίσως να θέλετε να αλλάξετε τα χρησιμοποιούμενα χρώματα για το κείμενο και το παρασκήνιο. Μπορείτε να χρησιμοποιήσετε χρώματα από το θέμα σας, να επιλέξετε μία από τις προεπιλογές ή να χρησιμοποιήσετε ένα προσαρμοσμένο σχήμα.</p>
+
+  <section id="system-theme">
+    <title>Χρήση χρωμάτων από το θέμα του συστήματός σας</title>
+
+    <p>Για να χρησιμοποιήσετε χρώματα από το θέμα του συστήματος:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε <gui style="checkbox">Χρήση χρωμάτων από το θέμα του συστήματος</gui>. Οι αλλαγές θα εφαρμοστούν αυτόματα.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Ενσωματωμένα θέματα</title>
+
+    <p>You can choose one of the built-in color schemes: <gui>Black on light
+    yellow</gui>, <gui>Black on white</gui>, <gui>Gray on black</gui>,
+    <gui>Green on black</gui>, <gui>White on black</gui>, <gui>Tango
+    light</gui>, <gui>Tango dark</gui>, <gui>Solarized light</gui>,
+    <gui>Solarized dark</gui>. To set any of the built-in schemes:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Βεβαιωθείτε ότι το <gui style="checkbox">Χρήση χρωμάτων από το θέμα του συστήματος</gui> είναι αποεπιλεγμένο. Επιλέξτε τον επιθυμητό συνδυασμό χρωμάτων από τα <gui>Ενσωματωμένα χρώματα</gui>. Οι επιλογές συνδυασμού χρωμάτων εφαρμόζονται αυτόματα.</p>
+        <note>
+	  <p>Οι εφαρμογές μπορούν να επιλέξουν να χρησιμοποιήσουν ένα χρώμα από την παλέτα αντί για το καθορισμένο έντονο χρώμα.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Προσαρμοσμένος συνδυασμός χρωμάτων</title>
+
+    <p>Μπορείτε να χρησιμοποιήσετε προσαρμοσμένα χρώματα για το κείμενο και το παρασκήνιο στο <app>Τερματικό</app>:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Βεβαιωθείτε ότι η <gui style="checkbox">Χρήση χρωμάτων από το θέμα του συστήματος</gui> είναι αποεπιλεγμένη. Επιλέξτε <gui>Προσαρμογή</gui> από την πτυσσόμενη λίστα <gui>Ενσωματωμένα χρώματα</gui>.</p>
+      </item>
+      <item>
+        <p>Click on the color you would like to change.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε το επιθυμητό σας χρώμα από το δείγμα χρωμάτων και πατήστε <gui style="button">Επιλογή</gui>.</p>
+        <p>You can choose the desired color in the following ways:</p>
+        <list>
+          <item>
+            <p>Εισάγετε τον δεκαεξαδικό κωδικό χρώματος στο πλαίσιο εισαγωγής.</p>
+          </item>
+          <item>
+            <p>Μεταφέρτε τον ολισθητή στα αριστερά για να ρυθμίσετε τα χρώματα και πατήστε στο επιθυμητό χρώμα στην περιοχή επιλογής χρώματος.</p>
+          </item>
+        </list>
+	<p>Οι αλλαγές σας θα αποθηκευτούν αυτόματα.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Μπορείτε επίσης να αλλάξετε ένα χρώμα όταν έχετε επιλέξει έναν ενσωματωμένο συνδυασμό πατώντας στην ομάδα δείγματος χρώματος. Αφού το αλλάξετε, η επιλογή σας στο ενσωματωμένο μενού συνδυασμών θα αλλάξει σε <gui>Προσαρμογή</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Traditionally terminal emulators offered a 16 color palette, this is
+      what you can alter here. <app>Terminal</app> supports an extended set of
+      256 colors, but the additional 240 colors cannot be edited here.</p>
+
+      <p><app>Terminal</app> even offers direct access to over 16 million
+      colors, this is called “true color” mode.</p>
+
+      <p>If the changes you make to the palette do not seem to have an effect,
+      presumably the contents you see consist of such extended palette colors
+      or true colors, rather than the 16 base colors.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Bright colors for bold text</title>
+
+    <p>Traditionally terminals didn't clearly separate bold font weight from
+    intense colors, often both of them were enabled together. Recent
+    improvements, such as the introduction of true color support, and certain
+    color schemes (e.g. Solarized) made it desirable to separate the two
+    concepts, that is, make the brightness independent from the font weight.</p>
+
+    <p>In order to choose your preferred behavior:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Colors</gui>.</p>
+      </item>
+      <item>
+        <p>Disable <gui>Show bold text in bright colors</gui> for the new
+        default behavior, the complete separation of color intensity and font
+        weight; or enable this option for improved backward compatibility.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

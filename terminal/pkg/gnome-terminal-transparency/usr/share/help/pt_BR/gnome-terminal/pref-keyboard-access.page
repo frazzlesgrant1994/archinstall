@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="pt-BR">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Navegue pelos menus do <app>Terminal</app> usando o teclado.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Acessos pelo teclado</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Essas teclas só terão efeito em janelas em que a barra de menu é configurada como visível.</p>
+    <p>Right click in the <app>Terminal</app> window and select
+    <gui style="checkbox">Show Menubar</gui> to display the menubar.</p>
+  </note>
+
+  <p>Você pode navegar no menu do <app>Terminal</app> usando uma combinação de teclas que são chamadas de <em>mnemônicos</em> (ou “teclas de acesso) ou com uma tecla especial que o abre o primeiro menu – ela é chamada de <em>tecla de atalho do menu</em>.</p>
+
+  <section id="mnemonics">
+    <title>Mnemônicos (teclas de acesso)</title>
+
+    <p>Os menus do <app>Terminal</app> podem ser acessado através da combinação da tecla <key>Alt</key> e uma letra do item de menu. A letra que você precisa usar para acessar o menu será sublinhada quando você pressionar a tecla <key>Alt</key>.</p>
+
+    <p>Por exemplo, para abrir o menu <gui style="menu">Editar</gui> use <keyseq><key>Alt</key><key>E</key></keyseq>. Da mesma forma, você pode acessar o menu <gui style="menu">Arquivo</gui> usando <keyseq><key>Alt</key><key>A</key></keyseq>.</p>
+
+    <p>Para habilitar os mnemônicos:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Marque a opção <gui style="checkbox">Habilitar mnemônicos</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Atalho da barra de menu</title>
+
+    <p>Esta configuração abre o menu <gui style="menu">Arquivo</gui> quando a tecla de atalho do menu pressionada. Essa tecla geralmente é a <key>F10</key> por padrão.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Marque a opção <gui style="checkbox">Habilitar a tecla de atalho do menu</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

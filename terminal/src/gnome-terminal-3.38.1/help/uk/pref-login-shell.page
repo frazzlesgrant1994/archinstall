@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-login-shell" xml:lang="uk">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Запуск оболонки входу у <app>Терміналі</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Оболонки входу</title>
+
+  <p>Оболонки у системах на основі UNIX можна запускати у режимі входу або без входу:</p>
+
+  <terms>
+    <item>
+      <title>Оболонка входу</title>
+      <p>Оболонка входу є оболонкою, яка надається користувачу під час входу до його облікового запису. Така оболонка ініціюється використанням параметра <cmd>-l</cmd> або <cmd>--login</cmd> або додаванням мінуса як початкового символу назви команди, наприклад, викликом <cmd>bash</cmd> у формі <cmd>-bash</cmd>.</p>
+    </item>
+    <item>
+      <title>Підлегла оболонка</title>
+      <p>Підоболонка, яку також називають оболонкою без входу, є оболонкою, яку запускають після процедури входу до системи, без параметра <cmd>-l</cmd> або <cmd>--login</cmd> і без додаткового мінуса перед назвою команди.</p>
+    </item>
+  </terms>
+
+  <p>Загальними випадками, у яких потрібна оболонка з входом, є такі випадки:</p>
+  <list>
+    <item>
+      <p>Доступ до комп'ютера віддалено за допомогою <app>ssh</app>.</p>
+    </item>
+    <item>
+      <p>Імітація початкової оболонки входу за допомогою <cmd>bash -l</cmd> або <cmd>sh -l</cmd>.</p>
+    </item>
+    <item>
+      <p>Імітація початкового входу до оболонки від імені адміністратора (root) за допомогою <cmd>sudo -i</cmd>.</p>
+    </item>
+  </list>
+
+  <section id="login-shell-howto">
+    <title>Запуск оболонки входу до системи</title>
+
+    <p>Ви можете дозволити <app>Терміналу</app> запускати оболонку входу. Вашу типову командну оболонку буде запущено із мінусом перед її назвою.</p>
+
+    <steps>
+      <item>
+        <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+      </item>
+      <item>
+        <p>На бічній панелі виберіть ваш поточний профіль у розділі <gui>Профілі</gui>.</p>
+      </item>
+      <item>
+        <p>Виберіть <gui style="tab">Команда</gui>.</p>
+      </item>
+      <item>
+        <p>Під міткою <gui>Команда</gui> позначте пункт <gui style="checkbox">Запускати команду як оболонку входу</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

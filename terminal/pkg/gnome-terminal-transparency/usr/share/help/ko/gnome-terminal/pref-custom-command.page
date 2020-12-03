@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="ko">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>터미널</app>을 시작할 때 명령 또는 다른 셸을 실행하도록 설정합니다.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>사용자 지정 명령 및 셸</title>
+
+  <p><em>셸</em>은 <em>명령</em>을 실행하는 운영체제 사용자에게 인터페이스를 제공하는 프로그램입니다. <app>top</app> 또는 명령행 셸이 될 수 있습니다. 기본 셸은 보통 <app>Bash</app> 입니다.</p>
+
+  <p>입력을 기다리는 대신 시작할 때 명령을 실행하도록 <app>터미널</app>을 설정할 수 있습니다:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p><gui style="tab">명령</gui>을 선택하십시오.</p>
+    </item>
+    <item>
+      <p><gui>셸 대신에 사용자 지정 명령 실행</gui>을 표시하십시오.</p>
+    </item>
+    <item>
+      <p>텍스트 상자에 원하는 명령 또는 셸을 입력하십시오.</p>
+      <p>명령은 여러분이 입력한 그대로 지정 인자를 함께 터미널에 전달합니다. 터미널의 하위 프로세스라면 터미널에서 환경 변수 값을 물려받습니다.</p>
+    </item>
+    <item>
+      <p><app>터미널</app> 새 탭 또는 새 창을 열어 사용자 지정 셸 또는 멍령 실행 모습을 보십시오.</p>
+    </item>
+  </steps>
+
+  <p>명령 실행이 끝났을 때 터미널 <link xref="pref-custom-exit">동작을 설정</link> 할 수 있습니다.</p>
+
+  <note style="important">
+    <p>명령 또는 셸이 있는 디렉터리 값이 시스템의 <code>PATH</code> 변수에 없다면 명령 또는 셸에 전체 경로를 입력해야합니다.</p>
+  </note>
+
+</page>

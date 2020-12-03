@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="pl">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Zmiana wyjścia przewijania i zachowania paska przewijania.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Preferencje paska przewijania</title>
+
+  <p>Kiedy w terminalu jest wyświetlana duża ilość tekstu, to przydatne może być dostosowanie jego zachowania.</p>
+
+  <section id="visibility">
+    <title>Widoczność paska przewijania</title>
+
+    <p>Można wyłączyć pasek przewijania:</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Przewijanie</gui>.</p>
+      </item>
+      <item>
+        <p>Odznacz opcję <gui>Pasek przewijania</gui>.</p>
+      </item>
+    </steps>
+
+    <p>Preferencje są zapisywane od razu.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>Przewijanie po pojawieniu się nowych danych</title>
+
+    <p>Można zablokować przewijanie, aby zawsze wyświetlać najnowsze wyjście podczas wykonywania polecenia.</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Przewijanie</gui>.</p>
+      </item>
+      <item>
+        <p>Zaznacz opcję <gui style="checkbox">Przewijanie po pojawieniu się nowych danych</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>Przewijanie po naciśnięciu klawisza</title>
+
+    <p>Można ustawić terminal tak, aby automatycznie przewijał na dół okna podczas wpisywania tekstu.</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Przewijanie</gui>.</p>
+      </item>
+      <item>
+        <p>Zaznacz opcję <gui style="checkbox">Przewijanie po naciśnięciu klawisza</gui>.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>Wiersze przewijania</title>
+
+    <p>Można ograniczyć zachowywaną liczbę wierszy terminala.</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Przewijanie</gui>.</p>
+      </item>
+      <item>
+        <p>Zaznacz opcję <gui>Ograniczenie przewijania do</gui> i wpisz liczbę wierszy do ograniczenia przewijania.</p>
+      </item>
+      <item>
+        <p>Opcjonalnie można kliknąć przycisk <gui style="button">+</gui>, aby zwiększyć i <gui style="button">-</gui>, aby zmniejszyć liczbę wierszy.</p>
+      </item>
+    </steps>
+
+    <p>Można używać nieograniczonego przewijania.</p>
+
+    <steps>
+      <item>
+        <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+      </item>
+      <item>
+        <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Wybierz kartę <gui style="tab">Przewijanie</gui>.</p>
+      </item>
+      <item>
+        <p>Odznacz opcję <gui>Ograniczenie przewijania do</gui>.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Dane przewijania są przechowywane w skompresowanych i zaszyfrowanych plikach na dysku w domyślnym położeniu plików tymczasowych systemu (zwykle <file>/tmp</file>). Te pliki są odwiązywane od razu po utworzeniu, i jako takie nie są wyświetlane na liście zawartości katalogu. Zajęte miejsce na dysku jest zwalniane od razu po zamknięciu używającego go terminala.</p>
+    </note>
+
+    <note style="warning">
+      <p>Upewnij się, że na dysku jest dostępne wystarczające miejsce na te pliki tymczasowe. W razie wątpliwości monitoruj użycie dysku na przykład za pomocą polecenia <cmd>du /tmp</cmd>.</p>
+    </note>
+
+    <note style="important">
+      <p>Wielki bufor przewijania spowalnia zmianę rozmiaru okna terminala. Z reguły zmiana rozmiaru staje się widocznie wolna przy około milionie wierszy.</p>
+    </note>
+
+  </section>
+
+</page>

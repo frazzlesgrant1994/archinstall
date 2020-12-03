@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Launch programs or run commands using <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εκτέλεση εντολής</title>
+
+  <p>Οποιαδήποτε εισαγωγή καταχωρίστηκε στο <app>Τερματικό</app> για να εκτελεστεί αναφέρεται ως <em>εντολή</em>. Μπορείτε να τρέξετε και προγράμματα γραμμής εντολών και προγράμματα διεπαφής χρήστη (GUI) από το τερματικό.</p>
+
+  <p>Για να εκτελέσετε εντολές:</p>
+
+  <steps>
+    <item>
+      <p>Πληκτρολογήστε την εντολή στο <app>Τερματικό</app>.</p>
+    </item>
+    <item>
+      <p>Πατήστε <key>Enter</key> για να την εκτελέσετε.</p>
+    </item>
+  </steps>
+
+  <p>Εάν έχετε ένα πρόγραμμα που τελειώνει απότομα χωρίς καμία προειδοποίηση ή σφάλμα, ίσως να θελήσετε να το εκτελέσετε σε <app>Τερματικό</app>. Αυτό θα επιτρέψει στο πρόγραμμα να εμφανίσει οποιοδήποτε σφάλμα ή μηνύματα αποσφαλμάτωσης στο παράθυρο του <app>Τερματικού</app>. Αυτές οι πληροφορίες μπορούν να είναι χρήσιμες όταν στέλνετε μια αναφορά σφάλματος.</p>
+
+  <note style="tip">
+    <p>Διαβάστε για το <link href="https://www.gnu.org/software/bash/manual/">κέλυφος Bash</link> για περισσότερες πληροφορίες στο τι μπορείτε να κάνετε σε ένα τερματικό.</p>
+  </note>
+  
+</page>

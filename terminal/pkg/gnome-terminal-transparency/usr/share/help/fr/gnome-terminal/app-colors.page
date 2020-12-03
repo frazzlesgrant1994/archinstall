@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="fr">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Changer les couleurs et les arrière-plans.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Palettes de couleur</title>
+
+  <p>Si vous n’aimez pas le thème par défaut de <app>Terminal</app>, vous voudrez changer les couleurs utilisées pour le texte et l’arrière-plan. Vous pouvez utiliser les couleurs du thème de votre système, sélectionner un des préréglages ou utiliser une palette personnalisée.</p>
+
+  <section id="system-theme">
+    <title>Utiliser les couleurs du thème de votre système</title>
+
+    <p>Pour utiliser les couleurs du thème du système :</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Couleurs</gui>.</p>
+      </item>
+      <item>
+        <p>Cochez <gui style="checkbox">Utiliser les couleurs du thème système</gui>. Ces changements seront appliqués automatiquement.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Palettes prédéfinies</title>
+
+    <p>Vous pouvez choisir l’une des palettes de couleur prédéfinies : <gui>Noir sur jaune pâle</gui>, <gui>Noir sur blanc</gui>, <gui>Gris sur noir</gui>, <gui>Vert sur noir</gui>, <gui>Blanc sur noir</gui>, <gui>Tango clair</gui>, <gui>Tango sombre</gui>, <gui>Solarisé clair</gui>, <gui>Solarisé sombre</gui>. Pour choisir l’une des palettes prédéfinies :</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Couleurs</gui>.</p>
+      </item>
+      <item>
+        <p>Assurez-vous que la case <gui style="checkbox">Utiliser les couleurs du thème du système</gui> n’est pas cochée. Choisissez la couleur désirée dans <gui>Palettes prédéfinies</gui>. Les choix de palettes de couleur sont appliqués automatiquement.</p>
+        <note>
+	  <p>Les applications peuvent choisir d’utiliser une couleur de la palette plutôt que la couleur vive spécifiée.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Palette de couleurs personnalisée</title>
+
+    <p>Vous pouvez utiliser des couleurs personnalisées pour le texte et l’arrière-plan dans <app>Terminal</app> :</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Couleurs</gui>.</p>
+      </item>
+      <item>
+        <p>Assurez-vous que <gui style="checkbox">Utiliser les couleurs du thème du système</gui> n’est pas cochée. Sélectionnez <gui>Personnalisée</gui> dans la liste déroulante de <gui>Palettes prédéfinies</gui>.</p>
+      </item>
+      <item>
+        <p>Cliquez sur la couleur que vous souhaitez modifier.</p>
+      </item>
+      <item>
+        <p>Choisissez la couleur désirée dans l’échantillon de couleur et cliquez sur <gui style="button">Sélectionner</gui>.</p>
+        <p>Vous pouvez choisir la couleur désirée de la manière suivante :</p>
+        <list>
+          <item>
+            <p>Saisissez le code hexadécimal de la couleur dans la zone de saisie.</p>
+          </item>
+          <item>
+            <p>Faites glisser le curseur situé sur la gauche pour ajuster les couleurs et cliquez sur la couleur souhaitée dans la zone de sélection de couleur.</p>
+          </item>
+        </list>
+	<p>Vos changements seront automatiquement enregistrés.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Vous pouvez également modifier la couleur quand vous avez choisi une palette prédéfinie en cliquant sur le bloc de l’échantillon de couleur. Une fois modifiée, votre sélection dans le menu des palettes prédéfinies passera à <gui>Personnalisée</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Traditionnellement, les émulateurs de terminal offraient une palette de 16 couleurs, et c’est ce que l’on peut modifier ici. <app>Terminal</app> gère un ensemble étendu de 256 couleurs, mais les 240 couleurs supplémentaires ne peuvent pas être changées.</p>
+
+      <p><app>Terminal</app> offre l’accès direct à plus de 16 millions de couleurs, c’est le mode « vraies couleurs ».</p>
+
+      <p>Si les changements effectués sur la palette de couleurs semblent n’avoir aucun effet, il est probable que le contenu que vous voyez se compose de couleurs de la palette étendue ou de vraies couleurs, plutôt que des 16 couleurs de base.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Couleurs claires pour du texte en gras</title>
+
+    <p>Traditionnellement, les terminaux ne séparaient pas clairement les caractères gras des couleurs vives, les deux étaient souvent activés ensemble. Des améliorations récentes, telles que l’introduction de la prise en charge des vraies couleurs, et certaines palettes de couleurs (par exemple, Solarisé) ont rendu souhaitable de séparer les deux concepts, c’est-à-dire de rendre la luminosité indépendante de l’épaisseur de la police.</p>
+
+    <p>Afin de choisir votre comportement préféré :</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="tab">Couleurs</gui>.</p>
+      </item>
+      <item>
+        <p>Désactivez l’option <gui>Afficher le texte en gras avec des couleurs claires</gui> pour le nouveau comportement par défaut, la séparation complète de l’intensité de la couleur et de l’épaisseur de la police ; ou activez cette option pour une meilleure rétrocompatibilité.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

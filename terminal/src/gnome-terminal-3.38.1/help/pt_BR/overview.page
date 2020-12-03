@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="pt-BR">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>O que é um terminal?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Visão geral de um terminal</title>
+
+  <p>O <app>Terminal</app> é um programa de terminal para o <gui>GNOME</gui>. Os próximos termos e suas descrições vão lhe ajudar a se familiarizar com o <app>Terminal</app> e seus recursos.</p>
+
+  <terms>
+    <item>
+      <title>Um terminal</title>
+      <p>Um terminal é um ponto de entrada de texto em um computador que também é chamado de “Command Line Interface” (CLI).</p>
+    </item>
+    <item>
+      <title>Terminais físicos</title>
+      <p>IBM 3270, VT100 e muitos outros são terminais que não são mais produzidos como dispositivos físicos. Para emular estes terminais, existem os emuladores.</p>
+    </item>
+    <item>
+      <title>Emuladores de terminal</title>
+      <p>Emulação é a capacidade de um programa imitar outro programa ou dispositivo.</p>
+
+      <p>Um emulador de terminal, também chamado de “tty”, é um programa que emula um terminal em computadores modernos que usam interfaces gráficas de usuário e fornecem acesso interativo para aplicativos que são executados somente em ambientes de linha de comando. Esses aplicativos podem estar executando na mesma máquina ou em outra via <app>telnet</app>, <app>ssh</app> ou <app>dial-up</app>.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>O “Virtual Terminal Environment” (VTE) é um emulador de terminal que emula um terminal de texto num ambiente de interface gráfica do usuário (GUI). O <app>Terminal</app> é em grande parte baseado no <app>VTE</app>. O <app>VTE</app> tem componentes que implementam um emulador de terminal totalmente funcional.</p>
+    </item>
+    <item>
+      <title>Shell</title>
+      <p>Um <em>shell</em> é um programa que fornece interface para invocar ou “lançar” comandos ou programas dentro de um terminal. Ele também permite que você visualize e navegue pelo conteúdo de diretórios. <em>Shells</em> populares incluem: <app>bash</app>, <app>zsh</app> e <app>fish</app>.</p>
+    </item>
+    <item>
+      <title>Sequências de escape</title>
+      <p>Uma sequência de escape é uma série de caracteres usados para mudar o significado dos dados em um terminal. Sequências de escape são usadas quando um computador tem apenas um único canal para enviar e receber informações. Sequências de escape são usadas para distinguir se os dados enviados são comandos a executar ou informação a armazenar e exibir.</p>
+    </item>
+
+    <item>
+      <title>Prompt</title>
+      <p>Um <em>prompt</em> também é chamado de <em>prompt de comando</em>. É uma sequência de caracteres usados no ambiente de linha de comando para indicar que o <em>shell</em> está pronto para aceitar comandos.</p>
+
+      <p>Um <em>prompt</em> geralmente termina com os caracteres <sys>$</sys>, <sys>%</sys>, <sys>#</sys> ou <sys>&gt;</sys> e inclui informações sobre o caminho do diretório de trabalho atual. Em sistemas baseados em Unix, é comum o <em>prompt</em> terminar com os caracteres <sys>$</sys> ou <sys>#</sys> dependendo da função do usuário, ou em <sys>#</sys> para o superusuário (também chamado de <em>root</em>).</p>
+    </item>
+    <item>
+      <title>Comando</title>
+      <p>Uma entrada feita no <em>prompt</em> para ser executada é chamado de <em>comando</em>. Ele é uma combinação do nome do programa com quaisquer outros parâmetros adicionais transmitidos como argumentos para alterar a execução do programa.</p>
+    </item>
+  </terms>
+
+</page>

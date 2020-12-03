@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak obnovit obrazovku svého <app>Terminálu</app>, když zamrzne nebo se na ní objeví podivné znaky.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Inicializace výstupu <app>Terminálu</app></title>
+
+  <p>Když omylem zobrazíte netextový soubor nebo spustíte některý nevhodný příkaz, může se stát, že obrazovka <app>Terminálu</app> přestane reagovat nebo se na ní při mačkání kláves objevují podivné znaky. Do původního stavu ji můžete uvést následujícími způsoby:</p>
+
+  <section id="reset">
+    <title>Inicializace</title>
+
+    <p>Inicializujte obrazovku <app>Terminálu</app>.</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui style="menuitem">Pokročilé</gui> <gui style="menuitem">Inicializovat</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Pro získání systémové výzvy zmáčkněte <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Inicializace a vymazání</title>
+
+    <p><gui style="menuitem">Inicializovat a vymazat</gui>, mimo inicializace <app>Terminálu</app>, provede navíc i vymazání viditelné části obrazovky s terminálovým výstupem a historie výpisu, na kterou se můžete posouvat zpět. Když tak chcete učinit:</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui style="menuitem">Pokročilé</gui> <gui style="menuitem">Inicializovat a vymazat</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Pro získání systémové výzvy zmáčkněte <key>Enter</key>.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Inicializovat a vymazat</gui> poskytuje podobnou funkčnost, jako terminálový příkaz <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

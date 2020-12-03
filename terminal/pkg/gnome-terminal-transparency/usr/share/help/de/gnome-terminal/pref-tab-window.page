@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014–2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wählen Sie, ob Sie per Vorgabe ein neues Fenster oder einen neuen Reiter öffnen möchten.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fenster und Reiter</title>
+
+<note style="tip">
+  <p>Diese Einstellung ist nur anwendbar, wenn die <link xref="pref-menubar">Menüleiste aktiviert ist</link> oder das <app>Terminal</app> aus einer Befehlszeile gestartet wurde und als Optionen weder <cmd>--tab</cmd> noch <cmd>--window</cmd> übergeben wurden.</p>
+</note>
+
+  <p>Entscheiden Sie, ob ein neuer Reiter oder ein neues <app>Terminal</app>-Fenster geöffnet werden soll, wenn Sie <gui style="menuitem">Terminal öffnen</gui> wählen.</p>
+
+  <steps>
+    <title>Bei aktivierter Menüleiste</title>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui> <gui style="menuitem">Einstellungen</gui> <gui style="tab">Allgemein</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Setzen Sie <gui>Neue Terminals öffnen in:</gui> auf <gui>Reiter</gui> oder <gui>Fenster</gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>Falls die Menüleiste nicht aktiviert ist</title>
+    <item>
+      <p>Klicken Sie auf den Menüknopf in der oberen rechten Ecke des Fensters und wählen Sie <gui style="menuitem">Einstellungen</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <gui>Allgemein</gui> in der Seitenleiste.</p>
+    </item>
+    <item>
+      <p>Setzen Sie <gui>Neue Terminals öffnen in:</gui> auf <gui>Reiter</gui> oder <gui>Fenster</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Sobald Sie die Einstellung festgelegt haben, können Sie diese mit <key>Strg</key> umkehren. Wenn Sie zum Beispiel eingestellt haben, dass ein neues Terminal in einem neuen Reiter geöffnet werden soll, dann öffnet <gui style="menuitem">Neues Terminal</gui> einen neuen Reiter. Wenn Sie andererseits <key>Strg</key> gedrückt halten und dann <gui style="menuitem">Neues Terminal</gui> wählen, so wird statt dessen ein neues Fenster geöffnet.</p>
+
+</page>

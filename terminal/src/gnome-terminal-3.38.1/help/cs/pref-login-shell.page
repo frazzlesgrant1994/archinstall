@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-login-shell" xml:lang="cs">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013 – 2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak spusti přihlašovací shell v <app>Terminálu</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Přihlašovací shelly</title>
+
+  <p>Shell v systémech unixového typu je možné spustit v přihlašovacím nebo nepřihlašovacím režimu:</p>
+
+  <terms>
+    <item>
+      <title>Přihlašovací shell</title>
+      <p>Přihlašovací shell je shell, který je uživateli poskytnut, aby se přes něj přihlásil ke svému účtu. Inicializuje se pomocí volby <cmd>-l</cmd> nebo <cmd>--login</cmd>, nebo umístěním pomlčky jako počátečního znaku názvu příkazu, například místo zavolání <cmd>bash</cmd> se použije <cmd>-bash</cmd>.</p>
+    </item>
+    <item>
+      <title>Podřízený Shell</title>
+      <p>Podřízený shell, také nazývaný nepřihlašovací shell je shell, který se spustí po procesu přihlášení, bez volby <cmd>-l</cmd> nebo <cmd>--login</cmd>, nebo bez dodatečné pomlčky před názvem příkazu.</p>
+    </item>
+  </terms>
+
+  <p>Mezi běžná použití přihlašovacího shellu patří:</p>
+  <list>
+    <item>
+      <p>Vzdálený přístup k počítači přes <app>ssh</app>.</p>
+    </item>
+    <item>
+      <p>Simulování inicializačního přihlašovacího shellu pomocí <cmd>bash -l</cmd> nebo <cmd>sh -l</cmd>.</p>
+    </item>
+    <item>
+      <p>Simulace počátečního přihlašovacího shellu superuživatele root pomocí <cmd>sudo -i</cmd>.</p>
+    </item>
+  </list>
+
+  <section id="login-shell-howto">
+    <title>Spuštění přihlašovacího shellu</title>
+
+    <p>Můžete <app>Terminálu</app> dovolit spouštět přihlašovací shell. Váš výchozí shell pak bude spuštěn se znakem pomlčka přidaným před jeho název.</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="tab">Příkaz</gui>.</p>
+      </item>
+      <item>
+        <p>V části <gui>Příkaz</gui> zaškrtněte <gui style="checkbox">Spustit příkaz jako přihlašovací shell</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

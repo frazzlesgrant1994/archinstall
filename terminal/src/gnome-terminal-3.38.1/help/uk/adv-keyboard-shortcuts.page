@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Перегляд і редагування клавіатурних скорочень.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Клавіатурні скорочення</title>
+
+  <p>Клавіатурні скорочення — комбінації клавіш, натисканням яких ви можете швидко виконувати певні дії, зокрема відкриття діалогового вікна параметрів або доступ до певної можливості у самому <app>Терміналі</app>. Клавіатурні скорочення можна змінювати так, щоб вони відповідали вашим потребам.</p>
+
+  <p>Щоб змінити клавіатурне скорочення, виконайте такі дії:</p>
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Параметри</gui>.</p>
+    </item>
+    <item>
+      <p>На бічній панелі виберіть пункт <gui>Скорочення</gui>.</p>
+    </item>
+    <item>
+      <p>Переконайтеся, що позначено пункт <gui style="checkbox">Увімкнути скорочення</gui>.</p>
+    </item>
+    <item>
+      <p>Виберіть скорочення, яке ви хочете змінити, клацанням на його пункті.</p>
+    </item>
+    <item>
+      <p>Коли пункт скорочення буде позначено, клацніть на комбінації клавіш скорочення, щоб змінити її.</p>
+    </item>
+    <item>
+      <p>Натисніть бажану комбінацію клавіш скорочення так, наче ви нею скористалися у терміналі. Клавішами, якими ви можете скористатися, є <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Shift</key>, <key>Super</key>, клавіші із цифрами та літерами.</p>
+      <note>
+        <p>Мнемонічні комбінації клавіш, зокрема <keyseq><key>Alt</key> <key>F</key></keyseq>, використовувати не можна.</p>
+      </note>
+    </item>
+    <item>
+      <p>Щойно ви введете ваше нове клавіатурне скорочення, його буде автоматично збережено, і ви зможете його побачити у списку поряд із пунктом відповідної дії.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Щоб вимкнути скорочення, почніть його редагування і натисніть <key>Backspace</key> замість нового скорочення.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title>Клавіатурні скорочення меню <gui style="menu">Файл</gui></title>
+
+    <p>Типовими клавіатурними скороченнями у цьому розділі є такі:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Дія</p></td>
+          <td><p>Клавіатурне скорочення</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Нова вкладка</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Нове вікно</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Закрити вкладку</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Закрити вікно</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>Клавіатурні скорочення меню <gui style="menu">Зміни</gui></title>
+
+    <p>Типовими клавіатурними скороченнями у цьому розділі є такі:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Дія</p></td>
+          <td><p>Клавіатурне скорочення</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Копіювати</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Вставити</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>Клавіатурні скорочення <gui style="menu">перегляду</gui></title>
+
+    <p>Типовими клавіатурними скороченнями у цьому розділі є такі:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Дія</p></td>
+          <td><p>Клавіатурне скорочення</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>На весь екран</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Збільшити</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Зменшити</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Звичайний розмір</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title>Клавіатурні скорочення меню <gui style="menu">Пошук</gui></title>
+
+    <p>Типовими клавіатурними скороченнями у цьому розділі є такі:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Дія</p></td>
+          <td><p>Клавіатурне скорочення</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Знайти</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Знайти наступне</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Знайти попереднє</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Очистити підсвічування</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Клавіатурні скорочення для вкладок</title>
+
+    <p>Типовими клавіатурними скороченнями у цьому розділі є такі:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Дія</p></td>
+          <td><p>Клавіатурне скорочення</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Перейти на попередню вкладку</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перейти на наступну вкладку</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перенести вкладку ліворуч</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перенести вкладку праворуч</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Перемкнутися на вкладку 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Інше</title>
+
+    <p>Існує також декілька клавіатурних скорочень, які не можна змінити:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Дія</p></td>
+          <td><p>Клавіатурне скорочення</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Гортати вгору на один рядок</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>↑</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Гортати вниз на один рядок</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>↓</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Гортати вгору на одну сторінку</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Гортати вниз на одну сторінку</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Гортати до початку</p></td>
+          <td><p><keyseq><key>Shift</key><key>Home</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Гортати до кінця</p></td>
+          <td><p><keyseq><key>Shift</key><key>End</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Клавіатурні скорочення Bash</title>
+
+    <p>Є специфічні клавіатурні скорочення <app>Bash</app>. Зазвичай, <app>Bash</app> є типовою командною оболонкою.</p>
+    <p>Специфічними для командної оболонки <app>Bash</app> клавіатурними скороченнями є такі:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Дія</p></td>
+          <td><p>Клавіатурне скорочення</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Вилучити слово</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Витерти рядок</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Перейти до початку рядка</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Перейти до кінця рядка</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Перейти назад на один символ</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Перейти назад на одне слово</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Перейти вперед на один символ</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Перейти вперед на один символ</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Вилучити дані від курсора до початку рядка</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Вилучити дані від курсора до кінця рядка</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Вилучити дані від курсора до початку слова</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Вилучити попереднє слово</p></td>
+          <td><p><keyseq><key>Alt</key><key>Backspace</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Вставити текст з буфера обміну</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Очистити екран, лишивши поточний рядок на початку екрана</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Зворотний нарощувальний пошук у журналі</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Зворотний ненарощувальний пошук у журналі</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

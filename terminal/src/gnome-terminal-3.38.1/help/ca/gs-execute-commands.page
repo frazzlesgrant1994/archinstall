@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Llança programes o executa ordres usant el <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Executar una ordre</title>
+
+  <p>Qualsevol entrada al <app>Terminal</app> per a ser executada és una <em>ordre</em>. Podeu executar tant programes de línia d'ordres com programes amb interfície gràfica (GUI) des del terminal.</p>
+
+  <p>Per a executar ordres:</p>
+
+  <steps>
+    <item>
+      <p>Escriu l'ordre a l'indicador del <app>Terminal</app>.</p>
+    </item>
+    <item>
+      <p>Premeu <key>Retorn</key> per executar-la.</p>
+    </item>
+  </steps>
+
+  <p>Si teniu un programa que es tanca de forma sobtada sense cap avís o error, podeu executar-lo en un <app>Terminal</app>. Això permet al programa mostrar les sortides amb els missatges de depuració o errors a la finestra del <app>Terminal</app>. Aquesta informació pot ser molt útil per enviar amb els informes d'error.</p>
+
+  <note style="tip">
+    <p>Llegiu a propòsit de l'<link href="https://www.gnu.org/software/bash/manual/">Intèrpret d'ordres Bash</link> per cercar més informació sobre el que podeu fer al terminal.</p>
+  </note>
+  
+</page>

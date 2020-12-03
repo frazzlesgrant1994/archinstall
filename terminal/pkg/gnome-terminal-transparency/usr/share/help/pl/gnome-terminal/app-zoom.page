@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-zoom" xml:lang="pl">
+
+  <info>
+    <revision version="0.1" date="2013-02-24" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#appearance"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Zwiększenie lub zmniejszenie rozmiaru tekstu.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Powiększanie i pomniejszanie</title>
+
+  <p>Aby zwiększyć rozmiar tekstu <app>Terminala</app>:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="button">+</gui> lub naciśnij klawisze <keyseq><key>Ctrl</key><key>+</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Aby zmniejszyć rozmiar tekstu <app>Terminala</app>:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="button">-</gui> lub naciśnij klawisze <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Aby przywrócić domyślny rozmiar tekstu <app>Terminala</app>:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="button">100%</gui> lub naciśnij klawisze <keyseq><key>Ctrl</key><key>0</key></keyseq>.</p>
+    </item>
+  </steps>
+
+</page>

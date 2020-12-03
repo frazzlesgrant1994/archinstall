@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-bell" xml:lang="ko">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>터미널</app>의 음성 알림을 활성화합니다.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>음성 알림 설정</title>
+
+  <p><app>터미널</app>에서는 <app>터미널</app> 창과 탭의 동작을 나타내는 청각 알림 소리를 낼 수 있습니다.</p>
+
+  <p>이벤트 알림을 받으려면:</p>
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p><gui style="tab">텍스트</gui>를 선택하십시오.</p>
+    </item>
+    <item>
+      <p><gui style="checkbox">터미널 종소리</gui>를 선택하십시오</p>
+    </item>
+  </steps>
+  <note style="tip">
+    <p>시스템에서 나는 종소리를 미리 들어보려면 <keyseq><key>Ctrl</key><key>G</key></keyseq> 키를 누르십시오.</p>
+  </note>
+
+</page>

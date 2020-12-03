@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Créer, renommer et supprimer des profils.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Gestion des profils</title>
+
+  <p>Un profil est un ensemble de paramètres de <app>Terminal</app>. <app>Terminal</app> prend en charge plusieurs profils. Vous pouvez configurer les profils de <app>Terminal</app> dans <link xref="pref-custom-command">Lancer une commande ou un shell personnalisé</link>, définir un profil exclusivement pour vous connecter à des ordinateurs distants à l’aide de SSH ou définir un profil qui lance une session <app>GNU Screen</app>.</p>
+
+  <p>Les paramètres de <app>Terminal</app> disponibles incluent :</p>
+
+  <list>
+    <item>
+      <p>Nom du profil.</p>
+    </item>
+    <item>
+      <p>Couleurs de la police et de l’arrière-plan.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Compatibilité</gui> avec les touches <key>Retour arrière</key> et <key>Suppr</key>.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Défilement</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Sélection d’un profil</title>
+
+    <p>Si vous avez au moins deux profils, vous pouvez changer le profil de l’onglet ou de la fenêtre active de <app>Terminal</app> en sélectionnant un profil via <guiseq><gui style="menu">Terminal</gui><gui style="menuitem">Changer de profil</gui></guiseq>.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Création d’un nouveau profil</title>
+
+    <p>Pour créer un nouveau profil avec les paramètres par défaut de <app>Terminal</app> :</p>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Édition</gui> <gui style="menuitem">Préférences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, cliquez sur le bouton <gui style="button">+</gui> à côté de l’étiquette <gui>Profils</gui>.</p>
+      </item>
+      <item>
+        <p>Saisissez un nom pour le nouveau profil. Vous pourrez changer ce nom plus tard.</p>
+      </item>
+      <item>
+        <p>Cliquez sur <gui style="button">Créer</gui> pour créer un nouveau profil.</p>
+      </item>
+      <item>
+        <p>Définissez les <link xref="#edit-profile">préférences de profil</link> que vous souhaitez. Elles sont enregistrées automatiquement.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Création d’un nouveau profil basé sur un profil existant</title>
+
+    <p>Vous pouvez créer un nouveau profil en fonction des paramètres d’un profil existant :</p>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Édition</gui> <gui style="menuitem">Préférences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, choisissez le profil à partir duquel se baser.</p>
+      </item>
+      <item>
+        <p>Cliquez sur la flèche à côté du nom du profil.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="menuitem">Cloner</gui>.</p>
+      </item>
+      <item>
+        <p>Saisissez un nom pour le nouveau profil. Vous pourrez changer ce nom plus tard.</p>
+      </item>
+      <item>
+        <p>Cliquez sur <gui style="button">Cloner</gui> pour créer le nouveau profil.</p>
+      </item>
+      <item>
+        <p>Définissez les <link xref="#edit-profile">préférences de profil</link> que vous souhaitez. Elles sont enregistrées automatiquement.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>La création d’un nouveau profil à partir d’un profil existant n’affectera pas les paramètres du profil existant. Toutes les modifications apportées aux paramètres seront stockées dans le nouveau profil.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Modification d’un profil</title>
+
+    <note style="warning">
+      <p>Si vous modifiez le profil par défaut, vous ne pourrez plus le restaurer à ses paramètres d’origine ! Si vous n’aviez pas encore créé d’autre profil de <app>Terminal</app> et que vous avez personnalisé le profil par défaut, alors <app>Terminal</app> <em>risque</em> de devenir inutilisable si par malchance un des paramètres pose problème. C’est pourquoi nous vous recommandons de <link xref="#create-profile-from-existing">faire une copie du profil par défaut</link> d’abord, puis de le modifier ensuite pour créer un profil personnalisé.</p>
+    </note>
+
+    <p>Vous pouvez modifier les profils existants. Pour modifier un profil :</p>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Édition</gui> <gui style="menuitem">Préférences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Vous profil actuel est sélectionné dans la barre latérale. Si vous voulez modifier un autre profil, cliquez sur son nom.</p>
+      </item>
+    </steps>
+
+    <p>Lorsque le profil désiré est sélectionné, vous pouvez :</p>
+
+    <steps>
+      <item>
+        <p>Sélectionner <link xref="app-fonts">police</link>, <link xref="app-cursor">formes du curseur</link> et <link xref="app-terminal-sizes">taille de <app>Terminal</app></link>.</p>
+      </item>
+      <item>
+        <p>Vous pouvez aussi modifier le comportement de <app>Terminal</app> pour la <link xref="pref-custom-exit">sortie de commande</link>, définir un <link xref="pref-login-shell">shell de connexion personnalisé</link> ou changer les <link xref="pref-scrolling">préférences de la barre de défilement</link>.</p>
+      </item>
+      <item>
+        <p>Pour changer l’arrière-plan de <app>Terminal</app> et les couleurs du texte, consultez <link xref="app-colors"> les palettes de couleur de <app>Terminal</app></link>.</p>
+      </item>
+      <item>
+        <p>Les changements de profil sont enregistrés immédiatement. Pour revenir dans <app>Terminal</app>, cliquez sur <gui style="button">Fermer</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Renommage d’un profil existant</title>
+
+    <p>Vous pouvez renommer un profil existant, incluant le profil par défaut :</p>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Édition</gui> <gui style="menuitem">Préférences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez un profil que vous souhaitez renommer.</p>
+      </item>
+      <item>
+        <p>Cliquez sur la flèche à côté du nom du profil.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="menuitem">Renommer</gui>.</p>
+      </item>
+      <item>
+        <p>Saisissez le nom du nouveau profil.</p>
+      </item>
+      <item>
+        <p>Cliquez sur <gui style="button">Renommer</gui> pour le renommer.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Suppression d’un profil</title>
+  
+    <p>Pour supprimer un profil :</p>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Édition</gui> <gui style="menuitem">Préférences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez le profil que vous souhaitez supprimer.</p>
+      </item>
+      <item>
+        <p>Cliquez sur la flèche à côté du nom du profil.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="menuitem">Supprimer</gui>.</p>
+      </item>
+      <item>
+        <p>Cliquez sur <gui style="button">Supprimer</gui> pour confirmer la suppression.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Le profil par défaut ne peut être supprimé. Si vous désirez tout de même le supprimer, choisissiez d’abord un autre profil par <link xref="#set-default">défaut</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Définition d’un profil par défaut</title>
+
+    <p>Le profil par défaut est chargé quand un nouveau terminal est ouvert, sauf si vous avez choisi un autre profil. Toutes les modifications que vous apportez aux paramètres seront stockées dans le profil actuellement sélectionné.</p>
+
+    <p>Le profil par défaut de <app>Terminal</app> est utilisé lorsqu’il ne sait pas quel profil utiliser. Par exemple, lorsque <app>Terminal</app> est démarré et ouvre sa première fenêtre. En revanche, lorsque vous utilisez une entrée de menu ou un raccourci clavier de <app>Terminal</app> pour en ouvrir un nouveau, le profil du terminal existant est utilisé.</p>
+
+    <steps>
+      <item>
+        <p>Sélectionnez <guiseq><gui style="menu">Édition</gui> <gui style="menuitem">Préférences</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Sélectionnez le profil que vous souhaitez définir par défaut.</p>
+      </item>
+      <item>
+        <p>Cliquez sur la flèche à côté du nom du profil.</p>
+      </item>
+      <item>
+        <p>Sélectionnez <gui style="menuitem">Définir par défaut</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Le profil par défaut est mis en évidence par une coche.</p>
+    </note>
+
+  </section>
+
+</page>

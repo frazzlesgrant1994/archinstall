@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-exit" xml:lang="ko">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+<!--    <link type="seealso" xref="prob-recover-default-profile"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>개별 명령 또는 기본 셸이 끝날 때의 <app>터미널</app> 동작을 설정합니다.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>명령이 끝날 때 동작 설정</title>
+
+  <p>셸 또는 개별 명령이 끝날 경우 터미널을 나가기, 다시 시작, 열린채로 유지 하도록 설정할 수 있습니다:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p><gui style="tab">명령</gui>을 선택하십시오.</p>
+    </item>
+    <item>
+      <p><gui>명령이 끝날 때</gui> 드롭 다운 목록에서, 다음 선택 항목 중 하나를 선택하십시오:</p>
+      <list>
+        <item>
+          <p><gui>터미널 끝내기</gui></p>
+        </item>
+        <item>
+          <p><gui>명령어 다시 시작</gui></p>
+        </item>
+        <item>
+          <p><gui>터미널을 열린 채로 유지</gui></p>
+        </item>
+      </list>
+      <p>항목을 선택하면 설정을 자동으로 저장합니다.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>비 대화식 <link xref="pref-custom-command">사용자 명령을 설정</link> 했다면, <gui>터미널 끝내기</gui> 설정으로 끝내기 동작을 설정하시고 명령 출력을 볼 수 있기 전에  <app>터미널</app>이 빠져나가도록 하는 프로파일을 기본 프로파일로 설정하십시오.</p>
+  </note>
+
+</page>

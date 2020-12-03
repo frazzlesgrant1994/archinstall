@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="app-cursor" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak si vybrat jiný styl kurzoru.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Změna kurzoru</title>
+
+  <p>Aplikace <app>Terminál</app> má tři různé kurzory, ze kterých si můžete vybírat. Volbu provedete následovně:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>V rozbalovacím seznamu vedle <gui>Tvar kurzoru</gui> si zvolte požadovaný kurzor. Navýběr máte z následujících:</p>
+      <terms>
+        <item>
+          <title its:translate="no">█</title>
+          <p><gui>Blokový</gui></p>
+        </item>
+        <item>
+          <title its:translate="no">▏</title>
+          <p><gui>Svislá čára</gui></p>
+        </item>
+        <item>
+          <title its:translate="no">▁</title>
+          <p><gui>Podtrhávací čára</gui></p>
+        </item>
+      </terms>
+      <p>Až si kurzor vyberete, vaše volba se automaticky uloží.</p>
+    </item>
+  </steps>
+
+</page>

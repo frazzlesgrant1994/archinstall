@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ouvrir les liens vers des adresses Web et courriel.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hyperliens et adresses de courriel</title>
+
+  <p><app>Terminal</app> analyse la sortie du terminal et détecte automatiquement les bouts de texte qui sont des adresses Web ou des adresses de courriel. Les adresses Web et courriel sont automatiquement mises en surbrillance lorsque vous pointez le curseur sur le texte, indiquant que le lien peut être ouvert dans une application.</p>
+
+  <p>Par exemple, vous pouvez voir <output>http://www.gnome.org</output> ou <output>nomutilisateur@exemple.com</output> généré dans le cadre de la sortie du terminal par des programmes tels que <app>wget</app> ou <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Ouverture ou copie d’adresses Web</title>
+
+    <p>Les adresses Web sont également appelées hyperliens. Elles peuvent être copiées dans le presse-papiers du système ou ouvertes dans votre navigateur Web préféré.</p>
+
+    <list>
+      <item>
+        <p>Copier un hyperlien :</p>
+        <steps>
+          <item>
+            <p>Faites un clic droit sur le lien dans <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Sélectionnez <gui style="menuitem">Copier l’adresse du lien</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Ouvrir un hyperlien dans votre navigateur Web :</p>
+        <steps>
+          <item>
+            <p>Faites un clic droit sur l’hyperlien.</p>
+          </item>
+          <item>
+            <p>Sélectionnez <gui style="menuitem">Ouvrir le lien</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Envoi par courrier électronique ou copie d’adresses de courriel</title>
+
+    <p>Les adresses de courriel peuvent être copiées dans le presse-papiers du système ou ouvertes directement dans votre client de messagerie préféré.</p>
+
+    <list>
+      <item>
+        <p>Pour copier une adresse de courriel :</p>
+        <steps>
+          <item>
+            <p>Faites un clic droit sur l’adresse courriel dans <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Sélectionnez <gui style="menuitem">Copier l’adresse de courriel</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Pour envoyer un courrier électronique à l’adresse de courriel avec votre client de messagerie :</p>
+        <steps>
+          <item>
+            <p>Faites un clic droit sur l’adresse.</p>
+          </item>
+          <item>
+            <p>Sélectionnez <gui style="menuitem">Envoyer un courriel à</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

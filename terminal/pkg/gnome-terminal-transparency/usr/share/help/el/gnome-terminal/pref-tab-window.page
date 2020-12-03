@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014–2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Επιλέξτε αν θα ανοίξετε ένα νέο παράθυρο ή μια νέα καρτέλα από προεπιλογή.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Παράθυρα και καρτέλες</title>
+
+<note style="tip">
+  <p>This setting only applies when the <link xref="pref-menubar">menubar is
+  enabled</link>, or when <app>Terminal</app> is started from the command line and
+  neither the <cmd>--tab</cmd> nor the <cmd>--window</cmd> options are passed.</p>
+</note>
+
+  <p>You can choose whether to open a new tab or a new <app>Terminal</app>
+  window when you use <gui style="menuitem">New Terminal</gui>.</p>
+
+  <steps>
+    <title>If the menubar is enabled,</title>
+    <item>
+      <p>Select
+      <guiseq><gui style="menu">Edit</gui><gui style="menuitem">Preferences</gui>
+      <gui style="tab">General</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Ορίστε <gui>Άνοιγμα νέων τερματικών σε:</gui> <gui>Καρτέλα</gui> ή <gui>Παράθυρο</gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>If the menubar is not enabled,</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select <gui>General</gui>.</p>
+    </item>
+    <item>
+      <p>Ορίστε <gui>Άνοιγμα νέων τερματικών σε:</gui> <gui>Καρτέλα</gui> ή <gui>Παράθυρο</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Αφού έχετε ορίσει την προτίμηση, μπορείτε να χρησιμοποιήσετε το <key>Ctrl</key> για να αντιστρέψετε την προτίμηση. Για παράδειγμα, αν έχετε τις προτιμήσεις σας ορισμένες για να ανοίξετε ένα νέο τερματικό σε μια νέα καρτέλα, τότε πατώντας <gui style="menuitem">Νέο τερματικό</gui> θα ανοίξει μια νέα καρτέλα. Αφ' ετέρου, αν κρατάτε πατημένο το <key>Ctrl</key> και έπειτα πατήσετε <gui style="menuitem">Νέο τερματικό</gui>, τότε θα ανοιχθεί ένα νέο παράθυρο.</p>
+
+</page>

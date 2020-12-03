@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Keresés a <app>Terminál</app> kimenetben.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Szöveg keresése</title>
+
+  <p>A <app>Terminálban</app> megjelenő kimenetben kereshet szöveget:</p>
+
+  <steps>
+    <item>
+      <p>Press <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> in the top-right corner, or press
+      <keyseq><key>Ctrl</key><key>Shift</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Írja be a keresendő kulcsszót, és nyomja meg az <key>Enter</key> billentyűt a visszafelé kereséshez. Ennek alternatívájaként a kívánt keresési iránynak megfelelő nyilakra is kattinthat.</p>
+    </item>
+  </steps>
+
+  <p>A következő beállításokkal szűkítheti a találatok körét:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Kis- és nagybetűk megkülönböztetése</gui></title>
+      <p>A keresés megkülönbözteti a kis- és nagybetűket: ekkor csak a keresett kulcsszóval a kis- és nagybetűket tekintve is egyező találatok jelennek meg.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Csak teljes szóra</gui></title>
+      <p>A <app>Terminál</app> a teljes kulcsszót fogja keresni, és figyelmen kívül hagyja a kulcsszóra részben illeszkedő találatokat. Ha például a „gnome”szót kereste, a <app>Terminál</app> csak a pontosan erre a kulcsszóra illeszkedő találatokat jeleníti meg, és kihagyja az olyan találatokat, mint például a „gnome-terminal”.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Illesztés reguláris kifejezésként</gui></title>
+      <p>A kulcsszavak kereséséhez használhat reguláris kifejezésként megadott mintákat is. A <app>Terminál</app> az ilyen keresőkifejezésekre illeszkedő találatokat jeleníti csak meg.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Körbe</gui></title>
+      <p>A <app>Terminál</app> a visszagörgetési sorok közt az aktuális helytől az elérhető terminálkimenet végéig keres, majd újrakezdi a keresést.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Ha várhatóan sok <app>Terminál</app> kimenettel fog dolgozni, akkor növelje meg a <link xref="pref-scrolling#lines">visszagörgetési sorok</link> számát, hogy a <app>Terminál</app> több korábbi kimenetben kereshessen.</p>
+  </note>
+
+</page>

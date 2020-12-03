@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="fr">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Régler <app>Terminal</app> pour exécuter une commande ou un autre shell au démarrage.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Shells et commandes personnalisés</title>
+
+  <p>Un <em>shell</em> est un logiciel qui fournit une interface pour les utilisateurs d’un système d’exploitation afin d’exécuter des <em>commandes</em>, qui peuvent être des programmes tels que <app>top</app> ou une ligne de commande shell. Le shell par défaut est généralement <app>Bash</app>.</p>
+
+  <p>Vous pouvez régler <app>Terminal</app> pour lancer une commande lors de son démarrage au lieu qu’il attende une entrée de votre part :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+    </item>
+    <item>
+      <p>Dans la barre latérale, choisissez votre profil actuel dans la section <gui>Profils</gui>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui style="tab">Commande</gui>.</p>
+    </item>
+    <item>
+      <p>Cochez <gui>Exécuter une commande personnalisée au lieu de mon shell</gui>.</p>
+    </item>
+    <item>
+      <p>Saisissez la commande ou le shell désiré dans le champ.</p>
+      <p>La commande sera passée au terminal exactement comme vous l’écrivez, y compris les arguments que vous spécifiez. Les variables d’environnement seront héritées du terminal car c’est un processus enfant du terminal.</p>
+    </item>
+    <item>
+      <p>Ouvrez un nouvel onglet ou une nouvelle fenêtre de <app>Terminal</app> pour voir comment le shell personnalisé ou la commande s’exécute.</p>
+    </item>
+  </steps>
+
+  <p>Vous pouvez également <link xref="pref-custom-exit">définir le comportement</link> du terminal une fois que la commande a terminé son exécution.</p>
+
+  <note style="important">
+    <p>Il se peut que vous ayez à saisir le chemin complet vers la commande ou le shell, si le répertoire dans lequel le shell ou la commande réside n’est pas dans la variable <code>PATH</code> de votre système.</p>
+  </note>
+
+</page>

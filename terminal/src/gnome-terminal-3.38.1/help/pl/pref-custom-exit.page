@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-exit" xml:lang="pl">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+<!--    <link type="seealso" xref="prob-recover-default-profile"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ustawianie zachowania <app>Terminala</app> po zakończeniu niestandardowego polecenia lub domyślnej powłoki.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zachowanie po zakończeniu polecenia</title>
+
+  <p>Można ustawić wyłączanie, ponowne uruchamianie lub pozostawianie otwartego terminala po zakończeniu powłoki lub niestandardowego polecenia:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz obecny profil w sekcji <gui>Profile</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz kartę <gui style="tab">Polecenie</gui>.</p>
+    </item>
+    <item>
+      <p>Z rozwijanego menu <gui>Po zakończeniu polecenia</gui> wybierz jedną z tych opcji:</p>
+      <list>
+        <item>
+          <p><gui>Zakończenie działania terminala</gui></p>
+        </item>
+        <item>
+          <p><gui>Ponowne uruchomienie polecenia</gui></p>
+        </item>
+        <item>
+          <p><gui>Zachowanie otwartego terminala</gui></p>
+        </item>
+      </list>
+      <p>Ustawienie zostanie automatycznie zapisane po wybraniu.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Jeśli <link xref="pref-custom-command">ustawiono niestandardowe polecenie</link>, które jest nieinteraktywne, ustawiono zachowanie po zakończeniu na <gui>Zakończenie działania terminala</gui> oraz ustawiono domyślny profil, <app>Terminal</app> może zakończyć działanie, zanim będzie można zobaczyć wyjście polecenia.</p>
+  </note>
+
+</page>

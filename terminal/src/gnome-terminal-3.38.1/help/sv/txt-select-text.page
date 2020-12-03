@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="txt-select-text" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-28" status="review"/>
+    <link type="guide" xref="index#textoutput"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013, 2015</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Markera enskilda ord eller rader i terminalen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Textmarkering</title>
+
+  <p>Du kan markera ett ord eller en mening, eller göra en rektangulär markering från dina terminalutdata:</p>
+
+  <terms>
+    <item>
+      <title>Markera ett ord</title>
+      <p>Dubbelklicka på ordet.</p>
+    </item>
+    <item>
+      <title>Markera en rad</title>
+      <p>Trippelklicka på raden.</p>
+    </item>
+    <item>
+      <title>Gör en rektangulär markering</title>
+      <p>Håll nere <key>Ctrl</key>, klicka och håll nere den vänstra musknappen och dra sedan musen.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Om du kör ett program i <app>Terminal</app> som accepterar musinmatning kommer du behöva använda modifieraren <key>Skift</key> för att <app>Terminal</app> ska fånga musinmatningen.</p>
+  </note>
+
+</page>

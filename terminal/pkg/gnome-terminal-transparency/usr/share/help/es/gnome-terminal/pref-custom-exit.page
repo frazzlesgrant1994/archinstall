@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-exit" xml:lang="es">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+<!--    <link type="seealso" xref="prob-recover-default-profile"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Configurar el comportamiento de la<app>Terminal</app> cuando un comando personalizado o la shell predeterminada terminan.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Establecer el comportamiento cuando termina el comando</title>
+
+  <p>Puede hacer que la terminal salga, se reinicie o que permanezca abierta cuando la shell o un comando personalizado terminan:</p>
+
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+    </item>
+    <item>
+      <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui style="tab">Comando</gui>.</p>
+    </item>
+    <item>
+      <p>Elija una de las siguientes opciones de la lista desplegable <gui>Cuando el comando termina</gui>:</p>
+      <list>
+        <item>
+          <p><gui>Salir de la terminal</gui></p>
+        </item>
+        <item>
+          <p><gui>Reiniciar el comando</gui></p>
+        </item>
+        <item>
+          <p><gui>Mantener la terminal abierta</gui></p>
+        </item>
+      </list>
+      <p>La configuración se guardará automáticamente cuando la seleccione.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Si ha <link xref="pref-custom-command">establecido un comando personalizado</link> que no es interactivo, establecer el comportamiento al salir a <gui>Salir de la terminal</gui>, y establecer el perfil al perfil predeterminado, la <app>Terminal</app> puede hacer que se cierre la ventana antes de que vea la salida del comando.</p>
+  </note>
+
+</page>

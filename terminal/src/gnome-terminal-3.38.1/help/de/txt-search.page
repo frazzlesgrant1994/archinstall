@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="de">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Die Ausgaben im <app>Terminal</app> durchsuchen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Nach Text suchen</title>
+
+  <p>So suchen Sie nach einem Text in der Ausgabe von <app>Terminal</app>:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie auf <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> in der rechten oberen Ecke oder drücken Sie <keyseq><key>Umschalt</key><key>Strg</key><key>T</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Geben Sie das zu suchende Schlüsselwort ein und drücken Sie die <key>Eingabetaste</key>, um rückwärts zu suchen. Alternativ können Sie auf die Pfeile klicken, um die Richtung der Suche anzugeben. </p>
+    </item>
+  </steps>
+
+  <p>Sie können die folgenden Optionen verwenden, um die Suchergebnisse einzugrenzen:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Groß-/Kleinschreibung berücksichtigen</gui></title>
+      <p>Großschreibung berücksichtigen: Suchergebnisse werden auf jene mit übereinstimmender Groß-/Kleinschreibung eingeschränkt.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Nur vollständige Wörter berücksichtigen</gui></title>
+      <p><app>Terminal</app> sucht nach dem vollständigen Suchbegriff und ignoriert Ergebnisse mit teilweiser Übereinstimmung. Wenn Sie zum Beispiel nach »Glas« suchen, so zeigt <app>Terminal</app> nur Ergebnisse an, die exakt mit dem Suchbegriff übereinstimmen und ignoriert Ergebnisse wie z.B. »Fensterglas«.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Als regulären Ausdruck verarbeiten</gui></title>
+      <p>Sie können in Ihrem Suchbegriff Muster mit regulären Ausdrücken verwenden, die auch als Regex-Muster bekannt sind. <app>Terminal</app> zeigt die Ergebnisse an, die diesen Suchbegriffen entsprechen.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Suche beim Erreichen des Endes am Anfang fortsetzen</gui></title>
+      <p><app>Terminal</app> sucht ab der aktuellen Position im Zeilenspeicher bis zum Ende der verfügbaren Terminalausgabe und beginnt dann die Suche wieder von oben.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Wenn Sie mit einer längeren Ausgabe in <app>Terminal</app> rechnen, so vergrößern Sie den <link xref="pref-scrolling#lines">Zeilenspeicher</link>, um mit <app>Terminal</app> weiter zurück suchen zu können.</p>
+  </note>
+
+</page>

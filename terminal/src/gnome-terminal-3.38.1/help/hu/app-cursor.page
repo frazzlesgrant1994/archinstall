@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="app-cursor" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Másik kurzorstílus választása.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kurzor megváltoztatása</title>
+
+  <p>A <app>Terminál</app> háromféle kurzort kínál. Az előnyben részesített kurzor kiválasztása:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Válassza a <gui style="tab">Szöveg</gui> lapot.</p>
+    </item>
+    <item>
+      <p>Válassza ki a kívánt kurzoralakot a <gui>Kurzor alakja</gui> melletti legördülő listából. A következő lehetőségek közül választhat:</p>
+      <terms>
+        <item>
+          <title its:translate="no">█</title>
+          <p><gui>Blokk</gui></p>
+        </item>
+        <item>
+          <title its:translate="no">▏</title>
+          <p><gui>I-betű</gui></p>
+        </item>
+        <item>
+          <title its:translate="no">▁</title>
+          <p><gui>Aláhúzás</gui></p>
+        </item>
+      </terms>
+      <p>A kurzor kiválasztásakor a választás automatikusan megjegyzésre kerül.</p>
+    </item>
+  </steps>
+
+</page>

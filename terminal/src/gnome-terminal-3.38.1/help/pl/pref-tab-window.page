@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014-2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wybór domyślnego otwierania nowego okna lub nowej karty.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Okna i karty</title>
+
+<note style="tip">
+  <p>To ustawienie ma zastosowanie tylko, kiedy <link xref="pref-menubar">pasek menu jest włączony</link> lub kiedy <app>Terminal</app> został uruchomiony z wiersza poleceń i żadna z opcji <cmd>--tab</cmd> lub <cmd>--window</cmd> nie została przekazana.</p>
+</note>
+
+  <p>Można wybrać, czy otwierać nową kartę lub nowe okno <app>Terminala</app> podczas używania menu <gui style="menuitem">Nowy terminal</gui>.</p>
+
+  <steps>
+    <title>Jeśli pasek menu jest włączony,</title>
+    <item>
+      <p>Wybierz <guiseq><gui style="menu">Edycja</gui><gui style="menuitem">Preferencje</gui> <gui style="tab">Ogólne</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Ustaw <gui>Otwieranie nowych terminali w:</gui> na <gui>kartę</gui> lub <gui>okno</gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>Jeśli pasek menu nie jest włączony,</title>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Preferencje</gui>.</p>
+    </item>
+    <item>
+      <p>W panelu bocznym wybierz <gui>Ogólne</gui>.</p>
+    </item>
+    <item>
+      <p>Ustaw <gui>Otwieranie nowych terminali w:</gui> na <gui>kartę</gui> lub <gui>okno</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Po ustawieniu preferencji można używać klawisza <key>Ctrl</key> do jej odwracania. Na przykład, jeśli preferencje są ustawione na otwieranie nowego terminala w nowej karcie, to kliknięcie <gui style="menuitem">Nowy terminal</gui> otworzy nową kartę. Przytrzymanie klawisza <key>Ctrl</key> i kliknięcie <gui style="menuitem">Nowy terminal</gui> otworzy nowe okno.</p>
+
+</page>

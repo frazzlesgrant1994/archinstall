@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="pt-BR">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Altere o tamanho da janela do <app>Terminal</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tamanhos do <app>Terminal</app></title>
+
+  <p>Se você trabalha com certos aplicativos de linha de comando que têm um requisito de tamanho mínimo de terminal para exibir corretamente ou se você deseja ver linhas grandes de saída de terminal com o mínimo de quebras de linhas na sua tela, você pode determinar que as janelas do <app>Terminal</app> sejam de um tamanho em particular.</p>
+
+  <p>Você pode alterar o tamanho da janela do <app>Terminal</app> para alguns valores predefinidos:</p>
+  
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Advanced</gui>.</p>
+    </item>
+    <item>
+      <p>Escolha uma das seguintes ações:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80×43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Se você habilitou <link xref="pref-keyboard-access"><gui>Teclas de acesso de menu</gui></link>, você pode acessar este menu pressionando <keyseq><key>Alt</key><key>T</key></keyseq> e, então, pressionando <key>1</key> para mudar a janela de <app>Terminal</app> para o tamanho <gui>80×24</gui> e por aí vai.</p>
+  </note>
+
+  <p>Se você precisa de uma janela de <app>Terminal</app> de tamanho personalizado, você também pode definir o tamanho padrão da janela de acordo com seus requisitos:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Selecione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Defina <gui>Tamanho inicial do terminal</gui> digitando o número desejado de colunas e linhas nas caixa de entrada correspondentes. Você também pode clicar no <gui style="button">+</gui> para aumentar ou <gui style="button">-</gui> para reduzir o tamanho.</p>
+    </item>
+  </steps>
+
+</page>

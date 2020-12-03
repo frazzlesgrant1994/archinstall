@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Canvia la mida de la finestra del <app>Terminal</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mides del <app>Terminal</app></title>
+
+  <p>Si treballeu amb certes aplicacions de la línia d'ordres que tinguin uns requeriments mínims de mida per mostrar-se correctament, o si voleu veure línies llargues a la sortida del terminal amb salts de línia mínims a la vostra pantalla, us caldran finestres de <app>Terminal</app> per assolir una mida particular.</p>
+
+  <p>Podeu canviar la mida de la finestra del <app>Terminal</app> amb alguns valors predefinits:</p>
+  
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Avançat</gui>.</p>
+    </item>
+    <item>
+      <p>Tria una de les següents opcions:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80×43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Si heu habilitat les <link xref="pref-keyboard-access"><gui>tecles d'accés al menú</gui></link>, podeu accedir al menú al prémer <keyseq><key>Alt</key><key>T</key></keyseq> i llavors prémer <key>1</key> per canviar la finestra del <app>Terminal</app> amb una mida de <gui>80×24</gui> etcètera.</p>
+  </note>
+
+  <p>Si us cal una finestra del <app>Terminal</app> amb la mida personalitzada, podeu configurar la mida de la finestra d'acord amb les vostres necessitats:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menu">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Configureu la <gui>Mida inicial del terminal</gui> escrivint el nombre desitjat de columnes i files als texts d'entrada de dades. També podeu prémer <gui style="button">+</gui> per augmentar o <gui style="button">-</gui> per disminuir-ne la mida.</p>
+    </item>
+  </steps>
+
+</page>

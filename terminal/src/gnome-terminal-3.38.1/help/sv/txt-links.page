@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Öppna länkar till webbadresser och e-postadresser.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hyperlänkar och e-postadresser</title>
+
+  <p><app>Terminal</app> tolkar terminalutdata och upptäcker automatiskt textsnuttar som är webbadresser eller e-postadresser. Webb- och e-postadresser markeras automatiskt då du placerar din pekare vid texten, för att indikera att länken kan öppnas i ett program.</p>
+
+  <p>Till exempel kan du se <output>http://www.gnome.org</output> eller <output>namn@example.com</output> skapas som en del av terminalutdata för program som <app>wget</app> eller <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Öppna eller kopiera webbadresser</title>
+
+    <p>Webbadresser kallas också hyperlänkar. De kan kopieras till systemets urklipp eller öppnas i din föredragna webbläsare.</p>
+
+    <list>
+      <item>
+        <p>Kopiera en hyperlänk:</p>
+        <steps>
+          <item>
+            <p>Högerklicka på länken i <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Välj <gui style="menuitem">Kopiera länk</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Öppna en hyperlänk i din webbläsare:</p>
+        <steps>
+          <item>
+            <p>Högerklicka på hyperlänken.</p>
+          </item>
+          <item>
+            <p>Välj <gui style="menuitem">Öppna länk</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Skicka e-post till eller kopiera e-postadresser</title>
+
+    <p>E-postadresser kan kopieras till systemets urklipp eller öppnas i din föredragna e-postklient.</p>
+
+    <list>
+      <item>
+        <p>Kopiera en e-postadress:</p>
+        <steps>
+          <item>
+            <p>Högerklicka på e-postadressen i <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Välj <gui style="menuitem">Kopiera e-postadress</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Skicka e-post till e-postadressen med din e-postklient:</p>
+        <steps>
+          <item>
+            <p>Högerklicka på adressen.</p>
+          </item>
+          <item>
+            <p>Välj <gui style="menuitem">Skicka e-post till…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

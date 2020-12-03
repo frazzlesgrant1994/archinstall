@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="de">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Erstellen, umbenennen und Löschen von Profilen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jan Arne Petersen</mal:name>
+      <mal:email>jap@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2010, 2012-2013, 2018, 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>christian.kirbach@gmail.com</mal:email>
+      <mal:years>2012, 2013, 2014, 2015, 2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Benjamin Steinwender</mal:name>
+      <mal:email>b@stbe.at</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bernd Homuth</mal:name>
+      <mal:email>dev@hmt.im</mal:email>
+      <mal:years>2014, 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tim Sabsch</mal:name>
+      <mal:email>tim@sabsch.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Verwalten von Profilen</title>
+
+  <p>Ein Profil ist eine Sammlung von <app>Terminal</app>-Einstellungen. <app>Terminal</app> unterstützt mehrere Profile. Sie können <app>Terminal</app>-Profile so einrichten, dass ein <link xref="pref-custom-command">benutzerdefinierter Befehl oder Shell</link> ausgeführt wird, ein Profil exklusiv für eine Verbindung zu einem entfernten Rechner mittels SSH eingerichtet wird, oder ein Profil eine <app>GNU Screen</app>-Sitzung startet.</p>
+
+  <p>Verfügbare <app>Terminal</app>-Einstellungen sind unter Anderen:</p>
+
+  <list>
+    <item>
+      <p>Profilname.</p>
+    </item>
+    <item>
+      <p>Schriftart und Hintergrundfarben.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Kompatibilität</gui> mit der <key>Rücktaste</key> und der <key>Löschen</key>-Taste.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Bildlauf</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Wählen Sie ein Profil</title>
+
+    <p>Sofern Sie mehrere Profile definiert haben wechseln Sie das Profil ihres aktuellen <app>Terminal</app>-Reiters oder -Fensters, indem Sie ein Profil unter <guiseq><gui style="menu">Terminal</gui><gui style="menuitem">Profil wechseln</gui></guiseq> auswählen.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Ein neues Profil anlegen</title>
+
+    <p>So legen Sie ein neues Profil mit den Vorgabeeinstellungen von <app>Terminal</app> an:</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Einstellungen</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Klicken Sie in der Seitenleiste auf den Knopf <gui style="button">+</gui> neben der Beschriftung <gui>Profile</gui>.</p>
+      </item>
+      <item>
+        <p>Geben Sie den Namen des neuen Profils ein. Sie können den Namen später ändern.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf <gui style="button">Anlegen</gui>, um das neue Profil zu erstellen.</p>
+      </item>
+      <item>
+        <p>Legen Sie die gewünschten <link xref="#edit-profile">Profileinstellungen</link> fest. Sie werden dann automatisch gespeichert.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Ein neues Profil basierend auf einem bestehenden Profil anlegen</title>
+
+    <p>Sie können ein neues Profil basierend auf den Einstellungen eines bestehenden Profils anlegen:</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Einstellungen</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie in der Seitenleiste das Profil aus, auf dem das neue Profil basieren soll.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf den Pfeil neben dem Profilnamen.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="menuitem">Duplizieren …</gui>.</p>
+      </item>
+      <item>
+        <p>Geben Sie den Namen des neuen Profils ein. Sie können den Namen später ändern.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf <gui style="button">Dupliziere</gui>, um das neue Profil anzulegen.</p>
+      </item>
+      <item>
+        <p>Legen Sie die gewünschten <link xref="#edit-profile">Profileinstellungen</link> fest. Sie werden dann automatisch gespeichert.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Das Erstellen eines neuen Profils aus einem bestehen Profil beeinflusst nicht die Einstellungen eines bestehenden Profils. Alle Änderungen der Einstellungen werden in dem neuen Profil gespeichert.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Ein Profil bearbeiten</title>
+
+    <note style="warning">
+      <p>Wenn das Standard-Profil bearbeitet wird, kann es nicht auf die ursprünglichen Einstellungen zurückgesetzt werden! Falls Sie kein anderes <app>Terminal</app>-Profil angelegt haben und das Standard-Profil verändert wurde, <em>könnte</em> <app>Terminal</app> unbrauchbar werden, falls einige Einstellungen Probleme verursachen. Es wird empfohlen, dass Sie <link xref="#create-profile-from-existing">eine Kopie des Standard-Profils erstellen</link> und dann die Kopie zum Erstellen eines angepassten Profils verwenden.</p>
+    </note>
+
+    <p>Sie können bestehende Profile anpassen. So bearbeiten Sie ein Profil:</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Einstellungen</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Ihr aktuelles Profil ist in der Seitenleiste ausgewählt. Wenn Sie ein anderes Profil bearbeiten möchten, so klicken Sie auf den entsprechenden Namen.</p>
+      </item>
+    </steps>
+
+    <p>Sobald das gewünschte Profil ausgewählt wurde, können Sie:</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <link xref="app-fonts">Schrift</link>, <link xref="app-cursor">Form der Eingabemarke</link> und <link xref="app-terminal-sizes"><app>Terminal</app>größe</link>.</p>
+      </item>
+      <item>
+        <p>Passen Sie bei Bedarf das Verhalten von <app>Terminal</app> bei <link xref="pref-custom-exit">Befehlsende</link> an, legen Sie eine <link xref="pref-login-shell">benutzerdefinierte Login-Shell</link> fest oder ändern Sie die <link xref="pref-scrolling">Einstellungen der Bildlaufleiste</link>.</p>
+      </item>
+      <item>
+        <p>Um den Hintergrund und Textfarben in <app>Terminal</app> zu ändern, lesen Sie bitte über <link xref="app-colors">Farbschemata in <app>Terminal</app></link>.</p>
+      </item>
+      <item>
+        <p>Änderungen werden sofort gespeichert. Klicken Sie auf <gui style="button">Schließen</gui>, um zu <app>Terminal</app> zurückzukehren.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Ein bestehendes Profil umbenennen</title>
+
+    <p>Sie können bestehende Profile umbenennen, einschließlich des voreingestellten Profils:</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Einstellungen</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie das Profil aus, welches Sie umbenennen wollen.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf den Pfeil neben dem Profilnamen.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="menuitem">Umbenennen …</gui>.</p>
+      </item>
+      <item>
+        <p>Geben Sie den Namen für das neue Profil ein.</p>
+      </item>
+      <item>
+        <p>Klicken Sie zum Umbenennen auf <gui style="button">Umbenennen</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Ein Profil löschen</title>
+  
+    <p>So löschen Sie ein Profil:</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Einstellungen</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie das zu löschende Profil aus.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf den Pfeil neben dem Profilnamen.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="menuitem">Löschen …</gui>.</p>
+      </item>
+      <item>
+        <p>Klicken Sie zur Bestätigung auf <gui style="button">Löschen</gui>.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Das voreingestellte Profil kann nicht gelöscht werden. Falls Sie dieses Profil löschen möchten, legen Sie zunächst ein anderes Profil als <link xref="#set-default">Vorgabe</link> fest.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Ein voreingestelltes Profil festlegen</title>
+
+    <p>Das voreingestellte Profil wird geladen, sobald ein neues Terminal geöffnet wird, es sei denn es ist ein anderes Profil ausgewählt. Jegliche Änderungen, die Sie an den Einstellungen vornehmen, werden in dem aktuell verwendeten Profil gespeichert.</p>
+
+    <p>Das voreingestellte Profil wird verwendet, wenn <app>Terminal</app> nicht anderweitig entscheiden konnte, welches Profil verwendet werden soll. Zum Beispiel, wenn <app>Terminal</app> neu startet und das erste Terminal-Fenster öffnet. Wenn Sie im Gegensatz dazu einen Menüeintrag oder ein Tastenkürzel in <app>Terminal</app> verwenden, um ein neues Terminal zu öffnen, wird das Profil des bestehenden Terminals übernommen.</p>
+
+    <steps>
+      <item>
+        <p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Einstellungen</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Wählen Sie das Profil aus, welches Sie zur Vorgabe machen wollen.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf den Pfeil neben dem Profilnamen.</p>
+      </item>
+      <item>
+        <p>Wählen Sie <gui style="menuitem">Als Vorgabe festlegen</gui>.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Das voreingestellte Profil ist mit einem Häkchen-Symbol markiert.</p>
+    </note>
+
+  </section>
+
+</page>

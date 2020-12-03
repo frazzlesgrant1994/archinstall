@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-menubar" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-02-21" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+    <link type="seealso" xref="app-fullscreen"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Mostra i amaga la barra del menú.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Visibilitat de la barra del menú</title>
+
+  <p>Podeu habilitar o inhabilitar la barra del menú com vulgueu. Això pot ser útil si teniu un espai de pantalla limitat.</p>
+
+  <p>Per a mostrar la barra del menú:</p>
+  <steps>
+    <item>
+      <p>Botó dret a <app>Terminal</app> i seleccioneu <gui style="menuitem">Mostra la barra del menú</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Per a amagar la barra del menú:</p>
+  <steps>
+    <item>
+      <p>Feu clic dret al <app>Terminal</app> i desseleccioneu <gui style="checkbox">Mostra la barra del menú</gui>.</p>
+    </item>
+  </steps>
+
+<!-- 
+  <p>To enable or disable the menubar by default in all <app>Terminal</app>
+  windows that you open:</p>
+
+  <steps>
+    <item>
+      <p>Select <guiseq><gui style="menu">Edit</gui> <gui style="menuitem">
+      Preferences</gui> <gui style="tab">General</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select or deselect <gui>Show menubar by default in new terminals</gui>.</p>
+    </item>
+  </steps>
+-->
+  <note style="tip">
+    <p>Podeu <link xref="adv-keyboard-shortcuts">configurar una drecera al teclat</link> per mostrar i amagar la barra del menú.</p>
+  </note>
+
+</page>

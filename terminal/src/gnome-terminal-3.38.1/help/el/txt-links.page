@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ανοίξτε συνδέσμους σε διευθύνσεις ιστού και αλληλογραφίας.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Υπερσύνδεσμοι και διευθύνσεις αλληλογραφίας</title>
+
+  <p>Το <app>Τερματικό</app> αναλύει την έξοδο του τερματικού και ανιχνεύει αυτόματα τα τμήματα του κειμένου που είναι διευθύνσεις ιστού ή διευθύνσεις αλληλογραφίας. Οι διευθύνσεις ιστού και αλληλογραφίας επισημαίνονται αυτόματα όταν δείξετε με τον δρομέα σας το κείμενο, υποδεικνύοντας ότι ο σύνδεσμος μπορεί να ανοιχτεί σε μια εφαρμογή.</p>
+
+  <p>Για παράδειγμα, μπορεί να δείτε τα <output>http://www.gnome.org</output> ή <output>username@example.com</output> που δημιουργήθηκε ως τμήμα της εξόδου τερματικού από προγράμματα όπως το <app>wget</app> ή <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Άνοιγμα ή αντιγραφή διευθύνσεων ιστού</title>
+
+    <p>Οι διευθύνσεις ιστού λέγονται επίσης υπερσύνδεσμοι. Μπορούν να αντιγραφούν στο πρόχειρο του συστήματος ή να ανοιχτούν στον προτιμώμενο περιηγητή ιστού.</p>
+
+    <list>
+      <item>
+        <p>Αντιγραφή ενός υπερσυνδέσμου:</p>
+        <steps>
+          <item>
+            <p>Κάντε δεξί κλικ στον σύνδεσμο στο <app>Τερματικό</app>.</p>
+          </item>
+          <item>
+          <p>Select <gui style="menuitem">Copy Link</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Άνοιγμα ενός υπερσυνδέσμου στον περιηγητή ιστού σας:</p>
+        <steps>
+          <item>
+            <p>Δεξί κλικ στον υπερσύνδεσμο.</p>
+          </item>
+          <item>
+            <p>Επιλέξτε <gui style="menuitem">Άνοιγμα συνδέσμου</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Διεύθυνση αλληλογραφίας ή αντιγραφή διευθύνσεων αλληλογραφίας</title>
+
+    <p>Οι διευθύνσεις αλληλογραφίας μπορούν να αντιγραφούν στο πρόχειρο του συστήματος ή να ανοιχτούν στον προτιμώμενο πελάτη αλληλογραφίας.</p>
+
+    <list>
+      <item>
+        <p>Αντιγραφή διεύθυνσης αλληλογραφίας:</p>
+        <steps>
+          <item>
+            <p>Κάντε δεξί κλικ στην ηλεκτρονική διεύθυνση στο <app>Τερματικό</app>.</p>
+          </item>
+          <item>
+          <p>Select <gui style="menuitem">Copy Mail Address</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Αποστολή μηνύματος στη διεύθυνση αλληλογραφίας χρησιμοποιώντας τον πελάτη αλληλογραφίας:</p>
+        <steps>
+          <item>
+            <p>Κάντε δεξί κλικ στην διεύθυνση.</p>
+          </item>
+          <item>
+            <p>Select <gui style="menuitem">Send Mail To…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

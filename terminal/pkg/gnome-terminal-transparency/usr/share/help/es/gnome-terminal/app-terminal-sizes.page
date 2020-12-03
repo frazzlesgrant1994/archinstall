@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="es">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Cambiar el tamaño de la ventana de la <app>Terminal</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tamaños de la <app>Terminal</app></title>
+
+  <p>Si trabaja con ciertas aplicaciones de línea de comandos que requieren un tamaño mínimo de la terminal para mostrarse correctamente, o si quiere ver líneas largas en la salida de la terminal con el menor número de saltos de línea en la pantalla, puede querer que la <app>Terminal</app> tenga una tamaño de ventana concreto.</p>
+
+  <p>Puede cambiar el tamaño de la <app>Terminal</app> a alguna de los valores preestablecidos:</p>
+  
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Avanzado</gui>.</p>
+    </item>
+    <item>
+      <p>Elija una de las siguientes acciones:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80×43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Si tiene activadas las <link xref="pref-keyboard-access"><gui>Teclas de acceso a menús</gui></link>, puede acceder a este menú pulsando <keyseq><key>Alt</key><key>T</key></keyseq> y luego pulsando <key>1</key> para cambiar el tamaño de la ventana de la <app>Terminal</app> de <gui>80×24</gui> y así sucesivamente.</p>
+  </note>
+
+  <p>Si necesita que la ventana de la <app>Terminal</app> tenga un tamaño personalizado, puede establecer el tamaño predeterminado de la ventana para que se ajuste a sus necesidades:</p>
+
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+    </item>
+    <item>
+      <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui style="tab">Texto</gui>.</p>
+    </item>
+    <item>
+      <p>Establezca el <gui>Tamaño inicial de la terminal</gui> escribiendo el número de filas y de columnas que quiere en los cuadros de entrada correspondientes. También puede usar los botones <gui style="button">+</gui> o <gui style="button">-</gui> para aumentar o disminuir el tamaño.</p>
+    </item>
+  </steps>
+
+</page>

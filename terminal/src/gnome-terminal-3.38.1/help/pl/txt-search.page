@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="pl">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wyszukiwanie w <app>Terminalu</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Wyszukiwanie tekstu</title>
+
+  <p>Można wyszukiwać tekst w <app>Terminalu</app>:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> w górnym prawym rogu okna lub naciśnij klawisze <keyseq><key>Ctrl</key><key>Shift</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Wpisz słowo do wyszukania i naciśnij klawisz <key>Enter</key>, aby wyszukać do tyłu. Można także klikać strzałki w dowolnym kierunku.</p>
+    </item>
+  </steps>
+
+  <p>Można wyszukiwać za pomocą tych opcji:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Rozróżnianie małych i wielkich liter</gui></title>
+      <p>Rozróżnianie małych i wielkich liter ogranicza wyniki do tych pasujących wielkością liter.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Tylko całe wyrazy</gui></title>
+      <p><app>Terminal</app> wyszuka całe słowo i zignoruje wyniki pasujące tylko częściowo. Na przykład, jeśli wyszukiwano „kot”, to <app>Terminal</app> wyświetli tylko wyniki dokładnie pasujące do tego słowa i pominie wyniki typu „kotek”.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Wyrażenie regularne</gui></title>
+      <p>Można używać wzorów wyrażeń regularnych. <app>Terminal</app> wyświetli wyniki pasujące do wyrażenia.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Automatyczny powrót do początku</gui></title>
+      <p><app>Terminal</app> wyszukuje od obecnego położenia do końca dostępnego wyjścia terminala, a następnie ponownie zaczyna wyszukiwanie.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Jeśli używana jest duża liczba wierszy <app>Terminala</app>, to zwiększ <link xref="pref-scrolling#lines">liczbę wierszy przewijania</link>, aby umożliwić <app>Terminalowi</app> wyszukiwanie wcześniejszych wierszy.</p>
+  </note>
+
+</page>

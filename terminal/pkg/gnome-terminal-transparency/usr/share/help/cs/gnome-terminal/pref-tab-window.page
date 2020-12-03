@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013 – 2014</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak zvolit, jestli má být výchozí otevírání nových oken nebo nových karet.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Okna a karty</title>
+
+<note style="tip">
+  <p>Toto nastavení se použije, jen když <link xref="pref-menubar">je zapnutá nabídková lišta</link>, nebo když je <app>Terminal</app> spuštěný z příkazové řádky a to buď s volbou <cmd>--tab</cmd> nebo <cmd>--window</cmd>.</p>
+</note>
+
+  <p>Můžete si zvolit, jestli se při použití <gui style="menuitem">Nový terminál</gui> má otevřít nová karta nebo nové okno s <app>Terminálem</app>.</p>
+
+  <steps>
+    <title>Když je nabídková lišta zapnutá,</title>
+    <item>
+      <p>Vyberte <guiseq><gui style="menu">Upravit</gui> <gui style="menuitem">Předvolby</gui> <gui style="tab">Obecné</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Nastavte <gui>Nový terminál otevřít v:</gui> na <gui>kartu</gui> nebo <gui>okno</gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>Když není nabídková lišta zapnutá,</title>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+    </item>
+    <item>
+      <p>V postranním panelu vyberte <gui>Obecné</gui>.</p>
+    </item>
+    <item>
+      <p>Nastavte <gui>Nový terminál otevřít v:</gui> na <gui>kartu</gui> nebo <gui>okno</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Ať zvolíte v předvolbách to či ono, můžete použít klávesu <key>Ctrl</key> k obrácení předvolby. Například, když máte své předvolby nastaveny na otevírání nového terminálu v nové kartě, zmáčknutí <gui style="menuitem">Nový terminál</gui> otevře novou kartu. Avšak, když budete držet <key>Ctrl</key> a zmáčknete <gui style="menuitem">Nový terminál</gui>, otevře se místo toho nové okno.</p>
+
+</page>

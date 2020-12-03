@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Abrir enlaces a páginas web y direcciones de correo-e</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enlaces y direcciones de correo-e</title>
+
+  <p>La <app>Terminal</app> analiza la salida de la terminal y detecta automáticamente fragmentos de texto que sean direcciones web o de correo-e. Estas direcciones se resaltan automáticamente cuando pone el cursor sobre ellas, indicando que el enlace se puede abrir en una aplicación.</p>
+
+  <p>Por ejemplo, puede ver <output>http://www.gnome.org</output> o <output>usuario@ejemplo.com</output> generado como parte de la salida de programas como <app>wget</app> o <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Abrir o copiar direcciones web</title>
+
+    <p>Direcciones web, también llamadas hiperenlaces. Se pueden copiar al portapapeles del sistema o abrirse en su navegador web preferido.</p>
+
+    <list>
+      <item>
+        <p>Copiar un enlace:</p>
+        <steps>
+          <item>
+            <p>Pulse con el botón derecho sobre el enlace en la <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Seleccione <gui style="menuitem">Copiar enlace</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Abrir un enlace en su navegador web:</p>
+        <steps>
+          <item>
+            <p>Pulse con el botón derecho del ratón sobre el enlace.</p>
+          </item>
+          <item>
+            <p>Seleccione <gui style="menuitem">Abrir enlace</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Enviar por correo-e o copiar las direcciones de correo</title>
+
+    <p>Las direcciones de correo-e se pueden copiar al portapapeles del sistema o abrirse en su cliente de correo-e preferido.</p>
+
+    <list>
+      <item>
+        <p>Copiar una dirección de correo-e:</p>
+        <steps>
+          <item>
+            <p>Pulse con el botón derecho sobre el enlace en la <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Seleccione <gui style="menuitem">Copiar la dirección de correo-e</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Enviar un correo-e a la dirección usando su cliente de correo:</p>
+        <steps>
+          <item>
+            <p>Pulse con el botón derecho del ratón sobre la dirección.</p>
+          </item>
+          <item>
+            <p>Seleccione <gui style="menuitem">Enviar correo a…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Profilok létrehozása, átnevezése és törlése.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Profilok kezelése</title>
+
+  <p>A <app>Terminál</app> beállításainak halmazát profilnak nevezzük. A <app>Terminál</app> támogatja több profil használatát. Beállíthat <app>Terminálprofilokat</app> <link xref="pref-custom-command">egyéni parancs vagy parancsértelmező</link> futtatására, beállíthat profilt távoli számítógépekhez csatlakozásra SSH-val, vagy <app>GNU Screen</app> munkamenet elindítására is.</p>
+
+  <p>A <app>Terminál</app> elérhető beállításai közé tartoznak:</p>
+
+  <list>
+    <item>
+      <p>Profil neve.</p>
+    </item>
+    <item>
+      <p>Betűkészlet- és háttérszínek.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Kompatibilitás</gui> a <key>Backspace</key> és <key>Delete</key> billentyűkkel.</p>
+    </item>
+    <item>
+      <p><gui style="tab">Görgetés</gui></p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>Válasszon egy profilt:</title>
+
+    <p>Ha legalább két profilt beállított, akkor megváltoztathatja az aktuális <app>Terminállapon</app> vagy -ablakban használt profilt a <guiseq><gui style="menu">Terminál</gui> <gui style="menuitem">Profil megváltoztatása</gui></guiseq> menüpont használatával.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>Új profil létrehozása</title>
+
+    <p>Új profil létrehozásához a <app>Terminál</app> alapértelmezett beállításaival:</p>
+
+    <steps>
+      <item>
+        <p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Beállítások</gui></guiseq> menüpontot.</p>
+      </item>
+      <item>
+        <p>Az oldalsávon kattintson a <gui style="button">+</gui> gombra a <gui>Profilok</gui> felirat mellett.</p>
+      </item>
+      <item>
+        <p>Írja be az új profil nevét. Ez később módosítható.</p>
+      </item>
+      <item>
+        <p>Nyomja meg a <gui style="button">Létrehozás</gui> gombot az új profil létrehozásához.</p>
+      </item>
+      <item>
+        <p>Állítsa be a <link xref="#edit-profile">kívánt profilbeállításokat</link>. Ezek automatikusan mentésre kerülnek.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>Új profil létrehozása egy meglévő alapján</title>
+
+    <p>Új profilt egy meglévő beállításai alapján is létrehozhat:</p>
+
+    <steps>
+      <item>
+        <p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Beállítások</gui></guiseq> menüpontot.</p>
+      </item>
+      <item>
+        <p>Az oldalsávban válassza ki a profilt, amelyre az új profilt szeretné alapozni.</p>
+      </item>
+      <item>
+        <p>Kattintson a profilnév melletti nyílra.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="menuitem">Klónozás</gui> menüpontot.</p>
+      </item>
+      <item>
+        <p>Írja be az új profil nevét. Ez később módosítható.</p>
+      </item>
+      <item>
+        <p>Nyomja meg a <gui style="button">Klónozás</gui> gombot az új profil létrehozásához.</p>
+      </item>
+      <item>
+        <p>Állítsa be a <link xref="#edit-profile">kívánt profilbeállításokat</link>. Ezek automatikusan mentésre kerülnek.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Új profil meglévő profilból való létrehozása nem befolyásolja a meglévő profil beállításait. A beállítások változásai az új profilban lesznek tárolva.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>Profil szerkesztése</title>
+
+    <note style="warning">
+      <p>Ha az alapértelmezett profilt szerkeszti, az nem állítható vissza az eredeti beállításokra. Ha még nem hozott létre más <app>Terminál</app> profilokat, és személyre szabta az alapértelmezett profilt, akkor a <app>Terminál</app> használhatatlanná <em>válhat</em>, ha a beállítások problémát okoznak. Javasoljuk, hogy <link xref="#create-profile-from-existing">készítsen másolatot az alapértelmezett profilról</link>, majd szerkessze a másolatot az egyéni profil létrehozásához.</p>
+    </note>
+
+    <p>Módosíthatja a meglévő profilokat:</p>
+
+    <steps>
+      <item>
+        <p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Beállítások</gui></guiseq> menüpontot.</p>
+      </item>
+      <item>
+        <p>Az aktuális profilja kijelölésre kerül az oldalsávban. Ha másik profilt szeretne szerkeszteni, akkor kattintson annak a nevére.</p>
+      </item>
+    </steps>
+
+    <p>A kívánt profil kiválasztása után:</p>
+
+    <steps>
+      <item>
+        <p>Beállíthatja a <link xref="app-fonts">betűkészletet</link>, <link xref="app-cursor">kurzoralakot</link> és <link xref="app-terminal-sizes"><app>Terminálméretet</app></link>.</p>
+      </item>
+      <item>
+        <p>Megváltoztathatja a <app>Terminál</app> viselkedését a <link xref="pref-custom-exit">parancs kilépésekor</link>, beállíthat <link xref="pref-login-shell">egyéni bejelentkezési parancsértelmezőt</link>, vagy megváltoztathatja a <link xref="pref-scrolling">görgetési beállításokat</link> is.</p>
+      </item>
+      <item>
+        <p>A <app>Terminál</app> háttér- és szövegszíneinek módosításához lásd a <link xref="app-colors"><app>Terminál</app> színsémái</link> oldalt.</p>
+      </item>
+      <item>
+        <p>A profil módosításai azonnal mentésre kerülnek. A <app>Terminálhoz</app> való visszatéréshez kattintson a <gui style="button">Bezárás</gui> gombra.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>Meglévő profil átnevezése</title>
+
+    <p>Átnevezheti a meglévő profilokat, beleértve az alapértelmezett profilt is:</p>
+
+    <steps>
+      <item>
+        <p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Beállítások</gui></guiseq> menüpontot.</p>
+      </item>
+      <item>
+        <p>Válassza ki az átnevezendő profilt.</p>
+      </item>
+      <item>
+        <p>Kattintson a profilnév melletti nyílra.</p>
+      </item>
+      <item>
+        <p>Válassza az <gui style="menuitem">Átnevezés</gui> menüpontot.</p>
+      </item>
+      <item>
+        <p>Adja meg az új profil nevét.</p>
+      </item>
+      <item>
+        <p>Nyomja meg az <gui style="button">Átnevezés</gui> gombot az átnevezéshez.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>Profil törlése</title>
+  
+    <p>Egy profil törlése:</p>
+
+    <steps>
+      <item>
+        <p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Beállítások</gui></guiseq> menüpontot.</p>
+      </item>
+      <item>
+        <p>Válassza ki a törölni kívánt profilt.</p>
+      </item>
+      <item>
+        <p>Kattintson a profilnév melletti nyílra.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="menuitem">Törlés</gui> menüpontot.</p>
+      </item>
+      <item>
+        <p>Nyomja meg a <gui style="button">Törlés</gui> gombot a megerősítéshez.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Az alapértelmezett profil nem törölhető. Ha mégis szeretné azt a profilt törölni, először állítson be egy másik profilt <link xref="#set-default">alapértelmezettként</link>.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>Alapértelmezett profil beállítása</title>
+
+    <p>Új terminál megnyitásakor az alapértelmezett profil kerül betöltésre, hacsak nem választott ki másik profilt. A beállítások módosításai az éppen kijelölt  profilba kerülnek mentésre.</p>
+
+    <p>Az alapértelmezett profil akkor kerül felhasználásra, ha a <app>Terminál</app> nem tudja, melyik profilt kellene használnia, például ha először indítja el a <app>Terminált</app>. Ha ellenben egy menüpont vagy gyorsbillentyű használatával indít új terminált, akkor a meglévő terminál profilja kerül felhasználásra.</p>
+
+    <steps>
+      <item>
+        <p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Beállítások</gui></guiseq> menüpontot.</p>
+      </item>
+      <item>
+        <p>Válassza ki az alapértelmezetté tenni kívánt profilt.</p>
+      </item>
+      <item>
+        <p>Kattintson a profilnév melletti nyílra.</p>
+      </item>
+      <item>
+        <p>Válassza a <gui style="menuitem">Beállítás alapértelmezettként</gui> menüpontot.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>Az alapértelmezett profilt egy pipa szimbólum jelöli.</p>
+    </note>
+
+  </section>
+
+</page>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="pt-BR">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Veja e edite teclas de atalho.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Teclas de atalho</title>
+
+  <p>Atalhos são combinações de teclas que permitem você realizar ações, como abrir a janela de configurações ou acessar um recurso interno do <app>Terminal</app>, rapidamente. Esses atalhos podem ser modificados para se adequar a suas preferências.</p>
+
+  <p>Para alterar uma tecla de atalho:</p>
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select <gui>Shortcuts</gui>.</p>
+    </item>
+    <item>
+      <p>Certifique-se que <gui style="checkbox">Habilitar atalhos</gui> esteja selecionado.</p>
+    </item>
+    <item>
+      <p>Selecione o atalho, que você deseja editar, clicando nele.</p>
+    </item>
+    <item>
+      <p>Assim que o atalho for selecionado, clique na combinação de teclas para editá-la.</p>
+    </item>
+    <item>
+      <p>Digite sua combinação de teclas desejadas para o atalho, da forma como você digitaria para usá-lo. As teclas que você pode usar incluem as teclas <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Shift</key>, <key>Super</key>, de números e de letras.</p>
+      <note>
+        <p>Combinações de mnemônicos, como <keyseq><key>Alt</key><key>F</key></keyseq>, não vão funcionar.</p>
+      </note>
+    </item>
+    <item>
+      <p>Assim que você tiver digitado seu novo atalho, ele será salvo automaticamente e você deve poder vê-lo na lista próxima a ação correspondente.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Para desabilitar um atalho, edite-o e pressione o <key>Backspace</key> em vez do novo atalho.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title>Atalhos do menu <gui style="menu">Arquivo</gui></title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Ação</p></td>
+          <td><p>Tecla de atalho</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Nova aba</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Nova janela</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Fechar aba</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Fechar janela</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>Atalhos do menu <gui style="menu">Editar</gui></title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Ação</p></td>
+          <td><p>Tecla de atalho</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Copiar</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Colar</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>Atalhos do menu <gui style="menu">Ver</gui></title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Ação</p></td>
+          <td><p>Tecla de atalho</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Tela cheia</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Ampliar</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Reduzir</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Tamanho normal</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title><gui style="menu">Search</gui> shortcuts</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Ação</p></td>
+          <td><p>Tecla de atalho</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Localizar</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Localizar Próxima</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Localizar Anterior</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Limpar Realce</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Atalhos para abas</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Ação</p></td>
+          <td><p>Tecla de atalho</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Alternar para a aba anterior</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a próxima aba</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mover aba para a esquerda</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mover aba para a direita</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Alternar para a aba 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Outro</title>
+
+    <p>Também há alguns atalhos que não podem ser editados:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Ação</p></td>
+          <td><p>Tecla de atalho</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Rolar para cima em uma linha</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rolar para baixo em uma linha</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Baixo</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rolar para cima em uma página</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rolar para baixo em uma página</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rolar para o topo</p></td>
+          <td><p><keyseq><key>Shift</key><key>Home</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rolagem para a parte inferior</p></td>
+          <td><p><keyseq><key>Shift</key><key>End</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Atalhos de Bash</title>
+
+    <p>Esses são atalhos de <app>Bash</app>. O <app>Bash</app> é normalmente o shell padrão.</p>
+    <p>As teclas de atalhos específicas do shell <app>Bash</app> são:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Ação</p></td>
+          <td><p>Teclas de atalhos</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Apagar uma palavra</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Apagar uma linha</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover para o início da linha</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover para o fim da linha</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover para trás um caractere</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover para trás uma palavra</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover para frente um caractere</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover para frente uma palavra</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Excluir a partir do cursor até o começo da linha</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>u</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Excluir a partir do cursor até o final da linha</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Excluir a partir do cursor até o começo da palavra</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Excluir palavra anterior</p></td>
+          <td><p><keyseq><key>Alt</key><key>Backspace</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Colar texto da área de transferência</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Limpar a tela deixando a linha atual no topo da janela</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Pesquisa incremental inversa do histórico</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Pesquisa não-incremental inversa do histórico</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

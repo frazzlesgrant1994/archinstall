@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-user-input" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.14" date="2014-10-23" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Skicka inte användarinmatning till programmet som kör i terminalen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Inaktivera användarinmatning</title>
+
+  <p>Du kan förhindra användarinmatning till terminalen från att skickas vidare till programmet som för närvarande körs i terminalen. Detta kommer att hindra tangenttryckningar, musklick och musrörelser från att påverka programmet. Du kommer fortfarande kunna interagera med terminalen själv genom att använda skrivbordet för rullning och din mus för att markera text. Du kommer också kunna kopiera markerad text från terminalen, men du kommer inte kunna klistra in text i terminalen.</p>
+
+  <p>För att använda det skrivskyddade läget:</p>
+
+  <steps>
+    <item>
+      <p>Högerklicka i <app>Terminal</app>-fönstret eller tryck på menyknappen i fönstrets övre högra hörn.</p>
+    </item>
+    <item>
+      <p>Välj <gui style="menuitem">Skrivskyddad</gui> så att den är ikryssad.</p>
+    </item>
+  </steps>
+
+  <p>Du kan inaktivera det skrivskyddade läget genom att avmarkera <gui style="menuitem">Skrivskyddad</gui>.</p>
+
+</page>

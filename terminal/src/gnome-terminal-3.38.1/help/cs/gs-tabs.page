@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-tabs" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <revision pkgversion="3.8" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-07" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013 – 2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak povolit, přidávat a odebírat karty <app>Terminálu</app> a měnit jejich pořadí.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Použití karet</title>
+
+  <p>V okně <app>Terminálu</app>, který má otevřeno více karet, se zobrazí lišta s oušky karet (vypadá jako řada tlačítek). Na kartu můžete kliknout a tím se na ni přepnout. Otevření více karet vám zpřehlední vaši práci v <app>Terminálu</app>. Můžete provádět naráz více činností, jako je spouštění programů, procházení složek a úprava textů a to vše v rámci jediného okna <app>Terminálu</app>.</p>
+
+  <section id="add-tab">
+    <title>Otevření nové karty</title>
+
+    <p>Když si chcete v okně svého současného <app>Terminálu</app> otevřít novou kartu:</p>
+    <steps>
+      <item>
+        <p>Zmáčkněte <keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+<!-- TODO: doesn't work, see bug 720693
+  <section id="rename-tab">
+    <title>Rename a tab</title>
+
+    <p>Each tab has an automatically assigned title. You can rename the tabs
+    individually:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Terminal</gui>
+        <gui style="menuitem">Set Title…</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Enter the desired <gui>Title</gui> that you wish to use for the tab.
+        This will overwrite any titles that would be set by terminal commands.
+        </p>
+        <note>
+          <p>It is not possible to set back the automatically set title once it
+          has been set for a tab. To see the title, you need to allow terminal
+          command titles to be shown in the <gui style="menuitem">Profile 
+          Preferences</gui>.</p>
+        </note>
+      </item>
+      <item>
+        <p>Click <gui style="button">OK</gui>.</p>
+      </item>
+    </steps>
+  </section>-->
+
+  <section id="close-tab">
+    <title>Odebrání karty</title>
+
+    <p>Když chcete zavřít některou ze stávajích karet v aktuálním okně <app>Terminálu</app>:</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte <keyseq><key>Ctrl</key><key>Shift</key><key>W</key></keyseq>.</p>
+      </item>
+    </steps>
+
+    <p>Případně můžete kliknou na <gui style="button">×</gui> na pravé straně ouška karty nebo kliknout pravým tlačítkem a vybrat <gui style="menuitem">Zavřít terminál</gui>.</p>
+
+  </section>
+
+  <section id="reorder-tab">
+    <title>Pořadí karet</title>
+
+    <p>Když chcete změnit pořadí karet v okně:</p>
+    <steps>
+      <item>
+        <p>Zmáčkněte levé tlačítko myši na kartě a držte jej.</p>
+      </item>
+      <item>
+        <p>Přetáhněte kartu na požadované místo mezi ostatními kartami.</p>
+      </item>
+      <item>
+        <p>Uvolněte tlačítko myši.</p>
+      </item>
+    </steps>
+
+    <p>Karta se umístí co nejblíže je možné k místu, na kterém jste ji upustili, hned za další otevřené karty.</p>
+
+    <p>Alternativně můžete změnit pořadí karet tak, že na kartu kliknete pravým tlačítkem a vyberete <gui style="menuitem">Posunout terminál doleva</gui> pro přesun karty vlevo nebo <gui style="menuitem">Přesunout terminál doprava</gui> pro přesun karty vpravo. Posun se provedy vždy jen o jednu pozici.</p>
+
+  </section>
+
+  <!--
+  <section id="move-tab-another-window">
+    <title>Move a tab to another <app>Terminal</app> window</title>
+
+    <p>If you want to move a tab from one window to another:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab to the new window.</p>
+      </item>
+      <item>
+        <p>Place it beside other tabs in the new window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>You can move a tab from one window to another by dragging the tab to
+      the <gui>Activities</gui> hot-corner of the <gui>GNOME Shell</gui>. This
+      will reveal each of the open <app>Terminal</app> windows. You can release
+      the tab that you are holding over the desired <app>Terminal</app>
+      window.</p>
+    </note>
+  </section>
+
+  <section id="move-tab-create-window">
+    <title>Move a tab to create a new <app>Terminal</app> window</title>
+
+    <p>To create a new window from an existing tab:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab out of the current <app>Terminal</app> window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+  </section>
+  -->
+
+</page>

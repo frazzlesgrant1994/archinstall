@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-user-input" xml:lang="ca">
+
+  <info>
+    <revision pkgversion="3.14" date="2014-10-23" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>No envieu entrades d'usuari a una aplicació que s'executi en un terminal.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Inhabilitar l'entrada d'usuari</title>
+
+  <p>Podeu impedir les entrades d'usuari dins del terminal una vegada estigui en marxa una aplicació dins del terminal. Això impedirà qualsevol pulsació de teclat, els clics de ratolí i els moviments de ratolí que afectin a l'aplicació. Podreu encara interactuar amb el vostre propi terminal, utilitzar el teclat per al desplaçament i el punter del ratolí per seleccionar text. També sereu capaç de copiar el text seleccionat des de la terminal, però que no sereu capaç d'enganxar text en el terminal.</p>
+
+  <p>Per utilitzar el mode de només lectura:</p>
+
+  <steps>
+    <item>
+      <p>Feu clic dret a la finestra del <app>Terminal</app> o premeu el botó de menú de la cantonada superior dreta de la finestra.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menuitem">Només lectura</gui> i comproveu que queda marcat.</p>
+    </item>
+  </steps>
+
+  <p>Podeu inhabilitar el mode de només lectura desmarcant <gui style="menuitem">Només lectura</gui>.</p>
+
+</page>

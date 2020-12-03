@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="es">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>¿Qué es una terminal?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Vista general de una terminal</title>
+
+  <p><app>Terminal</app> es un programa de terminal para <gui>GNOME</gui>. Los siguientes términos y sus descripciones le ayudarán a familiarizarse con la <app>Terminal</app> y sus posibilidades.</p>
+
+  <terms>
+    <item>
+      <title>Una terminal</title>
+      <p>Una terminal es un punto de entrada de texto en un equipo, también llamado interfaz de línea de comandos (CLI).</p>
+    </item>
+    <item>
+      <title>Terminales físicas</title>
+      <p>IBM 3270, VT100 y muchas otras son terminales hardware que ya no se fabrican como terminales físicas. Para emular estas terminales, existen emuladores de terminales.</p>
+    </item>
+    <item>
+      <title>Emuladores de terminales</title>
+      <p>La emulación es la capacidad de un programa informático de imitar a otro programa o dispositivo.</p>
+
+      <p>Un emulador de terminal, también llamado tty, es un programa de software que emula una terminal de vídeo en un equipo actual que usa interfaces gráficas de usuario y proporciona acceso interactivo a las aplicaciones que sólo se ejecutan en entornos de línea de comandos. Estas aplicaciones se pueden ejecutar en la misma máquina o en una diferente mediante <app>telnet</app>, <app>ssh</app> o <app>dial-up</app>.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>Virtual Terminal Environment (VTE) es un emulador de la terminal que emula una terminal de texto dentro de un entorno de interfaz gráfica de usuario (IGU). La <app>Terminal</app> se basa ampliamente en <app>VTE</app>. <app>VTE</app> tiene widgets que implementan un completo y funcional emulador de la terminal.</p>
+    </item>
+    <item>
+      <title>Shell</title>
+      <p>Una <em>shell</em> es un programa que proporciona una interfaz para invocar o «ejecutar» comandos u otros programas dentro de una terminal. También permite ver y examinar el contenido de las carpetas. Las shells más populares son <app>bash</app>, <app>zsh</app> y <app>fish</app>.</p>
+    </item>
+    <item>
+      <title>Secuencias de escape</title>
+      <p>Una secuencia de escape es una serie de caracteres usados para cambiar el significado de los datos en la terminal. Las secuencias de escape se usan cuando un equipo sólo tiene un canal para enviar información de ida y vuelta. Las secuencias de escape se usan para distinguir si los datos se envía como un comando que ejecutar o o como información que guardar y mostrar.</p>
+    </item>
+
+    <item>
+      <title>Símbolo del sistema</title>
+      <p>Un símbolo del sistema, también llamado <em>símbolo de línea de comandos</em>. Es una secuencia de caracteres usada en el entorno de la línea de comandos para indicar si la shell está preparada para aceptar comandos.</p>
+
+      <p>Generalmente, un símbolo del sistema termina con los caracteres <sys>$</sys>, <sys>%</sys>, <sys>#</sys> o <sys>&gt;</sys> e incluye información sobre la ruta de la carpeta de trabajo actual. En los sistemas basados en UNIX es habitual que el símbolo del sistema termine con los caracteres <sys>$</sys> o <sys>#</sys>, dependiendo del rol del usuario, siendo <sys>$</sys> para el usuario normal y <sys>#</sys> para el superusuario (también llamado <sys>root</sys>).</p>
+    </item>
+    <item>
+      <title>Comando</title>
+      <p>Lo que se introduce en la línea de comandos para ejecutarse se denomina <em>comando</em>. Es una combinación del nombre de un programa junto con cualquier otro parámetro adicional pasado como opción para modificar la ejecución del programa.</p>
+    </item>
+  </terms>
+
+</page>

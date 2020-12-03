@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-profiles" xml:lang="ko">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#manage-profiles"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>프로파일을 만들고, 편집하고, 삭제합니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>프로파일 관리</title>
+
+  <p>프로파일은 <app>터미널</app> 설정의 모음입니다. <app>터미널</app>에서는 여러 프로파일을 지원합니다. <app>터미널</app> 프로파일에서 <link xref="pref-custom-command">개별 명령 또는 셸 실행</link>, SSH를 통한 원격 컴퓨터 연결 프로파일, <app>GNU Screen</app> 세션을 실행하는 프로파일을 설정할 수 있습니다.</p>
+
+  <p>다음 항목을 <app>터미널</app> 에서 설정할 수 있습니다:</p>
+
+  <list>
+    <item>
+      <p>프로파일 이름.</p>
+    </item>
+    <item>
+      <p>글꼴 또는 배경 색.</p>
+    </item>
+    <item>
+      <p><key>Backspace</key> 및 <key>Delete</key> 키 <gui style="tab">호환성</gui>.</p>
+    </item>
+    <item>
+      <p><gui style="tab">스크롤</gui>.</p>
+    </item>
+  </list>
+
+  <section id="select-profile" style="task">
+    <title>프로파일 선택</title>
+
+    <p>둘 이상의 프로파일을 정의해두었다면, <guiseq><gui style="menu">터미널</gui> <gui style="menuitem">프로파일 바꾸기</gui></guiseq> 에서 현재 <app>터미널</app> 탭 또는 창의 프로파일을 바꿀 수 있습니다.</p>
+
+  </section>
+
+  <section id="new-profile" style="task">
+    <title>새 프로파일 만들기</title>
+
+    <p><app>터미널</app> 기본 설정으로 새 프로파일을 만들려면:</p>
+
+    <steps>
+      <item>
+        <p><guiseq><gui style="menu">편집</gui> <gui style="menuitem">기본 설정</gui></guiseq>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>가장자리 표시줄에서 <gui>프로파일</gui> 레이블 옆의 <gui style="button">+</gui> 단추를 누르십시오.</p>
+      </item>
+      <item>
+        <p>새 프로파일 이름을 입력하십시오. 나중에 이 이름을 바꿀 수 있습니다.</p>
+      </item>
+      <item>
+        <p><gui style="button">만들기</gui>를 눌러 새 프로파일을 만드십시오.</p>
+      </item>
+      <item>
+        <p>원하는 <link xref="#edit-profile">프로파일 기본 설정</link>을 설정하십시오. 설정은 자동으로 저장합니다.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="create-profile-from-existing" style="task">
+    <title>기존 프로파일로 새 프로파일 만들기</title>
+
+    <p>기존 프로파일의 설정으로 새 프로파일을 만들 수 있습니다:</p>
+
+    <steps>
+      <item>
+        <p><guiseq><gui style="menu">편집</gui> <gui style="menuitem">기본 설정</gui></guiseq>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>가장자리 표시줄에서 새 프로파일의 기초로 활용할 프로파일을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>프로파일 이름 옆 화살표를 누르십시오.</p>
+      </item>
+      <item>
+        <p><gui style="menuitem">복제…</gui>를 선택하십시오.</p>
+      </item>
+      <item>
+        <p>새 프로파일 이름을 입력하십시오. 나중에 이 이름을 바꿀 수 있습니다.</p>
+      </item>
+      <item>
+        <p><gui style="button">닫기</gui>를 눌러 새 프로파일을 만드십시오.</p>
+      </item>
+      <item>
+        <p>원하는 <link xref="#edit-profile">프로파일 기본 설정</link>을 설정하십시오. 설정은 자동으로 저장합니다.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>기존 프로파일에서 새 프로파일을 만들 때 기존 프로파일의 설정에 영향을 주지 않습니다. 어떤 설정 값이든 새 프로파일에 저장합니다.</p>
+    </note>
+
+  </section>
+
+  <section id="edit-profile" style="task">
+    <title>프로파일 편집</title>
+
+    <note style="warning">
+      <p>기본 프로파일을 편집하면 원래 설정으로 복원할 수 없습니다! 다른 <app>터미널</app> 프로파일을 만들지 않았고 기본 프로파일 값을 바꾸었다면 <app>터미널</app>에서는 문제를 일으키는 어떤 설정으로 말미암아 사용하지 못<em>할 수</em>도 있습니다. <link xref="#create-profile-from-existing">기본 프로파일 사본 만들기</link>를 진행한 후 만들어 둔 개별 프로파일 사본을 편집하는 방안을 추천합니다.</p>
+    </note>
+
+    <p>기존 프로파일 설정을 바꿀 수 있습니다. 프로파일을 편집하려면:</p>
+
+    <steps>
+      <item>
+        <p><guiseq><gui style="menu">편집</gui> <gui style="menuitem">기본 설정</gui></guiseq>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>현재 프로파일은 가장자리 표시줄에서 선택합니다. 다른 프로파일을 선택하고 싶으면 해당 이름을 선택하여 누르십시오.</p>
+      </item>
+    </steps>
+
+    <p>원하는 프로파일을 선택하면 다음을 할 수 있습니다:</p>
+
+    <steps>
+      <item>
+        <p><link xref="app-fonts">글꼴</link>, <link xref="app-cursor">커서 모양</link>, <link xref="app-terminal-sizes"><app>터미널</app> 크기</link>를 선택합니다.</p>
+      </item>
+      <item>
+        <p><link xref="pref-custom-exit">명령이 끝날 때</link>, <link xref="pref-login-shell">개별 로그인 셸</link>설정, <link xref="pref-scrolling">스크롤 막대 기본 설정</link> 에서 <app>터미널</app> 동작을 바꿀 수 있습니다.</p>
+      </item>
+      <item>
+        <p><app>터미널</app>의 배경색 및 글자색을 바꾸려면 <link xref="app-colors"><app>터미널</app> 색 팔레트</link>를 참고하십시오.</p>
+      </item>
+      <item>
+        <p>프로파일에서 바뀐 값을 즉시 저장합니다. <app>터미널</app>로 돌아가려면 <gui stype="button">닫기</gui>를 누르십시오.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="rename-profile" style="task">
+    <title>기존 프로파일 이름 바꾸기</title>
+
+    <p>기본 프로파일도 마찬가지로, 기존 프로파일의 이름을 바꿀 수 있습니다:</p>
+
+    <steps>
+      <item>
+        <p><guiseq><gui style="menu">편집</gui> <gui style="menuitem">기본 설정</gui></guiseq>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>이름을 바꾸려는 프로파일을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>프로파일 이름 옆 화살표를 누르십시오.</p>
+      </item>
+      <item>
+        <p><gui style="menuitem">이름 바꾸기…</gui>를 선택하십시오.</p>
+      </item>
+      <item>
+        <p>새 프로파일 이름을 입력하십시오.</p>
+      </item>
+      <item>
+        <p><gui style="button">이름 바꾸기</gui>를 눌러 이름을 바꾸십시오.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="delete-profile" style="task">
+    <title>프로파일 삭제</title>
+  
+    <p>프로파일을 삭제하려면:</p>
+
+    <steps>
+      <item>
+        <p><guiseq><gui style="menu">편집</gui> <gui style="menuitem">기본 설정</gui></guiseq>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>삭제하려는 프로파일을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>프로파일 이름 옆 화살표를 누르십시오.</p>
+      </item>
+      <item>
+        <p><gui style="menuitem">삭제…</gui>를 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui style="button">삭제</gui>를 눌러 확인하십시오.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>기본 프로파일은 삭제할 수 없습니다. 해당 프로파일을 삭제하려면 다른 프로파일을 <link xref="#set-default">기본값</link>으로 설정하십시오.</p>
+    </note>
+
+  </section>
+
+  <section id="set-default" style="task">
+    <title>기본 프로파일 설정</title>
+
+    <p>기본 프로파일은 다른 프로파일을 선택하기 전에는 새 터미널을 열 때 매번 불러옵니다. 여러분이 바꾼 어떤 설정이든 현재 선택한 프로파일로 저장합니다.</p>
+
+    <p>기본 프로파일은 <app>터미널</app>에서 어떤 프로파일을 사용해야 할 지 모를 때 사용합니다. 예를 들면 <app>터미널</app>을 새로 시작하여 첫 터미널 창을 열었을 때입니다. 반면에 <app>터미널</app> 의 메뉴 항목 또는 바로 가기 키로 새 터미널을 열면 기존 터미널의 프로파일을 엽니다.</p>
+
+    <steps>
+      <item>
+        <p><guiseq><gui style="menu">편집</gui> <gui style="menuitem">기본 설정</gui></guiseq>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>기본 항목으로 설정할 프로파일을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>프로파일 이름 옆 화살표를 누르십시오.</p>
+      </item>
+      <item>
+        <p><gui style="menuitem">기본값으로 설정</gui>을 선택하십시오.</p>
+      </item>
+    </steps>
+
+    <note>
+      <p>기본 프로파일은 표시 기호가 붙어있습니다.</p>
+    </note>
+
+  </section>
+
+</page>

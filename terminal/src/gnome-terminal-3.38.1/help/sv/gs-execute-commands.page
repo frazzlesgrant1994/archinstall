@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Starta program eller kör kommandon med <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kör ett kommando</title>
+
+  <p>Inmatning som angivits i <app>Terminal</app> för att köras kallas ett <em>kommando</em>. Du kan köra både kommandoradsprogram och program med ett grafiskt användargränssnitt (GUI) från terminalen.</p>
+
+  <p>För att köra kommandon:</p>
+
+  <steps>
+    <item>
+      <p>Skriv kommandot i <app>Terminal</app>-prompten.</p>
+    </item>
+    <item>
+      <p>Tryck <key>Retur</key> för att köra det.</p>
+    </item>
+  </steps>
+
+  <p>Om du har ett program som avslutas plötsligt utan varnings- eller felmeddelande kan du vilja köra det i <app>Terminal</app>. Detta kommer att låta programmet skriva felmeddelanden eller felsökningsutskrift till <app>Terminal</app>-fönstret. Informationen kan vara till hjälp då du rapporterar ett fel.</p>
+
+  <note style="tip">
+    <p>Läs om <link href="https://www.gnu.org/software/bash/manual/">Bash-skalet</link> för mer information om vad du kan göra i en terminal.</p>
+  </note>
+  
+</page>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="ru">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Навигация по меню <app>Терминала</app> с помощью клавиш.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Специальные возможности клавиатуры</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Эти клавиши будут работать только в окнах с включённой панелью меню.</p>
+    <p>Right click in the <app>Terminal</app> window and select
+    <gui style="checkbox">Show Menubar</gui> to display the menubar.</p>
+  </note>
+
+  <p>You can navigate the <app>Terminal</app> menu using a combination of keys
+  that are called <em>mnemonics</em> or a special key that takes you directly
+  to the first menu in the menubar which is called the <em>menu accelerator
+  key</em>.</p>
+
+  <section id="mnemonics">
+    <title>Мнемонические клавиши</title>
+
+    <p>В меню <app>Терминала</app> можно попасть с помощью комбинации клавиши <key>Alt</key> и буквы пункта меню. Эта буква меню будет подчёркнута, если нажать клавишу <key>Alt</key>.</p>
+
+    <p>Просмотрим, например, меню <gui style="menu">Правка</gui> с помощью клавиш <keyseq><key>Alt</key><key>П</key></keyseq>. Точно также можно получить доступ к меню <gui style="menu">Файл</gui> с помощью <keyseq><key>Alt</key><key>Ф</key></keyseq>.</p>
+
+    <p>Чтобы активировать мнемонические клавиши:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Отметьте пункт <gui style="checkbox">Включить клавишные ускорители</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Быстрая клавиша доступа к меню</title>
+
+    <p>This setting brings up the <gui style="menu">File</gui> menu when the menu
+    accelerator key is pressed. This key is usually <key>F10</key> by
+    default.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p>Отметьте пункт <gui style="checkbox">Включить быструю клавишу доступа к меню</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

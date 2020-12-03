@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="ko">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>색상 및 배경을 바꿉니다.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>색상표</title>
+
+  <p>기본 <app>터미널</app> 테마를 별로 좋아하지 않는다면, 원하는대로 텍스트 및 배경 색상을 바꿀 수 있습니다. 테마 색상을 활용할 수도 있고, 개별 색상 표의사전 설정 값 중 하나를 설정할 수도 있습니다.</p>
+
+  <section id="system-theme">
+    <title>시스템 테마 색 사용</title>
+
+    <p>시스템 테마 색을 사용하려면:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tag">색</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui style="checkbox">시스템 테마 색 사용</gui>에 표시하십시오. 바꾼 내용은 자동으로 적용합니다.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>내장 색상표</title>
+
+    <p>내장 색 팔레트 <gui>연노랑 배경에 검정 글씨</gui>, <gui>흰 배경에 검정 글씨</gui>, <gui>검정 배경에 회색 글씨</gui>, <gui>검정 배경에 녹색 글씨</gui>, <gui>검정 배경에 흰 글씨</gui>, <gui>솔러라이즈 밝음</gui>, <gui>솔러라이즈 어두움</gui> 중 하나를 선택할 수 있습니다. 내장 스킴 중 하나를 설정하려면:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tag">색</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui style="checkbox">시스템 테마 색 사용</gui> 표시를 껐는지 확인하십시오. <gui>내장 팔레트</gui> 에서 원하는 색 팔레트를 선택하십시오. 색 팔레트 선택은 자동으로 적용합니다.</p>
+        <note>
+	  <p>프로그램에서는 지정 강조 색상보다 팔레트 색상을 사용하도록 선택할 수 있습니다.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>개별 설정 색상표</title>
+
+    <p><app>터미널</app>의 개별 글자 및 배경색을 사용할 수 있습니다:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tag">색</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui style="checkbox">시스템 테마 색 사용</gui> 표시를 껐는지 확인하십시오. <gui>내장 팔레트</gui> 드롭 다운 목록에서 <gui>사용자 지정</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>바꾸려는 색상을 누르십시오.</p>
+      </item>
+      <item>
+        <p>색상 샘플에서 원하는 색상을 선택하고 <gui style="button">선택</gui>을 누르십시오.</p>
+        <p>다음 방식으로 색을 선택할 수 있습니다:</p>
+        <list>
+          <item>
+            <p>입력 상자에 16진수 색 코드를 입력하십시오.</p>
+          </item>
+          <item>
+            <p>좌측에서 슬라이더를 끌어 원하는 색을 조절한 후 색상 선택 영역에서 원하는 색을 누르십시오.</p>
+          </item>
+        </list>
+	<p>바뀐 값은 자동으로 저장합니다.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>이미 내장 색 팔레트를 선택했다면 색상 샘플 블록을 눌러 색을 바꿀 수 있습니다. 바꾸고 나면 내장 색 팔레트 메뉴가 <gui>사용자 지정</gui>으로 바뀝니다.</p>
+    </note>
+
+    <note style="tip">
+      <p>예전 터미널 에뮬레이터는 16가지 색상을 제공하는데, 여러분이 이 색상을 바꿀 수 있습니다. <app>터미널</app> 프로그램에서는 256 확장 색상을 지원하지만 추가 240가지 색상은 편집할 수 없습니다.</p>
+
+      <p><app>터미널</app>은 1600만 가지 다른 색상을 표현할 수도 있는데, 이 색상 표현 상태를 “트루 컬러” 모드라고 합니다.</p>
+
+      <p>선택한 팔레트의 색상으로 바뀌지 않았을 경우 16색이 아닌 확장 팔레트 색상 또는 트루 컬러일 수도 있습니다.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Bright colors for bold text</title>
+
+    <p>Traditionally terminals didn't clearly separate bold font weight from
+    intense colors, often both of them were enabled together. Recent
+    improvements, such as the introduction of true color support, and certain
+    color schemes (e.g. Solarized) made it desirable to separate the two
+    concepts, that is, make the brightness independent from the font weight.</p>
+
+    <p>In order to choose your preferred behavior:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tag">색</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p>Disable <gui>Show bold text in bright colors</gui> for the new
+        default behavior, the complete separation of color intensity and font
+        weight; or enable this option for improved backward compatibility.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

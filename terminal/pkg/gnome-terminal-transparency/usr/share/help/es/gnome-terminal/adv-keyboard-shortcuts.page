@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="es">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ver y editar los atajos del teclado.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Atajos de teclado</title>
+
+  <p>Los atajos de teclado son combinaciones de teclas que le permiten realizar acciones como abrir el diálogo de configuración o acceder rápidamente a una característica de la <app>Terminal</app>. Estos atajos se pueden modificar para adaptarlos a sus preferencias.</p>
+
+  <p>Para cambiar un atajo de teclado:</p>
+  <steps>
+    <item>
+      <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+    </item>
+    <item>
+      <p>En la barra lateral seleccione <gui>Atajos</gui>.</p>
+    </item>
+    <item>
+      <p>Asegúrese de que <gui style="checkbox">Activar atajos</gui> está seleccionado.</p>
+    </item>
+    <item>
+      <p>Seleccione el atajo que quiere editar pulsando sobre él.</p>
+    </item>
+    <item>
+      <p>Una vez que el atajo esté seleccionado, pulse sobre la combinación de teclas para editarla.</p>
+    </item>
+    <item>
+      <p>Escriba la combinación de teclas tal como lo haría al usarla. Puede usar las teclas <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Mayús</key>, <key>Súper</key>, números y letras.</p>
+      <note>
+        <p>Las combinaciones de teclas como <keyseq><key>Alt</key><key>F</key></keyseq> no funcionarán.</p>
+      </note>
+    </item>
+    <item>
+      <p>una vez que haya introducid el atajo nuevo, se guardará automáticamente y debería verlo en la lista junto a la acción correspondiente.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Para desactivar un atajo, edítelo y pulse la tecla <key>Retroceso</key> en lugar de un atajo nuevo.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title>Atajos de <gui style="menu">Archivo</gui></title>
+
+    <p>Los atajos predeterminados para opciones en esta sección son:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Acción</p></td>
+          <td><p>Atajo del teclado</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Pestaña nueva</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Ventana nueva</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cerrar pestaña</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cerrar la ventana</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>Atajos de <gui style="menu">Editar</gui></title>
+
+    <p>Los atajos predeterminados para opciones en esta sección son:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acción</p></td>
+          <td><p>Atajo del teclado</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Copiar</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Pegar</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>Atajos de <gui style="menu">Ver</gui></title>
+
+    <p>Los atajos predeterminados para opciones en esta sección son:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acción</p></td>
+          <td><p>Atajo del teclado</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Pantalla completa</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Ampliar</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Reducir</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Tamaño normal</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title>Atajos de <gui style="menu">Buscar</gui></title>
+
+    <p>Los atajos predeterminados para opciones en esta sección son:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acción</p></td>
+          <td><p>Atajo del teclado</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Buscar</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Buscar siguiente</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Buscar anterior</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Limpiar resaltado</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Atajos para pestañas</title>
+
+    <p>Los atajos predeterminados para opciones en esta sección son:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acción</p></td>
+          <td><p>Atajo del teclado</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Cambiar a la pestaña anterior</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Re Pág</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña siguiente</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Av Pág</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mover la pestaña de la izquierda</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>Re Pág</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mover la pestaña de la derecha</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>Av Pág</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cambiar a la pestaña 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Otros</title>
+
+    <p>También hay algunos atajos que no se pueden editar:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acción</p></td>
+          <td><p>Atajo del teclado</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Desplazarse una línea hacia arriba</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>Arriba</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplazarse una línea hacia abajo</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Ctrl</key><key>Abajo</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Subir una página</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Re Pág</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Bajar una página</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Av Pág</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplazar hasta arriba</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Inicio</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplazar hasta abajo</p></td>
+          <td><p><keyseq><key>Mayús</key><key>Fin</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Atajos de Bash</title>
+
+    <p>Estos son los atajos de <app>Bash</app>. <app>Bash</app> es, generalmente, la shell predeterminada.</p>
+    <p>Los atajos de teclado específicos de <app>Bash</app> son:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acción</p></td>
+          <td><p>Atajo del teclado</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Borrar una palabra</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Borrar una línea</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover el cursor al principio de la línea</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mover el cursor al final de la línea</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Retrocede un carácter</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Retroceder una palabra</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Avanzar un carácter</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Avanzar una palabra</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Borrar desde el cursor hasta el principio de la línea</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>u</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Borrar desde el cursor al final de la línea</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Borrar desde el cursor al principio de la palabra</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Eliminar la palabra anterior</p></td>
+          <td><p><keyseq><key>Alt</key><key>Retrocese</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Pegar texto desde el portapapeles</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Limpiar la pantalla dejando la línea actual en la parte superior de la pantalla</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Búsqueda incremental inversa del histórico</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Búsqueda inversa no incremental en el histórico</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

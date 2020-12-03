@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-tabs" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <revision pkgversion="3.8" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-07" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Activer, ajouter, supprimer et réorganiser les onglets de <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Utilisation des onglets</title>
+
+  <p>La barre d’onglets apparaît en haut d’une fenêtre de <app>Terminal</app> qui possède plusieurs onglets ouverts (cela ressemble à une rangée de boutons). Cliquez pour changer d’onglets. Vous pouvez ouvrir plusieurs onglets pour gérer votre travail dans <app>Terminal</app>. Cela vous permettra d’effectuer plusieurs tâches, telles que l’exécution de programmes, la navigation dans les répertoires et la modification de fichiers texte dans une seule fenêtre de <app>Terminal</app>.</p>
+
+  <section id="add-tab">
+    <title>Ouverture d’un nouvel onglet</title>
+
+    <p>Pour ouvrir un nouvel onglet à l’intérieur de votre fenêtre actuelle de <app>Terminal</app> :</p>
+    <steps>
+      <item>
+        <p>Appuyez sur <keyseq><key>Maj</key><key>Ctrl</key><key>T</key></keyseq>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+<!-- TODO: doesn't work, see bug 720693
+  <section id="rename-tab">
+    <title>Rename a tab</title>
+
+    <p>Each tab has an automatically assigned title. You can rename the tabs
+    individually:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Terminal</gui>
+        <gui style="menuitem">Set Title…</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Enter the desired <gui>Title</gui> that you wish to use for the tab.
+        This will overwrite any titles that would be set by terminal commands.
+        </p>
+        <note>
+          <p>It is not possible to set back the automatically set title once it
+          has been set for a tab. To see the title, you need to allow terminal
+          command titles to be shown in the <gui style="menuitem">Profile 
+          Preferences</gui>.</p>
+        </note>
+      </item>
+      <item>
+        <p>Click <gui style="button">OK</gui>.</p>
+      </item>
+    </steps>
+  </section>-->
+
+  <section id="close-tab">
+    <title>Suppression d’un onglet</title>
+
+    <p>Pour fermer un onglet existant à l’intérieur de votre fenêtre actuelle de <app>Terminal</app> :</p>
+
+    <steps>
+      <item>
+        <p>Appuyez sur <keyseq><key>Maj</key><key>Ctrl</key><key>W</key></keyseq>.</p>
+      </item>
+    </steps>
+
+    <p>Vous pouvez aussi cliquer sur la croix <gui style="button">×</gui> dans le coin supérieur droit de l’onglet ou faire un clic droit sur l’onglet et sélectionner <gui style="menuitem">Fermer le terminal</gui>.</p>
+
+  </section>
+
+  <section id="reorder-tab">
+    <title>Réorganisation des onglets</title>
+
+    <p>Pour changer l’ordre des onglets dans la fenêtre :</p>
+    <steps>
+      <item>
+        <p>Cliquez et maintenez enfoncé le bouton gauche de la souris sur l’onglet.</p>
+      </item>
+      <item>
+        <p>Faites glisser l’onglet jusqu’à la position désirée parmi les autres onglets.</p>
+      </item>
+      <item>
+        <p>Relâchez le bouton de la souris.</p>
+      </item>
+    </steps>
+
+    <p>L’onglet sera placé à l’emplacement le plus proche de l’endroit où vous l’avez lâché, juste à côté d’autres onglets ouverts.</p>
+
+    <p>Vous pouvez aussi changer la position d’un onglet par un clic droit sur cet onglet et en sélectionnant <gui style="menuitem">Déplacer le terminal vers la gauche</gui> pour déplacer l’onglet vers la gauche ou <gui style="menuitem">Déplacer le terminal vers la droite</gui> pour déplacer l’onglet vers la droite. Cela va modifier la position de l’onglet en le déplaçant d’une place à la fois.</p>
+
+  </section>
+
+  <!--
+  <section id="move-tab-another-window">
+    <title>Move a tab to another <app>Terminal</app> window</title>
+
+    <p>If you want to move a tab from one window to another:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab to the new window.</p>
+      </item>
+      <item>
+        <p>Place it beside other tabs in the new window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>You can move a tab from one window to another by dragging the tab to
+      the <gui>Activities</gui> hot-corner of the <gui>GNOME Shell</gui>. This
+      will reveal each of the open <app>Terminal</app> windows. You can release
+      the tab that you are holding over the desired <app>Terminal</app>
+      window.</p>
+    </note>
+  </section>
+
+  <section id="move-tab-create-window">
+    <title>Move a tab to create a new <app>Terminal</app> window</title>
+
+    <p>To create a new window from an existing tab:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab out of the current <app>Terminal</app> window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+  </section>
+  -->
+
+</page>

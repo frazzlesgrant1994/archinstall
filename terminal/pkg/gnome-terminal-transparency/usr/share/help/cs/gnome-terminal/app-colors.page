@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak si změnit barvy a pozadí.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Barevná schémata</title>
+
+  <p>Pokud se vám nelíbí výchozí barvy motivu <app>Terminálu</app>, můžete si barvu textu a pozadí změnit. Barvy můžete použít ze systémového motivu, vybrat si z přednastavených nebo použít nějaké vlastní.</p>
+
+  <section id="system-theme">
+    <title>Použití barev ze systémového motivu</title>
+
+    <p>Když chcete použít barvy ze systémového motivu:</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="tab">Barvy</gui>.</p>
+      </item>
+      <item>
+        <p>Zaškrtněte <gui style="checkbox">Používat barvy systémového motivu</gui>. Změny se provedou automaticky.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Vestavěná schémata</title>
+
+    <p>Můžete si zvolit jedno z vestavěných barevných schémat: <gui>Černá na světle žlutém</gui>, <gui>Černá na bílém</gui>, <gui>Šedá na černém</gui>, <gui>Zelená na černém</gui>, <gui>Bílá na černém</gui>, <gui>Tango světlé</gui>, <gui>Tango tmavé</gui>, <gui>Sluneční světlé</gui> a <gui>Sluneční tmavé</gui>. Provedete to následovně:</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="tab">Barvy</gui>.</p>
+      </item>
+      <item>
+        <p>Ujistěte se, že není zaškrtnuté políčko <gui style="checkbox">Používat barvy systémového motivu</gui>. V rozbalovacím seznamu <gui style="checkbox">Zabudovaná schémata</gui> si zvolte požadované schéma. Jeho barvy se automaticky použijí.</p>
+        <note>
+	  <p>Aplikace také mohou používat určenou barvu z palety namísto použití tučného písma.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Vlastní barevné schéma</title>
+
+    <p>V <app>Terminálu</app> můžete použít vlastní barvy pro text a pozadí takto:</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="tab">Barvy</gui>.</p>
+      </item>
+      <item>
+        <p>Ujistěte se, že není zaškrtnuté políčko <gui style="checkbox">Používat barvy systémového motivu</gui>. V rozbalovacím seznamu <gui style="checkbox">Zabudovaná schémata</gui> si zvolte <gui>Vlastní</gui>.</p>
+      </item>
+      <item>
+        <p>Klikněte na barvu, kterou si přejete změnit.</p>
+      </item>
+      <item>
+        <p>Ve vzorníku si zvolte požadovanou barvu a klikněte na <gui style="button">Vybrat</gui>.</p>
+        <p>Požadovanou barvu můžete vybrat následujícími způsoby:</p>
+        <list>
+          <item>
+            <p>Zadejte do textového pole kód barvy v šestnáctkové podobě.</p>
+          </item>
+          <item>
+            <p>Posunem táhla na levé straně navolte základní barvu a ve čtvercové oblasti klikněte na požadovaný odstín.</p>
+          </item>
+        </list>
+	<p>Vaše změny budou uloženy automaticky.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Barvy můžete měnit, i když máte zvoleno některé ze zabudovaných schémat. Když změníte barvu kliknutím na tlačítko s ukázkou barvy, změnít se automaticky výběr v seznamu zabudovaných schémat na <gui>Vlastní</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Emulátory terminálů tradičně nabízí paletu s 16 barvami, což zde můžete změnit. <app>Terminál</app> podporuje rozšířenou sadu 256 barev, ale dodatečných 240 barev zde nemůžete upravovat.</p>
+
+      <p><app>Terminál</app> také nabízí přímý přístup k více jak 16 miliónům barev, což se nazývá režim „true color“ (pravé barvy).</p>
+
+      <p>Pokud to vypadá, že změny, které jste v paletě udělali, nemají žádný vliv, tak obsah, který vidíte, využívá pravděpodobně místo 16barevné palety takovouto rozšířenou paletu nebo pravé barvy.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Jasné barvy pro tučný text</title>
+
+    <p>Tradičně terminál neodlišuje zřetelně tučnost fontu a od vyjádření tučnosti intenzitou barvy, často je povolené obojí. Nedávná vylepšení, jako je zavedení podpory pravých barev a některých barevných schémat (např. Sluneční), vynesly do popředí potřebu odlišit tyto dva koncepty, tj. aby byl jas nezávislou vlastností, stejně jako tučnost fontu.</p>
+
+    <p>Když chcete změnit upřednostňované chování:</p>
+
+    <steps>
+      <item>
+        <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="menuitem">Předvolby</gui>.</p>
+      </item>
+      <item>
+        <p>V postranním panelu v části <gui>Profily</gui> vyberte profil.</p>
+      </item>
+      <item>
+        <p>Vyberte <gui style="tab">Barvy</gui>.</p>
+      </item>
+      <item>
+        <p>Zakažte <gui>Zobrazovat tučný text v jasných barvách</gui> pro nové výchozí chování, když od sebe chcete úplně oddělit intenzitu barvy a tloušťku fontu. Nebo volbu povolte, když chcete zlepšit zpětnou kompatibilitu.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

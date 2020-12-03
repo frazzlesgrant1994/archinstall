@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-zoom" xml:lang="cs">
+
+  <info>
+    <revision version="0.1" date="2013-02-24" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#appearance"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak si zvětšit nebo zmenšit velikost textu.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Přiblížení a oddálení</title>
+
+  <p>Pro zvětšení textu v <app>Terminálu</app>:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a zmáčkněte <gui style="button">+</gui> nebo zmáčkněte kombinaci kláves <keyseq><key>Ctrl</key><key>+</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Pro zmenšení textu v <app>Terminálu</app>:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a zmáčkněte <gui style="button">-</gui> nebo zmáčkněte kombinaci kláves <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Pro obnovení výchozí velikosti textu v <app>Terminálu</app>:</p>
+
+  <steps>
+    <item>
+      <p>Zmáčkněte tlačítko nabídky v pravém horním rohu okna a zmáčkněte <gui style="button">100%</gui> nebo zmáčkněte kombinaci kláves <keyseq><key>Ctrl</key><key>0</key></keyseq>.</p>
+    </item>
+  </steps>
+
+</page>

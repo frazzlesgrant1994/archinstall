@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="hu">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Hogyan állíthatom vissza a <app>Terminál</app> kimenetét, amikor sok szimbólum vagy összezavarodott kimenet látszik?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>A <app>Terminál</app> állapotának alaphelyzetbe állítása</title>
+
+  <p>Ha véletlenül megjelenít egy nem szöveges fájlt, vagy elindít egy parancsot, megtörténhet, hogy a <app>Terminál</app> kimenet nem válaszol és fura betűk kerülnek kiírásra, amikor különböző billentyűket nyom le. Ebben az esetben a következő módokon állíthatja vissza a <app>Terminál</app> kimenetét:</p>
+
+  <section id="reset">
+    <title>Visszaállítás</title>
+
+    <p>A <app>Terminál</app> képernyőjének alaphelyzetbe állítása.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>A prompthoz való visszatéréshez nyomja le a <key>Enter</key> billentyűt.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Visszaállítás és törlés</title>
+
+    <p>A <app>Terminál</app> alaphelyzetbe visszaállításán túl a <gui style="menuitem">Visszaállítás és törlés</gui> menüpont kiválasztásakor a látható <app>Terminál</app> képernyő és a visszagörgetési előzmények is törlésre kerülnek. A <app>Terminál</app> kimenet <gui style="menuitem">Visszaállításához és törléséhez</gui> tegye a következőt:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and
+        select <guiseq><gui style="menuitem">Advanced</gui><gui style="menuitem">Reset and Clear</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>A prompthoz való visszatéréshez nyomja le a <key>Enter</key> billentyűt.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p>A <gui>Visszaállítás és törlés</gui> hasonló funkcionalitással rendelkezik, mint a <cmd>reset</cmd> terminálparancs.</p></note>
+
+  </section>
+</page>

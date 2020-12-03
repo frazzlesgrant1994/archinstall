@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="ko">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>스크롤 출력 및 스크롤 막대 동작을 바꿉니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>스크롤 막대 기본 설정</title>
+
+  <p>터미널 화면에 출력한 내용이 많을 때면 터미널에 특별한 설정을 하여 작업을 간편하게 하면 요긴하게 쓸 수 있습니다.</p>
+
+  <section id="visibility">
+    <title>스크롤 막대 표시</title>
+
+    <p>스크롤 막대를 숨길 수 있습니다:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tab">스크롤</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui>스크롤 막대 표시</gui>를 끄십시오.</p>
+      </item>
+    </steps>
+
+    <p>설정은 바로 저장했습니다.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>출력시 스크롤</title>
+
+    <p>명령을 실행하고 출력을 진행하는 동안 새 출력 내용이 항상 나타나도록 스크롤을 잠글 수 있습니다.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tab">스크롤</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui style="checkbox">출력이 있으면 스크롤</gui>에 표시하십시오.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>입력시 스크롤</title>
+
+    <p>프롬프트에 텍스트를 입력할 때 창의 하단으로 자동으로 스크롤하도록 설정할 수 있습니다.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tab">스크롤</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui style="checkbox">키를 누르면 스크롤</gui>에 표시하십시오.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>스크롤 제한</title>
+
+    <p>기억할 터미널 출력 줄 수를 제한할 수 있습니다.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tab">스크롤</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui>스크롤 범위 제한</gui>을 표시한 후 스크롤 범위를 제한할 줄 수를 입력하십시오.</p>
+      </item>
+      <item>
+        <p>별도로, <gui style="button">+</gui> 과 <gui style="button">-</gui>로 줄 수를 늘이거나 줄일 수 있습니다.</p>
+      </item>
+    </steps>
+
+    <p>무한 스크롤백을 선택할 수 있습니다.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p><gui style="tab">스크롤</gui>을 선택하십시오.</p>
+      </item>
+      <item>
+        <p><gui>스크롤 제한 범위</gui>를 끄십시오.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>이전 스크롤 데이터는 디스크에 압축 암호화한 파일로 시스템 임시 파일 기본 위치(보통 <file>/tmp</file>)에 저합니다. 이 파일을 만들고 나면 바로 삭제(unlink)하며, 디렉터리를 조회할 때 나타나지 않습니다. 디스크 점유 공간은 터미널 창을 여는 즉시 원래 공간을 반환합니다.</p>
+    </note>
+
+    <note style="warning">
+      <p>임시 파일을 저장할 충분한 디스크 공간이 있는지 확인하십시오. 잘 모르겠다면 <cmd>du /tmp</cmd> 명령으로 디스크 사용량을 확인하십시오.</p>
+    </note>
+
+    <note style="important">
+      <p>이전 스크롤 버퍼가 크게 늘어나면 터미널 창 동작 크기 조정이 느려집니다. 경험에 의하면 1백만 줄 즈음 되면 창 크기 조절 속도가 느려집니다.</p>
+    </note>
+
+  </section>
+
+</page>

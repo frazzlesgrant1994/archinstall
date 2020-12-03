@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-exit" xml:lang="ru">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+<!--    <link type="seealso" xref="prob-recover-default-profile"/>-->
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Хилл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Настроить поведение <app>Терминала</app> при выходе из определённой программы или командного интерпретатора по умолчанию.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Настройка поведения для команды exit</title>
+
+  <p>При выходе из командного интерпретатора или определённой команды можно настроить терминал на выход, перезапуск или оставить его открытым:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Command</gui>.</p>
+    </item>
+    <item>
+      <p>Из выпадающего списка <gui>При выходе из команды</gui> выберите один из следующих параметров:</p>
+      <list>
+        <item>
+          <p><gui>Выйти из терминала</gui></p>
+        </item>
+        <item>
+          <p><gui>Перезапустить команду</gui></p>
+        </item>
+        <item>
+          <p><gui>Держать терминал открытым</gui></p>
+        </item>
+      </list>
+      <p>Настройка будет сохранена автоматически при её выборе.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Если была указана не-интерактивная <link xref="pref-custom-command">другая команда</link>, настроено поведение для <gui>Выхода из терминала</gui> и указан профиль по умолчанию, то  выход из <app>Терминала</app> может быть произведён до того, как вы увидите вывод команды.</p>
+  </note>
+
+</page>

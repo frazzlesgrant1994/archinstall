@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Visualitza i edita les dreceres de teclat.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Dreceres de teclat</title>
+
+  <p>Les dreceres de teclat són combinacions de tecles que us permeten realitzar accions, com obrir el diàleg de configuració o accedir a una característica dins del <app>Terminal</app> ràpidament. Aquestes dreceres poden ser modificades per ajustar-se a les vostres preferències.</p>
+
+  <p>Canviar una drecera de teclat:</p>
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu <gui>Dreceres</gui>.</p>
+    </item>
+    <item>
+      <p>Assegureu-vos que <gui style="checkbox">Habilita les dreceres</gui> està seleccionat.</p>
+    </item>
+    <item>
+      <p>Seleccioneu la drecera que voleu editar prement sobre ella.</p>
+    </item>
+    <item>
+      <p>Quan la drecera estigui seleccionada, premeu sobre la combinació de tecles de la drecera per editar-la.</p>
+    </item>
+    <item>
+      <p>Premeu la combinació de tecles de la drecera desitjada tal com la introduiríeu per a utilitzar-la. Les tecles que podeu usar inclouen <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Maj</key>, <key>Súper</key>, tecles de nombres i lletres.</p>
+      <note>
+        <p>Combinacions mnemotècniques de tecles, com <keyseq><key>Alt</key> <key>F</key></keyseq> no funcionaran.</p>
+      </note>
+    </item>
+    <item>
+      <p>Quan hàgiu entrat la nova drecera, aquesta es desarà de forma automàtica i podreu veure-la al llistat al costat de l'acció corresponent.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Per a inhabilitar una drecera, editeu-la i premeu la tecla <key>Retrocés</key> en comptes de la nova drecera.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title><gui style="menu">Fitxer</gui> dreceres</title>
+
+    <p>Les dreceres per defecte de les opcions d'aquesta secció són:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Acció</p></td>
+          <td><p>Drecera de teclat</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Pestanya nova</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Finestra nova</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Tanca pestanya</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Tanca finestra</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title><gui style="menu">Edita</gui> dreceres</title>
+
+    <p>Les dreceres per defecte de les opcions d'aquesta secció són:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acció</p></td>
+          <td><p>Drecera de teclat</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Copia</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Enganxa</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title><gui style="menu">Visualitza</gui> dreceres</title>
+
+    <p>Les dreceres per defecte de les opcions d'aquesta secció són:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acció</p></td>
+          <td><p>Drecera de teclat</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Pantalla completa</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Apropa</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Allunya</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mida normal</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title>Dreceres de <gui style="menu">cerca</gui></title>
+
+    <p>Les dreceres per defecte de les opcions d'aquesta secció són:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acció</p></td>
+          <td><p>Drecera de teclat</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Cerca</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cerca el següent</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Cerca l'anterior</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Neteja el ressaltat</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Dreceres per a les pestanyes</title>
+
+    <p>Les dreceres per defecte de les opcions d'aquesta secció són:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acció</p></td>
+          <td><p>Drecera de teclat</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Canvia a la pestanya anterior</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Re Pàg</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya següent</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Av Pàg</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mou la pestanya a l'esquerra</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Re Pàg</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mou la pestanya a la dreta</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Av Pàg</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Canvia a la pestanya 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Altres</title>
+
+    <p>Hi ha algunes dreceres que no poden ser editades:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acció</p></td>
+          <td><p>Drecera de teclat</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Desplaça amunt una línia</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Fletxa amunt</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplaça avall una línia</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Fletxa avall</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplaça amunt una pàgina</p></td>
+          <td><p><keyseq><key>Maj</key><key>Re Pàg</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplaça avall una pàgina</p></td>
+          <td><p><keyseq><key>Maj</key><key>Av Pàg</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplaça't fins a la part superior</p></td>
+          <td><p><keyseq><key>Maj</key><key>Inici</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Desplaçament a la part inferior</p></td>
+          <td><p><keyseq><key>Maj</key><key>Fi</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Dreceres del Bash</title>
+
+    <p>Hi ha dreceres <app>Bash</app>. <app>Bash</app> és normalment l'intèrpret d'ordres per defecte.</p>
+    <p>Les dreceres específiques al teclat de l'intèrpret d'ordres <app>Bash</app> són:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acció</p></td>
+          <td><p>Drecera de teclat</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Esborra una paraula</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Esborra una línia</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mou al començament de la línia</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mou al final de la línia</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mou un caràcter enrere</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mou una paraula enrere</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mou un caràcter endavant</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mou una paraula endavant</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Esborra des del cursor fins al començament de la línia</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>u</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Esborra des del cursor fins al final de la línia</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Esborra des del cursor fins al començament de la paraula</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Esborra la paraula prèvia</p></td>
+          <td><p><keyseq><key>Alt</key><key>Retrocés</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Enganxa text des del porta-retalls</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Esborra la pantalla deixant la línia actual al capdamunt de la pantalla</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Inverteix la cerca incremental de l'historial</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Inverteix la cerca no incremental de l'historial</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

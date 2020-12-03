@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="fi">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>Päätteen</app> tulosteesta hakeminen.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Search for text</title>
+
+  <p><app>Päätteen</app> tulosteesta voi etsiä tekstinpätkiä seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Press <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> in the top-right corner, or press
+      <keyseq><key>Ctrl</key><key>Shift</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Type in the search keyword and press <key>Enter</key> to search
+      backwards. Alternatively, click on the arrows according to the desired
+      search direction.</p>
+    </item>
+  </steps>
+
+  <p>Hakutuloksia voi rajata seuraavin valinnoin:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Huomioi kirjainkoko</gui></title>
+      <p>Haku ottaa kirjainten koon huomioon. Tämä rajaa tulokset niihin vastaavuuksiin, jossa jokainen kirjain on samankokoinen.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Etsi kokonaista sanaa</gui></title>
+      <p><app>Terminal</app> will look for the entire keyword and will ignore
+      results that partially match your search keyword. For example, if
+      you have searched for “cat”, <app>Terminal</app> will show only
+      results that match this keyword exactly and omit results such as
+      “bobcat”.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Etsi säännöllisenä lausekkeena</gui></title>
+      <p>Hakulausekkeessa voi käyttää säännöllisiä lausekkeita. <app>Pääte</app> näyttää tulokset, jotka täsmäävät hakusanaan.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Jatka alusta</gui></title>
+      <p><app>Terminal</app> searches from your current location in the
+      scrollback to the end of available terminal output and then restarts the
+      search.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>If you expect to work with a lot of <app>Terminal</app> output, increase
+    the <link xref="pref-scrolling#lines">scrollback lines</link> to
+    a higher limit to allow <app>Terminal</app> to search further back.</p>
+  </note>
+
+</page>

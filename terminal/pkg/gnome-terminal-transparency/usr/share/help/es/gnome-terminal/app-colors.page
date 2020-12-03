@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="es">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Cambiar los colores y el fondo.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Esquemas de color</title>
+
+  <p>Si no le gusta el tema predeterminado de la <app>Terminal</app>, puede querer cambiar los colores que se usan para el texto y el fondo. Puede usar los colores de su tema, seleccionar uno de los preestablecidos o usar un esquema de color personalizado.</p>
+
+  <section id="system-theme">
+    <title>Usar los colores del tema del sistema</title>
+
+    <p>Para usar los colores del tema del sistema:</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Colores</gui>.</p>
+      </item>
+      <item>
+        <p>Marque la casilla <gui style="checkbox">Usar los colores del tema del sistema</gui>. Los cambios se aplicarán automáticamente.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Esquemas incluidos</title>
+
+    <p>Puede elegir uno de los esquemas de color incluidos: <gui>Negro sobre amarillo suave</gui>, <gui>Negro sobre blanco</gui>, <gui>Gris sobre negro</gui>, <gui>Verde sobre negro</gui>, <gui>Blanco sobre negro</gui>, <gui>Tango claro</gui>, <gui>Tango oscuro</gui>, <gui>Solar claro</gui>, <gui>Solar oscuro</gui>. Para establecer cualquiera de estos esquemas incluidos:</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Colores</gui>.</p>
+      </item>
+      <item>
+        <p>Asegúrese de que la casilla<gui style="checkbox">Usar colores del tema del sistema</gui> está desmarcada. Elija el esquema de color que quiere de los <gui>Esquemas incluidos</gui>. El esquema de color elegido se aplica automáticamente.</p>
+        <note>
+	  <p>Las aplicaciones pueden elegir usar un color de la paleta en lugar del color resaltado especificado.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Esquema de color personalizado</title>
+
+    <p>Puede usar colores personalizados para el texto y el fondo de la <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Colores</gui>.</p>
+      </item>
+      <item>
+        <p>Asegúrese de que la casilla<gui style="checkbox">Usar colores del tema del sistema</gui> está desmarcada. Seleccione <gui>Personalizado</gui> en la lista desplegable de los <gui>Esquemas incluidos</gui>.</p>
+      </item>
+      <item>
+        <p>Pulse sobre el color que le gustaría cambiar.</p>
+      </item>
+      <item>
+        <p>Elija el color que quiere de la muestra de color y pulse <gui style="button">Seleccionar</gui>.</p>
+        <p>Puede seleccionar el color que quiera de las siguientes formas:</p>
+        <list>
+          <item>
+            <p>Introduzca el código hexadecimal del color en la caja de entrada.</p>
+          </item>
+          <item>
+            <p>Arrastre el deslizador a la izquierda para ajustar los colores y pulse sobre el color que quiera en el área de selección de color.</p>
+          </item>
+        </list>
+	<p>Sus cambios se guardarán automáticamente</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Puede cambiar un color cuando haya seleccionado uno de los esquemas incluidos pulsando en el bloque de muestra del color. Una vez cambiado, su selección en el menú de esquemas incluidos se cambiará a <gui>Personalizado</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Los emuladores tradicionales de terminal ofrecían una paleta de 16 colores, esto es lo que puede modificar aquí. <app>Terminal</app> admite un conjunto extendido de 256 colores, pero los 240 colores adicionales no se pueden editar aquí.</p>
+
+      <p><app>Terminal</app> incluso ofrece acceso directo a más de 16 millones de colores, esto se llama modo de «color verdadero».</p>
+
+      <p>Si los cambios que realiza en la paleta no parecen tener efecto, es de suponer que los contenidos que ve consisten en colores de paleta extendidos o colores verdaderos, en lugar de los 16 colores básicos.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Colores brillantes para texto en negrita</title>
+
+    <p>Tradicionalmente las terminales no separaban claramente la tipografía en negrita de la que tenía colores intensos, y ambas se activaban a menudo al mismo tiempo. Las mejoras recientes, tales como la introducción del soporte de colores reales y ciertos esquemas de color (ej. Solar) hacen que sea preferible separar los dos conceptos, es decir, hacer el brillo independiente del tamaño de la tipografía.</p>
+
+    <p>Paar elegir el comportamiento que prefiere:</p>
+
+    <steps>
+      <item>
+        <p>Pulse el botón de menú en la esquina superior derecha de la ventana y elija <gui style="menuitem">Preferencias</gui>.</p>
+      </item>
+      <item>
+        <p>En la barra lateral seleccione su perfil en la sección <gui>Perfil</gui>.</p>
+      </item>
+      <item>
+        <p>Seleccione <gui style="tab">Colores</gui>.</p>
+      </item>
+      <item>
+        <p>Desactive <gui>Mostrar texto en negrita en colores brillantes</gui> para el nuevo comportamiento predeterminado, la completa separación de intensidad de color y tamaño de la tipografía; o active esta opción para una compatibilidad hacia atrás mejorada.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

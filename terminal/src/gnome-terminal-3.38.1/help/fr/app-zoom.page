@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-zoom" xml:lang="fr">
+
+  <info>
+    <revision version="0.1" date="2013-02-24" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#appearance"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Augmenter ou réduire la taille du texte.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zoom avant et zoom arrière</title>
+
+  <p>Pour augmenter la taille du texte dans <app>Terminal</app> :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre et appuyez sur <gui style="button">+</gui>, ou appuyez sur <keyseq><key>Ctrl</key><key>+</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Pour réduire la taille du texte de <app>Terminal</app> :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre et appuyez sur <gui style="button">-</gui>, ou appuyez sur <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+    </item>
+  </steps>
+
+  <p>Pour restaurer la taille par défaut du texte de <app>Terminal</app> :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre et appuyez sur <gui style="button">100 %</gui>, ou appuyez sur <keyseq><key>Ctrl</key><key>0</key></keyseq>.</p>
+    </item>
+  </steps>
+
+</page>

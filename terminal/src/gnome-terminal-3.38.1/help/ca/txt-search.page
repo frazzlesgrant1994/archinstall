@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Cerca la sortida del <app>Terminal</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cercar text</title>
+
+  <p>Podeu cercar text a la sortida del <app>Terminal</app>:</p>
+
+  <steps>
+    <item>
+      <p>Premeu <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> a la cantonada superior dreta o <keyseq><key>Ctrl</key><key>Maj</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Escriviu la paraula a cercar i premeu <key>Retorn</key> per cercar enrere. També podeu fer clic a les fletxes segons la direcció de cerca desitjada.</p>
+    </item>
+  </steps>
+
+  <p>Podeu cercar utilitzant les següents opcions per restringir més els resultats:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Coincidència de majúscules i minúscules</gui></title>
+      <p>Fer la cerca distingint majúscules i minúscules: Això restringeix els resultats a sols aquells en què es distingeix majúscules i minúscules del terme de cerca.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Coincidència només amb la paraula sencera</gui></title>
+      <p>El <app>Terminal</app> cercarà la paraula clau sencera i ignorarà resultats parcials amb la paraula clau de cerca. Per exemple, si heu cercat «gat», el <app>Terminal</app> mostrarà sols els resultats que coincideixen amb aquesta cerca de forma exacta i ometrà resultats com «gat-fritz».</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Cerca una expressió regular</gui></title>
+      <p>Podeu usar patrons d'expressions regulars, també coneguts com a patrons regex, en la cerca de paraules clau. <app>Terminal</app> mostrarà els resultats que concordin amb els termes de cerca.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Continua des de l'inici</gui></title>
+      <p><app>Terminal</app> cerca la vostra localització actual a la barra de desplaçament cap al final de la sortida disponible del terminal i llavors reinicia la cerca des de dalt.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Si espereu treballar amb un lot de sortides de <app>Terminal</app>, incrementa les <link xref="pref-scrolling#lines">Línies de desplaçament enrere</link> cap a un límit superior per permetre al <app>Terminal</app> cercar més enrere.</p>
+  </note>
+
+</page>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-terminal-sizes" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="adv-keyboard-shortcuts"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ändra fönsterstorleken för <app>Terminal</app>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><app>Terminal</app>-storlekar</title>
+
+  <p>Om du arbetar med vissa kommandoradsprogram som har minimikrav på terminalstorlek för att visas korrekt, eller om du vill visa långa rader med terminalutdata med minimalt antal radbrytningar på din skärm kan du kräva att <app>Terminal</app>-fönster är av en viss storlek.</p>
+
+  <p>Du kan ändra fönsterstorleken för <app>Terminal</app> till några förinställda värden:</p>
+  
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Avancerat</gui>.</p>
+    </item>
+    <item>
+      <p>Välj ett av följande alternativ:</p>
+      <list>
+        <item>
+          <p><gui style="menuitem">80×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">80×43</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×24</gui></p>
+        </item>
+        <item>
+          <p><gui style="menuitem">132×43</gui></p>
+        </item>
+      </list>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Om du har aktiverat <link xref="pref-keyboard-access"><gui>tangenter för menyåtkomst</gui></link> kan du komma åt denna meny genom att trycka <keyseq><key>Alt</key><key>T</key></keyseq> och sedan trycka <key>1</key> för att växla <app>Terminal</app>-fönstret till storleken <gui>80×24</gui> och så vidare.</p>
+  </note>
+
+  <p>Om du behöver <app>Terminal</app>-fönster med anpassad storlek kan du också ställa in standardstorleken för fönster efter dina behov:</p>
+
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+    </item>
+    <item>
+      <p>Välj <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Ställ in <gui>Initial terminalstorlek</gui> genom att skriva in önskat antal kolumner och rader i motsvarande inmatningsrutor. Du kan också klicka på <gui style="button">+</gui> för att öka eller på <gui style="button">-</gui> för att minska storleken.</p>
+    </item>
+  </steps>
+
+</page>

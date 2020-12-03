@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="pref-profile-char-width" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#profile"/>
+    <revision pkgversion="3.14" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Visa tecken med tvetydig bredd som breda istället för smala.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Tecken ser för smala ut</title>
+
+  <p>Vissa tecken, som vissa grekiska bokstäver och asiatiska logogram kan ta upp antingen en eller två celler i ett terminalfönster. Dessa tecken hänvisas ofta till som <em>tvetydiga tecken</em>. Som standard visas dessa tecken med smal bredd i <app>Terminal</app>, vilket ser bättre ut i situationer där prefekt layout är viktig, som i ASCII-konst. Du kan ändra dina profilinställningar för att visa tvetydiga tecken som breda, vilket kan vara bättre om du läser löpande text.</p>
+
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+    </item>
+    <item>
+      <p>Öppna fliken <gui style="tab">Kompatibilitet</gui>.</p>
+    </item>
+    <item>
+      <p>Ställ in <gui>Tecken med tvetydig bredd</gui> till <gui>Bred</gui>.</p>
+    </item>
+  </steps>
+
+</page>

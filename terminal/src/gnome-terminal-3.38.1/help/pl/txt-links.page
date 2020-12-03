@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Otwieranie odnośników do stron i adresów e-mail.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Odnośniki i adresy e-mail</title>
+
+  <p><app>Terminal</app> przetwarza wyjście terminala i automatycznie wykrywa fragmenty tekstu będące adresami WWW i e-mail. Są one automatycznie podkreślane po najechaniu na nie kursorem, wskazując że można je otworzyć w innym programie.</p>
+
+  <p>Na przykład, programy <app>Wget</app> i <app>cURL</app> mogą wyświetlać <output>https://www.gnome.org</output> czy <output>użytkownik@example.com</output>.</p>
+
+  <section id="hyperlinks">
+    <title>Otwieranie i kopiowanie adresów stron WWW</title>
+
+    <p>Adresy WWW są nazywane także odnośnikami. Można je kopiować do schowka systemu lub otwierać w preferowanej przeglądarce WWW.</p>
+
+    <list>
+      <item>
+        <p>Aby skopiować odnośnik:</p>
+        <steps>
+          <item>
+            <p>Kliknij go prawym przyciskiem myszy.</p>
+          </item>
+          <item>
+          <p>Wybierz <gui style="menuitem">Skopiuj odnośnik</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Aby otworzyć odnośnik w przeglądarce WWW:</p>
+        <steps>
+          <item>
+            <p>Kliknij go prawym przyciskiem myszy.</p>
+          </item>
+          <item>
+            <p>Wybierz <gui style="menuitem">Otwórz odnośnik</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Wysłanie wiadomości i kopiowanie adresów e-mail</title>
+
+    <p>Adresy e-mail można kopiować do schowka systemu lub otwierać w preferowanym kliencie poczty.</p>
+
+    <list>
+      <item>
+        <p>Aby skopiować adres e-mail:</p>
+        <steps>
+          <item>
+            <p>Kliknij go prawym przyciskiem myszy.</p>
+          </item>
+          <item>
+          <p>Wybierz <gui style="menuitem">Skopiuj adres e-mail</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Aby wysłać wiadomość na adres e-mail za pomocą klienta poczty:</p>
+        <steps>
+          <item>
+            <p>Kliknij adres prawym przyciskiem myszy.</p>
+          </item>
+          <item>
+            <p>Wybierz <gui style="menuitem">Wyślij wiadomość e-mail do…</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

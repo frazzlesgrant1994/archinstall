@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="ko">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>웹 주소와 메일 주소 연결을 엽니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>하이퍼링크와 전자메일 주소</title>
+
+  <p><app>터미널</app>은 터미널 출력을 해석하여 웹 주소 또는 메일 주소 텍스트 부분을 자동으로 감지합니다. 프로그램으로 열 수 있는 링크 텍스트를 커서로 가리키면 웹 주소와 메일 주소의 경우 자동으로 강조합니다.</p>
+
+  <p>예를 들어 <app>wget</app> 또는 <app>curl</app> 프로그램에서 터미널에 출력하는 일부 내용으로 <output>http://www.gnome.org</output> 또는 <output>username@example.com</output> 가 있습니다.</p>
+
+  <section id="hyperlinks">
+    <title>웹 주소 열거나 복사하기</title>
+
+    <p>웹 주소는 하이퍼링크라고도 합니다. 시스템 클립보드에 복사하거나 원하는 웹 브라우저에서 열 수 있습니다.</p>
+
+    <list>
+      <item>
+        <p>하이퍼 링크를 복사하려면:</p>
+        <steps>
+          <item>
+            <p><app>터미널</app> 에서 링크에 마우스 커서를 두고 오른쪽 단추를 누르십시오.</p>
+          </item>
+          <item>
+          <p><gui style="menuitem">링크 복사</gui>를 선택하십시오.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>웹 브라우저에서 하이퍼링크를 열려면:</p>
+        <steps>
+          <item>
+            <p>하이퍼링크에 마우스 커서를 두고 오른쪽 단추를 누르십시오.</p>
+          </item>
+          <item>
+            <p><gui style="menuitem">링크 열기</gui>를 선택하십시오.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>메일 주소에 메일을 보내거나 복사하기</title>
+
+    <p>메일 주소는 시스템 클립보드에 복사하거나 원하는 전자메일 클라이언트에서 열 수 있습니다.</p>
+
+    <list>
+      <item>
+        <p>전자메일 주소를 복사하려면:</p>
+        <steps>
+          <item>
+            <p><app>터미널</app> 에서 전자메일 주소에 마우스 커서를 두고 오른쪽 단추를 누르십시오.</p>
+          </item>
+          <item>
+          <p><gui style="menuitem">메일 주소 복사</gui>를 선택하십시오.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>전자메일 클라이언트로 해당 메일 주소에 메일을 보내려면:</p>
+        <steps>
+          <item>
+            <p>주소에 마우스 커서를 올려두고 오른쪽 단추를 누르십시오.</p>
+          </item>
+          <item>
+            <p><gui style="menuitem">메일 보내기…</gui>를 선택하십시오.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

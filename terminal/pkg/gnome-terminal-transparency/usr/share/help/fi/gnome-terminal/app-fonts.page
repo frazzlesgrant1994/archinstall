@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="task" id="app-fonts" xml:lang="fi">
+
+  <info>
+    <revision version="0.1" date="2013-02-22" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Käytä järjestelmän fontteja tai valitse päätteelle omat fontit.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sami Jaktholm</mal:name>
+      <mal:email>sjakthol@outlook.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Vaihda fonttia ja tyyliä</title>
+
+  <p>Päätteen fontti kannattaa vaihtaa omiin tottumuksiin sopivaksi, jos <app>Päätettä</app> käytetään ahkerasti. Seuraavat vaihtoehdot ovat käytettävissä:</p>
+
+  <section id="system-font">
+  <title>Järjestelmän tasalevyinen fontti</title>
+
+  <p>Järjestelmän oletusfontteja voi käyttää seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Unselect <gui style="checkbox">Custom font</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="custom-font">
+  <title>Mukautettu fontti</title>
+
+  <p>Mukautetun fontin voi asettaa seuraavasti:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="checkbox">Custom font</gui>.</p>
+    </item>
+    <item>
+      <p>Click on the button next to <gui style="checkbox">Custom font</gui>.</p>
+    </item>
+    <item>
+      <p>Kirjoita haluamasi fontin nimi hakukenttään tai selaa käytössä olevien fonttien luetteloa.</p>
+    </item>
+    <item>
+      <p>Säädä fontin kokoa fonttiluettelon alapuolella olevalla liukusäätimellä. Voit myös kirjoittaa fontin koon liukusäätimen vieressä olevaan tekstikenttään, tai painaa <gui style="button">+</gui> kasvattaaksesi tai <gui style="button">-</gui> pienentääksesi fontin kokoa.</p>
+    </item>
+    <item>
+      <p>Napsauta <gui style="button">Valitse</gui> ottaaksesi muutokset käyttöön. <gui style="button">Peru</gui>-näppäin hylkää tehdyt muutokset ja palaa takaisin edelliseen ikkunaan.</p>
+    </item>
+  </steps>
+
+  </section>
+
+  <section id="cell-spacing">
+  <title>Line spacing and character spacing</title>
+
+  <p><app>Terminal</app> allows you to pull its characters apart for improved
+  readability. Line spacing and character spacing can be adjusted from 1.0
+  (the regular look) to 2.0 (“double spacing”), including fractional values
+  in between.</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+      section.</p>
+    </item>
+    <item>
+      <p>Select <gui style="tab">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Go to the <gui>Cell spacing</gui> setting.</p>
+    </item>
+    <item>
+      <p>To set the horizontal character spacing, adjust the multiplier number
+      in front of <gui>width</gui>.</p>
+    </item>
+    <item>
+      <p>To set the line spacing, adjust the multiplier number in front of
+      <gui>height</gui>.</p>
+    </item>
+  </steps>
+
+  </section>
+
+</page>

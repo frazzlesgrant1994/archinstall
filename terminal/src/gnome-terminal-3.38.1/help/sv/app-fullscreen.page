@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Aktivera helskärmsläge.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Helskärmssession</title>
+
+  <p>Helskärmsläge låter <app>Terminal</app> använda hela skärmen.</p>
+
+  <p>Detta läge är användbart om du har en enhet med begränsat skärmutrymme och tänker arbeta i <app>Terminal</app> länge, eller om du arbetar med långa rader med terminalutdata. Det döljer tillfälligt fönsterdekorationen, vilket låter dig visa fler <link xref="pref-scrolling">rader rullningshistorik</link> på skärmen.</p>
+
+  <p>För att aktivera helskärmsläge:</p>
+
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Helskärmsläge</gui>, eller tryck <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Menyraden kommer fortfarande vara synlig i helskärmsläge om du inte har dolt den.</p>
+  </note>
+
+  <note style="tip">
+    <p>Om du har mer än en <app>Terminal</app>-flik öppen kommer flikraden vara synlig i helskärmsläget.</p>
+  </note>
+
+  <p>För att inaktivera helskärmsläge:</p>
+
+  <steps>
+    <item>
+      <p>Högerklicka och välj <gui style="menuitem">Lämna helskärm</gui>. Alternativt kan du trycka <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

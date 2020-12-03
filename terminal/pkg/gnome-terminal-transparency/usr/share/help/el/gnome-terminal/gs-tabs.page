@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-tabs" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <revision pkgversion="3.8" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-07" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ενεργοποίηση, προσθήκη, αφαίρεση και αναδιάταξη των καρτελών του <app>Τερματικού</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Χρήση καρτελών</title>
+
+  <p>Η γραμμή καρτελών εμφανίζεται στην κορυφή ενός παραθύρου <app>Τερματικού</app> που έχει πολλαπλές καρτέλες ανοικτές (φαίνεται ως μια γραμμή κουμπιών). Πατήστε σε μια καρτέλα για να την αλλάξετε. Μπορείτε να ανοίξετε πολλές καρτέλες για να διαχειριστείτε την εργασία σας στο <app>Τερματικό</app>. Αυτό θα επιτρέψει τις πολλαπλές εργασίες με ενέργειες όπως εκτέλεση προγραμμάτων, περιήγηση καταλόγων και επεξεργασία αρχείων κειμένου σε ένα ενιαίο παράθυρο <app>Τερματικού</app>.</p>
+
+  <section id="add-tab">
+    <title>Άνοιγμα νέας καρτέλας</title>
+
+    <p>Για να ανοίξετε μια νέα καρτέλα μέσα στο τρέχον παράθυρο του <app>Τερματικού</app>:</p>
+    <steps>
+      <item>
+        <p>Πατήστε <keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+<!-- TODO: doesn't work, see bug 720693
+  <section id="rename-tab">
+    <title>Rename a tab</title>
+
+    <p>Each tab has an automatically assigned title. You can rename the tabs
+    individually:</p>
+
+    <steps>
+      <item>
+        <p>Select <guiseq><gui style="menu">Terminal</gui>
+        <gui style="menuitem">Set Title…</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Enter the desired <gui>Title</gui> that you wish to use for the tab.
+        This will overwrite any titles that would be set by terminal commands.
+        </p>
+        <note>
+          <p>It is not possible to set back the automatically set title once it
+          has been set for a tab. To see the title, you need to allow terminal
+          command titles to be shown in the <gui style="menuitem">Profile 
+          Preferences</gui>.</p>
+        </note>
+      </item>
+      <item>
+        <p>Click <gui style="button">OK</gui>.</p>
+      </item>
+    </steps>
+  </section>-->
+
+  <section id="close-tab">
+    <title>Αφαίρεση καρτέλας</title>
+
+    <p>Για να κλείσετε μια υπάρχουσα καρτέλα μέσα στο τρέχον παράθυρο του <app>Τερματικού</app>:</p>
+
+    <steps>
+      <item>
+        <p>Press <keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq>.</p>
+      </item>
+    </steps>
+
+    <p>Εναλλακτικά, μπορείτε να κάνετε κλικ στο <gui style="button">×</gui> στην πάνω δεξιά γωνία της καρτέλας ή να κάνετε διπλό κλικ στην καρτέλα και να επιλέξτε <gui style="menuitem">Κλείσιμο τερματικού</gui>.</p>
+
+  </section>
+
+  <section id="reorder-tab">
+    <title>Αναδιάταξη καρτελών</title>
+
+    <p>Για να αλλάξετε την σειρά των καρτελών σε ένα παράθυρο:</p>
+    <steps>
+      <item>
+        <p>Κάντε κλικ και κρατήστε πατημένο το αριστερό πλήκτρο του ποντικιού στην καρτέλα.</p>
+      </item>
+      <item>
+        <p>Μετακινήστε την καρτέλα στην επιθυμητή θέση μεταξύ των άλλων καρτελών.</p>
+      </item>
+      <item>
+        <p>Απελευθερώστε το πλήκτρο του ποντικιού.</p>
+      </item>
+    </steps>
+
+    <p>Η καρτέλα θα τοποθετηθεί στην πλησιέστερη θέση όπου απελευθερώσατε την καρτέλα, αμέσως δίπλα στις άλλες ανοιχτές καρτέλες.</p>
+
+    <p>Εναλλακτικά, μπορείτε να αναδιατάξετε μια καρτέλα κάνοντας δεξί κλικ  σε μια καρτέλα και επιλέγοντας <gui style="menuitem">Μετακίνηση τερματικού αριστερά</gui> για να μετακινήσετε την καρτέλα στα αριστερά ή <gui style="menuitem">Μετακίνηση τερματικού δεξιά</gui> για να μετακινήσετε την καρτέλα στα δεξιά. Αυτό θα αναδιατάξει τη θέση της καρτέλας μετακινώντας την μια θέση τη φορά.</p>
+
+  </section>
+
+  <!--
+  <section id="move-tab-another-window">
+    <title>Move a tab to another <app>Terminal</app> window</title>
+
+    <p>If you want to move a tab from one window to another:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab to the new window.</p>
+      </item>
+      <item>
+        <p>Place it beside other tabs in the new window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>You can move a tab from one window to another by dragging the tab to
+      the <gui>Activities</gui> hot-corner of the <gui>GNOME Shell</gui>. This
+      will reveal each of the open <app>Terminal</app> windows. You can release
+      the tab that you are holding over the desired <app>Terminal</app>
+      window.</p>
+    </note>
+  </section>
+
+  <section id="move-tab-create-window">
+    <title>Move a tab to create a new <app>Terminal</app> window</title>
+
+    <p>To create a new window from an existing tab:</p>
+    <steps>
+      <item>
+        <p>Click and hold the left mouse button on the tab.</p>
+      </item>
+      <item>
+        <p>Drag the tab out of the current <app>Terminal</app> window.</p>
+      </item>
+      <item>
+        <p>Release the mouse button.</p>
+      </item>
+    </steps>
+  </section>
+  -->
+
+</page>

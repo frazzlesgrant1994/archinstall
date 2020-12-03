@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="txt-search" xml:lang="uk">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#textoutput"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Пошук у виведених до вікна <app>Термінала</app> даних.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Знайти текст</title>
+
+  <p>Ви можете шукати у виведених до вікна <app>Термінала</app> даних:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку <media its:translate="no" type="image" mime="image/svg" src="figures/keyboard-key-search.svg">
+      <key>Search</key> key symbol</media> у верхньому правому куті вікна або натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>Shift</key><key>F</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Введіть ключові слова пошуку і натисніть клавішу <key>Enter</key> для пошуку у зворотному напрямку. Крім того, ви можете натискати кнопки зі стрілками, відповідно до бажаного напрямку пошуку.</p>
+    </item>
+  </steps>
+
+  <p>Ви можете виконувати пошук із використанням вказаних нижче параметрів для звуження діапазону отриманих результатів:</p>
+
+  <terms>
+    <item>
+      <title><gui style="checkbox">Збігається регістр</gui></title>
+      <p>Врахувати регістр при пошуку: обмежує пошук лише тими рядками, регістр символів яких збігається із регістром символів у вказаному вами ключовому слові.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Збігається ціле слово</gui></title>
+      <p><app>Термінал</app> шукатиме ключове слово повністю і ігноруватиме результати, які частково збігаються із вашим ключовим словом. Наприклад, якщо ви шукали «цвіт», <app>Terminal</app> покаже лише рядки, які містять лише це ціле слово, і не показуватиме рядки, які містять, наприклад, слово «дивоцвіт».</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Збіг як формальний вираз</gui></title>
+      <p>Ви можете скористатися взірцем у формі формального виразу у вашому ключовому слові для пошуку. <app>Термінал</app> покаже лише результати, які збігаються із вказаним взірцем.</p>
+    </item>
+    <item>
+      <title><gui style="checkbox">Досягнувши кінця, починати спочатку</gui></title>
+      <p><app>Термінал</app> виконує пошук від поточної позиції у буфері гортання до кінця виведених до термінала даних, а потім циклічно повертається до поточної позиції.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Якщо на вас очікує робота зі значним обсягом виведених до вікна <app>Термінала</app> даних, збільште значення максимальної кількості <link xref="pref-scrolling#lines">рядків у буфері гортання</link>, щоб збільшити діапазон даних для пошуку у <app>Терміналі</app>.</p>
+  </note>
+
+</page>

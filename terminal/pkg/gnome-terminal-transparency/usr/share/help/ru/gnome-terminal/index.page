@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" style="2column task" id="index" xml:lang="ru">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <title type="link">Терминал</title>
+    <title type="text">Терминал</title>
+
+    <credit type="author copyright">
+      <name>С. Синдху (Sindhu S)</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Екатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="editor">
+      <name>Джим Кемпбелл (Jim Campbell)</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Настройка и использование многофункционального эмулятора терминала GNOME.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергей В. Миронов</mal:name>
+      <mal:email>sergo@bk.ru</mal:email>
+      <mal:years>2007.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юлия Дронова</mal:name>
+      <mal:email>juliette.tux@gmail.com</mal:email>
+      <mal:years>2013.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" its:translate="no" src="figures/gnome-terminal-icon.png">
+    </media> Справка по Терминалу</title>
+
+  <section id="getting-started" style="2column">
+    <title>Getting Started</title>
+  </section>
+
+  <section id="textoutput" style="2column">
+    <title>Working With Text</title>
+  </section>
+
+  <section id="appearance" style="2column">
+    <title>Customize Appearance</title>
+  </section>
+
+  <section id="preferences" style="2column">
+    <title>Customize Behavior</title>
+  </section>
+
+  <section id="advanced" style="2column">
+    <title>Дополнительные параметры</title>
+  </section>
+
+  <section id="troubleshooting" style="2column">
+    <title>Устранение неполадок</title>
+  </section>
+
+</page>

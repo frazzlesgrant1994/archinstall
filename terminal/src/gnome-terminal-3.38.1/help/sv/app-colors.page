@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ändra färger och bakgrunder.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Färgscheman</title>
+
+  <p>Om du inte gillar standardtemat för <app>Terminal</app> vill du kanske ändra färgerna som används för texten och bakgrunden. Du kan använda färger från ditt tema, välja en av förinställningarna eller använda ett anpassat schema.</p>
+
+  <section id="system-theme">
+    <title>Använda färger från ditt systemtema</title>
+
+    <p>För att använda färger från systemtemat:</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Färger</gui>.</p>
+      </item>
+      <item>
+        <p>Kryssa i <gui style="checkbox">Använd färger från systemtemat</gui>. Ändringarna kommer tillämpas automatiskt.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Inbyggda scheman</title>
+
+    <p>Du kan välja ett av de inbyggda färgschemana: <gui>Svart på ljusgult</gui>, <gui>Svart på vitt</gui>, <gui>Grått på svart</gui>, <gui>Grönt på svart</gui>, <gui>Vitt på svart</gui>, <gui>Tango ljus</gui>, <gui>Tango mörk</gui>, <gui>Ljus Solarized</gui> eller <gui>Mörk Solarized</gui>. För att ställa in något av de inbyggda schemana:</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Färger</gui>.</p>
+      </item>
+      <item>
+        <p>Säkerställ att <gui style="checkbox">Använd färger från systemtemat</gui> ej är ikryssad. Välj det önskade färgschemat från <gui>Inbyggda scheman</gui>. Färgschemaval tillämpas automatiskt.</p>
+        <note>
+	  <p>Program kan välja att använda en färg från paletten snarare än den angivna färgen för fet text.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Anpassat färgschema</title>
+
+    <p>Du kan använda anpassade färger för texten och bakgrunden i <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Färger</gui>.</p>
+      </item>
+      <item>
+        <p>Säkerställ att <gui style="checkbox">Använd färger från systemtemat</gui> ej är ikryssad. Välj <gui>Anpassad</gui> från rullgardinslistan <gui>Inbyggda scheman</gui>.</p>
+      </item>
+      <item>
+        <p>Klicka på färgen som du vill ändra.</p>
+      </item>
+      <item>
+        <p>Välj din önskade färg från färgprovet och klicka på <gui style="button">Välj</gui>.</p>
+        <p>Du kan välja den önskade färgen på följande sätt:</p>
+        <list>
+          <item>
+            <p>Mata in den hexadecimala färgkoden i inmatningsrutan.</p>
+          </item>
+          <item>
+            <p>Dra skjutreglaget till vänster för att justera färgerna och klicka på den önskade färgen i färgvalsområdet.</p>
+          </item>
+        </list>
+	<p>Dina ändringar kommer sparas automatiskt.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Du kan också ändra en färg då du har valt ett inbyggt schema genom att klicka på färgprovsblocket. Då den ändrats kommer ditt val i inbyggt schema-menyn att ändras till <gui>Anpassad</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Traditionellt erbjuder terminalemulatorer en 16-färgers palett, detta är vad du kan redigera här. <app>Terminal</app> har stöd för en utökad uppsättning om 256 färger, men de extra 240 färgerna kan inte redigeras här.</p>
+
+      <p><app>Terminal</app> erbjuder till och med direktåtkomst till över 16 miljoner färger, detta kallas ”true color”-läge.</p>
+
+      <p>Om ändringarna du gör i paletten inte verkar få någon effekt, består förmodligen innehållet som du ser av sådana utökade palettfärger eller ”true color”-färger, snarare än de 16 grundfärgerna.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Ljusa färger för fet text</title>
+
+    <p>Traditionellt har terminaler inte tydligt separerat typsnittsvikt för fet stil från färgintensitet, båda var ofta aktiverade tillsammans. Förbättringar på senare tid, så som introduktionen av stöd för sanna färger samt vissa färgscheman (t.ex. Solarized) har gjort det önskvärt att skilja de två koncepten åt, det vill säga göra ljusstyrkan oberoende från typsnittsvikten.</p>
+
+    <p>För att välja ditt önskade beteende:</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+      </item>
+      <item>
+        <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="tab">Färger</gui>.</p>
+      </item>
+      <item>
+        <p>Inaktivera <gui>Visa fet text i ljusa färger</gui> för det nya standardbeteendet, komplett separation av färgintensitet och typsnittsvikt, eller aktivera detta alternativ för bättre bakåtkompatibilitet.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="app-fullscreen" xml:lang="pl">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Włączanie trybu pełnoekranowego.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Sesja pełnoekranowa</title>
+
+  <p>Tryb pełnoekranowy umożliwia <app>Terminalowi</app> używanie całego ekranu.</p>
+
+  <p>Ten tryb jest przydatny w przypadku urządzeń z małym ekranem, na których <app>Terminal</app> jest używany przez dłuższy czas, albo podczas działania na długich wierszach. Tymczasowo ukrywa on dekoracje okna, umożliwiając wyświetlanie większej liczby <link xref="pref-scrolling">wierszy przewijania</link> na ekranie.</p>
+
+  <p>Aby włączyć tryb pełnoekranowy:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="menuitem">Pełny ekran</gui> lub naciśnij klawisz <key>F11</key>.</p>
+    </item>
+  </steps>
+
+  <note style="important">
+    <p>Pasek menu będzie widoczny w trybie pełnoekranowym, chyba że został ukryty.</p>
+  </note>
+
+  <note style="tip">
+    <p>Jeśli otwarta jest więcej niż jedna karta <app>Terminala</app>, to pasek kart będzie widoczny w trybie pełnoekranowym.</p>
+  </note>
+
+  <p>Aby wyłączyć tryb pełnoekranowy:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij prawym przyciskiem myszy i wybierz <gui style="menuitem">Opuść pełny ekran</gui> lub naciśnij klawisz <key>F11</key>.</p>
+    </item>
+  </steps>
+
+</page>

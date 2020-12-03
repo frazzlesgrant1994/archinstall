@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="prob-reset" xml:lang="sv">
+
+  <info>
+    <revision version="0.1" date="2013-03-03" status="draft"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Hur återställer jag min <app>Terminal</app>-skärm då den fastnar eller innehåller många konstiga symboler?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Återställ ditt <app>Terminal</app>-läge</title>
+
+  <p>Efter att ha tittat på en icke-textfil av misstag, eller att ha kört något kommando, kan det hända att <app>Terminal</app>-skärmen inte svarar eller skriver ut märkliga bokstäver då du trycker på tangenter. Du kan återställa <app>Terminal</app> på följande sätt:</p>
+
+  <section id="reset">
+    <title>Återställ</title>
+
+    <p>Återställ <app>Terminal</app>-skärm.</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="menuitem">Avancerat</gui><gui style="menuitem">Återställ</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Tryck <key>Retur</key> för att erhålla prompten.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="reset-clear">
+    <title>Återställ och töm</title>
+
+    <p>Förutom att återställa <app>Terminal</app> så tömmer <gui style="menuitem">Återställ och töm</gui> det synliga skärmutrymmet i <app>Terminal</app> och historikinnehållet. För att köra <gui style="menuitem">Återställ och töm</gui> i <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="menuitem">Avancerat</gui><gui style="menuitem">Återställ och töm</gui></guiseq>.</p>
+      </item>
+      <item>
+        <p>Tryck <key>Retur</key> för att erhålla prompten.</p>
+      </item>
+    </steps>
+
+    <note style="tip"><p><gui>Återställ och töm</gui> tillhandahåller liknande funktionalitet som terminalkommandot <cmd>reset</cmd>.</p></note>
+
+  </section>
+</page>

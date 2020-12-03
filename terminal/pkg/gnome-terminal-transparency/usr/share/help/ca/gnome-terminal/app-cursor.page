@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="task" id="app-cursor" xml:lang="ca">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Selecciona un estil de cursor diferent.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Canviar el cursor</title>
+
+  <p><app>Terminal</app> té tres cursors on podeu escollir. Per seleccionar el cursor preferit:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    </item>
+    <item>
+      <p>A la barra lateral, seleccioneu el vostre perfil actual a la secció <gui>Perfils</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui style="menu">Text</gui>.</p>
+    </item>
+    <item>
+      <p>Tria la forma del cursor desitjada de la llista desplegable a <gui>Formes de cursor</gui>. Podeu triar alguna de les següents opcions:</p>
+      <terms>
+        <item>
+          <title its:translate="no">█</title>
+          <p><gui>Bloc</gui></p>
+        </item>
+        <item>
+          <title its:translate="no">▏</title>
+          <p><gui>Forma d'I</gui></p>
+        </item>
+        <item>
+          <title its:translate="no">▁</title>
+          <p><gui>Subratllat</gui></p>
+        </item>
+      </terms>
+      <p>La vostra selecció del cursor és desada de forma automàtica.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="txt-links" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#textoutput"/>
+    <revision version="0.1" date="2013-03-03" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Obre enllaços web i adreces de correu.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enllaços i adreces de correu</title>
+
+  <p>El <app>Terminal</app> analitza la sortida del terminal i de forma automàtica detecta fragments de text que són adreces web o adreces de correu. Les adreces web i de correu són automàticament ressaltades quan apunta el vostre cursor al text, indicant que l'enllaç pot ser obert per una aplicació.</p>
+
+  <p>Per exemple, podeu veure <output>http://www.gnome.org</output> o <output>username@example.com</output> generades com una part del terminal de sortida amb programes com <app>wget</app> o <app>curl</app>.</p>
+
+  <section id="hyperlinks">
+    <title>Obre o copia adreces web</title>
+
+    <p>Les adreces web també s'anomenen enllaços. Poden ser copiades al porta-retalls del sistema o oberts amb el vostre navegador favorit.</p>
+
+    <list>
+      <item>
+        <p>Copia un enllaç:</p>
+        <steps>
+          <item>
+            <p>Botó dret sobre l'enllaç al <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Seleccioneu <gui style="menuitem">Obre l'enllaç</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Obre un enllaç al vostre navegador:</p>
+        <steps>
+          <item>
+            <p>Botó dret sobre l'enllaç.</p>
+          </item>
+          <item>
+            <p>Seleccioneu <gui style="menuitem">Obre l'enllaç</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="email">
+    <title>Correu electrònic o copia les adreces de correu</title>
+
+    <p>Les adreces de correu poden copiar-se al porta-retalls del sistema o obertes amb el vostre client de correu.</p>
+
+    <list>
+      <item>
+        <p>Copia una adreça de correu:</p>
+        <steps>
+          <item>
+            <p>Botó dret sobre l'adreça de correu al <app>Terminal</app>.</p>
+          </item>
+          <item>
+          <p>Seleccioneu <gui style="menuitem">Copia l'adreça de correu electrònic</gui>.</p>
+          </item>
+        </steps>
+      </item>
+      <item>
+        <p>Envia un correu a l'adreça de correu usant un client de correu:</p>
+        <steps>
+          <item>
+            <p>Botó dret sobre l'adreça.</p>
+          </item>
+          <item>
+            <p>Seleccioneu <gui style="menuitem">S'està enviant correu a ...</gui>.</p>
+          </item>
+        </steps>
+      </item>
+    </list>
+
+  </section>
+
+</page>

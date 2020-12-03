@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="fr">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Afficher et modifier les raccourcis clavier.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Raccourcis Clavier</title>
+
+  <p>Les raccourcis clavier sont des combinaisons de touches qui vous permettent d’effectuer des actions telles que l’ouverture de la boîte de dialogue des paramètres ou l’accès rapide à une fonctionnalité de <app>Terminal</app>. Ces raccourcis peuvent être modifiés en fonction de vos préférences.</p>
+
+  <p>Pour changer un raccourci clavier :</p>
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+    </item>
+    <item>
+      <p>Dans la barre latérale, sélectionnez <gui>Raccourcis</gui>.</p>
+    </item>
+    <item>
+      <p>Assurez-vous que <gui style="checkbox">Activer les raccourcis</gui> est sélectionné.</p>
+    </item>
+    <item>
+      <p>Sélectionnez le raccourci que vous voulez modifier en cliquant dessus.</p>
+    </item>
+    <item>
+      <p>Une fois que le raccourci est sélectionné, cliquez sur la combinaison de touches de raccourci pour le modifier.</p>
+    </item>
+    <item>
+      <p>Saisissez la combinaison de touches de raccourci souhaitée dans l’ordre que vous devrez saisir lors de son utilisation. Les touches que vous pouvez utiliser incluent les touches <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Maj</key>, <key>Logo</key>, ainsi que les touches de chiffres et de lettres.</p>
+      <note>
+        <p>Les combinaisons mnémoniques telles que <keyseq><key>Alt</key> <key>F</key></keyseq> ne fonctionnent pas.</p>
+      </note>
+    </item>
+    <item>
+      <p>Une fois le nouveau raccourci saisi, il sera automatiquement enregistré et vous devriez le voir dans la liste à côté de l’action correspondante.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Pour désactiver un raccourci, affichez-le et appuyez sur la touche <key>Retour arrière</key> au lieu du nouveau raccourci.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title>Raccourcis <gui style="menu">Fichier</gui></title>
+
+    <p>Les raccourcis par défaut pour les options de cette section sont :</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Action</p></td>
+          <td><p>Raccourci clavier</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Nouvel onglet</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Nouvelle fenêtre</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Fermer l’onglet</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Fermer la fenêtre</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>Raccourcis <gui style="menu">Édition</gui></title>
+
+    <p>Les raccourcis par défaut pour les options de cette section sont :</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Action</p></td>
+          <td><p>Raccourci clavier</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Copier</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Coller</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>Raccourcis <gui style="menu">Affichage</gui></title>
+
+    <p>Les raccourcis par défaut pour les options de cette section sont :</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Action</p></td>
+          <td><p>Raccourci clavier</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Plein écran</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Zoom avant</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Zoom arrière</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Taille normale</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title>Raccourcis <gui style="menu">Recherche</gui></title>
+
+    <p>Les raccourcis par défaut pour les options de cette section sont :</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Action</p></td>
+          <td><p>Raccourci clavier</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Rechercher</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rechercher le suivant</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Rechercher le précédent</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Effacer les surbrillances</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Raccourcis d’onglet</title>
+
+    <p>Les raccourcis par défaut pour les options de cette section sont :</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Action</p></td>
+          <td><p>Raccourci clavier</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Passer à l’onglet précédent</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page haut</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet suivant</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page bas</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Déplacer l’onglet vers la gauche</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Page haut</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Déplacer l’onglet vers la droite</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Page bas</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Passer à l’onglet 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Autre</title>
+
+    <p>Il y a aussi quelques raccourcis qui ne peuvent pas être modifiés :</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Action</p></td>
+          <td><p>Raccourci clavier</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Défilement vers le haut ligne par ligne</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Haut</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Défilement vers le bas ligne par ligne</p></td>
+          <td><p><keyseq><key>Maj</key><key>Ctrl</key><key>Bas</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Défilement vers le haut page par page</p></td>
+          <td><p><keyseq><key>Maj</key><key>Page haut</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Défilement vers le bas page par page</p></td>
+          <td><p><keyseq><key>Maj</key><key>Page bas</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Défilement vers le haut</p></td>
+          <td><p><keyseq><key>Maj</key><key>Origine</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Défilement vers le bas</p></td>
+          <td><p><keyseq><key>Maj</key><key>Fin</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Raccourcis Bash</title>
+
+    <p>Ce sont les raccourcis de <app>Bash</app>. <app>Bash</app> est habituellement le shell par défaut.</p>
+    <p>Les raccourcis clavier spécifiques du shell <app>Bash</app> sont :</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Action</p></td>
+          <td><p>Raccourci clavier</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Effacer un mot</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Effacer une ligne</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Se déplacer jusqu’au début de la ligne</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Se déplacer jusqu’à la fin de la ligne</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Reculer d’un caractère</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Revenir en arrière d’un mot</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Avancer d’un caractère</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Avancer d’un mot</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Supprimer depuis le curseur jusqu’au début de la ligne</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>u</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Supprimer depuis le curseur jusqu’à la fin de la ligne</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Supprimer depuis le curseur jusqu’au début du mot</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Supprimer le mot précédent</p></td>
+          <td><p><keyseq><key>Alt</key><key>Retour arrière</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Coller le texte contenu dans le presse-papiers</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Effacer l’écran en laissant la ligne actuelle en haut de l’écran</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Recherche incrémentale en arrière dans l’historique</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Recherche non-incrémentale en arrière dans l’historique</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

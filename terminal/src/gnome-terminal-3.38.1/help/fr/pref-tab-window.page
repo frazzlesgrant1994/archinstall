@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="pref-tab-window" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#appearance"/>
+    <link type="seealso" xref="gs-tabs"/>
+    <revision pkgversion="3.12" date="2014-02-26" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-27" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014–2015</years>
+    </credit>
+    <!--<credit type="copyright editor">
+      <name></name>
+      <email its:translate="no"></email>
+      <years></years>
+    </credit>-->
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Choisir l’ouverture par défaut d’une nouvelle fenêtre ou d’un nouvel onglet.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fenêtres et onglets</title>
+
+<note style="tip">
+  <p>Ce paramètre s’applique uniquement lorsque la <link xref="pref-menubar">barre de menus est activée</link>, ou lorsque <app>Terminal</app> est démarré en ligne de commande et que ni les options <cmd>--tab</cmd> et <cmd>--window</cmd> ne sont passées.</p>
+</note>
+
+  <p>Vous pouvez décider d’<gui style="menuitem">ouvrir <app>Terminal</app></gui> soit dans une nouvelle fenêtre, soit dans un nouvel onglet.</p>
+
+  <steps>
+    <title>Si la barre de menus est activée :</title>
+    <item>
+      <p>Sélectionnez <guiseq><gui style="menu">Édition</gui><gui style="menuitem">Préférences</gui> <gui style="tab">Général</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Définissez l’option <gui>Ouvrir les nouveaux terminaux dans</gui> à la valeur <gui>Onglet</gui> ou <gui>Fenêtre</gui>.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>Si la barre de menus est désactivée :</title>
+    <item>
+      <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+    </item>
+    <item>
+      <p>Dans la barre latérale, sélectionnez <gui>Général</gui>.</p>
+    </item>
+    <item>
+      <p>Définissez l’option <gui>Ouvrir les nouveaux terminaux dans</gui> à la valeur <gui>Onglet</gui> ou <gui>Fenêtre</gui>.</p>
+    </item>
+  </steps>
+
+  <p>Une fois vos préférences configurées, la touche <key>Ctrl</key> permet d’inverser votre choix. De fait, si vous aviez choisi d’ouvrir un nouveau terminal dans un nouvel onglet, alors le fait de cliquer sur <gui style="menuitem">Nouveau Terminal</gui> l’ouvre dans un nouvel onglet. Inversement, si vous maintenez en même temps la touche <key>Ctrl</key> enfoncée, cliquer sur <gui style="menuitem">Nouveau Terminal</gui> l’ouvre dans une nouvelle fenêtre.</p>
+
+</page>

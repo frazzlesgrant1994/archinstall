@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" style="task" id="overview" xml:lang="pl">
+  <info>
+    <revision version="0.1" date="2013-01-10" status="draft"/>
+    <link type="guide" xref="index"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Czym jest terminal?</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Informacje o terminalu</title>
+
+  <p><app>Terminal</app> jest terminalem dla środowiska <gui>GNOME</gui>. Poniższe terminy i ich opisy pomogą w zapoznaniu się z <app>Terminalem</app> i jego możliwościami.</p>
+
+  <terms>
+    <item>
+      <title>Terminal</title>
+      <p>Terminal to miejsce wpisywania tekstu na komputerze, zwany także interfejsem wiersza poleceń.</p>
+    </item>
+    <item>
+      <title>Fizyczne terminale</title>
+      <p>IBM 3270, VT100 i wiele innych to terminale sprzętowe, które nie są już produkowane. Emulatory terminala służą do ich emulacji.</p>
+    </item>
+    <item>
+      <title>Emulatory terminala</title>
+      <p>Emulacja to możliwość imitacji innego programu lub urządzenia przez program komputerowy.</p>
+
+      <p>Emulator terminala, zwany także „TTY”, to program emulujący terminal w nowoczesnych komputerach za pomocą graficznego interfejsu użytkownika, zapewniający interaktywny dostęp do programów działających tylko w wierszu poleceń. Te programy mogą być uruchamiane na tym samym komputerze lub innym przez protokół <app>Telnet</app>, <app>SSH</app> lub <app>wdzwanianie</app>.</p>
+    </item>
+    <item>
+      <title>VTE</title>
+      <p>VTE to emulator terminala emulujący terminal tekstowy w graficznym interfejsie użytkownika. <app>Terminal</app> jest zbudowany przede wszystkim na podstawie <app>VTE</app>. <app>VTE</app> ma widżety implementujące w pełni funkcjonalny emulator terminala.</p>
+    </item>
+    <item>
+      <title>Powłoka</title>
+      <p><em>Powłoka</em> to program dostarczający interfejs do wywoływania poleceń lub uruchamiania programów w terminalu. Umożliwia także wyświetlanie i przeglądanie zawartości katalogów. Popularne powłoki to między innymi <app>Bash</app>, <app>zsh</app>, <app>fish</app>.</p>
+    </item>
+    <item>
+      <title>Sekwencje sterujące</title>
+      <p>Sekwencja sterująca to seria znaków służąca do zmiany znaczenia danych w terminalu. Są one używane, kiedy komputer ma tylko jeden kanał do przesyłania informacji. Sekwencje sterujące są używane do rozróżniania, czy wysyłane dane są poleceniem do wykonania, czy informacją do przechowywania i wyświetlania.</p>
+    </item>
+
+    <item>
+      <title>Znak zachęty</title>
+      <p>Znak zachęty to sekwencja znaków używana w wierszu poleceń do wskazywania gotowości powłoki na przyjęcie poleceń.</p>
+
+      <p>Znak zachęt zwykle kończy się znakiem <sys>$</sys>, <sys>%</sys>, <sys>#</sys> lub <sys>&gt;</sys> i zawiera informacje o ścieżce do obecnego katalogu roboczego. W systemach typu UNIX znak zachęty często kończy się znakiem <sys>$</sys> lub <sys>#</sys>, w zależności od rodzaju użytkownika, na przykład <sys>$</sys> dla zwykłego użytkownika, a <sys>#</sys> dla superużytkownika (nazywanego także <sys>root</sys>).</p>
+    </item>
+    <item>
+      <title>Polecenie</title>
+      <p>Dane wpisane w znaku zachęty do wykonania są nazywane <em>poleceniem</em>. Jest to połączenie nazwy programu razem ze wszelkimi dodatkowymi parametrami przekazanymi jako flagi do zmiany sposobu wykonania programu.</p>
+    </item>
+  </terms>
+
+</page>

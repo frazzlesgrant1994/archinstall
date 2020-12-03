@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:ui="http://projectmallard.org/ui/1.0" type="task" id="adv-keyboard-shortcuts" xml:lang="ro">
+
+  <info>
+    <revision version="0.1" date="2013-02-17" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#advanced"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-keyboard-access"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Vizualizarea și editarea scurtăturilor de tastatură.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Șerbănescu</mal:name>
+      <mal:email>daniel [at] serbanescu [dot] dk</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Scurtături de tastatură</title>
+
+  <p>Scurtăturile de tastatură sunt combinații de taste care vă permit să îndepliniți acțiuni, cum ar fi deschiderea dialogului de configurări sau accesarea rapidă a unei funcționalități din <app>Terminal</app>. Aceste scurtături pot fi modificate pentru a îndeplini preferințele dumneavoastră.</p>
+
+  <p>Pentru a schimba o scurtătură de tastatură:</p>
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <gui style="menuitem">Preferences</gui>.</p>
+    </item>
+    <item>
+      <p>In the sidebar, select <gui>Shortcuts</gui>.</p>
+    </item>
+    <item>
+      <p>Asigurați-vă că <gui style="checkbox">Activează scurtături</gui> este selectată.</p>
+    </item>
+    <item>
+      <p>Selectați scurtătura pe care doriți să o editați apăsând pe ea.</p>
+    </item>
+    <item>
+      <p>Odată ce scurtătura este selectată, apăsați pe combinația de taste pentru a o edita.</p>
+    </item>
+    <item>
+      <p>Apăsați combinația de taste dorită pentru scurtătură. Tastele pe care le puteți folosi includ <key>Alt</key>, <key>Alt Gr</key>, <key>Ctrl</key>, <key>Shift</key>, <key>Super</key>, tastele numerice și literele.</p>
+      <note>
+        <p>Combinații de taste mnemonice, cum ar fi <keyseq><key>Alt</key> <key>F</key></keyseq> nu vor funcționa.</p>
+      </note>
+    </item>
+    <item>
+      <p>Odată ce ați introdus o scurtătură nouă, va fi salvată automat și ar trebui să o vedeți în listă lângă acțiunea corespunzătoare ei.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Pentru a dezactiva o scurtătură, editațî-o și apăsați <key>Backspace</key> în loc de o nouă scurtătură.</p>
+  </note>
+
+  <section id="file-shortcuts">
+    <title>Scurtături <gui style="menu">Fișier</gui></title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="true">
+      <thead>
+        <tr>
+          <td><p>Acțiune</p></td>
+          <td><p>Scutătură de tastatură</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Tab nou</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>T</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Fereastră nouă</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>N</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Închide tabul</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Închide fereastra</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Q</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="edit-shortcuts">
+    <title>Scurtături <gui style="menu">Editare</gui></title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acțiune</p></td>
+          <td><p>Scutătură de tastatură</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Copiază</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>C</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Lipește</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>V</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="view-shortcuts">
+    <title>Scurtături <gui style="menu">Vizualizare</gui></title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acțiune</p></td>
+          <td><p>Scutătură de tastatură</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Pe tot ecranul</p></td>
+          <td><p><key>F11</key></p></td>
+        </tr>
+        <tr>
+          <td><p>Apropie</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>+</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Distanțează</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>-</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Dimensiune normală</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="find-shortcuts">
+    <title><gui style="menu">Search</gui> shortcuts</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acțiune</p></td>
+          <td><p>Scutătură de tastatură</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Caută</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>F</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Caută următoarea</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>G</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Caută precedenta</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>H</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Curăță evidențierea</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>J</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="tab-shortcuts">
+    <title>Scurtături taburi</title>
+
+    <p>The default shortcuts for options in this section are:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acțiune</p></td>
+          <td><p>Scutătură de tastatură</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Comută la tabul precedent</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul următor</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mută tabul la stânga</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Mută tabul la dreapta</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 1</p></td>
+          <td><p><keyseq><key>Alt</key><key>1</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 2</p></td>
+          <td><p><keyseq><key>Alt</key><key>2</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 3</p></td>
+          <td><p><keyseq><key>Alt</key><key>3</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 4</p></td>
+          <td><p><keyseq><key>Alt</key><key>4</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 5</p></td>
+          <td><p><keyseq><key>Alt</key><key>5</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 6</p></td>
+          <td><p><keyseq><key>Alt</key><key>6</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 7</p></td>
+          <td><p><keyseq><key>Alt</key><key>7</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 8</p></td>
+          <td><p><keyseq><key>Alt</key><key>8</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 9</p></td>
+          <td><p><keyseq><key>Alt</key><key>9</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Comută la tabul 10</p></td>
+          <td><p><keyseq><key>Alt</key><key>0</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="other-shortcuts">
+    <title>Altele</title>
+
+    <p>Există de asemenea unele scurtături care nu pot editate:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acțiune</p></td>
+          <td><p>Scutătură de tastatură</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Derulează în sus cu o linie</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Săgeată sus</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Derulează în jos cu o linie</p></td>
+          <td><p><keyseq><key>Shift</key><key>Ctrl</key><key>Săgeată jos</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Derulează în sus cu o pagină</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Up</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Derulează în jos cu o pagină</p></td>
+          <td><p><keyseq><key>Shift</key><key>Page Down</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Derulează la început</p></td>
+          <td><p><keyseq><key>Shift</key><key>Home</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Derulează la sfârșit</p></td>
+          <td><p><keyseq><key>Shift</key><key>End</key></keyseq></p></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="bash-shortcuts">
+    <title>Scurtături Bash</title>
+
+    <p>Acestea sunt scurtături <app>Bash</app>. De obicei <app>Bash</app> este shell-ul implicit.</p>
+    <p>Scurtături de tastatură specifice shell-ului <app>Bash</app> sunt:</p>
+
+    <table rules="rows" frame="top bottom" ui:expanded="false">
+      <thead>
+        <tr>
+          <td><p>Acțiune</p></td>
+          <td><p>Scutătură de tastatură</p></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Șterge un cuvânt</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Șterge o linie</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mută cursorul la începutul liniei</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>A</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mută cursorul la sfârșitul liniei</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>E</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mută cursorul înapoi cu un caracter</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mută cursorul înapoi cu un cuvânt</p></td>
+          <td><p><keyseq><key>Alt</key><key>B</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mută cursorul înainte cu un caracter</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Mută cursorul înainte cu un cuvânt</p></td>
+          <td><p><keyseq><key>Alt</key><key>F</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Șterge de la cursor până la începutul liniei</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>U</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Șterge de la cursor până la sfârșitul liniei</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>K</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Șterge de la cursor până la începutul cuvântului</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>W</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Șterge cuvântul precedent</p></td>
+          <td><p><keyseq><key>Alt</key><key>Backspace</key></keyseq></p></td>
+        </tr>
+        <tr>
+          <td><p>Lipește text din clipboard</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>Y</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Curăță ecranul lăsând linia curentă în partea superioară a ecarnului</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>L</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Căutare incrementală în ordine inversă a istoricului</p></td>
+          <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td> 
+        </tr>
+        <tr>
+          <td><p>Căutare non-incrementală în ordine inversă a istoricului</p></td>
+          <td><p><keyseq><key>Alt</key><key>P</key></keyseq></p></td> 
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</page>

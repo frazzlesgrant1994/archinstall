@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="txt-select-text" xml:lang="pl">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-03" status="review"/>
+    <revision pkgversion="3.14.2" date="2015-01-28" status="review"/>
+    <link type="guide" xref="index#textoutput"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013, 2015</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Zaznaczanie poszczególnych słów lub wierszy w terminalu.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zaznaczanie tekstu</title>
+
+  <p>Można zaznaczyć słowo lub zdanie, albo wykonać zaznaczanie prostokątne.</p>
+
+  <terms>
+    <item>
+      <title>Zaznaczanie słowa</title>
+      <p>Podwójnie kliknij słowo.</p>
+    </item>
+    <item>
+      <title>Zaznaczanie wiersza</title>
+      <p>Kliknij wiersz trzykrotnie.</p>
+    </item>
+    <item>
+      <title>Zaznaczanie prostokątne</title>
+      <p>Przytrzymując klawisz <key>Ctrl</key>, kliknij i przytrzymaj lewy przycisk myszy, a następnie przesuń mysz.</p>
+    </item>
+  </terms>
+
+  <note style="tip">
+    <p>Jeśli w <app>Terminalu</app> uruchomiony jest program przyjmujący kliknięcia, to należy użyć klawisza <key>Shift</key>, aby <app>Terminal</app> je przechwycił.</p>
+  </note>
+
+</page>

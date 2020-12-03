@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="fr">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Naviguer à travers les menus de <app>Terminal</app> en utilisant les touches du clavier.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yoann Fievez</mal:name>
+      <mal:email>yoann.fievez@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Julien Hardelin</mal:name>
+      <mal:email>jhardlin@orange.fr</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alexandre Franke</mal:name>
+      <mal:email>alexandre.franke@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jérôme Sirgue</mal:name>
+      <mal:email>jsirgue@free.fr</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Guillaume Bernard</mal:name>
+      <mal:email>associations@guillaume-bernard.fr</mal:email>
+      <mal:years>2015-2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Charles Monzat</mal:name>
+      <mal:email>charles.monzat@free.fr</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Accessibilité du clavier</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>Ces touches n’auront d’effet que dans les fenêtres où la barre de menus est configurée pour être visible.</p>
+    <p>Faites un clic droit dans <app>Terminal</app> et sélectionnez <gui style="checkbox">Afficher la barre de menus</gui>.</p>
+  </note>
+
+  <p>Vous pouvez naviguer dans le menu de <app>Terminal</app> en utilisant une combinaison de touches qui sont appelées <em>mnémoniques</em>, ou une touche spéciale qui vous emmène directement au premier menu dans la barre de menus et qui s’appelle <em>touche d’accès au menu</em>.</p>
+
+  <section id="mnemonics">
+    <title>Mnémoniques</title>
+
+    <p>Le menu de <app>Terminal</app> est accessible par la touche <key>Alt</key> et une lettre de l’élément de menu. La lettre que vous devez utiliser pour accéder au menu sera soulignée lorsque vous maintiendrez enfoncée la touche <key>Alt</key>.</p>
+
+    <p>Par exemple, affichez le menu <gui style="menu">Édition</gui> en utilisant <keyseq><key>Alt</key><key>D</key></keyseq>. De même, vous pouvez accéder au menu <gui style="menu">Fichier</gui> en utilisant <keyseq><key>Alt</key><key>F</key></keyseq>.</p>
+
+    <p>Pour activer les mnémoniques :</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, sélectionnez <gui>Général</gui>.</p>
+      </item>
+      <item>
+        <p>Cochez <gui style="checkbox">Activer les mnémoniques</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>Touche d’accès au menu</title>
+
+    <p>Ce paramètre affiche le menu <gui style="menu">Fichier</gui> quand la touche d’accès au menu est enfoncée. Cette touche est généralement <key>F10</key> par défaut.</p>
+
+    <steps>
+      <item>
+        <p>Cliquez sur le bouton de menu situé dans le coin supérieur droit de la fenêtre, et sélectionnez <gui style="menuitem">Préférences</gui>.</p>
+      </item>
+      <item>
+        <p>Dans la barre latérale, sélectionnez <gui>Général</gui>.</p>
+      </item>
+      <item>
+        <p>Cochez <gui style="checkbox">Activer la touche d’accès au menu</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

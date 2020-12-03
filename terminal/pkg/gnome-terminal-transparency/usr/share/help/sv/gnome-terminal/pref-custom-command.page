@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="pref-custom-command" xml:lang="sv">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="candidate"/>
+    <revision pkgversion="3.34" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+    <link type="seealso" xref="gs-execute-commands"/>
+<!--    <link type="seealso" xref="prob-add-to-path"/>-->
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Ställ in <app>Terminal</app> att köra ett kommando eller ett annat skal vid start.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2015, 2016</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Anpassade kommandon och skal</title>
+
+  <p>Ett <em>skal</em> är programvara som tillhandahåller ett gränssnitt för användare av ett operativsystem så att de kan köra <em>kommandon</em>, vilket kan vara program som <app>top</app> eller ett kommandoradsskal. Standardskalet är vanligtvis <app>Bash</app>.</p>
+
+  <p>Du kan ställa in <app>Terminal</app> att köra ett kommando då det startar istället för att vänta på inmatning från dig:</p>
+
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>Välj din aktuella profil i avsnittet <gui>Profiler</gui> i sidopanelen.</p>
+    </item>
+    <item>
+      <p>Välj <gui style="tab">Kommando</gui>.</p>
+    </item>
+    <item>
+      <p>Kryssa i <gui>Kör ett eget kommando istället för mitt skal</gui>.</p>
+    </item>
+    <item>
+      <p>I textrutan, skriv in kommandot eller det önskade skalet.</p>
+      <p>Kommandot kommer skickas till terminalen precis som du skriver det, inklusive alla argument som du anger. Miljövariabler kommer att ärvas från terminalen eftersom det är en underordnad process till terminalen.</p>
+    </item>
+    <item>
+      <p>Öppna en ny flik eller ett nytt fönster för <app>Terminal</app> för att se hur det anpassade skalet eller kommandot körs.</p>
+    </item>
+  </steps>
+
+  <p>Du kan också <link xref="pref-custom-exit">ställa in beteendet</link> för terminalen då kommandot slutar köra.</p>
+
+  <note style="important">
+    <p>Du kan behöva ange full sökväg till kommandot eller skalet om katalogen där kommandot eller skalet finns inte finns i ditt systems <code>PATH</code>-variabel.</p>
+  </note>
+
+</page>

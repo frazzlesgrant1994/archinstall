@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-keyboard-access" xml:lang="ko">
+
+  <info>
+    <revision version="0.1" date="2013-02-25" status="candidate"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#global"/>
+    <link type="seealso" xref="pref-menubar"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>키보드 키로 <app>터미널</app> 메뉴를 둘러봅니다.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2018.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>키보드 편의성</title>
+
+  <note style="important">
+    <!-- see https://gitlab.gnome.org/GNOME/gnome-terminal/issues/145 -->
+    <p>메뉴 모음이 나타난 창에만 키 입력의 반응이 나타납니다.</p>
+    <p>Right click in the <app>Terminal</app> window and select
+    <gui style="checkbox">Show Menubar</gui> to display the menubar.</p>
+  </note>
+
+  <p><em>접근 키</em> 라고 하는 키 조합 또는 <em>메뉴 단축키</em>라고 하는 메뉴 모음의 첫번째 항목에 바로 접근할 수 있는 특수키를 활용하여 <app>터미널</app> 메뉴를 찾아볼 수 있습니다.</p>
+
+  <section id="mnemonics">
+    <title>접근 키</title>
+
+    <p><app>터미널</app> 메뉴는 <key>Alt</key>키 및 메뉴 항목의 단어를 조합하여 접근할 수 있습니다. 메뉴에 접근할 때 필요한 문자에는 <key>Alt</key>키를 누르면 밑줄이 나타납니다.</p>
+
+    <p>예를 들어 <gui style="menu">편집</gui> 메뉴를 보려면 <keyseq><key>Alt</key><key>E</key></keyseq>키를 사용합니다. 동일하게 <gui style="menu">파일</gui> 메뉴는 <keyseq><key>Alt</key><key>F</key></keyseq> 키로 접근할 수 있습니다.</p>
+
+    <p>접근 키를 사용하려면:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p><gui style="checkbox">접근 키 사용</gui>을 표시하십시오.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="menu-accelerator">
+    <title>메뉴 단축키</title>
+
+    <p>이 설정은 메뉴 단축 키를 누르면 <gui style="menu">파일</gui> 메뉴를 띄울 수 있게 합니다. 메뉴 단축 기본 키는 <key>F10</key> 입니다.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select <gui>General</gui>.</p>
+      </item>
+      <item>
+        <p><gui style="checkbox">메뉴 단축키 활성화</gui>를 표시하십시오.</p>
+      </item>
+    </steps>
+
+  </section>
+
+</page>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="pref-scrolling" xml:lang="el">
+
+  <info>
+    <revision pkgversion="3.8" date="2013-02-25" status="draft"/>
+    <revision pkgversion="3.12" date="2014-09-08" status="review"/>
+    <revision version="0.2" pkgversion="3.34" date="2020-01-04" status="review"/>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Αλλαγή της εξόδου κύλισης και της συμπεριφοράς της γραμμής κύλισης.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Σίμος Ξενιτέλλης</mal:name>
+      <mal:email>simos@gnome.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Προτιμήσεις γραμμής κύλισης</title>
+
+  <p>Όταν εκτυπώνονται πολλά στην οθόνη του τερματικού, μπορεί να είναι χρήσιμο να κάνετε το τερματικό σας να συμπεριφέρεται με συγκεκριμένο τρόπο έτσι ώστε να είναι ευκολότερο να δουλέψετε.</p>
+
+  <section id="visibility">
+    <title>Ορατότητα γραμμής κύλισης</title>
+
+    <p>Μπορείτε να απενεργοποιήσετε τη γραμμή κύλισης:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Scrolling</gui>.</p>
+      </item>
+      <item>
+        <p>Αποεπιλέξτε <gui>Εμφάνιση της γραμμής κύλισης</gui>.</p>
+      </item>
+    </steps>
+
+    <p>Οι προτιμήσεις σας αποθηκεύονται αμέσως.</p>
+
+  </section>
+
+  <section id="on-output">
+    <title>Κύλιση στην έξοδο</title>
+
+    <p>You can lock scrolling so that it always shows the newest output while a
+    command executes and produces output.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Scrolling</gui>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε <gui style="checkbox">Κύλιση στην έξοδο</gui>.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="on-keystroke">
+    <title>Κύλιση στην είσοδο</title>
+
+    <p>Μπορείτε να ορίσετε το τερματικό σε αυτόματη κύλιση στο τέλος του παραθύρου όταν εισάγετε κείμενο στην προτροπή.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Scrolling</gui>.</p>
+      </item>
+      <item>
+        <p>Επιλέξτε <gui style="checkbox">Κύλιση κατά την πληκτρολόγηση</gui>.</p>
+      </item>
+    </steps>
+  </section>
+
+  <section id="lines">
+    <title>Γραμμές οπισθοκύλισης</title>
+
+    <p>You can limit the number of lines of terminal output which are
+    remembered.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Scrolling</gui>.</p>
+      </item>
+      <item>
+        <p>Check <gui>Limit scrollback to</gui> and enter a number of lines
+        to limit scrollback.</p>
+      </item>
+      <item>
+        <p>Προαιρετικά, μπορείτε να πατήσετε στο <gui style="button">+</gui> για να αυξήσετε και στο <gui style="button">-</gui> για να μειώσετε τις γραμμές.</p>
+      </item>
+    </steps>
+
+    <p>You can choose to have unlimited scrollback.</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Select <gui style="tab">Scrolling</gui>.</p>
+      </item>
+      <item>
+        <p>Uncheck <gui>Limit scrollback to</gui>.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Scrollback data is stored in compressed and encrypted files on disk,
+      under the system’s default location for temporary files (usually
+      <file>/tmp</file>). These files are unlinked immediately after their
+      creation, and as such, do not show up in the directory listing. The
+      occupied disk space is freed up as soon as the corresponding terminal
+      closes.</p>
+    </note>
+
+    <note style="warning">
+      <p>Make sure you have sufficient disk space available for these temporary
+      files. If in doubt, monitor disk usage for example with the command
+      <cmd>du /tmp</cmd>.</p>
+    </note>
+
+    <note style="important">
+      <p>A giant scrollback buffer makes resizing the terminal window slower.
+      As a rule of thumb, resizing gets noticeably slow at around 1 million
+      lines.</p>
+    </note>
+
+  </section>
+
+</page>

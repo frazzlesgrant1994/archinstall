@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013-2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Programok indítása vagy parancsok futtatása a <app>Terminállal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Attila Hammer</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Parancs végrehajtása</title>
+
+  <p>A <app>Terminálba</app> végrehajtási céllal beírt szövegeket <em>parancsnak</em> nevezzük. A terminálból egyaránt futtathat parancssori és grafikus felületű programokat.</p>
+
+  <p>Parancsok végrehajtása:</p>
+
+  <steps>
+    <item>
+      <p>Írja be a parancsot a <app>Terminál</app> promptja után.</p>
+    </item>
+    <item>
+      <p>Nyomja meg az <key>Enter</key> billentyűt a végrehajtásához.</p>
+    </item>
+  </steps>
+
+  <p>Ha egy program váratlanul megszakad bármilyen figyelmeztetés vagy hiba nélkül, akkor érdemes elindítani a <app>Terminálban</app> is. Ez lehetővé teszi a programnak a hiba- vagy hibakeresési üzeneteinek kiírását a <app>Terminál</app> ablakába. Ezek az információk hibajelentés küldéséhez lehetnek hasznosak.</p>
+
+  <note style="tip">
+    <p>A terminálban végezhető műveletekkel kapcsolatos további információkért olvassa el a <link href="https://www.gnu.org/software/bash/manual/">Bash shell</link> kézikönyvet.</p>
+  </note>
+  
+</page>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="app-colors" xml:lang="pt-BR">
+
+  <info>
+    <revision version="0.1" date="2013-03-02" status="candidate"/>
+    <revision pkgversion="3.34" version="0.2" date="2020-01-04" status="candidate"/>
+    <link type="guide" xref="index#appearance"/>
+    <link type="guide" xref="pref#profile"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email>mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Altere cores e plano de fundos.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luciana Bastos de Freitas Menezes</mal:name>
+      <mal:email>lubfm@gnome.org</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Pedro Vaz de Mello de Medeiros</mal:name>
+      <mal:email>pedrovmm@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andrius da Costa Ribas</mal:name>
+      <mal:email>andriusmao@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2009, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Felipe Braga</mal:name>
+      <mal:email>fbobraga@gmail.com</mal:email>
+      <mal:years>2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Isaac Ferreira Filho</mal:name>
+      <mal:email>isaacmob@riseup.net</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2013, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Esquemas de cores</title>
+
+  <p>Se você não gostar do tema padrão do <app>Terminal</app>, você pode alterar as cores que são usadas para o texto e plano de fundo. Você pode usar cores do seu tema, selecione uma das predefinições ou uso um esquema personalizado.</p>
+
+  <section id="system-theme">
+    <title>Usando cores do tema do seu sistema</title>
+
+    <p>Para usar cores do tema do sistema:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="tab">Cores</gui>.</p>
+      </item>
+      <item>
+        <p>Marque <gui style="checkbox">Usar cores do tema do sistema</gui>. As alterações vão ser aplicadas automaticamente.</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="built-in-scheme">
+    <title>Esquemas embutidos</title>
+
+    <p>Você pode escolher um dos esquemas de cores embutidas: <gui>Preto no amarelo claro</gui>, <gui>Preto no branco</gui>, <gui>Cinza no preto</gui>, <gui>Verde no preto</gui>, <gui>Branco no preto</gui>, <gui>Tango claro</gui>, <gui>Tango escuro</gui>, <gui>Solarizado claro</gui> ou <gui>Solarizado escuro</gui>. Para definir qualquer dos esquemas embutidos:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="tab">Cores</gui>.</p>
+      </item>
+      <item>
+        <p>Certifique-se de que <gui style="checkbox">Usar cores do tema do sistema</gui> está desmarcada. Escolha o esquema de cores de <gui>Esquemas embutidos</gui>. As escolhas de esquema de cor são aplicadas automaticamente.</p>
+        <note>
+	  <p>Aplicativos podem escolher usar uma cor da paleta em vez da cor especificada.</p>
+        </note>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="custom-scheme">
+    <title>Esquema de cor personalizada</title>
+
+    <p>Você pode usar cores de personalizadas para texto e plano de fundo no <app>Terminal</app>:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="tab">Cores</gui>.</p>
+      </item>
+      <item>
+        <p>Certifique-se de que <gui style="checkbox">Usar cores do tema do sistema</gui> está desmarcado. Selecione <gui>Personalizado</gui> da lista suspensa <gui>Esquemas embutidos</gui>.</p>
+      </item>
+      <item>
+        <p>Clique na cor para a qual você gostaria de alterar.</p>
+      </item>
+      <item>
+        <p>Escolha a cor desejada da amostra de cores e clique em <gui style="button">Selecionar</gui>.</p>
+        <p>Você pode escolher a cor desejada nas seguintes formas:</p>
+        <list>
+          <item>
+            <p>Digite o código hexadecimal da cor na caixa de entrada.</p>
+          </item>
+          <item>
+            <p>Arraste o controle deslizante à esquerda para ajustar as cores e clique na cor desejada na área de seleção de cores.</p>
+          </item>
+        </list>
+	<p>Suas alterações serão salvas automaticamente.</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>Você também pode alterar uma cor quando você escolher um esquema embutido clicando no bloco de amostra de cores. Assim que tiver alterado, sua seleção no menu de esquemas embutidos vai ser alterado para <gui>Personalizado</gui>.</p>
+    </note>
+
+    <note style="tip">
+      <p>Tradicionalmente, os emuladores de terminal oferecem uma paleta de 16 cores, isso é o que você pode alterar aqui. <app>Terminal</app> oferece suporte a um conjunto estendido de 256 cores, mas as 240 cores adicionais não podem ser editadas aqui.</p>
+
+      <p><app>Terminal</app> oferece acesso direto a mais de 16 milhões de cores, isto é chamado de modo “true color”.</p>
+
+      <p>Se as mudanças que você faz na paleta não parecem ter um efeito, presumivelmente o conteúdo que você vê consiste em cores de paletas estendidas ou “true color”, em vez das 16 cores de base.</p>
+    </note>
+
+  </section>
+
+  <section id="bold-is-bright">
+    <title>Bright colors for bold text</title>
+
+    <p>Traditionally terminals didn't clearly separate bold font weight from
+    intense colors, often both of them were enabled together. Recent
+    improvements, such as the introduction of true color support, and certain
+    color schemes (e.g. Solarized) made it desirable to separate the two
+    concepts, that is, make the brightness independent from the font weight.</p>
+
+    <p>In order to choose your preferred behavior:</p>
+
+    <steps>
+      <item>
+        <p>Press the menu button in the top-right corner of the window and select
+        <gui style="menuitem">Preferences</gui>.</p>
+      </item>
+      <item>
+        <p>In the sidebar, select your current profile in the <gui>Profiles</gui>
+        section.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="tab">Cores</gui>.</p>
+      </item>
+      <item>
+        <p>Disable <gui>Show bold text in bright colors</gui> for the new
+        default behavior, the complete separation of color intensity and font
+        weight; or enable this option for improved backward compatibility.</p>
+      </item>
+    </steps>
+  </section>
+
+</page>

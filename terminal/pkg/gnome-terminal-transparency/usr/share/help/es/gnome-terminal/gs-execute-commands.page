@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013–2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Lanzar programas o ejecutar comandos usando la <app>Terminal</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2020</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Lledó</mal:name>
+      <mal:email>rodhos92@gmail.com</mal:email>
+      <mal:years>2018</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2007-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Francisco Javier F. Serrador</mal:name>
+      <mal:email>serrador@gnome.org</mal:email>
+      <mal:years>2001-2006</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ejecutar un comando</title>
+
+  <p>Cualquier texto introducido en la <app>Terminal</app> para ejecutarse se denomina <em>comando</em>. Desde la terminal puede ejecutar tanto programas de línea de comandos como programas con interfaces gráficas de usuario (IGU).</p>
+
+  <p>Para ejecutar comandos:</p>
+
+  <steps>
+    <item>
+      <p>Escriba el comando en el símbolo del sistema de la <app>Terminal</app>.</p>
+    </item>
+    <item>
+      <p>Pulse <key>Intro</key> para ejecutarlo.</p>
+    </item>
+  </steps>
+
+  <p>Si tiene un programa que termina inesperadamente sin mostrar ninguna advertencia o mensaje de error, puede querer ejecutarlo en la <app>Terminal</app>. Esto permitirá que el programa muestre cualquier error o mensaje de depurado en la ventana de la <app>Terminal</app>. Esta información puede ser útil al enviar un informe de error.</p>
+
+  <note style="tip">
+    <p>Leer más sobre la <link href="https://www.gnu.org/software/bash/manual/">shell Bash</link> para obtener más información sobre lo que puede hacer en una terminal.</p>
+  </note>
+  
+</page>

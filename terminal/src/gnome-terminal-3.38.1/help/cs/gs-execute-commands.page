@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="gs-execute-commands" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#getting-started"/>
+    <link type="seealso" xref="txt-copy-paste"/>
+    <link type="seealso" xref="overview"/>
+    <revision pkgversion="3.8" date="2013-02-25" status="candidate"/>
+    <revision pkgversion="3.12" date="2014-03-24" status="candidate"/>
+
+    <credit type="author copyright">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+      <years>2013</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2013 – 2014</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Jak spustit program nebo příkaz pomocí aplikace <app>Terminál</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008, 2009, 2010, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2010, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Spuštění příkazu</title>
+
+  <p>Libovolný vstup zadaný do <app>Terminálu</app> bude proveden, jako by to byl <em>příkaz</em>. Z terminálu můžete spouštět programy jak pro příkazový řádek (CLI), tak pro grafické uživatelské rozhraní (GUI).</p>
+
+  <p>Příkaz spustíte následovně:</p>
+
+  <steps>
+    <item>
+      <p>Napiště příkaz za systémovou výzvu <app>Terminálu</app>.</p>
+    </item>
+    <item>
+      <p>Zmáčknutím klávesy <key>Enter</key> jej spusťte.</p>
+    </item>
+  </steps>
+
+  <p>V případě, že narazíte na program, který se nečekaně ukončuje bez jakéhokoliv chybového hlášení, můžete jej zkusit spustit z <app>Terminálu</app>. Tím programu umožníte vypsat chybové nebo ladicí hlášení do terminálového okna. Taková informace je užitečná, když vyplňujete chybové hlášení.</p>
+
+  <note style="tip">
+    <p>Přečtěte si něco více o <link href="https://www.gnu.org/software/bash/manual/">shellu Bash</link>, abyste se dozvěděli, co vše se dá v terminálu dělat (odkazovaný text je v angličtině).</p>
+  </note>
+  
+</page>
