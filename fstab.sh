@@ -14,7 +14,11 @@ fi;
 
 if [ -e /etc/.smbcred ]
 then echo ' '
-else 	sudo touch /etc/.smbcred
+else 	
+echo ''
+echo ''
+echo '	We will now create a credentials file under /etc/'
+sudo touch /etc/.smbcred
 	read -r -p 'Username: ' username
 	
 	clear
