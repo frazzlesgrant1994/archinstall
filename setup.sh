@@ -58,7 +58,7 @@ fi
 	sudo chown -R $uname:$uname ./yay-git
 	cd yay-git
 	makepkg -si
-	cd ~/dotfile/
+	cd ~/archinstall/
 fi
 	clear
 ## Default Shell 
