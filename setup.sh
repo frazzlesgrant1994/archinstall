@@ -1,5 +1,5 @@
 #!/bin/bash
-
+workdir=$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
 uname=$(whoami)
 
 ##Setup Config Script
@@ -124,7 +124,7 @@ fi
 	sudo chown -R $uname:$uname ./yay-git
 	cd yay-git
 	makepkg -si
-	cd ~/archinstall/
+	cd $workdir/archinstall/
 fi
 	clear
 ## Default Shell 
