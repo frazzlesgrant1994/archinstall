@@ -19,10 +19,12 @@ echo ''
 echo ''
 echo '	We will now create a credentials file under /etc/'
 sudo touch /etc/.smbcred
-	read -r -p 'Username: ' username
+echo ''
+echo '' 
+	read -r -p '	Username for authentication: ' username
 	
 	clear
-	echo -n Password:
+	echo -n 'Password for authentication: '
 	read -s password
 	
 	sudo echo "username=$username" >> /etc/.smbcred
@@ -35,11 +37,33 @@ fi
 	
 	clear
 	#Info
-	read -r -p  'Server Name/IP: ' server
+	echo ''
+        echo ''
+	read -r -p  '	Server Name/IP: ' server
 	clear
-	read -r -p  'Share: ' share
+	
+	read -r -p  '	Network Share: ' share
 	clear
-	read -r -p 'Domain: ' domain
+	echo ''
+        echo ''
+	 read -r -p "	Is the server joined to a domain? [Y/n]" response
+ 	response=${response,,} # tolower
+ 	if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
+	echo ''
+        echo ''
+	read -r -p '	Domain: ' domain
+	sudo echo "//$server/$share	/media/share	cifs	credentials=/etc/.smbcred,domain=$domain,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777	0	0
+" >> /etc/fstab 
+	else 
+	sudo echo "//$server/$share	/media/share	cifs	credentials=/etc/.smbcred,iocharset=utf8,gid=1000,uid=1000,file_mode=0777,dir_mode=0777	0	0
+" >> /etc/fstab 
+
+
+	fi
+	
+	
+	
+	
 	
 	clear
 	# /etc/fstab
