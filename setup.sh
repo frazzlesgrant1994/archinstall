@@ -163,7 +163,7 @@ else
 fi
 
 
-	
+clear	
 ## Apps 
 echo ""
 echo ""
@@ -174,7 +174,7 @@ echo ""
 
 fi	
 
-	
+clear	
 ## Custom terminal
 echo ""
 echo ""
@@ -186,7 +186,7 @@ fi
 
 
 
-
+clear
 sleep 0.5
 
 ## Restart
