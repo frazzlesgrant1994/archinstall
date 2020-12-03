@@ -51,6 +51,7 @@ fi
 	 read -r -p "	Is the server joined to a domain? [Y/n]" response
  	response=${response,,} # tolower
  	if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
+	clear
 	echo ''
         echo ''
 	read -r -p '	Domain: ' domain
