@@ -12,9 +12,7 @@ alias histg='history | grep'
 alias myip='curl ipv4.icanhazip.com'
 alias grep='grep --color=auto'
 alias update='sudo pacman -Syu'
-alias clean='bash /home/frazer/.bin/Arch-maintain.sh'
 alias mkdir="mkdir -pv"
-alias nat="ssh nat@10.36.70.112"
 alias install='sudo pacman -S "$@"'
 alias remove='sudo pacman -R "$@"'
 
