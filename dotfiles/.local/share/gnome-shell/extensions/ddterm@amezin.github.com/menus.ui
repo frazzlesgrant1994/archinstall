@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <menu id="terminal-popup">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Open Hyperlink</attribute>
+        <attribute name="action">terminal.open-hyperlink</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Copy Hyperlink Address</attribute>
+        <attribute name="action">terminal.copy-hyperlink</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Copy File Path</attribute>
+        <attribute name="action">terminal.copy-filename</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Copy</attribute>
+        <attribute name="action">terminal.copy</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Copy HTML</attribute>
+        <attribute name="action">terminal.copy-html</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Paste</attribute>
+        <attribute name="action">terminal.paste</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Select All</attribute>
+        <attribute name="action">terminal.select-all</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Reset</attribute>
+        <attribute name="action">terminal.reset</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Reset and Clear</attribute>
+        <attribute name="action">terminal.reset-and-clear</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Close</attribute>
+        <attribute name="action">page.close</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">New Tab</attribute>
+        <attribute name="action">win.new-tab</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item>
+    </section>
+  </menu>
+  <menu id="tab-popup">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Use Custom Tab Title</attribute>
+        <attribute name="action">page.use-custom-title</attribute>
+        <attribute name="target" type="b">true</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Use Default Tab Title</attribute>
+        <attribute name="action">page.use-custom-title</attribute>
+        <attribute name="target" type="b">false</attribute>
+      </item>
+    </section>
+    <item>
+      <attribute name="label" translatable="yes">Close</attribute>
+      <attribute name="action">page.close</attribute>
+    </item>
+    <item>
+      <attribute name="label" translatable="yes">New Tab</attribute>
+      <attribute name="action">win.new-tab</attribute>
+    </item>
+  </menu>
+</interface>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="vlc.desktop" score="33.75" last-seen="1606589989"/>
+    <application id="transmission-gtk.desktop" score="101.8125" last-seen="1606694972"/>
+    <application id="org.gnome.Epiphany.desktop" score="0" last-seen="1606272255"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="3.1875" last-seen="1606751946"/>
+    <application id="org.gnome.gedit.desktop" score="2189.375" last-seen="1606752089"/>
+    <application id="org.gnome.Shell.Extensions.GSConnect.desktop" score="2.625" last-seen="1606590160"/>
+    <application id="libreoffice-startcenter.desktop" score="0" last-seen="1606616852"/>
+    <application id="org.gnome.Terminal.desktop" score="1627.8368757510993" last-seen="1606752731"/>
+    <application id="org.remmina.Remmina.desktop" score="140" last-seen="1606348223"/>
+    <application id="libreoffice-writer.desktop" score="0" last-seen="1606627796"/>
+    <application id="org.gnome.tweaks.desktop" score="10.9375" last-seen="1606626568"/>
+    <application id="org.gnome.DiskUtility.desktop" score="3.5" last-seen="1606454357"/>
+    <application id="org.gnome.Totem.desktop" score="0" last-seen="1606511515"/>
+    <application id="org.gnome.Nautilus.desktop" score="441.0625" last-seen="1606779238"/>
+    <application id="org.gnome.baobab.desktop" score="8.625" last-seen="1606674755"/>
+    <application id="wireshark.desktop" score="0" last-seen="1606480714"/>
+    <application id="org.gnome.Boxes.desktop" score="0.375" last-seen="1606087527"/>
+    <application id="org.gnome.Logs.desktop" score="0.5" last-seen="1606163092"/>
+    <application id="org.gnome.Weather.desktop" score="0.125" last-seen="1606146336"/>
+    <application id="org.gnome.Music.desktop" score="6.75" last-seen="1606486102"/>
+    <application id="org.gnome.FileRoller.desktop" score="18.8125" last-seen="1606752240"/>
+    <application id="nautilus-autorun-software.desktop" score="0" last-seen="1606487195"/>
+    <application id="microsoft-edge-dev.desktop" score="13782.32861328125" last-seen="1606778699"/>
+    <application id="timeshift-gtk.desktop" score="2.375" last-seen="1606480636"/>
+    <application id="gnome-control-center.desktop" score="5.8125" last-seen="1606751984"/>
+    <application id="org.gnome.Extensions.desktop" score="12.71875" last-seen="1606752016"/>
+    <application id="com.obsproject.Studio.desktop" score="26" last-seen="1606482358"/>
+    <application id="org.gnome.Software.desktop" score="0" last-seen="1606483159"/>
+    <application id="org.gnome.eog.desktop" score="0.375" last-seen="1606496062"/>
+    <application id="virtualbox.desktop" score="110.625" last-seen="1606772394"/>
+    <application id="gnome-system-monitor.desktop" score="3" last-seen="1606522314"/>
+    <application id="org.gnome.Shell.Extensions.GSConnect.Preferences.desktop" score="9.75" last-seen="1606752004"/>
+    <application id="libreoffice-draw.desktop" score="0.75" last-seen="1606367542"/>
+    <application id="org.freedesktop.MalcontentControl.desktop" score="1.25" last-seen="1606367819"/>
+  </context>
+</application-state>

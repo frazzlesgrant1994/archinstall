@@ -1,0 +1,13 @@
+[source]
+name=QEMU Session
+type=libvirt
+uri=qemu+unix:///session
+save-on-quit=true
+
+[display d640f173-407b-485e-ac0d-f8fe34156612]
+last-seen-name=win2k16
+uuid=d640f173-407b-485e-ac0d-f8fe34156612
+
+[display c1a86ee4-c73d-4b09-a4c4-862161d42b06]
+last-seen-name=ubuntu20.04
+uuid=c1a86ee4-c73d-4b09-a4c4-862161d42b06
