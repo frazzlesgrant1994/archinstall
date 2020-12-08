@@ -43,7 +43,8 @@ fi
         echo ''
 	read -r -p  '	Server Name/IP: ' server
 	clear
-	
+	echo ''
+        echo ''
 	read -r -p  '	Network Share: ' share
 	clear
 	echo ''
