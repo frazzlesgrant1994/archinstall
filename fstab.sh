@@ -73,5 +73,4 @@ fi
 	# /etc/fstab
 
 
-	clear
 
