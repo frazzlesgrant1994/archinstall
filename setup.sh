@@ -136,7 +136,22 @@ echo ""
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	sudo bash fstab.sh
-fi		
+fi
+
+clear	
+## Custom terminal
+echo ""
+echo ""
+ read -r -p "	Would you like to configure a custom terminal? [Y/n]" response
+ response=${response,,} # tolower
+ if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
+	bash terminal.sh
+fi	
+
+
+
+clear
+sleep 0.5
 ## install yay  
  clear
  sleep 0.5
@@ -175,20 +190,7 @@ echo ""
 
 fi	
 
-clear	
-## Custom terminal
-echo ""
-echo ""
- read -r -p "	Would you like to configure a custom terminal? [Y/n]" response
- response=${response,,} # tolower
- if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
-	bash terminal.sh
-fi	
 
-
-
-clear
-sleep 0.5
 
 ## Restart
 echo ""
