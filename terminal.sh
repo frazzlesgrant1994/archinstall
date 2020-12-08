@@ -1,22 +1,8 @@
-#!/bin/bash		
+#!/bin/bash	
 
-
-        
-            		
-					
-	
-	        	
-
-			
-			
-			
-			cd terminal/
-			
-			makepkg -si		
-             			cd ..
-			
-		
-		   
-			clear			
+cd terminal/
+makepkg -si		
+cd ..
+clear			
 		
 		
