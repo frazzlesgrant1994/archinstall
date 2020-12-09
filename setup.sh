@@ -98,6 +98,7 @@ else
 
          sudo pacman -S gnome gnome-extra gnome-tweaks gdm 
 	 sudo systemctl enable gdm.service
+	 sudo systemctl enable NetworkManager.service
 fi
 	
 	
