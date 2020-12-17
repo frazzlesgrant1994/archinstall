@@ -88,18 +88,18 @@ read -r -p "	Would you like to continue setup [Y/n] " response
 
 ## Software
 sleep 0.5
-	sudo pacman -S  rsync binutils fakeroot gcc make git patch conky  -y
+	#sudo pacman -S  rsync binutils fakeroot gcc make git patch conky  -y
 	
 
-if [ "$XDG_CURRENT_DESKTOP" = "GNOME" ]; then
-	echo "GNOME Is installed" ;
+#if [ "$XDG_CURRENT_DESKTOP" = "GNOME" ]; then
+#	echo "GNOME Is installed" ;
 	
-else 
+#else 
 
-         sudo pacman -S gnome gnome-extra gnome-tweaks gdm 
-	 sudo systemctl enable gdm.service
-	 sudo systemctl enable NetworkManager.service
-fi
+ #        sudo pacman -S gnome gnome-extra gnome-tweaks gdm 
+#	 sudo systemctl enable gdm.service
+#	 sudo systemctl enable NetworkManager.service
+#fi
 	
 	
 ## Install Office 	
