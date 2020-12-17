@@ -193,14 +193,14 @@ fi
 
 
 
-## Restart
-echo ""
-echo ""
- read -r -p "	Would you like to restart? [Y/n]" response
- response=${response,,} # tolower
- if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
-	reboot
-else
-exit 1
-fi	
+### Restart
+#echo ""
+#echo ""
+# read -r -p "	Would you like to restart? [Y/n]" response
+# response=${response,,} # tolower
+# if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
+#	reboot
+#else
+#exit 1
+#fi	
 	
