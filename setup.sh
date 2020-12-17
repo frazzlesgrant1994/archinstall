@@ -188,7 +188,7 @@ echo ""
  response=${response,,} # tolower
  if [[ $response =~ ^(yes|y| ) ]] || [[ -z $response ]]; then
 	yay -S archey4 -y
-
+	yay -S breeze-default-cursor-theme
 fi	
 
 
