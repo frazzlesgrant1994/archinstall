@@ -40,9 +40,7 @@ NC='\[\e[m\]'			# Color Reset
 
 ALERT="${BWhite}${On_Red}" # Bold White on red background
 
-if [ -e $HOME/.bash_aliases ]; then
-    source $HOME/.bash_aliases
-fi
+
 
 
 
@@ -51,29 +49,3 @@ fi
 # Set PATH so it includes user's private bin directories
 PATH="${HOME}/bin:${HOME}/.local/bin:${PATH}"
 
-# Set prompt
-PS1="${Yellow}\u@\h${NC}: ${Blue}\w${NC} \\$ "
-function _update_ps1() {
-    PS1=$(powerline-shell $?)
-}
-
-if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-fi
-
-if [ -e $HOME/.bash_functions ]; then
-    source $HOME/.bash_functions
-fi
-
-
-shopt -s autocd
-
-neofetch
-
-
-echo "	.------..------..------..------..------..------..------."
-echo "	|W.--. ||E.--. ||L.--. ||C.--. ||O.--. ||M.--. ||E.--. |"
-echo "	| :/\: || (\/) || :/\: || :/\: || :/\: || (\/) || (\/) |"
-echo "	| :\/: || :\/: || (__) || :\/: || :\/: || :\/: || :\/: |"
-echo "	| '--'W|| '--'E|| '--'L|| '--'C|| '--'O|| '--'M|| '--'E|"
-echo "	'------''------''------''------''------''------''------'"
